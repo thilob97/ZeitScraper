@@ -31,7 +31,7 @@ jobs:
       - name: Run the Action
         uses: devops-infra/action-commit-push@master
         with:
-        github_token: "${{ secrets.TOKEN }}"
+          github_token: "${{ secrets.TOKEN }}"
           add_timestamp: true
           commit_prefix: "[AUTO]"
           commit_message: "Automatic commit"
