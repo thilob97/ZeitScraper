@@ -1,7 +1,7 @@
 name: "Close stale issues"
 on:
   push:
-    branches: [$default-branch]
+    branches: main
   schedule:
     - cron: "0 9 * * *"
 
