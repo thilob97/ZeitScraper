@@ -28,10 +28,12 @@ jobs:
         run:
           go run .
           # get the output file from the previous step and push it to the repo
-      - name: Push changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .
-          git commit -m "Update articles"
-          git push
+      - name: Run the Action
+        uses: devops-infra/action-commit-push@master
+        with:
+        github_token: "${{ secrets.TOKEN }}"
+          add_timestamp: true
+          commit_prefix: "[AUTO]"
+          commit_message: "Automatic commit"
+          force: false
+          target_branch: main

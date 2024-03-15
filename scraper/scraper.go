@@ -39,7 +39,7 @@ func Scrape() {
 	})
 
 	c.OnHTML(".zon-teaser__link", func(e *colly.HTMLElement) {
-		if count > 9999999999 {
+		if count > 5 {
 			return
 		}
 		article_link := foundArticle(e)
