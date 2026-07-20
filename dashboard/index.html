@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZEITScraper Analytics Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+<style>
+:root {
+  --bg: #0d1117; --card: #161b22; --border: #30363d; --text: #e6edf3;
+  --muted: #8b949e; --accent: #58a6ff; --green: #3fb950; --red: #f85149;
+  --yellow: #d29922; --purple: #bc8cff;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+.header { padding: 20px 24px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+.header h1 { font-size: 22px; }
+.header .meta { font-size: 12px; color: var(--muted); text-align: right; }
+.tabs { display: flex; gap: 2px; padding: 0 24px; border-bottom: 1px solid var(--border); }
+.tab { padding: 10px 18px; cursor: pointer; color: var(--muted); border: none; background: none; font-size: 14px; border-bottom: 2px solid transparent; transition: all 0.2s; }
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+.content { padding: 24px; }
+.panel { display: none; }
+.panel.active { display: block; }
+.grid { display: grid; gap: 16px; }
+.grid-2 { grid-template-columns: 1fr 1fr; }
+.grid-3 { grid-template-columns: 1fr 1fr 1fr; }
+.grid-4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+@media (max-width: 1200px) { .grid-3, .grid-4 { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 700px) { .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; } }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+.card h3 { font-size: 13px; color: var(--muted); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+.stat { text-align: center; }
+.stat .num { font-size: 28px; font-weight: 700; }
+.stat .label { font-size: 12px; color: var(--muted); margin-top: 4px; }
+.chart-container { position: relative; height: 300px; }
+.chart-container.tall { height: 400px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; padding: 8px; color: var(--muted); border-bottom: 1px solid var(--border); }
+td { padding: 6px 8px; border-bottom: 1px solid var(--border); }
+tr:hover { background: rgba(88,166,255,0.05); }
+.bar { display: inline-block; height: 16px; background: var(--accent); border-radius: 3px; vertical-align: middle; min-width: 2px; }
+.bar-wrap { display: flex; align-items: center; gap: 8px; }
+.bar-wrap .bar { background: linear-gradient(90deg, var(--accent), var(--purple)); }
+.bar-label { width: 140px; text-align: right; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bar-value { width: 60px; font-size: 12px; color: var(--muted); }
+#network { height: 600px; border: 1px solid var(--border); border-radius: 8px; background: var(--card); }
+.filter-bar { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+.filter-bar select, .filter-bar input { background: var(--card); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; font-size: 13px; }
+.btn { background: var(--accent); color: #000; border: none; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 600; }
+.btn:hover { opacity: 0.85; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+.badge-green { background: rgba(63,185,80,0.2); color: var(--green); }
+.badge-red { background: rgba(248,81,73,0.2); color: var(--red); }
+.badge-yellow { background: rgba(210,153,34,0.2); color: var(--yellow); }
+.refresh-note { font-size: 11px; color: var(--muted); margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>📊 ZEITScraper Analytics</h1>
+  <div class="meta" id="meta">Lädt...</div>
+</div>
+<div class="tabs">
+  <button class="tab active" onclick="showPanel('overview')">Overview</button>
+  <button class="tab" onclick="showPanel('temporal')">Zeitlich</button>
+  <button class="tab" onclick="showPanel('categories')">Kategorien</button>
+  <button class="tab" onclick="showPanel('authors')">Autoren</button>
+  <button class="tab" onclick="showPanel('keywords')">Keywords</button>
+  <button class="tab" onclick="showPanel('sources')">Quellen</button>
+  <button class="tab" onclick="showPanel('political')">Politik</button>
+  <button class="tab" onclick="showPanel('geo')">Regional</button>
+  <button class="tab" onclick="showPanel('sports')">Sport</button>
+  <button class="tab" onclick="showPanel('graph')">Graph-Netzwerk</button>
+</div>
+<div class="content">
+  <!-- OVERVIEW -->
+  <div class="panel active" id="panel-overview">
+    <div class="grid grid-4">
+      <div class="card stat"><div class="num" id="stat-total">-</div><div class="label">Artikel gesamt</div></div>
+      <div class="card stat"><div class="num" id="stat-days">-</div><div class="label">Tage</div></div>
+      <div class="card stat"><div class="num" id="stat-avg-day">-</div><div class="label">Artikel/Tag Ø</div></div>
+      <div class="card stat"><div class="num" id="stat-categories">-</div><div class="label">Kategorien</div></div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Artikel pro Monat</h3>
+        <div class="chart-container"><canvas id="chart-monthly"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Veröffentlichungs-Uhrzeiten</h3>
+        <div class="chart-container"><canvas id="chart-hourly"></canvas></div>
+      </div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>Wochentage</h3>
+        <div class="chart-container"><canvas id="chart-weekday"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Top 10 Kategorien</h3>
+        <div id="overview-cats"></div>
+      </div>
+      <div class="card">
+        <h3>Paywall-Verteilung</h3>
+        <div class="chart-container"><canvas id="chart-paywall"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TEMPORAL -->
+  <div class="panel" id="panel-temporal">
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Tägliche Artikel-Anzahl (Trend)</h3>
+        <div class="chart-container tall"><canvas id="chart-daily"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Monatliche Artikel-Anzahl</h3>
+        <div class="chart-container tall"><canvas id="chart-monthly2"></canvas></div>
+      </div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>Veröffentlichungs-Uhrzeit</h3>
+        <div class="chart-container"><canvas id="chart-hourly2"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Wochentag-Verteilung</h3>
+        <div class="chart-container"><canvas id="chart-weekday2"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Jahres-Vergleich</h3>
+        <div class="chart-container"><canvas id="chart-yearly"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CATEGORIES -->
+  <div class="panel" id="panel-categories">
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Top 30 Kategorien</h3>
+        <div id="cat-bars"></div>
+      </div>
+      <div class="card">
+        <h3>Kategorie-Trends (Top 15 über Zeit)</h3>
+        <div class="chart-container tall"><canvas id="chart-cattrends"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AUTHORS -->
+  <div class="panel" id="panel-authors">
+    <div class="card">
+      <h3>Top 30 Autoren</h3>
+      <div id="author-bars"></div>
+    </div>
+  </div>
+
+  <!-- KEYWORDS -->
+  <div class="panel" id="panel-keywords">
+    <div class="card">
+      <h3>Top 50 Keywords</h3>
+      <div id="keyword-bars"></div>
+    </div>
+  </div>
+
+  <!-- SOURCES -->
+  <div class="panel" id="panel-sources">
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Top 20 Quellen</h3>
+        <div id="source-bars"></div>
+      </div>
+      <div class="card">
+        <h3>dpa-Regionalquellen</h3>
+        <div class="chart-container tall"><canvas id="chart-dpa-regional"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- POLITICAL -->
+  <div class="panel" id="panel-political">
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Politische Themen — Artikel-Anzahl</h3>
+        <div id="political-bars"></div>
+      </div>
+      <div class="card">
+        <h3>Politiker-Erwähnungen (Titel + Beschreibung)</h3>
+        <div class="chart-container tall"><canvas id="chart-politicians"></canvas></div>
+      </div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="card">
+      <h3>Themen-Trends über Zeit</h3>
+      <div class="chart-container tall"><canvas id="chart-topic-trends"></canvas></div>
+    </div>
+  </div>
+
+  <!-- GEO -->
+  <div class="panel" id="panel-geo">
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Bundesländer in Titeln</h3>
+        <div id="state-bars"></div>
+      </div>
+      <div class="card">
+        <h3>Länder in Titeln</h3>
+        <div id="country-bars"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPORTS -->
+  <div class="panel" id="panel-sports">
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Sport-Kategorien</h3>
+        <div id="sports-bars"></div>
+      </div>
+      <div class="card">
+        <h3>Sport-Berichterstattung über Zeit</h3>
+        <div class="chart-container tall"><canvas id="chart-sports-trend"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GRAPH -->
+  <div class="panel" id="panel-graph">
+    <div class="filter-bar">
+      <select id="graph-type" onchange="buildGraph()">
+        <option value="category-keyword">Kategorie ↔ Keyword</option>
+        <option value="author-category">Autor → Kategorie</option>
+        <option value="source-category">Quelle → Kategorie</option>
+        <option value="keyword-keyword">Keyword Co-Occurrence</option>
+      </select>
+      <select id="graph-limit" onchange="buildGraph()">
+        <option value="20">Top 20</option>
+        <option value="50" selected>Top 50</option>
+        <option value="100">Top 100</option>
+      </select>
+      <button class="btn" onclick="buildGraph()">Aktualisieren</button>
+    </div>
+    <div id="network"></div>
+  </div>
+</div>
+
+<script>
+let D = null;
+const COLORS = ['#58a6ff','#3fb950','#f85149','#d29922','#bc8cff','#ff7b72','#79c0ff','#56d4dd','#e3b341','#a5d6ff','#ff9800','#00e676','#7986cb','#ba68c8','#4dd0e1','#aed581','#ff8a65','#90a4ae','#e57373','#81c784'];
+
+async function loadData() {
+  try {
+    const res = await fetch('data.json');
+    D = await res.json();
+    initDashboard();
+  } catch(e) {
+    document.getElementById('meta').textContent = 'Fehler beim Laden: ' + e.message + ' — data.json muss im gleichen Verzeichnis liegen';
+  }
+}
+
+function showPanel(id) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('panel-' + id).classList.add('active');
+  event.target.classList.add('active');
+  if (id === 'graph') setTimeout(buildGraph, 100);
+}
+
+function barChartHTML(items, maxVal) {
+  let html = '<table>';
+  items.forEach((item, i) => {
+    const pct = (item.count / maxVal * 100).toFixed(1);
+    html += `<tr><td class="bar-label" title="${item.name}">${item.name}</td>
+      <td><div class="bar-wrap"><div class="bar" style="width:${pct*3}px;background:${COLORS[i%COLORS.length]}"></div></div></td>
+      <td class="bar-value">${item.count.toLocaleString('de-DE')}</td></tr>`;
+  });
+  return html + '</table>';
+}
+
+const chartDefaults = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: { legend: { labels: { color: '#e6edf3', font: { size: 11 } } } },
+  scales: {
+    x: { ticks: { color: '#8b949e', font: { size: 10 } }, grid: { color: 'rgba(48,54,61,0.5)' } },
+    y: { ticks: { color: '#8b949e', font: { size: 10 } }, grid: { color: 'rgba(48,54,61,0.5)' } }
+  }
+};
+
+function initDashboard() {
+  // Meta
+  const m = D.meta;
+  document.getElementById('meta').innerHTML = `${m.total_articles.toLocaleString('de-DE')} Artikel<br>${m.date_earliest.substring(0,10)} bis ${m.date_latest.substring(0,10)}<br>Generiert: ${m.generated.substring(0,16)}`;
+  document.getElementById('stat-total').textContent = m.total_articles.toLocaleString('de-DE');
+  const days = Math.ceil((new Date(m.date_latest) - new Date(m.date_earliest)) / 86400000);
+  document.getElementById('stat-days').textContent = days;
+  document.getElementById('stat-avg-day').textContent = (m.total_articles / days).toFixed(0);
+  document.getElementById('stat-categories').textContent = D.categories.top.length;
+
+  // Monthly
+  new Chart(document.getElementById('chart-monthly'), {
+    type: 'line',
+    data: { labels: D.temporal.monthly.map(r=>r.month), datasets: [{ label:'Artikel', data: D.temporal.monthly.map(r=>r.count), borderColor:'#58a6ff', backgroundColor:'rgba(88,166,255,0.1)', fill:true, tension:0.3 }] },
+    options: chartDefaults
+  });
+
+  // Hourly
+  new Chart(document.getElementById('chart-hourly'), {
+    type: 'bar',
+    data: { labels: D.temporal.hourly.map(r=>r.hour+':00'), datasets: [{ label:'Artikel', data: D.temporal.hourly.map(r=>r.count), backgroundColor:'#58a6ff' }] },
+    options: chartDefaults
+  });
+
+  // Weekday
+  new Chart(document.getElementById('chart-weekday'), {
+    type: 'bar',
+    data: { labels: D.temporal.weekday.map(r=>r.weekday.substring(0,3)), datasets: [{ label:'Artikel', data: D.temporal.weekday.map(r=>r.count), backgroundColor:'#3fb950' }] },
+    options: chartDefaults
+  });
+
+  // Overview cats
+  document.getElementById('overview-cats').innerHTML = barChartHTML(D.categories.top.slice(0,10), D.categories.top[0].count);
+
+  // Paywall
+  new Chart(document.getElementById('chart-paywall'), {
+    type: 'doughnut',
+    data: { labels: ['Frei','Paywall'], datasets: [{ data: [D.paywall.free, D.paywall.paywalled], backgroundColor: ['#3fb950','#f85149'] }] },
+    options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{labels:{color:'#e6edf3'}}} }
+  });
+
+  // Temporal panel
+  new Chart(document.getElementById('chart-daily'), {
+    type: 'line',
+    data: { labels: D.temporal.daily.map(r=>r.date), datasets: [{ label:'Artikel/Tag', data: D.temporal.daily.map(r=>r.count), borderColor:'#58a6ff', backgroundColor:'rgba(88,166,255,0.05)', borderWidth:1, pointRadius:0, tension:0.2 }] },
+    options: chartDefaults
+  });
+  new Chart(document.getElementById('chart-monthly2'), {
+    type: 'bar',
+    data: { labels: D.temporal.monthly.map(r=>r.month), datasets: [{ label:'Artikel/Monat', data: D.temporal.monthly.map(r=>r.count), backgroundColor:'#bc8cff' }] },
+    options: chartDefaults
+  });
+  new Chart(document.getElementById('chart-hourly2'), {
+    type: 'bar',
+    data: { labels: D.temporal.hourly.map(r=>r.hour+':00'), datasets: [{ label:'Artikel', data: D.temporal.hourly.map(r=>r.count), backgroundColor:'#ff7b72' }] },
+    options: chartDefaults
+  });
+  new Chart(document.getElementById('chart-weekday2'), {
+    type: 'polarArea',
+    data: { labels: D.temporal.weekday.map(r=>r.weekday), datasets: [{ data: D.temporal.weekday.map(r=>r.count), backgroundColor: COLORS }] },
+    options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{labels:{color:'#e6edf3', font:{size:10}}}} }
+  });
+  new Chart(document.getElementById('chart-yearly'), {
+    type: 'bar',
+    data: { labels: D.temporal.yearly.map(r=>r.year), datasets: [{ label:'Artikel/Jahr', data: D.temporal.yearly.map(r=>r.count), backgroundColor:['#58a6ff','#3fb950','#d29922'] }] },
+    options: chartDefaults
+  });
+
+  // Categories
+  document.getElementById('cat-bars').innerHTML = barChartHTML(D.categories.top, D.categories.top[0].count);
+  const catTrendLabels = Object.keys(D.categories.trends[D.categories.top[0].name] || {}).sort();
+  const catTrendDatasets = Object.entries(D.categories.trends).slice(0,15).map(([name, data], i) => ({
+    label: name, data: catTrendLabels.map(m => data[m] || 0),
+    borderColor: COLORS[i%COLORS.length], backgroundColor: COLORS[i%COLORS.length]+'20', tension:0.3, fill:false
+  }));
+  new Chart(document.getElementById('chart-cattrends'), {
+    type: 'line',
+    data: { labels: catTrendLabels, datasets: catTrendDatasets },
+    options: { ...chartDefaults, plugins: { ...chartDefaults.plugins, legend: { ...chartDefaults.plugins.legend, position:'right' } } }
+  });
+
+  // Authors
+  document.getElementById('author-bars').innerHTML = barChartHTML(D.authors, D.authors[0].count);
+
+  // Keywords
+  document.getElementById('keyword-bars').innerHTML = barChartHTML(D.keywords, D.keywords[0].count);
+
+  // Sources
+  document.getElementById('source-bars').innerHTML = barChartHTML(D.sources.all, D.sources.all[0].count);
+  new Chart(document.getElementById('chart-dpa-regional'), {
+    type: 'bar',
+    data: { labels: D.sources.dpa_regional.map(r=>r.name.replace('dpa ','')), datasets: [{ label:'Artikel', data: D.sources.dpa_regional.map(r=>r.count), backgroundColor:'#56d4dd' }] },
+    options: { ...chartDefaults, indexAxis: 'y' }
+  });
+
+  // Political
+  const polItems = Object.entries(D.political.topic_counts).map(([k,v])=>({name:k,count:v})).sort((a,b)=>b.count-a.count);
+  document.getElementById('political-bars').innerHTML = barChartHTML(polItems, polItems[0].count);
+  new Chart(document.getElementById('chart-politicians'), {
+    type: 'bar',
+    data: { labels: Object.keys(D.political.politician_counts), datasets: [{ label:'Erwähnungen', data: Object.values(D.political.politician_counts), backgroundColor:'#f85149' }] },
+    options: { ...chartDefaults, indexAxis: 'y' }
+  });
+  const topicTrendLabels = Object.keys(D.political.topic_trends[Object.keys(D.political.topic_trends)[0]] || {}).sort();
+  const topicTrendDatasets = Object.entries(D.political.topic_trends).map(([name, data], i) => ({
+    label: name, data: topicTrendLabels.map(m => data[m] || 0),
+    borderColor: COLORS[i%COLORS.length], tension:0.3, fill:false, borderWidth:2
+  }));
+  new Chart(document.getElementById('chart-topic-trends'), {
+    type: 'line',
+    data: { labels: topicTrendLabels, datasets: topicTrendDatasets },
+    options: { ...chartDefaults, plugins: { ...chartDefaults.plugins, legend: { ...chartDefaults.plugins.legend, position:'right' } } }
+  });
+
+  // Geo
+  const stateItems = Object.entries(D.geographic.german_states).map(([k,v])=>({name:k,count:v})).sort((a,b)=>b.count-a.count);
+  document.getElementById('state-bars').innerHTML = barChartHTML(stateItems, stateItems[0].count);
+  const countryItems = Object.entries(D.geographic.countries).map(([k,v])=>({name:k,count:v})).sort((a,b)=>b.count-a.count);
+  document.getElementById('country-bars').innerHTML = barChartHTML(countryItems, countryItems[0].count);
+
+  // Sports
+  document.getElementById('sports-bars').innerHTML = barChartHTML(D.sports.categories, D.sports.categories[0].count);
+  const sportsLabels = Object.keys(D.sports.monthly_trend).sort();
+  new Chart(document.getElementById('chart-sports-trend'), {
+    type: 'line',
+    data: { labels: sportsLabels, datasets: [{ label:'Sport-Artikel/Monat', data: sportsLabels.map(m=>D.sports.monthly_trend[m]||0), borderColor:'#3fb950', backgroundColor:'rgba(63,185,80,0.1)', fill:true, tension:0.3 }] },
+    options: chartDefaults
+  });
+}
+
+// === GRAPH NETWORK ===
+let network = null;
+async function buildGraph() {
+  if (!D) return;
+  const type = document.getElementById('graph-type').value;
+  const limit = parseInt(document.getElementById('graph-limit').value);
+  
+  // Load graph data
+  let graphData;
+  try {
+    const res = await fetch('graph_data.json');
+    graphData = await res.json();
+  } catch(e) {
+    document.getElementById('network').innerHTML = '<p style="padding:20px;color:#8b949e">graph_data.json nicht gefunden. Führe scripts/generate_graph_data.py aus.</p>';
+    return;
+  }
+
+  const edges = graphData[type] || [];
+  const topEdges = edges.slice(0, limit * 5);
+  
+  // Build node sets
+  const nodeSet = new Set();
+  topEdges.forEach(e => { nodeSet.add(e.from); nodeSet.add(e.to); });
+  
+  const nodes = Array.from(nodeSet).map((id, i) => {
+    const isLeft = topEdges.some(e => e.from === id);
+    return {
+      id, label: id.length > 25 ? id.substring(0,25)+'…' : id,
+      color: isLeft ? COLORS[0] : COLORS[2],
+      shape: isLeft ? 'dot' : 'diamond',
+      size: isLeft ? 15 : 10,
+      font: { color: '#e6edf3', size: 11 }
+    };
+  });
+  
+  const visEdges = topEdges.map((e, i) => ({
+    from: e.from, to: e.to, width: Math.max(1, Math.min(e.weight/10, 5)),
+    color: { color: 'rgba(88,166,255,0.3)', highlight:'#58a6ff' }
+  }));
+  
+  if (network) network.destroy();
+  network = new vis.Network(document.getElementById('network'), {
+    nodes, edges: visEdges
+  }, {
+    physics: { stabilization: { iterations: 100 }, barnesHut: { gravitationalConstant: -3000 } },
+    interaction: { hover: true, tooltipDelay: 200 },
+    nodes: { borderWidth: 1 }
+  });
+}
+
+loadData();
+</script>
+</body>
+</html>
