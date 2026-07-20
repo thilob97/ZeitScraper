@@ -50,6 +50,29 @@ um zu beim zur zum
 auf den die das
 es ist war wird
 hat haben hatte hatten gehabt
+jetzt lesen hier finden sie informationen thema
+alles alles weitere mehr alles weitere
+unter weiter unten
+hier hierzu dazu damit
+nun etwa obwohl
+""".split())
+
+# Words that should always be filtered out of framing output (template residue,
+# common verbs, deictic markers, generic newsroom fillers).
+FRAMING_FILTER = set("""
+jetzt lesen finden informationen thema hier sie ihre ihrer ihnen
+ihnen wir unser uns ihr eure es ist war wird werden wurde wurden
+hat haben hatte hatten kannst kann können könnte könnte
+sollen will muss möchte will wollen wollte
+sagt sagt sagte sagt sagte
+auch noch schon mehr sehr nur auch nicht
+eine einem einer den die das der dem des
+und oder aber wenn als dass wie wo was wer
+gegen über unter vor nach mit bei von zu aus um durch
+auf im in an am zur zum beim
+alles weitere mehr alles weitere unter weiter unten
+warum wieso weshalb
+hier hierzu dazu damit
 """.split())
 
 # Pre-compile word regex (German letters + umlauts + ß)
@@ -160,24 +183,37 @@ def main():
     politician_framing = {}
     # collapse to single politician pass using raw text
     texts = df["text"].tolist()
+    # Build per-politician exclusion set (own first/last name variants, plus
+    # common first-name forms).
+    NAME_EXTRAS = {
+        "Scholz": {"olaf"},
+        "Merz": {"friedrich"},
+        "Trump": {"donald", "trumps"},
+        "Putin": {"wladimir", "putins"},
+        "Selensky": {"selenskyj", "wolodymyr"},
+        "Habeck": {"robert", "habecks"},
+        "Söder": {"markus", "söders"},
+        "Lindner": {"christian", "lindners"},
+    }
     for pol in POLITICIANS:
         counter = Counter()
         # handle Selensky -> also catch Selenskyj
         names = [pol]
         if pol == "Selensky":
             names.append("Selenskyj")
+        pol_exclude = {pol.lower()}
+        pol_exclude |= NAME_EXTRAS.get(pol, set())
         for text in texts:
             for nm in names:
                 positions = find_positions(text, nm)
                 if not positions:
                     continue
                 for w in nearby_words(text, positions, window=50):
-                    if w in STOPWORDS:
+                    if w in STOPWORDS or w in FRAMING_FILTER:
                         continue
-                    if len(w) < 3:
+                    if len(w) < 4:
                         continue
-                    # skip the politician's own name variants
-                    if w == pol.lower() or (pol == "Selensky" and w == "selenskyj"):
+                    if w in pol_exclude:
                         continue
                     counter[w] += 1
         politician_framing[pol] = dict(counter.most_common(20))

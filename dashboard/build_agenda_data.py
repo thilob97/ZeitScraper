@@ -186,34 +186,50 @@ for kw in candidate_kw:
     series = np.array([weekly_counts[w].get(kw, 0) for w in all_weeks])
     if series.max() < 5:
         continue
-    # Find peaks: local maxima
+    # Find peaks: local maxima with minimum height
+    threshold = max(5, 0.3 * series.max())
     peaks = []
     for i in range(1, len(series) - 1):
-        if series[i] > series[i-1] and series[i] >= series[i+1] and series[i] >= 3:
+        if series[i] > series[i-1] and series[i] >= series[i+1] and series[i] >= threshold:
             peaks.append((i, series[i]))
     # Also check edges
     if len(series) >= 2:
-        if series[0] >= series[1] and series[0] >= 3:
+        if series[0] >= series[1] and series[0] >= threshold:
             peaks.insert(0, (0, series[0]))
-        if series[-1] >= series[-2] and series[-1] >= 3:
+        if series[-1] >= series[-2] and series[-1] >= threshold:
             peaks.append((len(series)-1, series[-1]))
     if len(peaks) < 2:
         continue
-    # Find the pair of peaks with a real fade between them:
-    # valley must drop to <50% of the lower peak, gap >= 4 weeks (real disappearance)
+    # For each pair of peaks, measure the "quiet gap" = number of consecutive weeks
+    # between them where count < 50% of the lower peak (the valley duration).
+    # We want a real fade: at least 4 weeks near-zero, then a resurgence.
     best = None
     for i in range(len(peaks)):
         for j in range(i+1, len(peaks)):
             p1_idx, p1_val = peaks[i]
             p2_idx, p2_val = peaks[j]
-            valley = series[p1_idx:p2_idx+1].min()
-            gap_weeks = p2_idx - p1_idx
-            if valley < 0.5 * min(p1_val, p2_val) and gap_weeks >= 4:
-                # Score: prefer strong second peaks (real comebacks) with substantial gaps
-                # score = second_peak_height * gap_weeks (favors big comeback after long absence)
-                score = p2_val * gap_weeks
+            segment = series[p1_idx+1:p2_idx]
+            if len(segment) == 0:
+                continue
+            lower_peak = min(p1_val, p2_val)
+            quiet_threshold = 0.5 * lower_peak
+            # Count consecutive quiet weeks (longest run below threshold in the segment)
+            quiet_run = 0
+            max_quiet = 0
+            for v in segment:
+                if v < quiet_threshold:
+                    quiet_run += 1
+                    max_quiet = max(max_quiet, quiet_run)
+                else:
+                    quiet_run = 0
+            # Real comeback: at least 4 quiet weeks, and second peak is substantial
+            if max_quiet >= 4 and p2_val >= 0.3 * series.max():
+                # Score: prefer big second peaks after long quiet gaps
+                # gap_days reported = the quiet fade period (the actual gap between peaks)
+                gap_days = int(max_quiet * 7)
+                score = p2_val * max_quiet
                 if best is None or score > best[5]:
-                    best = (p1_idx, p2_idx, gap_weeks, p1_val, p2_val, score)
+                    best = (p1_idx, p2_idx, gap_days, p1_val, p2_val, score)
     if best:
         p1_w = all_weeks[best[0]]
         p2_w = all_weeks[best[1]]
@@ -221,7 +237,7 @@ for kw in candidate_kw:
             "keyword": kw,
             "first_peak": p1_w.strftime("%Y-%m-%d"),
             "second_peak": p2_w.strftime("%Y-%m-%d"),
-            "gap_days": int(best[2] * 7),
+            "gap_days": int(best[2]),
         })
 
 # Sort by gap_days desc, take top 20
@@ -258,37 +274,33 @@ month_to_idx = {m: i for i, m in enumerate(all_months)}
 
 dead_topics = []
 for kw, ranks in kw_month_rank.items():
-    # Find longest run of CONSECUTIVE calendar months where rank <= 50
-    # ranks only contains months where the keyword appeared; missing months = absent (>500)
+    # Find longest run of CONSECUTIVE calendar months where rank <= 50.
+    # ranks only contains months where the keyword appeared; missing = absent (>500).
     best_run_start = None
     best_run_len = 0
     run_start = None
     run_len = 0
+    prev_in_top50 = False
     for i, m in enumerate(all_months):
-        rank = ranks.get(m)  # None if absent
+        rank = ranks.get(m)
         in_top50 = rank is not None and rank <= 50
         if in_top50:
-            if run_start is None:
+            if not prev_in_top50:
+                # start a new run
                 run_start = m
                 run_len = 1
             else:
-                # consecutive calendar month
-                prev_idx = month_to_idx[m] - 1
-                if prev_idx >= 0 and all_months[prev_idx] in ranks and ranks.get(all_months[prev_idx], 999) <= 50:
-                    run_len += 1
-                else:
-                    # gap in top-50; close run
-                    if run_len > best_run_len:
-                        best_run_len = run_len
-                        best_run_start = run_start
-                    run_start = m
-                    run_len = 1
+                # continuing a run
+                run_len += 1
         else:
+            # close current run
             if run_len > best_run_len:
                 best_run_len = run_len
                 best_run_start = run_start
             run_start = None
             run_len = 0
+        prev_in_top50 = in_top50
+    # close trailing run
     if run_len > best_run_len:
         best_run_len = run_len
         best_run_start = run_start
@@ -298,7 +310,7 @@ for kw, ranks in kw_month_rank.items():
         # Last month the keyword appeared at all
         months_sorted = sorted(ranks.keys())
         last_month = months_sorted[-1]
-        # Check dropped: in the 3 most recent calendar months, rank > 500 or absent
+        # Dropped: in the 3 most recent calendar months, rank > 500 or absent
         recent = all_months[-3:]
         dropped = all(ranks.get(m, 99999) > 500 for m in recent)
         if dropped:

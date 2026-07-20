@@ -69,6 +69,9 @@ tr:hover { background: rgba(88,166,255,0.05); }
   <button class="tab" data-panel="geo">Regional</button>
   <button class="tab" data-panel="timeline">Timeline</button>
   <button class="tab" data-panel="social">Social Eng.</button>
+  <button class="tab" data-panel="framing">Framing</button>
+  <button class="tab" data-panel="agenda">Agenda</button>
+  <button class="tab" data-panel="gaps">Dark Patterns</button>
   <button class="tab" data-panel="sports">Sport</button>
   <button class="tab" data-panel="graph">Graph-Netzwerk</button>
 </div>
@@ -211,6 +214,55 @@ tr:hover { background: rgba(88,166,255,0.05); }
       <div id="source-topic"></div>
     </div>
   </div>
+  <!-- FRAMING -->
+  <div class="panel" id="panel-framing">
+    <div class="grid grid-2">
+      <div class="card"><h3>🎭 Politiker-Framing — welche Worte hängen an ihnen?</h3><div id="politician-framing"></div></div>
+      <div class="card"><h3>📈 Sentiment-Verlauf (Positiv/Negativ-Ratio)</h3><div class="chart-container tall"><canvas id="chart-sentiment"></canvas></div></div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="card"><h3>🔄 Narrative Shifts — Sprachwandel über Zeit</h3><div class="chart-container tall"><canvas id="chart-narrative"></canvas></div></div>
+    <div style="height:16px"></div>
+    <div class="grid grid-2">
+      <div class="card"><h3>🎣 Clickbait-Erkennung pro Monat</h3><div class="chart-container"><canvas id="chart-clickbait"></canvas></div></div>
+      <div class="card"><h3>🎣 Clickbait nach Kategorie</h3><div id="clickbait-cat"></div></div>
+    </div>
+  </div>
+  <!-- AGENDA -->
+  <div class="panel" id="panel-agenda">
+    <div class="card"><h3>⏱️ Lead-Lag: Wer mentiont Themen zuerst — dpa oder ZEIT?</h3><div id="lead-lag"></div></div>
+    <div style="height:16px"></div>
+    <div class="grid grid-2">
+      <div class="card"><h3>🌅 Morgen → Nachmittag Propagation</h3><div id="morning-afternoon"></div></div>
+      <div class="card"><h3>📉 Dead Topics — Themen die verschwunden sind</h3><div id="dead-topics"></div></div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="grid grid-2">
+      <div class="card"><h3>🔁 Second Peaks — Themen die zurückkamen</h3><div id="second-peaks"></div></div>
+      <div class="card"><h3>🚨 Early Indicators — Keywords VOR großen Events</h3><div id="early-indicators"></div></div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="card"><h3>⏳ Topic Lifespan — wie lange bleiben Themen aktiv?</h3><div id="topic-lifespan"></div></div>
+  </div>
+  <!-- DARK PATTERNS -->
+  <div class="panel" id="panel-gaps">
+    <div class="grid grid-2">
+      <div class="card"><h3>👻 Verschwindende Themen — was ZEIT nicht mehr deckt</h3><div id="disappeared-topics"></div></div>
+      <div class="card"><h3>📊 Keyword-Diversität pro Monat (Agenda-Narrowing?)</h3><div class="chart-container"><canvas id="chart-keyword-diversity"></canvas></div></div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="grid grid-2">
+      <div class="card"><h3>💳 Paywall nach Kategorie — woran verdienen sie?</h3><div id="paywall-cat"></div></div>
+      <div class="card"><h3>📈 Paywall-Trend über Zeit</h3><div class="chart-container"><canvas id="chart-paywall-trend"></canvas></div></div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="card"><h3>🕵️ Ghost Authors — Kryptische 3-Buchstaben-Codes und ihre Identitäten</h3><div id="ghost-authors"></div></div>
+    <div style="height:16px"></div>
+    <div class="grid grid-2">
+      <div class="card"><h3>🔍 SEO-Patterns — Keyword-Optimierung in Titeln</h3><div id="seo-patterns"></div></div>
+      <div class="card"><h3>📭 Leere Beschreibungen nach Quelle</h3><div id="empty-desc"></div></div>
+    </div>
+  </div>
   <!-- SPORTS -->
   <div class="panel" id="panel-sports">
     <div class="grid grid-2">
@@ -298,6 +350,9 @@ function renderPanel(name) {
     case 'geo': renderGeo(); break;
     case 'timeline': renderTimeline(); break;
     case 'social': renderSocial(); break;
+    case 'framing': renderFraming(); break;
+    case 'agenda': renderAgenda(); break;
+    case 'gaps': renderGaps(); break;
     case 'sports': renderSports(); break;
     case 'graph': setTimeout(buildGraph, 100); break;
   }
@@ -597,6 +652,165 @@ function renderCorrelationData(C) {
   });
   stHtml+='</table>';
   document.getElementById('source-topic').innerHTML=stHtml;
+}
+
+function renderFraming() {
+  fetch('framing_data.json').then(r=>r.json()).then(F=>{
+    // Politician framing
+    let pfHtml='<table>';
+    if (F.politician_framing) Object.entries(F.politician_framing).forEach(([pol,words])=>{
+      const topWords = Object.entries(words).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([w,c])=>`${w}(${c})`).join(' · ');
+      pfHtml+=`<tr><td style="font-weight:600;color:${COLORS[3]};width:80px">${pol}</td><td style="font-size:11px">${topWords}</td></tr>`;
+    });
+    pfHtml+='</table>';
+    document.getElementById('politician-framing').innerHTML=pfHtml;
+
+    // Sentiment chart
+    if (F.sentiment_monthly) {
+      const months=Object.keys(F.sentiment_monthly).sort();
+      new Chart(document.getElementById('chart-sentiment'),{type:'line',data:{
+        labels:months,
+        datasets:[
+          {label:'Positiv',data:months.map(m=>F.sentiment_monthly[m].positive),borderColor:'#3fb950',tension:0.3,fill:false,borderWidth:2},
+          {label:'Negativ',data:months.map(m=>F.sentiment_monthly[m].negative),borderColor:'#f85149',tension:0.3,fill:false,borderWidth:2}
+        ]
+      },options:chartOpts});
+    }
+
+    // Narrative shifts
+    if (F.narrative_shifts) {
+      const terms=Object.keys(F.narrative_shifts);
+      const allMonths=new Set(); terms.forEach(t=>Object.keys(F.narrative_shifts[t]).forEach(m=>allMonths.add(m)));
+      const sortedMonths=Array.from(allMonths).sort();
+      const datasets=terms.map((t,i)=>({label:t,data:sortedMonths.map(m=>F.narrative_shifts[t][m]||0),borderColor:COLORS[i%COLORS.length],tension:0.3,fill:false,borderWidth:2}));
+      new Chart(document.getElementById('chart-narrative'),{type:'line',data:{labels:sortedMonths,datasets},options:{...chartOpts,plugins:{...chartOpts.plugins,legend:{...chartOpts.plugins.legend,position:'right'}}}});
+    }
+
+    // Clickbait monthly
+    if (F.clickbait && F.clickbait.monthly) {
+      const months=Object.keys(F.clickbait.monthly).sort();
+      new Chart(document.getElementById('chart-clickbait'),{type:'bar',data:{labels:months,datasets:[{label:'Clickbait-Artikel',data:months.map(m=>F.clickbait.monthly[m]),backgroundColor:'#d29922'}]},options:chartOpts});
+    }
+
+    // Clickbait by category
+    if (F.clickbait && F.clickbait.by_category) {
+      const items=Object.entries(F.clickbait.by_category).sort((a,b)=>b[1]-a[1]).slice(0,15).map(([k,v])=>({name:k,count:v}));
+      document.getElementById('clickbait-cat').innerHTML=barHTML(items,items[0]?.count||1);
+    }
+  }).catch(e=>{document.getElementById('politician-framing').innerHTML='<p style="color:#f85149">framing_data.json nicht gefunden.</p>';});
+}
+
+function renderAgenda() {
+  fetch('agenda_data.json').then(r=>r.json()).then(A=>{
+    // Lead-lag
+    let llHtml='<table><tr><th>Keyword</th><th>dpa first</th><th>ZEIT first</th><th>Lag (Tage)</th><th>Wer zuerst?</th></tr>';
+    if (A.lead_lag) Object.entries(A.lead_lag).slice(0,20).forEach(([kw,data])=>{
+      const who=data.lag_days>0?'dpa':'ZEIT';
+      const color=data.lag_days>0?'#3fb950':'#58a6ff';
+      llHtml+=`<tr><td style="font-weight:600">${kw}</td><td style="font-size:11px">${data.dpa_first}</td><td style="font-size:11px">${data.zeit_first}</td><td style="color:${color};font-weight:600">${Math.abs(data.lag_days||0)}</td><td style="color:${color}">${who}</td></tr>`;
+    });
+    llHtml+='</table>';
+    document.getElementById('lead-lag').innerHTML=llHtml;
+
+    // Morning/afternoon
+    let maHtml='<table><tr><th>Keyword</th><th>Morgen (6-9)</th><th>Mittag (12-15)</th><th>Abend (18-21)</th></tr>';
+    if (A.morning_afternoon) Object.entries(A.morning_afternoon).slice(0,15).forEach(([kw,data])=>{
+      maHtml+=`<tr><td style="font-weight:600">${kw}</td><td>${data.morning||0}</td><td>${data.afternoon||0}</td><td>${data.evening||0}</td></tr>`;
+    });
+    maHtml+='</table>';
+    document.getElementById('morning-afternoon').innerHTML=maHtml;
+
+    // Dead topics
+    let dtHtml='<table><tr><th>Thema</th><th>Peak-Monat</th><th>Letzter Monat</th><th>Monate aktiv</th></tr>';
+    if (A.dead_topics) A.dead_topics.slice(0,15).forEach(t=>{
+      dtHtml+=`<tr><td style="font-weight:600">${t.keyword}</td><td>${t.peak_month}</td><td>${t.last_month}</td><td>${t.months_active}</td></tr>`;
+    });
+    dtHtml+='</table>';
+    document.getElementById('dead-topics').innerHTML=dtHtml;
+
+    // Second peaks
+    let spHtml='<table><tr><th>Thema</th><th>Erster Peak</th><th>Zweiter Peak</th><th>Gap (Tage)</th></tr>';
+    if (A.second_peaks) A.second_peaks.slice(0,15).forEach(p=>{
+      spHtml+=`<tr><td style="font-weight:600">${p.keyword}</td><td>${p.first_peak}</td><td>${p.second_peak}</td><td>${p.gap_days}</td></tr>`;
+    });
+    spHtml+='</table>';
+    document.getElementById('second-peaks').innerHTML=spHtml;
+
+    // Early indicators
+    let eiHtml='<table><tr><th>Event</th><th>Keyword</th><th>Spike-Datum</th><th>Tage vor Event</th></tr>';
+    if (A.early_indicators) A.early_indicators.slice(0,20).forEach(ei=>{
+      eiHtml+=`<tr><td style="font-size:11px;color:${COLORS[1]}">${ei.event}</td><td style="font-weight:600">${ei.keyword}</td><td>${ei.spike_date}</td><td style="color:#d29922;font-weight:600">${ei.days_before}</td></tr>`;
+    });
+    eiHtml+='</table>';
+    document.getElementById('early-indicators').innerHTML=eiHtml;
+
+    // Topic lifespan
+    let tlHtml='<table><tr><th>Thema</th><th>Erstes Auftreten</th><th>Letztes Auftreten</th><th>Tage aktiv</th><th>Peak-Datum</th></tr>';
+    if (A.topic_lifespan) Object.entries(A.topic_lifespan).slice(0,20).forEach(([kw,data])=>{
+      tlHtml+=`<tr><td style="font-weight:600">${kw}</td><td style="font-size:11px">${data.first_seen}</td><td style="font-size:11px">${data.last_seen}</td><td>${data.days_active}</td><td style="font-size:11px">${data.peak_date}</td></tr>`;
+    });
+    tlHtml+='</table>';
+    document.getElementById('topic-lifespan').innerHTML=tlHtml;
+  }).catch(e=>{document.getElementById('lead-lag').innerHTML='<p style="color:#f85149">agenda_data.json nicht gefunden.</p>';});
+}
+
+function renderGaps() {
+  fetch('gaps_data.json').then(r=>r.json()).then(G=>{
+    // Disappeared topics
+    let disHtml='<table><tr><th>Thema</th><th>Letzter Monat</th><th>Peak-Anzahl</th><th>Monate aktiv</th></tr>';
+    if (G.disappeared_topics) G.disappeared_topics.slice(0,20).forEach(t=>{
+      disHtml+=`<tr><td style="font-weight:600;color:#f85149">${t.keyword}</td><td>${t.last_month}</td><td>${t.peak_count}</td><td>${t.months_active}</td></tr>`;
+    });
+    disHtml+='</table>';
+    document.getElementById('disappeared-topics').innerHTML=disHtml;
+
+    // Keyword diversity
+    if (G.keyword_diversity) {
+      const months=Object.keys(G.keyword_diversity).sort();
+      new Chart(document.getElementById('chart-keyword-diversity'),{type:'line',data:{labels:months,datasets:[{label:'Unique Keywords/Monat',data:months.map(m=>G.keyword_diversity[m]),borderColor:'#bc8cff',backgroundColor:'rgba(188,140,255,0.1)',fill:true,tension:0.3}]},options:chartOpts});
+    }
+
+    // Paywall by category
+    let pwHtml='<table><tr><th>Kategorie</th><th>Gesamt</th><th>Paywall</th><th>Ratio</th></tr>';
+    if (G.paywall_by_category) Object.entries(G.paywall_by_category).sort((a,b)=>b[1].ratio-a[1].ratio).slice(0,15).forEach(([cat,data])=>{
+      const pct=(data.ratio*100).toFixed(1);
+      const color=data.ratio>0.3?'#f85149':data.ratio>0.1?'#d29922':'#3fb950';
+      pwHtml+=`<tr><td style="font-weight:600">${cat}</td><td>${data.total}</td><td>${data.paywalled}</td><td style="color:${color};font-weight:600">${pct}%</td></tr>`;
+    });
+    pwHtml+='</table>';
+    document.getElementById('paywall-cat').innerHTML=pwHtml;
+
+    // Paywall trend
+    if (G.paywall_trend) {
+      const months=Object.keys(G.paywall_trend).sort();
+      new Chart(document.getElementById('chart-paywall-trend'),{type:'line',data:{labels:months,datasets:[{label:'Paywall-Ratio %',data:months.map(m=>(G.paywall_trend[m]*100).toFixed(2)),borderColor:'#f85149',tension:0.3,fill:true,borderWidth:2}]},options:chartOpts});
+    }
+
+    // Ghost authors
+    let gaHtml='<table><tr><th>Code</th><th>Artikel</th><th>Mögliche Identitäten</th></tr>';
+    if (G.ghost_authors) Object.entries(G.ghost_authors).sort((a,b)=>b[1].count-a[1].count).slice(0,20).forEach(([code,data])=>{
+      const names=data.possible_names?data.possible_names.join(', ').substring(0,80):'—';
+      gaHtml+=`<tr><td style="font-weight:600;color:#d29922">${code}</td><td>${data.count}</td><td style="font-size:11px;color:#8b949e">${names}</td></tr>`;
+    });
+    gaHtml+='</table>';
+    document.getElementById('ghost-authors').innerHTML=gaHtml;
+
+    // SEO patterns
+    let seoHtml='<table><tr><th>Kategorie</th><th>Optimiert</th><th>Gesamt</th><th>Ratio</th></tr>';
+    if (G.seo_patterns) Object.entries(G.seo_patterns).sort((a,b)=>b[1].ratio-a[1].ratio).slice(0,15).forEach(([cat,data])=>{
+      seoHtml+=`<tr><td style="font-weight:600">${cat}</td><td>${data.optimized_count}</td><td>${data.total}</td><td style="color:#58a6ff">${(data.ratio*100).toFixed(1)}%</td></tr>`;
+    });
+    seoHtml+='</table>';
+    document.getElementById('seo-patterns').innerHTML=seoHtml;
+
+    // Empty descriptions
+    let edHtml='<table><tr><th>Quelle</th><th>Leere Beschreibungen</th></tr>';
+    if (G.empty_descriptions && G.empty_descriptions.by_source) Object.entries(G.empty_descriptions.by_source).sort((a,b)=>b[1]-a[1]).slice(0,15).forEach(([src,count])=>{
+      edHtml+=`<tr><td style="font-weight:600">${src}</td><td>${count}</td></tr>`;
+    });
+    edHtml+='</table>';
+    document.getElementById('empty-desc').innerHTML=edHtml;
+  }).catch(e=>{document.getElementById('disappeared-topics').innerHTML='<p style="color:#f85149">gaps_data.json nicht gefunden — Subagent noch am Arbeiten.</p>';});
 }
 
 // === GRAPH NETWORK ===
