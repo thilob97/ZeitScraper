@@ -12,6 +12,7 @@ scripts = [
     'scripts/consolidate.py',
     'scripts/generate_dashboard_data.py',
     'scripts/generate_graph_data.py',
+    'scripts/generate_timeline_data.py',
 ]
 
 for script in scripts:

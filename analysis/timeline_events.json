@@ -1,0 +1,2052 @@
+{
+  "dataset_summary": {
+    "total_articles": 323476,
+    "date_min": "2024-03-08",
+    "date_max": "2026-07-20",
+    "span_days": 864,
+    "mean_articles_per_day": 374.39,
+    "median_articles_per_day": 392,
+    "max_articles_day": {
+      "date": "2024-05-06",
+      "count": 782
+    },
+    "min_articles_day": {
+      "date": "2024-03-12",
+      "count": 87
+    },
+    "unique_categories": 90785,
+    "total_days": 864
+  },
+  "monthly_trend": [
+    {
+      "month": "2024-03",
+      "count": 8559
+    },
+    {
+      "month": "2024-04",
+      "count": 13148
+    },
+    {
+      "month": "2024-05",
+      "count": 12245
+    },
+    {
+      "month": "2024-06",
+      "count": 12564
+    },
+    {
+      "month": "2024-07",
+      "count": 10973
+    },
+    {
+      "month": "2024-08",
+      "count": 11731
+    },
+    {
+      "month": "2024-09",
+      "count": 11415
+    },
+    {
+      "month": "2024-10",
+      "count": 10905
+    },
+    {
+      "month": "2024-11",
+      "count": 11263
+    },
+    {
+      "month": "2024-12",
+      "count": 10625
+    },
+    {
+      "month": "2025-01",
+      "count": 11701
+    },
+    {
+      "month": "2025-02",
+      "count": 10754
+    },
+    {
+      "month": "2025-03",
+      "count": 11407
+    },
+    {
+      "month": "2025-04",
+      "count": 10555
+    },
+    {
+      "month": "2025-05",
+      "count": 11245
+    },
+    {
+      "month": "2025-06",
+      "count": 10631
+    },
+    {
+      "month": "2025-07",
+      "count": 11056
+    },
+    {
+      "month": "2025-08",
+      "count": 10410
+    },
+    {
+      "month": "2025-09",
+      "count": 11130
+    },
+    {
+      "month": "2025-10",
+      "count": 11156
+    },
+    {
+      "month": "2025-11",
+      "count": 11376
+    },
+    {
+      "month": "2025-12",
+      "count": 10728
+    },
+    {
+      "month": "2026-01",
+      "count": 12469
+    },
+    {
+      "month": "2026-02",
+      "count": 11167
+    },
+    {
+      "month": "2026-03",
+      "count": 12141
+    },
+    {
+      "month": "2026-04",
+      "count": 11143
+    },
+    {
+      "month": "2026-05",
+      "count": 11493
+    },
+    {
+      "month": "2026-06",
+      "count": 11804
+    },
+    {
+      "month": "2026-07",
+      "count": 7682
+    }
+  ],
+  "quarterly_trend": [
+    {
+      "Published_Quarter": "2024Q1",
+      "count": 8559
+    },
+    {
+      "Published_Quarter": "2024Q2",
+      "count": 37957
+    },
+    {
+      "Published_Quarter": "2024Q3",
+      "count": 34119
+    },
+    {
+      "Published_Quarter": "2024Q4",
+      "count": 32793
+    },
+    {
+      "Published_Quarter": "2025Q1",
+      "count": 33862
+    },
+    {
+      "Published_Quarter": "2025Q2",
+      "count": 32431
+    },
+    {
+      "Published_Quarter": "2025Q3",
+      "count": 32596
+    },
+    {
+      "Published_Quarter": "2025Q4",
+      "count": 33260
+    },
+    {
+      "Published_Quarter": "2026Q1",
+      "count": 35777
+    },
+    {
+      "Published_Quarter": "2026Q2",
+      "count": 34440
+    },
+    {
+      "Published_Quarter": "2026Q3",
+      "count": 7682
+    }
+  ],
+  "top_categories_overall": [
+    {
+      "category": "Kriminalität",
+      "count": 11000
+    },
+    {
+      "category": "Fußball-Bundesliga",
+      "count": 6157
+    },
+    {
+      "category": "Verkehr",
+      "count": 4527
+    },
+    {
+      "category": "Unfälle",
+      "count": 4384
+    },
+    {
+      "category": "Wetter",
+      "count": 4280
+    },
+    {
+      "category": "2. Fußball-Bundesliga",
+      "count": 2869
+    },
+    {
+      "category": "Fußball",
+      "count": 2727
+    },
+    {
+      "category": "Unfall",
+      "count": 2684
+    },
+    {
+      "category": "Brände",
+      "count": 2496
+    },
+    {
+      "category": "Notfälle",
+      "count": 2146
+    },
+    {
+      "category": "Bundesliga",
+      "count": 1726
+    },
+    {
+      "category": "Tiere",
+      "count": 1418
+    },
+    {
+      "category": "Gesundheit",
+      "count": 1312
+    },
+    {
+      "category": "Justiz",
+      "count": 1069
+    },
+    {
+      "category": "Leute",
+      "count": 1067
+    },
+    {
+      "category": "Migration",
+      "count": 1064
+    },
+    {
+      "category": "Champions League",
+      "count": 1052
+    },
+    {
+      "category": "Parteien",
+      "count": 949
+    },
+    {
+      "category": "Landtag",
+      "count": 947
+    },
+    {
+      "category": "2. Bundesliga",
+      "count": 919
+    }
+  ],
+  "yearly_trend": [
+    {
+      "Published_Year": 2024.0,
+      "count": 113428
+    },
+    {
+      "Published_Year": 2025.0,
+      "count": 132149
+    },
+    {
+      "Published_Year": 2026.0,
+      "count": 77899
+    }
+  ],
+  "weekday_pattern": [
+    {
+      "weekday": "Monday",
+      "count": 47740
+    },
+    {
+      "weekday": "Tuesday",
+      "count": 50283
+    },
+    {
+      "weekday": "Wednesday",
+      "count": 52608
+    },
+    {
+      "weekday": "Thursday",
+      "count": 52410
+    },
+    {
+      "weekday": "Friday",
+      "count": 51645
+    },
+    {
+      "weekday": "Saturday",
+      "count": 33555
+    },
+    {
+      "weekday": "Sunday",
+      "count": 35235
+    }
+  ],
+  "hour_pattern": [
+    {
+      "hour": 0,
+      "count": 2032
+    },
+    {
+      "hour": 1,
+      "count": 5241
+    },
+    {
+      "hour": 2,
+      "count": 10839
+    },
+    {
+      "hour": 3,
+      "count": 12852
+    },
+    {
+      "hour": 4,
+      "count": 11253
+    },
+    {
+      "hour": 5,
+      "count": 9301
+    },
+    {
+      "hour": 6,
+      "count": 11236
+    },
+    {
+      "hour": 7,
+      "count": 13984
+    },
+    {
+      "hour": 8,
+      "count": 18409
+    },
+    {
+      "hour": 9,
+      "count": 20919
+    },
+    {
+      "hour": 10,
+      "count": 22994
+    },
+    {
+      "hour": 11,
+      "count": 24235
+    },
+    {
+      "hour": 12,
+      "count": 24498
+    },
+    {
+      "hour": 13,
+      "count": 27045
+    },
+    {
+      "hour": 14,
+      "count": 27278
+    },
+    {
+      "hour": 15,
+      "count": 23765
+    },
+    {
+      "hour": 16,
+      "count": 15508
+    },
+    {
+      "hour": 17,
+      "count": 10765
+    },
+    {
+      "hour": 18,
+      "count": 9563
+    },
+    {
+      "hour": 19,
+      "count": 6919
+    },
+    {
+      "hour": 20,
+      "count": 5164
+    },
+    {
+      "hour": 21,
+      "count": 4189
+    },
+    {
+      "hour": 22,
+      "count": 3092
+    },
+    {
+      "hour": 23,
+      "count": 2395
+    }
+  ],
+  "notable_spike_events": [
+    {
+      "date": "2024-05-06",
+      "weekday": "Monday",
+      "count": 782,
+      "z_score": 2.03,
+      "top_categories": [
+        {
+          "category": "Gehaltsvergleich nach Berufen",
+          "count": 431
+        },
+        {
+          "category": "Kriminalität",
+          "count": 15
+        },
+        {
+          "category": "Parteien",
+          "count": 12
+        },
+        {
+          "category": "Bundesliga",
+          "count": 12
+        },
+        {
+          "category": "Wahlen",
+          "count": 11
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "Gehalt",
+          "count": 432
+        },
+        {
+          "keyword": "Gehaltsunterschied",
+          "count": 431
+        },
+        {
+          "keyword": "Arbeitsmarkt",
+          "count": 431
+        },
+        {
+          "keyword": "News",
+          "count": 289
+        },
+        {
+          "keyword": "Polizei",
+          "count": 63
+        },
+        {
+          "keyword": "SPD",
+          "count": 38
+        },
+        {
+          "keyword": "Politik",
+          "count": 37
+        },
+        {
+          "keyword": "Kriminalität",
+          "count": 33
+        },
+        {
+          "keyword": "Bundesliga",
+          "count": 27
+        },
+        {
+          "keyword": "CDU",
+          "count": 25
+        }
+      ],
+      "sample_titles": [
+        "Sachsen-Anhalt: Bezahltes Studium für Sekundarschullehrer",
+        "Voigt zu Angriffen: \"So etwas muss hart bestraft werden\"",
+        "Der Mann, den Maradona Gott nannte",
+        "Xi in Frankreich: Ukraine, Nahost und Klima auf der Agenda",
+        "Schalke-Trainer kritisiert Ansetzung ohne Fans",
+        "Israel beginnt vor Militäreinsatz mit Evakuierung von Rafah",
+        "Drei weitere Tatverdächtige nach Angriff auf Matthias Ecke ermittelt",
+        "19-Jährige tot in Kofferraum entdeckt: Ex-Freund in U-Haft"
+      ]
+    },
+    {
+      "date": "2024-08-22",
+      "weekday": "Thursday",
+      "count": 768,
+      "z_score": 2.11,
+      "top_categories": [
+        {
+          "category": "Gehalt",
+          "count": 361
+        },
+        {
+          "category": "Fußball-Bundesliga",
+          "count": 20
+        },
+        {
+          "category": "Landwirtschaft",
+          "count": 6
+        },
+        {
+          "category": "Unfälle",
+          "count": 6
+        },
+        {
+          "category": "Kriminalität",
+          "count": 6
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "Arbeitsmarkt",
+          "count": 363
+        },
+        {
+          "keyword": "Gehalt",
+          "count": 362
+        },
+        {
+          "keyword": "Gehaltsunterschied",
+          "count": 361
+        },
+        {
+          "keyword": "News",
+          "count": 328
+        },
+        {
+          "keyword": "Bayern",
+          "count": 116
+        },
+        {
+          "keyword": "Polizei",
+          "count": 55
+        },
+        {
+          "keyword": "Hessen",
+          "count": 51
+        },
+        {
+          "keyword": "Fußball-Bundesliga",
+          "count": 46
+        },
+        {
+          "keyword": "Niedersachsen",
+          "count": 45
+        },
+        {
+          "keyword": "Sachsen",
+          "count": 44
+        }
+      ],
+      "sample_titles": [
+        "Robert Habeck zeigt sich unzufrieden mit Haushaltskompromiss",
+        "BGH prüft Freispruch für Holocaustleugnerin",
+        "\"Karriere im Eiltempo\": Grgic fehlt die Zeit zum Nachdenken",
+        "Wasserleichen im Rhein sind die beiden vermissten Frauen",
+        "Hinweise nach TV-Beitrag zu Hamburger Vergewaltigung im Auto",
+        "Bericht: Hoffenheim will Hertha-Stürmer Tabakovic holen",
+        "Mehr Bußgeldverfahren wegen Datenschutzverstößen",
+        "Schlechteste Winterweizenernte seit 30 Jahren in NRW"
+      ]
+    },
+    {
+      "date": "2025-11-28",
+      "weekday": "Friday",
+      "count": 541,
+      "z_score": 1.53,
+      "top_categories": [
+        {
+          "category": "Kriminalität",
+          "count": 19
+        },
+        {
+          "category": "Arbeitsmarkt",
+          "count": 17
+        },
+        {
+          "category": "Fußball-Bundesliga",
+          "count": 12
+        },
+        {
+          "category": "Unfälle",
+          "count": 10
+        },
+        {
+          "category": "Wetter",
+          "count": 7
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "News",
+          "count": 402
+        },
+        {
+          "keyword": "Kultur",
+          "count": 68
+        },
+        {
+          "keyword": "Polizei",
+          "count": 60
+        },
+        {
+          "keyword": "Kriminalität",
+          "count": 40
+        },
+        {
+          "keyword": "Politik",
+          "count": 39
+        },
+        {
+          "keyword": "Fußball-Bundesliga",
+          "count": 35
+        },
+        {
+          "keyword": "USA",
+          "count": 32
+        },
+        {
+          "keyword": "SPD",
+          "count": 25
+        },
+        {
+          "keyword": "Wetter",
+          "count": 24
+        },
+        {
+          "keyword": "Unfall",
+          "count": 24
+        }
+      ],
+      "sample_titles": [
+        "Koalitionsspitzen einigen bei Rentenreform und Verbrenner-Aus",
+        "Zahl der Arbeitslosen sinkt im November",
+        "Arbeitslosigkeit in Bayern geht leicht zurück",
+        "Arbeitslosenzahl in Thüringen sinkt minimal",
+        "Reul: Schuss auf Zwölfjährige in Bochum erst im Treppenhaus",
+        "Korruptionsskandal: Durchsuchung bei Selenskyjs Bürochef",
+        "Koalition will Rentenstreit mit Reformankündigung beilegen",
+        "Viktor Orbán kündigt Treffen mit Wladimir Putin in Moskau an"
+      ]
+    },
+    {
+      "date": "2026-01-08",
+      "weekday": "Thursday",
+      "count": 528,
+      "z_score": 1.56,
+      "top_categories": [
+        {
+          "category": "Winterwetter",
+          "count": 26
+        },
+        {
+          "category": "Wetter",
+          "count": 20
+        },
+        {
+          "category": "Fußball-Bundesliga",
+          "count": 18
+        },
+        {
+          "category": "Kriminalität",
+          "count": 11
+        },
+        {
+          "category": "Winter in Norddeutschland",
+          "count": 10
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "News",
+          "count": 456
+        },
+        {
+          "keyword": "Wetter",
+          "count": 58
+        },
+        {
+          "keyword": "Polizei",
+          "count": 50
+        },
+        {
+          "keyword": "Hamburg",
+          "count": 45
+        },
+        {
+          "keyword": "Berlin",
+          "count": 44
+        },
+        {
+          "keyword": "Politik",
+          "count": 41
+        },
+        {
+          "keyword": "Fußball-Bundesliga",
+          "count": 40
+        },
+        {
+          "keyword": "CDU",
+          "count": 39
+        },
+        {
+          "keyword": "Winter",
+          "count": 38
+        },
+        {
+          "keyword": "USA",
+          "count": 26
+        }
+      ],
+      "sample_titles": [
+        "Krankenhäuser melden Anstieg der Patientenzahlen durch Winterwetter",
+        "Nasa: Weltraumspaziergang aus medizinischen Gründen abgesagt",
+        "Öffentlicher Nahverkehr ist wegen Wetters eingeschränkt",
+        "Wohngebäude stürzt nach Explosion ein",
+        "Berliner CDU-Fraktion berät über Krisenmanagement während Stromausfall",
+        "Berliner CDU-Fraktion stellt sich hinter Wegner",
+        "Auftragseingang in Industrie legt überraschend deutlich zu",
+        "Stromausfall am Bremer Flughafen"
+      ]
+    },
+    {
+      "date": "2025-02-24",
+      "weekday": "Monday",
+      "count": 525,
+      "z_score": 1.53,
+      "top_categories": [
+        {
+          "category": "Bundestagswahl",
+          "count": 131
+        },
+        {
+          "category": "Kriminalität",
+          "count": 21
+        },
+        {
+          "category": "Bundestagswahl im Südwesten",
+          "count": 19
+        },
+        {
+          "category": "Nach der Bundestagswahl",
+          "count": 14
+        },
+        {
+          "category": "Neuer Bundestag",
+          "count": 9
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "News",
+          "count": 448
+        },
+        {
+          "keyword": "Bundestagswahl",
+          "count": 368
+        },
+        {
+          "keyword": "Deutscher Bundestag",
+          "count": 150
+        },
+        {
+          "keyword": "CDU",
+          "count": 117
+        },
+        {
+          "keyword": "SPD",
+          "count": 104
+        },
+        {
+          "keyword": "Alternative für Deutschland",
+          "count": 94
+        },
+        {
+          "keyword": "Wahlkreis",
+          "count": 79
+        },
+        {
+          "keyword": "Politik",
+          "count": 62
+        },
+        {
+          "keyword": "Polizei",
+          "count": 53
+        },
+        {
+          "keyword": "Kriminalität",
+          "count": 46
+        }
+      ],
+      "sample_titles": [
+        "Kubicki erwägt Kandidatur als FDP-Chef",
+        "Das sagt der Botschafter der Ukraine zum Wahlergebnis",
+        "Explosion in russischem Konsulat in Marseille",
+        "Linkenvorsitzender zeigt sich gesprächsbereit für Zweidrittelmehrheit",
+        "Russische Truppen nehmen Bilohoriwka ein",
+        "Drei Jahre Krieg: Ukraine betont Kampfwillen",
+        "Union Wahlsieger vor AfD – FDP und BSW nicht im Parlament",
+        "Sieben Lehren aus der Bundestagswahl"
+      ]
+    },
+    {
+      "date": "2024-08-30",
+      "weekday": "Friday",
+      "count": 523,
+      "z_score": 1.61,
+      "top_categories": [
+        {
+          "category": "Fußball-Bundesliga",
+          "count": 22
+        },
+        {
+          "category": "Arbeitsmarkt",
+          "count": 18
+        },
+        {
+          "category": "Kriminalität",
+          "count": 18
+        },
+        {
+          "category": "2. Fußball-Bundesliga",
+          "count": 11
+        },
+        {
+          "category": "Transfers",
+          "count": 8
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "News",
+          "count": 431
+        },
+        {
+          "keyword": "Fußball-Bundesliga",
+          "count": 60
+        },
+        {
+          "keyword": "Polizei",
+          "count": 50
+        },
+        {
+          "keyword": "Kriminalität",
+          "count": 37
+        },
+        {
+          "keyword": "CDU",
+          "count": 32
+        },
+        {
+          "keyword": "Politik",
+          "count": 31
+        },
+        {
+          "keyword": "Thüringen",
+          "count": 31
+        },
+        {
+          "keyword": "Afghanistan",
+          "count": 27
+        },
+        {
+          "keyword": "Berlin",
+          "count": 27
+        },
+        {
+          "keyword": "Sachsen",
+          "count": 24
+        }
+      ],
+      "sample_titles": [
+        "Warum Freundschaften so wichtig sind",
+        "Wüst fordert weitere Abschiebungen auch nach Afghanistan",
+        "Blauzungenkrankheit jetzt auch im Enzkreis",
+        "Waldbrandexperte: Brand bei Jüterbog nicht besorgniserregend",
+        "Versuchter Mord an Ehefrau in Pforzheim wird neu verhandelt",
+        "Arbeitslosenzahl in Rheinland-Pfalz steigt - weniger Stellen",
+        "Basel gewinnt gegen Genf: ESC 2025 an deutscher Grenze",
+        "Trauer in Neuseeland: Maori-König Tuheitia gestorben"
+      ]
+    },
+    {
+      "date": "2025-05-23",
+      "weekday": "Friday",
+      "count": 513,
+      "z_score": 1.55,
+      "top_categories": [
+        {
+          "category": "Kriminalität",
+          "count": 19
+        },
+        {
+          "category": "Gewalttat",
+          "count": 8
+        },
+        {
+          "category": "Fußball-Bundesliga",
+          "count": 7
+        },
+        {
+          "category": "Gaza-Krieg",
+          "count": 4
+        },
+        {
+          "category": "Verkehr",
+          "count": 4
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "News",
+          "count": 351
+        },
+        {
+          "keyword": "Kultur",
+          "count": 100
+        },
+        {
+          "keyword": "Polizei",
+          "count": 63
+        },
+        {
+          "keyword": "Kriminalität",
+          "count": 39
+        },
+        {
+          "keyword": "USA",
+          "count": 35
+        },
+        {
+          "keyword": "Berlin",
+          "count": 34
+        },
+        {
+          "keyword": "Politik",
+          "count": 33
+        },
+        {
+          "keyword": "Donald Trump",
+          "count": 23
+        },
+        {
+          "keyword": "Hamburg",
+          "count": 19
+        },
+        {
+          "keyword": "SPD",
+          "count": 18
+        }
+      ],
+      "sample_titles": [
+        "Israel: Weitere Hilfstransporte erreichen Gaza",
+        "Nach Angriff an Schule Küchenmesser an Tatort gefunden",
+        "Drohmails an vielen Schulen eingegangen - Wohl keine Gefahr",
+        "Mit Piepsen und Blinken Wildunfälle auf Gleisen vermeiden",
+        "Berichte: Viele Tote bei israelischen Angriffen in Gaza",
+        "TV-Deal: Telekom kauft Rechte für Männer- und Frauen-WM",
+        "Drohmails lösen an zwei Schulen Polizeieinsätze aus",
+        "Grüne verlangen Erhalt von Modellprojekt Lehrergewinnung"
+      ]
+    },
+    {
+      "date": "2024-11-06",
+      "weekday": "Wednesday",
+      "count": 508,
+      "z_score": 1.59,
+      "top_categories": [
+        {
+          "category": "US-Wahl",
+          "count": 40
+        },
+        {
+          "category": "Champions League",
+          "count": 18
+        },
+        {
+          "category": "Kriminalität",
+          "count": 17
+        },
+        {
+          "category": "Elektromobilität",
+          "count": 13
+        },
+        {
+          "category": "Koalitionsstreit",
+          "count": 7
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "News",
+          "count": 389
+        },
+        {
+          "keyword": "Donald Trump",
+          "count": 97
+        },
+        {
+          "keyword": "US-Wahl",
+          "count": 83
+        },
+        {
+          "keyword": "Politik",
+          "count": 77
+        },
+        {
+          "keyword": "USA",
+          "count": 58
+        },
+        {
+          "keyword": "SPD",
+          "count": 53
+        },
+        {
+          "keyword": "Polizei",
+          "count": 42
+        },
+        {
+          "keyword": "Republikaner (USA)",
+          "count": 40
+        },
+        {
+          "keyword": "Champions League",
+          "count": 38
+        },
+        {
+          "keyword": "Kamala Harris",
+          "count": 32
+        }
+      ],
+      "sample_titles": [
+        "\"Gratulationen zum größten Comeback der Geschichte\"",
+        "Scholz und Macron stimmen sich nach US-Wahl ab",
+        "Er wäre ein sehr mächtiger Präsident",
+        "Auszählung in den USA läuft, Trump erklärt sich bereits zum Sieger",
+        "Russische Truppen rücken weiter auf Kleinstadt Kurachowe vor",
+        "Niederländischer Rechtspopulist gratuliert Trump",
+        "Befragungen: Männer wählten eher Trump, Frauen eher Harris",
+        "Donald Trump vor zweiter US-Präsidentschaft"
+      ]
+    },
+    {
+      "date": "2025-12-10",
+      "weekday": "Wednesday",
+      "count": 483,
+      "z_score": 1.57,
+      "top_categories": [
+        {
+          "category": "Kriminalität",
+          "count": 16
+        },
+        {
+          "category": "Unfälle",
+          "count": 14
+        },
+        {
+          "category": "Champions League",
+          "count": 13
+        },
+        {
+          "category": "Fußball-Bundesliga",
+          "count": 9
+        },
+        {
+          "category": "Wetter",
+          "count": 7
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "News",
+          "count": 389
+        },
+        {
+          "keyword": "Polizei",
+          "count": 66
+        },
+        {
+          "keyword": "Kriminalität",
+          "count": 33
+        },
+        {
+          "keyword": "Politik",
+          "count": 32
+        },
+        {
+          "keyword": "Berlin",
+          "count": 31
+        },
+        {
+          "keyword": "CDU",
+          "count": 29
+        },
+        {
+          "keyword": "Unfall",
+          "count": 29
+        },
+        {
+          "keyword": "Champions League",
+          "count": 25
+        },
+        {
+          "keyword": "Fußball-Bundesliga",
+          "count": 22
+        },
+        {
+          "keyword": "Landtag",
+          "count": 22
+        }
+      ],
+      "sample_titles": [
+        "Schweizerin wird Chefin der Geschäftsführung bei RB Leipzig",
+        "Voigt: Thüringen wird Vorschriften entrümpeln",
+        "Raubüberfall auf Bankfiliale in Nürnberg - Täter flüchtig",
+        "Zweiter Prozess gegen Investor René Benko begonnen",
+        "Russland nimmt Gelände bei Lyman ein",
+        "Großer Polizeieinsatz in Südthüringen",
+        "Militärhilfen für die Ukraine fallen auf niedrigsten Stand seit 2022",
+        "Tui zahlt erste Dividende seit Corona"
+      ]
+    },
+    {
+      "date": "2024-08-29",
+      "weekday": "Thursday",
+      "count": 467,
+      "z_score": 1.52,
+      "top_categories": [
+        {
+          "category": "Kriminalität",
+          "count": 14
+        },
+        {
+          "category": "Fußball-Bundesliga",
+          "count": 13
+        },
+        {
+          "category": "Wetter",
+          "count": 11
+        },
+        {
+          "category": "2. Fußball-Bundesliga",
+          "count": 10
+        },
+        {
+          "category": "Verbraucherpreise",
+          "count": 6
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "News",
+          "count": 384
+        },
+        {
+          "keyword": "Polizei",
+          "count": 43
+        },
+        {
+          "keyword": "Politik",
+          "count": 41
+        },
+        {
+          "keyword": "Fußball-Bundesliga",
+          "count": 40
+        },
+        {
+          "keyword": "Solingen",
+          "count": 35
+        },
+        {
+          "keyword": "Thüringen",
+          "count": 29
+        },
+        {
+          "keyword": "Alternative für Deutschland",
+          "count": 29
+        },
+        {
+          "keyword": "Kriminalität",
+          "count": 27
+        },
+        {
+          "keyword": "Landtagswahl",
+          "count": 25
+        },
+        {
+          "keyword": "Wetter",
+          "count": 23
+        }
+      ],
+      "sample_titles": [
+        "Ex-Leiter des Islamischen Zentrums muss Land verlassen",
+        "Unfall an Leverkusener Brücke: Ein Toter und sechs Verletzte",
+        "NRW-Richterstreit: OVG muss neu entscheiden",
+        "\"Bauch Beine Po\" ist offizieller Sommerhit 2024",
+        "Mann in Thailand ermordet - Filmstar-Sohn verurteilt",
+        "Russland rückt weiter in Richtung Pokrowsk vor",
+        "Piloten weiten Discover-Streik auf Frachter aus",
+        "Geldautomat gesprengt - Polizei fahndet mit Hubschrauber"
+      ]
+    },
+    {
+      "date": "2025-06-25",
+      "weekday": "Wednesday",
+      "count": 463,
+      "z_score": 1.62,
+      "top_categories": [
+        {
+          "category": "Kriminalität",
+          "count": 18
+        },
+        {
+          "category": "Landtag",
+          "count": 13
+        },
+        {
+          "category": "Fußball-Bundesliga",
+          "count": 7
+        },
+        {
+          "category": "Unfälle",
+          "count": 6
+        },
+        {
+          "category": "Marodes Schienennetz",
+          "count": 6
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "News",
+          "count": 369
+        },
+        {
+          "keyword": "Polizei",
+          "count": 78
+        },
+        {
+          "keyword": "CDU",
+          "count": 43
+        },
+        {
+          "keyword": "Politik",
+          "count": 38
+        },
+        {
+          "keyword": "Kriminalität",
+          "count": 38
+        },
+        {
+          "keyword": "SPD",
+          "count": 30
+        },
+        {
+          "keyword": "Landtag",
+          "count": 29
+        },
+        {
+          "keyword": "Hamburg",
+          "count": 26
+        },
+        {
+          "keyword": "Berlin",
+          "count": 23
+        },
+        {
+          "keyword": "Unfall",
+          "count": 20
+        }
+      ],
+      "sample_titles": [
+        "Keine Senkung der Stromsteuer - Handwerksverband übt Kritik",
+        "Angeklagter schweigt im Prozess um Doppelmord",
+        "Merz nennt Nato-Gipfel \"historisch\"",
+        "Saar-Landtag beschließt Handy-Verbot an Grundschulen",
+        "A21 nach Lastwagenunfall voll gesperrt",
+        "Senatorin lag Lehrerbrief über Mobbing doch früher vor",
+        "Russische Truppen nutzen bei Vorstößen zunehmend leichtes Gerät",
+        "Niedersachsen an Polizeiaktion gegen Hetze beteiligt"
+      ]
+    },
+    {
+      "date": "2024-08-21",
+      "weekday": "Wednesday",
+      "count": 458,
+      "z_score": 1.61,
+      "top_categories": [
+        {
+          "category": "Bevölkerungsentwicklung in Großstädten",
+          "count": 310
+        },
+        {
+          "category": "Wetter",
+          "count": 5
+        },
+        {
+          "category": "Kriminalität",
+          "count": 4
+        },
+        {
+          "category": "US-Wahlkampf",
+          "count": 4
+        },
+        {
+          "category": "Schiffsunglück",
+          "count": 3
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "Arbeitsmarkt",
+          "count": 312
+        },
+        {
+          "keyword": "Gehaltsunterschied",
+          "count": 310
+        },
+        {
+          "keyword": "Gehalt",
+          "count": 310
+        },
+        {
+          "keyword": "News",
+          "count": 117
+        },
+        {
+          "keyword": "Bayern",
+          "count": 95
+        },
+        {
+          "keyword": "Baden-Württemberg",
+          "count": 44
+        },
+        {
+          "keyword": "Nordrhein-Westfalen",
+          "count": 36
+        },
+        {
+          "keyword": "Niedersachsen",
+          "count": 35
+        },
+        {
+          "keyword": "Hessen",
+          "count": 27
+        },
+        {
+          "keyword": "Brandenburg",
+          "count": 23
+        }
+      ],
+      "sample_titles": [
+        "Illegale Migration 2023 deutlich gestiegen",
+        "Satelliten-Vorbeiflug an Mond und Erde geglückt",
+        "Mehr Spannung im Titelkampf: München nicht mehr Topfavorit",
+        "Anklage erhoben - Geldwäsche mit angeblichem App-Entwickler?",
+        "Doping-Experte nach Sinner-Freispruch: \"Stinkt zum Himmel\"",
+        "Drei Frauen: Kollektiv leitet Skulptur Projekte 2027",
+        "Berliner Gewerbe im ersten Halbjahr gewachsen",
+        "Tausende Besucher strömen zur Gamescom"
+      ]
+    },
+    {
+      "date": "2026-01-07",
+      "weekday": "Wednesday",
+      "count": 456,
+      "z_score": 1.51,
+      "top_categories": [
+        {
+          "category": "Arbeitsmarkt",
+          "count": 16
+        },
+        {
+          "category": "Brandanschlag",
+          "count": 15
+        },
+        {
+          "category": "Wetter",
+          "count": 15
+        },
+        {
+          "category": "Kriminalität",
+          "count": 13
+        },
+        {
+          "category": "Winterwetter",
+          "count": 9
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "News",
+          "count": 369
+        },
+        {
+          "keyword": "Berlin",
+          "count": 54
+        },
+        {
+          "keyword": "Polizei",
+          "count": 47
+        },
+        {
+          "keyword": "Brandanschlag",
+          "count": 39
+        },
+        {
+          "keyword": "Politik",
+          "count": 36
+        },
+        {
+          "keyword": "Wetter",
+          "count": 36
+        },
+        {
+          "keyword": "Stromausfall",
+          "count": 33
+        },
+        {
+          "keyword": "USA",
+          "count": 31
+        },
+        {
+          "keyword": "CDU",
+          "count": 28
+        },
+        {
+          "keyword": "Kriminalität",
+          "count": 26
+        }
+      ],
+      "sample_titles": [
+        "Wegner: Ab 11 Uhr wird Stromnetz hochgefahren",
+        "Mehr Arbeitslose im Dezember - Talsohle erreicht?",
+        "Mehr als 69.000 Thüringer zum Jahresende ohne Job",
+        "Arbeitslosigkeit in Bayern steigt",
+        "Stromausfall in Berlin soll im Laufe des Tages enden",
+        "Mädchen jahrelang versteckt - Prozess gegen Mutter gestartet",
+        "US-Präsident Trump stellt Subventionen für Ölkonzerne in Aussicht",
+        "Von Geldwäsche bis Volksverhetzung - Halemba vor Gericht"
+      ]
+    },
+    {
+      "date": "2024-07-05",
+      "weekday": "Friday",
+      "count": 439,
+      "z_score": 1.69,
+      "top_categories": [
+        {
+          "category": "Kriminalität",
+          "count": 17
+        },
+        {
+          "category": "Fußball-EM",
+          "count": 15
+        },
+        {
+          "category": "Wahl in Großbritannien",
+          "count": 9
+        },
+        {
+          "category": "Verkehr",
+          "count": 8
+        },
+        {
+          "category": "Unfall",
+          "count": 7
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "News",
+          "count": 345
+        },
+        {
+          "keyword": "Polizei",
+          "count": 47
+        },
+        {
+          "keyword": "Fußball-EM",
+          "count": 46
+        },
+        {
+          "keyword": "Politik",
+          "count": 42
+        },
+        {
+          "keyword": "Kriminalität",
+          "count": 35
+        },
+        {
+          "keyword": "Unfall",
+          "count": 26
+        },
+        {
+          "keyword": "Großbritannien",
+          "count": 24
+        },
+        {
+          "keyword": "Auto",
+          "count": 23
+        },
+        {
+          "keyword": "Fußball",
+          "count": 21
+        },
+        {
+          "keyword": "Labourpartei",
+          "count": 19
+        }
+      ],
+      "sample_titles": [
+        "Ermittler: Neuer Stand bei versuchter Schumacher-Erpressung",
+        "Plötzlich alles rot",
+        "Türkische Ultas rufen zum Zeigen des Wolfsgrußes während Hymne auf",
+        "Orban: Frieden schafft man nicht vom bequemen Sessel aus",
+        "Triumph für Labour: Großbritannien erlebt Regierungswechsel",
+        "Türkische Ultras: Fans sollen Wolfsgruß in Berlin zeigen",
+        "\"Beryl\" vor Mexiko: Höchste Warnstufe in Urlaubsorten",
+        "A3 nach Unfall in Richtung Köln gesperrt - zwei Verletzte"
+      ]
+    },
+    {
+      "date": "2025-04-24",
+      "weekday": "Thursday",
+      "count": 404,
+      "z_score": 1.65,
+      "top_categories": [
+        {
+          "category": "Kriminalität",
+          "count": 13
+        },
+        {
+          "category": "Fußball-Bundesliga",
+          "count": 13
+        },
+        {
+          "category": "Unfälle",
+          "count": 6
+        },
+        {
+          "category": "Verkehrsunfall",
+          "count": 5
+        },
+        {
+          "category": "Wetter",
+          "count": 5
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "News",
+          "count": 329
+        },
+        {
+          "keyword": "Polizei",
+          "count": 56
+        },
+        {
+          "keyword": "Politik",
+          "count": 33
+        },
+        {
+          "keyword": "Fußball-Bundesliga",
+          "count": 32
+        },
+        {
+          "keyword": "SPD",
+          "count": 30
+        },
+        {
+          "keyword": "Berlin",
+          "count": 26
+        },
+        {
+          "keyword": "Kriminalität",
+          "count": 25
+        },
+        {
+          "keyword": "Donald Trump",
+          "count": 24
+        },
+        {
+          "keyword": "USA",
+          "count": 23
+        },
+        {
+          "keyword": "Auto",
+          "count": 19
+        }
+      ],
+      "sample_titles": [
+        "Petersdom wieder geöffnet: Kilometerlange Warteschlange",
+        "Immer wieder Beben - Istanbul kommt nicht zur Ruhe",
+        "Selenskyj verkürzt Auslandsreise wegen russischen Großangriffs",
+        "Opferzahl in Kiew steigt nach russischen Angriffen",
+        "Russische Truppen rücken in den Regionen Donezk und Kursk vor",
+        "Jeder sechste Verkehrstote war ein Radfahrer",
+        "Stromausfall im Westerwald",
+        "Sperrung auf der A44 - Lkw an Baustelle verunglückt"
+      ]
+    },
+    {
+      "date": "2024-12-30",
+      "weekday": "Monday",
+      "count": 371,
+      "z_score": 1.77,
+      "top_categories": [
+        {
+          "category": "Wetter",
+          "count": 10
+        },
+        {
+          "category": "Kriminalität",
+          "count": 10
+        },
+        {
+          "category": "Jahreswechsel",
+          "count": 7
+        },
+        {
+          "category": "Wetterbilanz",
+          "count": 5
+        },
+        {
+          "category": "Unfälle",
+          "count": 5
+        }
+      ],
+      "top_keywords": [
+        {
+          "keyword": "News",
+          "count": 281
+        },
+        {
+          "keyword": "Polizei",
+          "count": 52
+        },
+        {
+          "keyword": "Wetter",
+          "count": 31
+        },
+        {
+          "keyword": "Kultur",
+          "count": 27
+        },
+        {
+          "keyword": "Jahreswechsel",
+          "count": 25
+        },
+        {
+          "keyword": "Berlin",
+          "count": 23
+        },
+        {
+          "keyword": "Politik",
+          "count": 22
+        },
+        {
+          "keyword": "Silvester",
+          "count": 22
+        },
+        {
+          "keyword": "Hamburg",
+          "count": 21
+        },
+        {
+          "keyword": "Deutsche Presse-Agentur",
+          "count": 21
+        }
+      ],
+      "sample_titles": [
+        "Russland dringt in Industriegebiet bei Pokrowsk vor",
+        "Schuss auf 40-Jährigen: Mann schwebt in Lebensgefahr",
+        "Insolventer Flugtaxi-Hersteller Volocopter sucht Investoren",
+        "Weltweite Trauer um früheren US-Präsidenten Jimmy Carter",
+        "Berichte: Baumgart nun \"heißester Kandidat\" bei Union",
+        "Auto durch Feuerwerk ausgebrannt",
+        "Trüber Jahreswechsel in Rheinland-Pfalz und im Saarland",
+        "Fünf Menschen bei Zimmerbrand verletzt"
+      ]
+    }
+  ],
+  "publication_gaps": [
+    {
+      "date": "2024-03-13",
+      "weekday": "Wednesday",
+      "prev_day_count": 87,
+      "prev_day_date": "2024-03-12",
+      "next_day_count": 289,
+      "next_day_date": "2024-03-14"
+    }
+  ],
+  "top_10_busiest_days": [
+    {
+      "date": "2024-05-06",
+      "weekday": "Monday",
+      "count": 782,
+      "top_categories": [
+        {
+          "category": "Gehaltsvergleich nach Berufen",
+          "count": 431
+        },
+        {
+          "category": "Kriminalität",
+          "count": 15
+        },
+        {
+          "category": "Parteien",
+          "count": 12
+        },
+        {
+          "category": "Bundesliga",
+          "count": 12
+        },
+        {
+          "category": "Wahlen",
+          "count": 11
+        }
+      ],
+      "sample_titles": [
+        "Sachsen-Anhalt: Bezahltes Studium für Sekundarschullehrer",
+        "Voigt zu Angriffen: \"So etwas muss hart bestraft werden\"",
+        "Der Mann, den Maradona Gott nannte",
+        "Xi in Frankreich: Ukraine, Nahost und Klima auf der Agenda",
+        "Schalke-Trainer kritisiert Ansetzung ohne Fans",
+        "Israel beginnt vor Militäreinsatz mit Evakuierung von Rafah"
+      ]
+    },
+    {
+      "date": "2024-08-22",
+      "weekday": "Thursday",
+      "count": 768,
+      "top_categories": [
+        {
+          "category": "Gehalt",
+          "count": 361
+        },
+        {
+          "category": "Fußball-Bundesliga",
+          "count": 20
+        },
+        {
+          "category": "Landwirtschaft",
+          "count": 6
+        },
+        {
+          "category": "Unfälle",
+          "count": 6
+        },
+        {
+          "category": "Kriminalität",
+          "count": 6
+        }
+      ],
+      "sample_titles": [
+        "Robert Habeck zeigt sich unzufrieden mit Haushaltskompromiss",
+        "BGH prüft Freispruch für Holocaustleugnerin",
+        "\"Karriere im Eiltempo\": Grgic fehlt die Zeit zum Nachdenken",
+        "Wasserleichen im Rhein sind die beiden vermissten Frauen",
+        "Hinweise nach TV-Beitrag zu Hamburger Vergewaltigung im Auto",
+        "Bericht: Hoffenheim will Hertha-Stürmer Tabakovic holen"
+      ]
+    },
+    {
+      "date": "2024-04-16",
+      "weekday": "Tuesday",
+      "count": 572,
+      "top_categories": [
+        {
+          "category": "Wetter",
+          "count": 22
+        },
+        {
+          "category": "Verkehr",
+          "count": 17
+        },
+        {
+          "category": "Kriminalität",
+          "count": 13
+        },
+        {
+          "category": "Bundesliga",
+          "count": 12
+        },
+        {
+          "category": "Fußball",
+          "count": 12
+        }
+      ],
+      "sample_titles": [
+        "Historische Börse in Kopenhagen steht in Flammen",
+        "Historische Börse in der Altstadt von Kopenhagen brennt",
+        "Avocado-Boom in Deutschland - Import mehr als verfünffacht",
+        "Fußgänger wird in München von Lastwagen erfasst und stirbt",
+        "Nach Unwetter Problemen auf mehreren S-Bahn-Linien",
+        "China setzt auf enge Kooperation mit Deutschland"
+      ]
+    },
+    {
+      "date": "2024-04-09",
+      "weekday": "Tuesday",
+      "count": 543,
+      "top_categories": [
+        {
+          "category": "Bundesliga",
+          "count": 16
+        },
+        {
+          "category": "Champions League",
+          "count": 11
+        },
+        {
+          "category": "Verkehr",
+          "count": 9
+        },
+        {
+          "category": "Unfall",
+          "count": 9
+        },
+        {
+          "category": "Kriminalität",
+          "count": 8
+        }
+      ],
+      "sample_titles": [
+        "US-Investor und Unternehmer Beetz wollen Galeria kaufen",
+        "\"Bild\": Bochum hat Nachfolger für Trainer Letsch gefunden",
+        "Computerspiele-Branche legt deutlich zu",
+        "Rewe macht deutlich mehr Gewinn: Nicht mit Lebensmitteln",
+        "Arzt in Oberbayern getötet: Mordverdacht",
+        "Arzt in Oberbayern getötet - Mordverdacht"
+      ]
+    },
+    {
+      "date": "2024-04-18",
+      "weekday": "Thursday",
+      "count": 543,
+      "top_categories": [
+        {
+          "category": "Verkehr",
+          "count": 17
+        },
+        {
+          "category": "Bundesliga",
+          "count": 14
+        },
+        {
+          "category": "Fußball",
+          "count": 14
+        },
+        {
+          "category": "Bildung",
+          "count": 13
+        },
+        {
+          "category": "Wetter",
+          "count": 11
+        }
+      ],
+      "sample_titles": [
+        "Geldvermögen privater Haushalte auf Rekordwert gestiegen",
+        "Schneefälle im tschechischen Böhmerwald: Verkehrsprobleme",
+        "Prozess gegen Björn Höcke in Halle begonnen",
+        "Unfall mit neun Verletzten auf A2 bei Hagel und Starkregen",
+        "Razzia gegen Schleuser geht in NRW weiter",
+        "Mutmaßliche Agenten mit Verbindung zu Russland festgenommen"
+      ]
+    },
+    {
+      "date": "2024-03-20",
+      "weekday": "Wednesday",
+      "count": 542,
+      "top_categories": [
+        {
+          "category": "Kriminalität",
+          "count": 13
+        },
+        {
+          "category": "Verkehr",
+          "count": 13
+        },
+        {
+          "category": "Unfall",
+          "count": 13
+        },
+        {
+          "category": "Fußball",
+          "count": 11
+        },
+        {
+          "category": "Bundesliga",
+          "count": 9
+        }
+      ],
+      "sample_titles": [
+        "Zwei Polizisten bei Großeinsatz in Bochum leicht verletzt",
+        "EU: Wieder Zölle für bestimmte Agrarprodukte aus der Ukraine",
+        "Netanjahu besteht auf Rafah-Offensive",
+        "Russland gewinnt bei Awdijiwka erneut Gelände",
+        "Strack-Zimmermann will geheime Ausschüsse verkleinern",
+        "US-Gericht stoppt umstrittenes Migrationsgesetz in Texas"
+      ]
+    },
+    {
+      "date": "2024-04-24",
+      "weekday": "Wednesday",
+      "count": 542,
+      "top_categories": [
+        {
+          "category": "Verkehr",
+          "count": 16
+        },
+        {
+          "category": "Kriminalität",
+          "count": 14
+        },
+        {
+          "category": "Landtag",
+          "count": 14
+        },
+        {
+          "category": "Wetter",
+          "count": 11
+        },
+        {
+          "category": "Bundesliga",
+          "count": 9
+        }
+      ],
+      "sample_titles": [
+        "Krah: Bin und bleibe AfD-Spitzenkandidat",
+        "Intershop liegt nur noch leicht im Minus",
+        "Deutsche Börse verdient deutlich mehr als erwartet",
+        "Schampus-Max und die Chinesen",
+        "Erholung des Dax geht weiter",
+        "Polizeieinsatz an zwei Schulen in Mönchengladbach"
+      ]
+    },
+    {
+      "date": "2024-06-03",
+      "weekday": "Monday",
+      "count": 541,
+      "top_categories": [
+        {
+          "category": "Wetter",
+          "count": 32
+        },
+        {
+          "category": "Unwetter",
+          "count": 30
+        },
+        {
+          "category": "Hochwasser",
+          "count": 23
+        },
+        {
+          "category": "Fußball",
+          "count": 15
+        },
+        {
+          "category": "Kriminalität",
+          "count": 11
+        }
+      ],
+      "sample_titles": [
+        "USA pochen auf Israels Bekenntnis zu Gaza-Angebot",
+        "Entsetzen über Polizisten-Tod - Debatte über Islamismus",
+        "Neeeeeiiiiin! (Wenn's doch nur so einfach wäre)",
+        "Mann tötet drei Familienmitglieder und stellt sich",
+        "E-Akte in Justiz: Mehr als 200.000 Akten digital",
+        "Dax im Plus dank US-Vorgaben"
+      ]
+    },
+    {
+      "date": "2025-11-28",
+      "weekday": "Friday",
+      "count": 541,
+      "top_categories": [
+        {
+          "category": "Kriminalität",
+          "count": 19
+        },
+        {
+          "category": "Arbeitsmarkt",
+          "count": 17
+        },
+        {
+          "category": "Fußball-Bundesliga",
+          "count": 12
+        },
+        {
+          "category": "Unfälle",
+          "count": 10
+        },
+        {
+          "category": "Wetter",
+          "count": 7
+        }
+      ],
+      "sample_titles": [
+        "Koalitionsspitzen einigen bei Rentenreform und Verbrenner-Aus",
+        "Zahl der Arbeitslosen sinkt im November",
+        "Arbeitslosigkeit in Bayern geht leicht zurück",
+        "Arbeitslosenzahl in Thüringen sinkt minimal",
+        "Reul: Schuss auf Zwölfjährige in Bochum erst im Treppenhaus",
+        "Korruptionsskandal: Durchsuchung bei Selenskyjs Bürochef"
+      ]
+    },
+    {
+      "date": "2026-01-09",
+      "weekday": "Friday",
+      "count": 540,
+      "top_categories": [
+        {
+          "category": "Winterwetter",
+          "count": 38
+        },
+        {
+          "category": "Wetter",
+          "count": 25
+        },
+        {
+          "category": "Sturmtief \"Elli\"",
+          "count": 19
+        },
+        {
+          "category": "Kriminalität",
+          "count": 16
+        },
+        {
+          "category": "Verkehr",
+          "count": 14
+        }
+      ],
+      "sample_titles": [
+        "SPD-Chef: Erbschaftsteuer verstößt gegen Leistungsprinzip",
+        "Deutsche Bahn stellt Fernverkehr in Norddeutschland ein",
+        "Festgefahrene Fahrzeuge und umgekippte Lkws",
+        "Sturm \"Elli\" zieht mit geballter Schneeladung über das Land",
+        "Websites von Verkehrsbetrieben mit Problemen",
+        "Russische Truppen rücken bei Jabluniwka vor"
+      ]
+    }
+  ]
+}

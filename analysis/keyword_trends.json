@@ -1,0 +1,3365 @@
+{
+  "summary": {
+    "total_articles": 323490,
+    "total_keyword_instances": 2506009,
+    "unique_keywords": 209268,
+    "date_min": "2024-03-08 14:49:00+00:00",
+    "date_max": "2026-07-20 11:33:11+00:00",
+    "months_covered": 29,
+    "first_month": "2024-03",
+    "last_month": "2026-07"
+  },
+  "overall_top_keywords": [
+    {
+      "keyword": "News",
+      "count": 262263
+    },
+    {
+      "keyword": "Polizei",
+      "count": 46598
+    },
+    {
+      "keyword": "Politik",
+      "count": 25359
+    },
+    {
+      "keyword": "Kriminalität",
+      "count": 21471
+    },
+    {
+      "keyword": "Berlin",
+      "count": 17479
+    },
+    {
+      "keyword": "Unfall",
+      "count": 17011
+    },
+    {
+      "keyword": "SPD",
+      "count": 16984
+    },
+    {
+      "keyword": "CDU",
+      "count": 16646
+    },
+    {
+      "keyword": "Fußball-Bundesliga",
+      "count": 16551
+    },
+    {
+      "keyword": "Auto",
+      "count": 14555
+    },
+    {
+      "keyword": "USA",
+      "count": 14239
+    },
+    {
+      "keyword": "Hamburg",
+      "count": 12161
+    },
+    {
+      "keyword": "Wetter",
+      "count": 11854
+    },
+    {
+      "keyword": "Bundesliga",
+      "count": 10732
+    },
+    {
+      "keyword": "Deutsche Presse-Agentur",
+      "count": 10540
+    },
+    {
+      "keyword": "Verkehr",
+      "count": 10039
+    },
+    {
+      "keyword": "Donald Trump",
+      "count": 9998
+    },
+    {
+      "keyword": "Alternative für Deutschland",
+      "count": 8181
+    },
+    {
+      "keyword": "Fußball",
+      "count": 7664
+    },
+    {
+      "keyword": "Staatsanwaltschaft",
+      "count": 7540
+    },
+    {
+      "keyword": "Russland",
+      "count": 7301
+    },
+    {
+      "keyword": "Krieg in der Ukraine",
+      "count": 7152
+    },
+    {
+      "keyword": "München",
+      "count": 7139
+    },
+    {
+      "keyword": "Bayern",
+      "count": 7049
+    },
+    {
+      "keyword": "Brandenburg",
+      "count": 6993
+    },
+    {
+      "keyword": "Feuerwehr",
+      "count": 6989
+    },
+    {
+      "keyword": "Gesellschaft",
+      "count": 6841
+    },
+    {
+      "keyword": "Tiere",
+      "count": 6772
+    },
+    {
+      "keyword": "Thüringen",
+      "count": 6576
+    },
+    {
+      "keyword": "Bundesregierung",
+      "count": 6290
+    },
+    {
+      "keyword": "Kultur",
+      "count": 6154
+    },
+    {
+      "keyword": "Sachsen-Anhalt",
+      "count": 5855
+    },
+    {
+      "keyword": "Europa",
+      "count": 5789
+    },
+    {
+      "keyword": "Niedersachsen",
+      "count": 5512
+    },
+    {
+      "keyword": "Hessen",
+      "count": 5474
+    },
+    {
+      "keyword": "Sachsen",
+      "count": 5390
+    },
+    {
+      "keyword": "Familie",
+      "count": 5344
+    },
+    {
+      "keyword": "Wirtschaft",
+      "count": 4931
+    },
+    {
+      "keyword": "Rheinland-Pfalz",
+      "count": 4834
+    },
+    {
+      "keyword": "Militär",
+      "count": 4722
+    },
+    {
+      "keyword": "Mann",
+      "count": 4664
+    },
+    {
+      "keyword": "Geld",
+      "count": 4649
+    },
+    {
+      "keyword": "Friedrich Merz",
+      "count": 4632
+    },
+    {
+      "keyword": "Israel",
+      "count": 4620
+    },
+    {
+      "keyword": "Nordrhein-Westfalen",
+      "count": 4579
+    },
+    {
+      "keyword": "Mecklenburg-Vorpommern",
+      "count": 4474
+    },
+    {
+      "keyword": "Baden-Württemberg",
+      "count": 4390
+    },
+    {
+      "keyword": "Unfälle",
+      "count": 4384
+    },
+    {
+      "keyword": "Frankfurt",
+      "count": 4317
+    },
+    {
+      "keyword": "Stuttgart",
+      "count": 4240
+    }
+  ],
+  "monthly_trends": {
+    "2024-03": [
+      {
+        "keyword": "News",
+        "count": 7100,
+        "share": 0.8295
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1400,
+        "share": 0.1636
+      },
+      {
+        "keyword": "Bundesliga",
+        "count": 696,
+        "share": 0.0813
+      },
+      {
+        "keyword": "Politik",
+        "count": 614,
+        "share": 0.0717
+      },
+      {
+        "keyword": "Berlin",
+        "count": 506,
+        "share": 0.0591
+      },
+      {
+        "keyword": "Unfall",
+        "count": 491,
+        "share": 0.0574
+      },
+      {
+        "keyword": "Verkehr",
+        "count": 486,
+        "share": 0.0568
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 467,
+        "share": 0.0546
+      },
+      {
+        "keyword": "Auto",
+        "count": 446,
+        "share": 0.0521
+      },
+      {
+        "keyword": "Fußball",
+        "count": 425,
+        "share": 0.0497
+      },
+      {
+        "keyword": "SPD",
+        "count": 391,
+        "share": 0.0457
+      },
+      {
+        "keyword": "Blaulicht",
+        "count": 364,
+        "share": 0.0425
+      },
+      {
+        "keyword": "CDU",
+        "count": 334,
+        "share": 0.039
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 317,
+        "share": 0.037
+      },
+      {
+        "keyword": "Wetter",
+        "count": 288,
+        "share": 0.0336
+      }
+    ],
+    "2024-04": [
+      {
+        "keyword": "News",
+        "count": 11051,
+        "share": 0.8405
+      },
+      {
+        "keyword": "Polizei",
+        "count": 2151,
+        "share": 0.1636
+      },
+      {
+        "keyword": "Bundesliga",
+        "count": 1085,
+        "share": 0.0825
+      },
+      {
+        "keyword": "Politik",
+        "count": 872,
+        "share": 0.0663
+      },
+      {
+        "keyword": "Verkehr",
+        "count": 828,
+        "share": 0.063
+      },
+      {
+        "keyword": "Berlin",
+        "count": 828,
+        "share": 0.063
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 763,
+        "share": 0.058
+      },
+      {
+        "keyword": "Unfall",
+        "count": 714,
+        "share": 0.0543
+      },
+      {
+        "keyword": "Wetter",
+        "count": 639,
+        "share": 0.0486
+      },
+      {
+        "keyword": "Auto",
+        "count": 633,
+        "share": 0.0481
+      },
+      {
+        "keyword": "Fußball",
+        "count": 615,
+        "share": 0.0468
+      },
+      {
+        "keyword": "SPD",
+        "count": 555,
+        "share": 0.0422
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 514,
+        "share": 0.0391
+      },
+      {
+        "keyword": "CDU",
+        "count": 461,
+        "share": 0.0351
+      },
+      {
+        "keyword": "Blaulicht",
+        "count": 446,
+        "share": 0.0339
+      }
+    ],
+    "2024-05": [
+      {
+        "keyword": "News",
+        "count": 9689,
+        "share": 0.7913
+      },
+      {
+        "keyword": "Polizei",
+        "count": 2060,
+        "share": 0.1682
+      },
+      {
+        "keyword": "Politik",
+        "count": 929,
+        "share": 0.0759
+      },
+      {
+        "keyword": "Bundesliga",
+        "count": 917,
+        "share": 0.0749
+      },
+      {
+        "keyword": "Fußball",
+        "count": 874,
+        "share": 0.0714
+      },
+      {
+        "keyword": "Berlin",
+        "count": 759,
+        "share": 0.062
+      },
+      {
+        "keyword": "SPD",
+        "count": 654,
+        "share": 0.0534
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 561,
+        "share": 0.0458
+      },
+      {
+        "keyword": "Unfall",
+        "count": 557,
+        "share": 0.0455
+      },
+      {
+        "keyword": "Auto",
+        "count": 520,
+        "share": 0.0425
+      },
+      {
+        "keyword": "Verkehr",
+        "count": 515,
+        "share": 0.0421
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 501,
+        "share": 0.0409
+      },
+      {
+        "keyword": "Wetter",
+        "count": 497,
+        "share": 0.0406
+      },
+      {
+        "keyword": "Blaulicht",
+        "count": 479,
+        "share": 0.0391
+      },
+      {
+        "keyword": "Arbeitsmarkt",
+        "count": 470,
+        "share": 0.0384
+      }
+    ],
+    "2024-06": [
+      {
+        "keyword": "News",
+        "count": 10290,
+        "share": 0.819
+      },
+      {
+        "keyword": "Polizei",
+        "count": 2012,
+        "share": 0.1601
+      },
+      {
+        "keyword": "Politik",
+        "count": 935,
+        "share": 0.0744
+      },
+      {
+        "keyword": "Fußball",
+        "count": 834,
+        "share": 0.0664
+      },
+      {
+        "keyword": "Fußball-EM",
+        "count": 753,
+        "share": 0.0599
+      },
+      {
+        "keyword": "Berlin",
+        "count": 721,
+        "share": 0.0574
+      },
+      {
+        "keyword": "SPD",
+        "count": 699,
+        "share": 0.0556
+      },
+      {
+        "keyword": "CDU",
+        "count": 662,
+        "share": 0.0527
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 641,
+        "share": 0.051
+      },
+      {
+        "keyword": "Wetter",
+        "count": 598,
+        "share": 0.0476
+      },
+      {
+        "keyword": "Unfall",
+        "count": 593,
+        "share": 0.0472
+      },
+      {
+        "keyword": "Europawahl",
+        "count": 587,
+        "share": 0.0467
+      },
+      {
+        "keyword": "Verkehr",
+        "count": 584,
+        "share": 0.0465
+      },
+      {
+        "keyword": "Auto",
+        "count": 536,
+        "share": 0.0427
+      },
+      {
+        "keyword": "Unwetter",
+        "count": 510,
+        "share": 0.0406
+      }
+    ],
+    "2024-07": [
+      {
+        "keyword": "News",
+        "count": 8749,
+        "share": 0.7973
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1460,
+        "share": 0.1331
+      },
+      {
+        "keyword": "Politik",
+        "count": 918,
+        "share": 0.0837
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 693,
+        "share": 0.0632
+      },
+      {
+        "keyword": "Unfall",
+        "count": 676,
+        "share": 0.0616
+      },
+      {
+        "keyword": "Berlin",
+        "count": 562,
+        "share": 0.0512
+      },
+      {
+        "keyword": "SPD",
+        "count": 520,
+        "share": 0.0474
+      },
+      {
+        "keyword": "Auto",
+        "count": 475,
+        "share": 0.0433
+      },
+      {
+        "keyword": "USA",
+        "count": 441,
+        "share": 0.0402
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 437,
+        "share": 0.0398
+      },
+      {
+        "keyword": "CDU",
+        "count": 391,
+        "share": 0.0356
+      },
+      {
+        "keyword": "Fußball-EM",
+        "count": 389,
+        "share": 0.0355
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 385,
+        "share": 0.0351
+      },
+      {
+        "keyword": "Wetter",
+        "count": 360,
+        "share": 0.0328
+      },
+      {
+        "keyword": "Fußball",
+        "count": 349,
+        "share": 0.0318
+      }
+    ],
+    "2024-08": [
+      {
+        "keyword": "News",
+        "count": 8957,
+        "share": 0.7635
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1670,
+        "share": 0.1424
+      },
+      {
+        "keyword": "Politik",
+        "count": 832,
+        "share": 0.0709
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 729,
+        "share": 0.0621
+      },
+      {
+        "keyword": "Arbeitsmarkt",
+        "count": 728,
+        "share": 0.0621
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 699,
+        "share": 0.0596
+      },
+      {
+        "keyword": "Gehalt",
+        "count": 682,
+        "share": 0.0581
+      },
+      {
+        "keyword": "Gehaltsunterschied",
+        "count": 671,
+        "share": 0.0572
+      },
+      {
+        "keyword": "Unfall",
+        "count": 588,
+        "share": 0.0501
+      },
+      {
+        "keyword": "Berlin",
+        "count": 507,
+        "share": 0.0432
+      },
+      {
+        "keyword": "SPD",
+        "count": 493,
+        "share": 0.042
+      },
+      {
+        "keyword": "Auto",
+        "count": 470,
+        "share": 0.0401
+      },
+      {
+        "keyword": "CDU",
+        "count": 446,
+        "share": 0.038
+      },
+      {
+        "keyword": "Bayern",
+        "count": 419,
+        "share": 0.0357
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 412,
+        "share": 0.0351
+      }
+    ],
+    "2024-09": [
+      {
+        "keyword": "News",
+        "count": 9234,
+        "share": 0.8089
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1465,
+        "share": 0.1283
+      },
+      {
+        "keyword": "Politik",
+        "count": 962,
+        "share": 0.0843
+      },
+      {
+        "keyword": "SPD",
+        "count": 814,
+        "share": 0.0713
+      },
+      {
+        "keyword": "CDU",
+        "count": 765,
+        "share": 0.067
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 744,
+        "share": 0.0652
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 735,
+        "share": 0.0644
+      },
+      {
+        "keyword": "Unfall",
+        "count": 612,
+        "share": 0.0536
+      },
+      {
+        "keyword": "Landtagswahl",
+        "count": 587,
+        "share": 0.0514
+      },
+      {
+        "keyword": "Berlin",
+        "count": 585,
+        "share": 0.0512
+      },
+      {
+        "keyword": "Alternative für Deutschland",
+        "count": 561,
+        "share": 0.0491
+      },
+      {
+        "keyword": "Auto",
+        "count": 478,
+        "share": 0.0419
+      },
+      {
+        "keyword": "Thüringen",
+        "count": 477,
+        "share": 0.0418
+      },
+      {
+        "keyword": "Brandenburg",
+        "count": 469,
+        "share": 0.0411
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 400,
+        "share": 0.035
+      }
+    ],
+    "2024-10": [
+      {
+        "keyword": "News",
+        "count": 8849,
+        "share": 0.8115
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1399,
+        "share": 0.1283
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 820,
+        "share": 0.0752
+      },
+      {
+        "keyword": "Politik",
+        "count": 810,
+        "share": 0.0743
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 617,
+        "share": 0.0566
+      },
+      {
+        "keyword": "SPD",
+        "count": 615,
+        "share": 0.0564
+      },
+      {
+        "keyword": "Berlin",
+        "count": 606,
+        "share": 0.0556
+      },
+      {
+        "keyword": "Unfall",
+        "count": 527,
+        "share": 0.0483
+      },
+      {
+        "keyword": "Auto",
+        "count": 505,
+        "share": 0.0463
+      },
+      {
+        "keyword": "CDU",
+        "count": 464,
+        "share": 0.0425
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 394,
+        "share": 0.0361
+      },
+      {
+        "keyword": "USA",
+        "count": 382,
+        "share": 0.035
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 380,
+        "share": 0.0348
+      },
+      {
+        "keyword": "Staatsanwaltschaft",
+        "count": 306,
+        "share": 0.0281
+      },
+      {
+        "keyword": "Kultur",
+        "count": 302,
+        "share": 0.0277
+      }
+    ],
+    "2024-11": [
+      {
+        "keyword": "News",
+        "count": 9141,
+        "share": 0.8116
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1344,
+        "share": 0.1193
+      },
+      {
+        "keyword": "Politik",
+        "count": 992,
+        "share": 0.0881
+      },
+      {
+        "keyword": "SPD",
+        "count": 888,
+        "share": 0.0788
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 802,
+        "share": 0.0712
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 769,
+        "share": 0.0683
+      },
+      {
+        "keyword": "Berlin",
+        "count": 628,
+        "share": 0.0558
+      },
+      {
+        "keyword": "CDU",
+        "count": 573,
+        "share": 0.0509
+      },
+      {
+        "keyword": "Unfall",
+        "count": 542,
+        "share": 0.0481
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 528,
+        "share": 0.0469
+      },
+      {
+        "keyword": "USA",
+        "count": 512,
+        "share": 0.0455
+      },
+      {
+        "keyword": "Auto",
+        "count": 474,
+        "share": 0.0421
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 421,
+        "share": 0.0374
+      },
+      {
+        "keyword": "Olaf Scholz",
+        "count": 387,
+        "share": 0.0344
+      },
+      {
+        "keyword": "Bundestagswahl",
+        "count": 372,
+        "share": 0.033
+      }
+    ],
+    "2024-12": [
+      {
+        "keyword": "News",
+        "count": 8669,
+        "share": 0.8159
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1464,
+        "share": 0.1378
+      },
+      {
+        "keyword": "Politik",
+        "count": 900,
+        "share": 0.0847
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 808,
+        "share": 0.076
+      },
+      {
+        "keyword": "SPD",
+        "count": 705,
+        "share": 0.0664
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 645,
+        "share": 0.0607
+      },
+      {
+        "keyword": "CDU",
+        "count": 578,
+        "share": 0.0544
+      },
+      {
+        "keyword": "Unfall",
+        "count": 532,
+        "share": 0.0501
+      },
+      {
+        "keyword": "Berlin",
+        "count": 513,
+        "share": 0.0483
+      },
+      {
+        "keyword": "Auto",
+        "count": 500,
+        "share": 0.0471
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 484,
+        "share": 0.0456
+      },
+      {
+        "keyword": "Bundestagswahl",
+        "count": 448,
+        "share": 0.0422
+      },
+      {
+        "keyword": "Magdeburg",
+        "count": 380,
+        "share": 0.0358
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 372,
+        "share": 0.035
+      },
+      {
+        "keyword": "Wetter",
+        "count": 367,
+        "share": 0.0345
+      }
+    ],
+    "2025-01": [
+      {
+        "keyword": "News",
+        "count": 9708,
+        "share": 0.8297
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1679,
+        "share": 0.1435
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 948,
+        "share": 0.081
+      },
+      {
+        "keyword": "Politik",
+        "count": 908,
+        "share": 0.0776
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 902,
+        "share": 0.0771
+      },
+      {
+        "keyword": "CDU",
+        "count": 651,
+        "share": 0.0556
+      },
+      {
+        "keyword": "SPD",
+        "count": 626,
+        "share": 0.0535
+      },
+      {
+        "keyword": "Berlin",
+        "count": 583,
+        "share": 0.0498
+      },
+      {
+        "keyword": "Bundestagswahl",
+        "count": 566,
+        "share": 0.0484
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 565,
+        "share": 0.0483
+      },
+      {
+        "keyword": "USA",
+        "count": 559,
+        "share": 0.0478
+      },
+      {
+        "keyword": "Unfall",
+        "count": 549,
+        "share": 0.0469
+      },
+      {
+        "keyword": "Auto",
+        "count": 515,
+        "share": 0.044
+      },
+      {
+        "keyword": "Alternative für Deutschland",
+        "count": 510,
+        "share": 0.0436
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 435,
+        "share": 0.0372
+      }
+    ],
+    "2025-02": [
+      {
+        "keyword": "News",
+        "count": 8826,
+        "share": 0.8207
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1465,
+        "share": 0.1362
+      },
+      {
+        "keyword": "Bundestagswahl",
+        "count": 1358,
+        "share": 0.1263
+      },
+      {
+        "keyword": "Politik",
+        "count": 941,
+        "share": 0.0875
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 899,
+        "share": 0.0836
+      },
+      {
+        "keyword": "CDU",
+        "count": 807,
+        "share": 0.075
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 785,
+        "share": 0.073
+      },
+      {
+        "keyword": "SPD",
+        "count": 784,
+        "share": 0.0729
+      },
+      {
+        "keyword": "USA",
+        "count": 574,
+        "share": 0.0534
+      },
+      {
+        "keyword": "Alternative für Deutschland",
+        "count": 571,
+        "share": 0.0531
+      },
+      {
+        "keyword": "Berlin",
+        "count": 558,
+        "share": 0.0519
+      },
+      {
+        "keyword": "Deutscher Bundestag",
+        "count": 556,
+        "share": 0.0517
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 555,
+        "share": 0.0516
+      },
+      {
+        "keyword": "Unfall",
+        "count": 481,
+        "share": 0.0447
+      },
+      {
+        "keyword": "Auto",
+        "count": 449,
+        "share": 0.0418
+      }
+    ],
+    "2025-03": [
+      {
+        "keyword": "News",
+        "count": 9423,
+        "share": 0.8261
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1564,
+        "share": 0.1371
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 1017,
+        "share": 0.0892
+      },
+      {
+        "keyword": "Politik",
+        "count": 881,
+        "share": 0.0772
+      },
+      {
+        "keyword": "SPD",
+        "count": 821,
+        "share": 0.072
+      },
+      {
+        "keyword": "CDU",
+        "count": 690,
+        "share": 0.0605
+      },
+      {
+        "keyword": "USA",
+        "count": 683,
+        "share": 0.0599
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 674,
+        "share": 0.0591
+      },
+      {
+        "keyword": "Berlin",
+        "count": 594,
+        "share": 0.0521
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 557,
+        "share": 0.0488
+      },
+      {
+        "keyword": "Unfall",
+        "count": 556,
+        "share": 0.0487
+      },
+      {
+        "keyword": "Auto",
+        "count": 530,
+        "share": 0.0465
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 472,
+        "share": 0.0414
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 368,
+        "share": 0.0323
+      },
+      {
+        "keyword": "Bundesliga",
+        "count": 348,
+        "share": 0.0305
+      }
+    ],
+    "2025-04": [
+      {
+        "keyword": "News",
+        "count": 8630,
+        "share": 0.8176
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1493,
+        "share": 0.1414
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 811,
+        "share": 0.0768
+      },
+      {
+        "keyword": "Politik",
+        "count": 758,
+        "share": 0.0718
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 755,
+        "share": 0.0715
+      },
+      {
+        "keyword": "SPD",
+        "count": 674,
+        "share": 0.0639
+      },
+      {
+        "keyword": "USA",
+        "count": 603,
+        "share": 0.0571
+      },
+      {
+        "keyword": "Berlin",
+        "count": 575,
+        "share": 0.0545
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 562,
+        "share": 0.0532
+      },
+      {
+        "keyword": "CDU",
+        "count": 544,
+        "share": 0.0515
+      },
+      {
+        "keyword": "Unfall",
+        "count": 531,
+        "share": 0.0503
+      },
+      {
+        "keyword": "Auto",
+        "count": 491,
+        "share": 0.0465
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 406,
+        "share": 0.0385
+      },
+      {
+        "keyword": "Bundesliga",
+        "count": 362,
+        "share": 0.0343
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 339,
+        "share": 0.0321
+      }
+    ],
+    "2025-05": [
+      {
+        "keyword": "News",
+        "count": 9188,
+        "share": 0.8171
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1579,
+        "share": 0.1404
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 935,
+        "share": 0.0831
+      },
+      {
+        "keyword": "Politik",
+        "count": 845,
+        "share": 0.0751
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 773,
+        "share": 0.0687
+      },
+      {
+        "keyword": "SPD",
+        "count": 611,
+        "share": 0.0543
+      },
+      {
+        "keyword": "Unfall",
+        "count": 569,
+        "share": 0.0506
+      },
+      {
+        "keyword": "Berlin",
+        "count": 567,
+        "share": 0.0504
+      },
+      {
+        "keyword": "CDU",
+        "count": 541,
+        "share": 0.0481
+      },
+      {
+        "keyword": "USA",
+        "count": 529,
+        "share": 0.047
+      },
+      {
+        "keyword": "Auto",
+        "count": 492,
+        "share": 0.0438
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 438,
+        "share": 0.039
+      },
+      {
+        "keyword": "Bundesliga",
+        "count": 419,
+        "share": 0.0373
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 399,
+        "share": 0.0355
+      },
+      {
+        "keyword": "Kultur",
+        "count": 361,
+        "share": 0.0321
+      }
+    ],
+    "2025-06": [
+      {
+        "keyword": "News",
+        "count": 8747,
+        "share": 0.8228
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1631,
+        "share": 0.1534
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 837,
+        "share": 0.0787
+      },
+      {
+        "keyword": "Politik",
+        "count": 832,
+        "share": 0.0783
+      },
+      {
+        "keyword": "Unfall",
+        "count": 587,
+        "share": 0.0552
+      },
+      {
+        "keyword": "USA",
+        "count": 568,
+        "share": 0.0534
+      },
+      {
+        "keyword": "SPD",
+        "count": 567,
+        "share": 0.0533
+      },
+      {
+        "keyword": "Berlin",
+        "count": 564,
+        "share": 0.0531
+      },
+      {
+        "keyword": "CDU",
+        "count": 527,
+        "share": 0.0496
+      },
+      {
+        "keyword": "Auto",
+        "count": 519,
+        "share": 0.0488
+      },
+      {
+        "keyword": "Wetter",
+        "count": 463,
+        "share": 0.0436
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 439,
+        "share": 0.0413
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 397,
+        "share": 0.0373
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 390,
+        "share": 0.0367
+      },
+      {
+        "keyword": "Iran",
+        "count": 385,
+        "share": 0.0362
+      }
+    ],
+    "2025-07": [
+      {
+        "keyword": "News",
+        "count": 8925,
+        "share": 0.8073
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1518,
+        "share": 0.1373
+      },
+      {
+        "keyword": "Politik",
+        "count": 820,
+        "share": 0.0742
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 804,
+        "share": 0.0727
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 592,
+        "share": 0.0535
+      },
+      {
+        "keyword": "Unfall",
+        "count": 585,
+        "share": 0.0529
+      },
+      {
+        "keyword": "Berlin",
+        "count": 576,
+        "share": 0.0521
+      },
+      {
+        "keyword": "SPD",
+        "count": 547,
+        "share": 0.0495
+      },
+      {
+        "keyword": "USA",
+        "count": 510,
+        "share": 0.0461
+      },
+      {
+        "keyword": "CDU",
+        "count": 486,
+        "share": 0.044
+      },
+      {
+        "keyword": "Auto",
+        "count": 466,
+        "share": 0.0421
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 463,
+        "share": 0.0419
+      },
+      {
+        "keyword": "Wetter",
+        "count": 455,
+        "share": 0.0412
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 406,
+        "share": 0.0367
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 404,
+        "share": 0.0365
+      }
+    ],
+    "2025-08": [
+      {
+        "keyword": "News",
+        "count": 8435,
+        "share": 0.8103
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1720,
+        "share": 0.1652
+      },
+      {
+        "keyword": "Politik",
+        "count": 840,
+        "share": 0.0807
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 776,
+        "share": 0.0745
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 689,
+        "share": 0.0662
+      },
+      {
+        "keyword": "Unfall",
+        "count": 670,
+        "share": 0.0644
+      },
+      {
+        "keyword": "Auto",
+        "count": 537,
+        "share": 0.0516
+      },
+      {
+        "keyword": "Berlin",
+        "count": 470,
+        "share": 0.0451
+      },
+      {
+        "keyword": "CDU",
+        "count": 439,
+        "share": 0.0422
+      },
+      {
+        "keyword": "USA",
+        "count": 428,
+        "share": 0.0411
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 422,
+        "share": 0.0405
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 408,
+        "share": 0.0392
+      },
+      {
+        "keyword": "SPD",
+        "count": 405,
+        "share": 0.0389
+      },
+      {
+        "keyword": "Wetter",
+        "count": 404,
+        "share": 0.0388
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 351,
+        "share": 0.0337
+      }
+    ],
+    "2025-09": [
+      {
+        "keyword": "News",
+        "count": 8961,
+        "share": 0.8051
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1591,
+        "share": 0.1429
+      },
+      {
+        "keyword": "Politik",
+        "count": 928,
+        "share": 0.0834
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 795,
+        "share": 0.0714
+      },
+      {
+        "keyword": "Unfall",
+        "count": 620,
+        "share": 0.0557
+      },
+      {
+        "keyword": "Berlin",
+        "count": 614,
+        "share": 0.0552
+      },
+      {
+        "keyword": "CDU",
+        "count": 609,
+        "share": 0.0547
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 577,
+        "share": 0.0518
+      },
+      {
+        "keyword": "Auto",
+        "count": 560,
+        "share": 0.0503
+      },
+      {
+        "keyword": "SPD",
+        "count": 543,
+        "share": 0.0488
+      },
+      {
+        "keyword": "USA",
+        "count": 523,
+        "share": 0.047
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 438,
+        "share": 0.0394
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 407,
+        "share": 0.0366
+      },
+      {
+        "keyword": "Verkehr",
+        "count": 401,
+        "share": 0.036
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 392,
+        "share": 0.0352
+      }
+    ],
+    "2025-10": [
+      {
+        "keyword": "News",
+        "count": 8938,
+        "share": 0.8012
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1644,
+        "share": 0.1474
+      },
+      {
+        "keyword": "Politik",
+        "count": 893,
+        "share": 0.08
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 874,
+        "share": 0.0783
+      },
+      {
+        "keyword": "Unfall",
+        "count": 596,
+        "share": 0.0534
+      },
+      {
+        "keyword": "CDU",
+        "count": 591,
+        "share": 0.053
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 543,
+        "share": 0.0487
+      },
+      {
+        "keyword": "Berlin",
+        "count": 531,
+        "share": 0.0476
+      },
+      {
+        "keyword": "Auto",
+        "count": 475,
+        "share": 0.0426
+      },
+      {
+        "keyword": "SPD",
+        "count": 468,
+        "share": 0.042
+      },
+      {
+        "keyword": "USA",
+        "count": 455,
+        "share": 0.0408
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 433,
+        "share": 0.0388
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 420,
+        "share": 0.0376
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 375,
+        "share": 0.0336
+      },
+      {
+        "keyword": "Wetter",
+        "count": 366,
+        "share": 0.0328
+      }
+    ],
+    "2025-11": [
+      {
+        "keyword": "News",
+        "count": 9153,
+        "share": 0.8046
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1645,
+        "share": 0.1446
+      },
+      {
+        "keyword": "Politik",
+        "count": 880,
+        "share": 0.0774
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 873,
+        "share": 0.0767
+      },
+      {
+        "keyword": "Unfall",
+        "count": 651,
+        "share": 0.0572
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 625,
+        "share": 0.0549
+      },
+      {
+        "keyword": "Berlin",
+        "count": 613,
+        "share": 0.0539
+      },
+      {
+        "keyword": "CDU",
+        "count": 588,
+        "share": 0.0517
+      },
+      {
+        "keyword": "SPD",
+        "count": 525,
+        "share": 0.0461
+      },
+      {
+        "keyword": "Auto",
+        "count": 511,
+        "share": 0.0449
+      },
+      {
+        "keyword": "USA",
+        "count": 481,
+        "share": 0.0423
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 430,
+        "share": 0.0378
+      },
+      {
+        "keyword": "Wetter",
+        "count": 387,
+        "share": 0.034
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 367,
+        "share": 0.0323
+      },
+      {
+        "keyword": "Verkehr",
+        "count": 361,
+        "share": 0.0317
+      }
+    ],
+    "2025-12": [
+      {
+        "keyword": "News",
+        "count": 8626,
+        "share": 0.8041
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1593,
+        "share": 0.1485
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 993,
+        "share": 0.0926
+      },
+      {
+        "keyword": "Politik",
+        "count": 895,
+        "share": 0.0834
+      },
+      {
+        "keyword": "Unfall",
+        "count": 640,
+        "share": 0.0597
+      },
+      {
+        "keyword": "Berlin",
+        "count": 553,
+        "share": 0.0515
+      },
+      {
+        "keyword": "Auto",
+        "count": 549,
+        "share": 0.0512
+      },
+      {
+        "keyword": "CDU",
+        "count": 524,
+        "share": 0.0488
+      },
+      {
+        "keyword": "USA",
+        "count": 503,
+        "share": 0.0469
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 502,
+        "share": 0.0468
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 439,
+        "share": 0.0409
+      },
+      {
+        "keyword": "SPD",
+        "count": 423,
+        "share": 0.0394
+      },
+      {
+        "keyword": "Weihnachten",
+        "count": 408,
+        "share": 0.038
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 389,
+        "share": 0.0363
+      },
+      {
+        "keyword": "Wetter",
+        "count": 367,
+        "share": 0.0342
+      }
+    ],
+    "2026-01": [
+      {
+        "keyword": "News",
+        "count": 10289,
+        "share": 0.8252
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1778,
+        "share": 0.1426
+      },
+      {
+        "keyword": "Politik",
+        "count": 989,
+        "share": 0.0793
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 889,
+        "share": 0.0713
+      },
+      {
+        "keyword": "Berlin",
+        "count": 854,
+        "share": 0.0685
+      },
+      {
+        "keyword": "Wetter",
+        "count": 814,
+        "share": 0.0653
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 795,
+        "share": 0.0638
+      },
+      {
+        "keyword": "USA",
+        "count": 788,
+        "share": 0.0632
+      },
+      {
+        "keyword": "Unfall",
+        "count": 700,
+        "share": 0.0561
+      },
+      {
+        "keyword": "CDU",
+        "count": 617,
+        "share": 0.0495
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 587,
+        "share": 0.0471
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 567,
+        "share": 0.0455
+      },
+      {
+        "keyword": "SPD",
+        "count": 552,
+        "share": 0.0443
+      },
+      {
+        "keyword": "Auto",
+        "count": 506,
+        "share": 0.0406
+      },
+      {
+        "keyword": "Verkehr",
+        "count": 504,
+        "share": 0.0404
+      }
+    ],
+    "2026-02": [
+      {
+        "keyword": "News",
+        "count": 8839,
+        "share": 0.7915
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1498,
+        "share": 0.1341
+      },
+      {
+        "keyword": "Politik",
+        "count": 1007,
+        "share": 0.0902
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 821,
+        "share": 0.0735
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 749,
+        "share": 0.0671
+      },
+      {
+        "keyword": "USA",
+        "count": 617,
+        "share": 0.0553
+      },
+      {
+        "keyword": "CDU",
+        "count": 616,
+        "share": 0.0552
+      },
+      {
+        "keyword": "Berlin",
+        "count": 571,
+        "share": 0.0511
+      },
+      {
+        "keyword": "Wetter",
+        "count": 545,
+        "share": 0.0488
+      },
+      {
+        "keyword": "Unfall",
+        "count": 533,
+        "share": 0.0477
+      },
+      {
+        "keyword": "Auto",
+        "count": 460,
+        "share": 0.0412
+      },
+      {
+        "keyword": "SPD",
+        "count": 422,
+        "share": 0.0378
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 409,
+        "share": 0.0366
+      },
+      {
+        "keyword": "Olympische Winterspiele",
+        "count": 391,
+        "share": 0.035
+      },
+      {
+        "keyword": "Verkehr",
+        "count": 384,
+        "share": 0.0344
+      }
+    ],
+    "2026-03": [
+      {
+        "keyword": "News",
+        "count": 9891,
+        "share": 0.8147
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1602,
+        "share": 0.1319
+      },
+      {
+        "keyword": "Politik",
+        "count": 980,
+        "share": 0.0807
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 857,
+        "share": 0.0706
+      },
+      {
+        "keyword": "CDU",
+        "count": 829,
+        "share": 0.0683
+      },
+      {
+        "keyword": "Iran",
+        "count": 731,
+        "share": 0.0602
+      },
+      {
+        "keyword": "SPD",
+        "count": 722,
+        "share": 0.0595
+      },
+      {
+        "keyword": "Berlin",
+        "count": 653,
+        "share": 0.0538
+      },
+      {
+        "keyword": "USA",
+        "count": 643,
+        "share": 0.053
+      },
+      {
+        "keyword": "Unfall",
+        "count": 628,
+        "share": 0.0517
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 618,
+        "share": 0.0509
+      },
+      {
+        "keyword": "Auto",
+        "count": 534,
+        "share": 0.044
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 458,
+        "share": 0.0377
+      },
+      {
+        "keyword": "Wetter",
+        "count": 424,
+        "share": 0.0349
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 400,
+        "share": 0.0329
+      }
+    ],
+    "2026-04": [
+      {
+        "keyword": "News",
+        "count": 9089,
+        "share": 0.8157
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1594,
+        "share": 0.143
+      },
+      {
+        "keyword": "Kriminalität",
+        "count": 853,
+        "share": 0.0766
+      },
+      {
+        "keyword": "Politik",
+        "count": 822,
+        "share": 0.0738
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 800,
+        "share": 0.0718
+      },
+      {
+        "keyword": "CDU",
+        "count": 631,
+        "share": 0.0566
+      },
+      {
+        "keyword": "Unfall",
+        "count": 623,
+        "share": 0.0559
+      },
+      {
+        "keyword": "Berlin",
+        "count": 603,
+        "share": 0.0541
+      },
+      {
+        "keyword": "USA",
+        "count": 555,
+        "share": 0.0498
+      },
+      {
+        "keyword": "Auto",
+        "count": 525,
+        "share": 0.0471
+      },
+      {
+        "keyword": "SPD",
+        "count": 505,
+        "share": 0.0453
+      },
+      {
+        "keyword": "Tiere",
+        "count": 435,
+        "share": 0.039
+      },
+      {
+        "keyword": "Iran",
+        "count": 421,
+        "share": 0.0378
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 419,
+        "share": 0.0376
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 418,
+        "share": 0.0375
+      }
+    ],
+    "2026-05": [
+      {
+        "keyword": "News",
+        "count": 9324,
+        "share": 0.8113
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1691,
+        "share": 0.1471
+      },
+      {
+        "keyword": "Politik",
+        "count": 851,
+        "share": 0.074
+      },
+      {
+        "keyword": "Unfall",
+        "count": 694,
+        "share": 0.0604
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 686,
+        "share": 0.0597
+      },
+      {
+        "keyword": "CDU",
+        "count": 647,
+        "share": 0.0563
+      },
+      {
+        "keyword": "Berlin",
+        "count": 633,
+        "share": 0.0551
+      },
+      {
+        "keyword": "Auto",
+        "count": 587,
+        "share": 0.0511
+      },
+      {
+        "keyword": "USA",
+        "count": 545,
+        "share": 0.0474
+      },
+      {
+        "keyword": "SPD",
+        "count": 536,
+        "share": 0.0466
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 432,
+        "share": 0.0376
+      },
+      {
+        "keyword": "Wetter",
+        "count": 419,
+        "share": 0.0365
+      },
+      {
+        "keyword": "Bundesliga",
+        "count": 375,
+        "share": 0.0326
+      },
+      {
+        "keyword": "Donald Trump",
+        "count": 345,
+        "share": 0.03
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 344,
+        "share": 0.0299
+      }
+    ],
+    "2026-06": [
+      {
+        "keyword": "News",
+        "count": 9512,
+        "share": 0.8058
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1690,
+        "share": 0.1432
+      },
+      {
+        "keyword": "Politik",
+        "count": 904,
+        "share": 0.0766
+      },
+      {
+        "keyword": "CDU",
+        "count": 715,
+        "share": 0.0606
+      },
+      {
+        "keyword": "Berlin",
+        "count": 713,
+        "share": 0.0604
+      },
+      {
+        "keyword": "USA",
+        "count": 658,
+        "share": 0.0557
+      },
+      {
+        "keyword": "Unfall",
+        "count": 575,
+        "share": 0.0487
+      },
+      {
+        "keyword": "SPD",
+        "count": 573,
+        "share": 0.0485
+      },
+      {
+        "keyword": "Wetter",
+        "count": 562,
+        "share": 0.0476
+      },
+      {
+        "keyword": "Hitze",
+        "count": 547,
+        "share": 0.0463
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 464,
+        "share": 0.0393
+      },
+      {
+        "keyword": "Auto",
+        "count": 458,
+        "share": 0.0388
+      },
+      {
+        "keyword": "Fußball-WM",
+        "count": 408,
+        "share": 0.0346
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 393,
+        "share": 0.0333
+      },
+      {
+        "keyword": "DWD",
+        "count": 316,
+        "share": 0.0268
+      }
+    ],
+    "2026-07": [
+      {
+        "keyword": "News",
+        "count": 6030,
+        "share": 0.785
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1198,
+        "share": 0.1559
+      },
+      {
+        "keyword": "Politik",
+        "count": 621,
+        "share": 0.0808
+      },
+      {
+        "keyword": "CDU",
+        "count": 495,
+        "share": 0.0644
+      },
+      {
+        "keyword": "Berlin",
+        "count": 439,
+        "share": 0.0571
+      },
+      {
+        "keyword": "Unfall",
+        "count": 391,
+        "share": 0.0509
+      },
+      {
+        "keyword": "USA",
+        "count": 362,
+        "share": 0.0471
+      },
+      {
+        "keyword": "Auto",
+        "count": 354,
+        "share": 0.0461
+      },
+      {
+        "keyword": "SPD",
+        "count": 346,
+        "share": 0.045
+      },
+      {
+        "keyword": "Deutsche Presse-Agentur",
+        "count": 313,
+        "share": 0.0407
+      },
+      {
+        "keyword": "Alternative für Deutschland",
+        "count": 280,
+        "share": 0.0364
+      },
+      {
+        "keyword": "Feuerwehr",
+        "count": 263,
+        "share": 0.0342
+      },
+      {
+        "keyword": "Fußball-WM",
+        "count": 259,
+        "share": 0.0337
+      },
+      {
+        "keyword": "Wetter",
+        "count": 255,
+        "share": 0.0332
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 240,
+        "share": 0.0312
+      }
+    ]
+  },
+  "rising_keywords": [
+    {
+      "keyword": "Fußball-Bundesliga",
+      "share_first": 0.01196,
+      "share_last": 0.03887,
+      "delta": 0.02691,
+      "abs_delta": 0.02691
+    },
+    {
+      "keyword": "CDU",
+      "share_first": 0.03593,
+      "share_last": 0.05994,
+      "delta": 0.02401,
+      "abs_delta": 0.02401
+    },
+    {
+      "keyword": "Hitze",
+      "share_first": 0.00127,
+      "share_last": 0.02431,
+      "delta": 0.02304,
+      "abs_delta": 0.02304
+    },
+    {
+      "keyword": "Donald Trump",
+      "share_first": 0.00719,
+      "share_last": 0.02841,
+      "delta": 0.02122,
+      "abs_delta": 0.02122
+    },
+    {
+      "keyword": "USA",
+      "share_first": 0.02981,
+      "share_last": 0.05052,
+      "delta": 0.02071,
+      "abs_delta": 0.02071
+    },
+    {
+      "keyword": "Mann",
+      "share_first": 0.0,
+      "share_last": 0.02043,
+      "delta": 0.02043,
+      "abs_delta": 0.02043
+    },
+    {
+      "keyword": "DWD",
+      "share_first": 0.0025,
+      "share_last": 0.0204,
+      "delta": 0.0179,
+      "abs_delta": 0.0179
+    },
+    {
+      "keyword": "Europäische Union",
+      "share_first": 0.00507,
+      "share_last": 0.02008,
+      "delta": 0.01501,
+      "abs_delta": 0.01501
+    },
+    {
+      "keyword": "Bundesregierung",
+      "share_first": 0.01458,
+      "share_last": 0.02708,
+      "delta": 0.0125,
+      "abs_delta": 0.0125
+    },
+    {
+      "keyword": "Deutscher Bundestag",
+      "share_first": 0.0,
+      "share_last": 0.01194,
+      "delta": 0.01194,
+      "abs_delta": 0.01194
+    },
+    {
+      "keyword": "Friedrich Merz",
+      "share_first": 0.00362,
+      "share_last": 0.0153,
+      "delta": 0.01168,
+      "abs_delta": 0.01168
+    },
+    {
+      "keyword": "Deutsche Presse-Agentur",
+      "share_first": 0.02238,
+      "share_last": 0.03389,
+      "delta": 0.01151,
+      "abs_delta": 0.01151
+    },
+    {
+      "keyword": "Iran",
+      "share_first": 0.00819,
+      "share_last": 0.01875,
+      "delta": 0.01057,
+      "abs_delta": 0.01057
+    },
+    {
+      "keyword": "Familie",
+      "share_first": 0.01084,
+      "share_last": 0.02059,
+      "delta": 0.00976,
+      "abs_delta": 0.00976
+    },
+    {
+      "keyword": "Deutscher Fußball-Bund",
+      "share_first": 0.00162,
+      "share_last": 0.01114,
+      "delta": 0.00952,
+      "abs_delta": 0.00952
+    },
+    {
+      "keyword": "Sachsen-Anhalt",
+      "share_first": 0.01431,
+      "share_last": 0.02273,
+      "delta": 0.00841,
+      "abs_delta": 0.00841
+    },
+    {
+      "keyword": "Sport",
+      "share_first": 0.01169,
+      "share_last": 0.02005,
+      "delta": 0.00835,
+      "abs_delta": 0.00835
+    },
+    {
+      "keyword": "2. Fußball-Bundesliga",
+      "share_first": 0.0,
+      "share_last": 0.00823,
+      "delta": 0.00823,
+      "abs_delta": 0.00823
+    },
+    {
+      "keyword": "Gewitter",
+      "share_first": 0.00539,
+      "share_last": 0.01139,
+      "delta": 0.006,
+      "abs_delta": 0.006
+    },
+    {
+      "keyword": "Politik",
+      "share_first": 0.07113,
+      "share_last": 0.0767,
+      "delta": 0.00557,
+      "abs_delta": 0.00557
+    }
+  ],
+  "falling_keywords": [
+    {
+      "keyword": "Bundesliga",
+      "share_first": 0.07947,
+      "share_last": 0.02234,
+      "delta": -0.05713,
+      "abs_delta": 0.05713
+    },
+    {
+      "keyword": "Blaulicht",
+      "share_first": 0.03797,
+      "share_last": 0.00097,
+      "delta": -0.037,
+      "abs_delta": 0.037
+    },
+    {
+      "keyword": "Verkehr",
+      "share_first": 0.05387,
+      "share_last": 0.01992,
+      "delta": -0.03395,
+      "abs_delta": 0.03395
+    },
+    {
+      "keyword": "Fußball",
+      "share_first": 0.05637,
+      "share_last": 0.02676,
+      "delta": -0.02961,
+      "abs_delta": 0.02961
+    },
+    {
+      "keyword": "Kriminalität",
+      "share_first": 0.05275,
+      "share_last": 0.02589,
+      "delta": -0.02686,
+      "abs_delta": 0.02686
+    },
+    {
+      "keyword": "Kultur",
+      "share_first": 0.02074,
+      "share_last": 0.001,
+      "delta": -0.01973,
+      "abs_delta": 0.01973
+    },
+    {
+      "keyword": "Polizei",
+      "share_first": 0.16526,
+      "share_last": 0.14781,
+      "delta": -0.01745,
+      "abs_delta": 0.01745
+    },
+    {
+      "keyword": "News",
+      "share_first": 0.81998,
+      "share_last": 0.80267,
+      "delta": -0.01731,
+      "abs_delta": 0.01731
+    },
+    {
+      "keyword": "Gazastreifen",
+      "share_first": 0.01826,
+      "share_last": 0.00236,
+      "delta": -0.0159,
+      "abs_delta": 0.0159
+    },
+    {
+      "keyword": "Gehalt",
+      "share_first": 0.01399,
+      "share_last": 0.00084,
+      "delta": -0.01315,
+      "abs_delta": 0.01315
+    },
+    {
+      "keyword": "Arbeitsmarkt",
+      "share_first": 0.01658,
+      "share_last": 0.00423,
+      "delta": -0.01235,
+      "abs_delta": 0.01235
+    },
+    {
+      "keyword": "Extremismus",
+      "share_first": 0.01482,
+      "share_last": 0.00291,
+      "delta": -0.01191,
+      "abs_delta": 0.01191
+    },
+    {
+      "keyword": "Olaf Scholz",
+      "share_first": 0.01187,
+      "share_last": 0.00055,
+      "delta": -0.01132,
+      "abs_delta": 0.01132
+    },
+    {
+      "keyword": "Ermittlung",
+      "share_first": 0.01667,
+      "share_last": 0.00626,
+      "delta": -0.01041,
+      "abs_delta": 0.01041
+    },
+    {
+      "keyword": "EU",
+      "share_first": 0.01311,
+      "share_last": 0.00271,
+      "delta": -0.0104,
+      "abs_delta": 0.0104
+    },
+    {
+      "keyword": "Israel",
+      "share_first": 0.01979,
+      "share_last": 0.01017,
+      "delta": -0.00962,
+      "abs_delta": 0.00962
+    },
+    {
+      "keyword": "Bundestag",
+      "share_first": 0.01087,
+      "share_last": 0.00126,
+      "delta": -0.00961,
+      "abs_delta": 0.00961
+    },
+    {
+      "keyword": "FDP",
+      "share_first": 0.01358,
+      "share_last": 0.00475,
+      "delta": -0.00883,
+      "abs_delta": 0.00883
+    },
+    {
+      "keyword": "Hamas",
+      "share_first": 0.01004,
+      "share_last": 0.00152,
+      "delta": -0.00853,
+      "abs_delta": 0.00853
+    },
+    {
+      "keyword": "Russland",
+      "share_first": 0.02601,
+      "share_last": 0.01753,
+      "delta": -0.00848,
+      "abs_delta": 0.00848
+    }
+  ],
+  "category_keywords": {
+    "Kriminalität": [
+      {
+        "keyword": "Kriminalität",
+        "count": 16362
+      },
+      {
+        "keyword": "News",
+        "count": 8820
+      },
+      {
+        "keyword": "Polizei",
+        "count": 5268
+      },
+      {
+        "keyword": "Staatsanwaltschaft",
+        "count": 1055
+      },
+      {
+        "keyword": "Mann",
+        "count": 755
+      },
+      {
+        "keyword": "Auto",
+        "count": 578
+      },
+      {
+        "keyword": "Berlin",
+        "count": 444
+      },
+      {
+        "keyword": "Messerangriff",
+        "count": 280
+      },
+      {
+        "keyword": "Geld",
+        "count": 256
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 234
+      }
+    ],
+    "Fußball-Bundesliga": [
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 10150
+      },
+      {
+        "keyword": "News",
+        "count": 5272
+      },
+      {
+        "keyword": "Bundesliga",
+        "count": 2021
+      },
+      {
+        "keyword": "FC Bayern München",
+        "count": 854
+      },
+      {
+        "keyword": "1. FC Union Berlin",
+        "count": 524
+      },
+      {
+        "keyword": "RB Leipzig",
+        "count": 510
+      },
+      {
+        "keyword": "VfB Stuttgart",
+        "count": 437
+      },
+      {
+        "keyword": "SV Werder Bremen",
+        "count": 418
+      },
+      {
+        "keyword": "Bayer 04 Leverkusen",
+        "count": 400
+      },
+      {
+        "keyword": "Leipzig",
+        "count": 398
+      }
+    ],
+    "Verkehr": [
+      {
+        "keyword": "Verkehr",
+        "count": 6760
+      },
+      {
+        "keyword": "News",
+        "count": 3449
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1106
+      },
+      {
+        "keyword": "Unfall",
+        "count": 940
+      },
+      {
+        "keyword": "Auto",
+        "count": 915
+      },
+      {
+        "keyword": "Fahrzeug",
+        "count": 266
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 154
+      },
+      {
+        "keyword": "Berlin",
+        "count": 148
+      },
+      {
+        "keyword": "Autobahn",
+        "count": 146
+      },
+      {
+        "keyword": "Sperrung",
+        "count": 138
+      }
+    ],
+    "Wetter": [
+      {
+        "keyword": "Wetter",
+        "count": 6564
+      },
+      {
+        "keyword": "News",
+        "count": 3291
+      },
+      {
+        "keyword": "DWD",
+        "count": 1071
+      },
+      {
+        "keyword": "Berlin",
+        "count": 413
+      },
+      {
+        "keyword": "Brandenburg",
+        "count": 399
+      },
+      {
+        "keyword": "Gewitter",
+        "count": 375
+      },
+      {
+        "keyword": "Hessen",
+        "count": 288
+      },
+      {
+        "keyword": "Bergland",
+        "count": 283
+      },
+      {
+        "keyword": "Rheinland-Pfalz",
+        "count": 270
+      },
+      {
+        "keyword": "Saarland",
+        "count": 258
+      }
+    ],
+    "2. Fußball-Bundesliga": [
+      {
+        "keyword": "News",
+        "count": 2454
+      },
+      {
+        "keyword": "2. Fußball-Bundesliga",
+        "count": 2453
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 2392
+      },
+      {
+        "keyword": "Bundesliga",
+        "count": 544
+      },
+      {
+        "keyword": "Hertha BSC",
+        "count": 353
+      },
+      {
+        "keyword": "Hertha BSC Berlin",
+        "count": 323
+      },
+      {
+        "keyword": "1. FC Nürnberg",
+        "count": 305
+      },
+      {
+        "keyword": "Karlsruher SC",
+        "count": 264
+      },
+      {
+        "keyword": "Hannover 96",
+        "count": 234
+      },
+      {
+        "keyword": "SpVgg Greuther Fürth",
+        "count": 226
+      }
+    ],
+    "Unfälle": [
+      {
+        "keyword": "News",
+        "count": 3685
+      },
+      {
+        "keyword": "Unfälle",
+        "count": 3677
+      },
+      {
+        "keyword": "Unfall",
+        "count": 3631
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1547
+      },
+      {
+        "keyword": "Auto",
+        "count": 1540
+      },
+      {
+        "keyword": "Fahrzeug",
+        "count": 217
+      },
+      {
+        "keyword": "Zusammenstoß",
+        "count": 155
+      },
+      {
+        "keyword": "Verkehrsunfall",
+        "count": 126
+      },
+      {
+        "keyword": "Feuerwehr",
+        "count": 107
+      },
+      {
+        "keyword": "Frontalzusammenstoß",
+        "count": 102
+      }
+    ],
+    "Z+ (abopflichtiger Inhalt);\n        \n    \nKriminalität": [
+      {
+        "keyword": "Kriminalität",
+        "count": 4253
+      },
+      {
+        "keyword": "News",
+        "count": 2206
+      },
+      {
+        "keyword": "Polizei",
+        "count": 1332
+      },
+      {
+        "keyword": "Staatsanwaltschaft",
+        "count": 267
+      },
+      {
+        "keyword": "Auto",
+        "count": 114
+      },
+      {
+        "keyword": "Blaulicht",
+        "count": 112
+      },
+      {
+        "keyword": "Berlin",
+        "count": 99
+      },
+      {
+        "keyword": "Angriff",
+        "count": 80
+      },
+      {
+        "keyword": "Messerangriff",
+        "count": 73
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 66
+      }
+    ],
+    "Fußball": [
+      {
+        "keyword": "Fußball",
+        "count": 2980
+      },
+      {
+        "keyword": "News",
+        "count": 1512
+      },
+      {
+        "keyword": "Bundesliga",
+        "count": 231
+      },
+      {
+        "keyword": "FC Bayern München",
+        "count": 170
+      },
+      {
+        "keyword": "Deutscher Fußball-Bund",
+        "count": 150
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 114
+      },
+      {
+        "keyword": "Eintracht Frankfurt",
+        "count": 88
+      },
+      {
+        "keyword": "Sport",
+        "count": 84
+      },
+      {
+        "keyword": "1. FC Magdeburg",
+        "count": 70
+      },
+      {
+        "keyword": "Sommer",
+        "count": 70
+      }
+    ],
+    "Brände": [
+      {
+        "keyword": "News",
+        "count": 2105
+      },
+      {
+        "keyword": "Brände",
+        "count": 2099
+      },
+      {
+        "keyword": "Brand",
+        "count": 2054
+      },
+      {
+        "keyword": "Polizei",
+        "count": 753
+      },
+      {
+        "keyword": "Feuerwehr",
+        "count": 535
+      },
+      {
+        "keyword": "Wohnungsbrand",
+        "count": 131
+      },
+      {
+        "keyword": "Großbrand",
+        "count": 100
+      },
+      {
+        "keyword": "Sachschaden",
+        "count": 94
+      },
+      {
+        "keyword": "Auto",
+        "count": 91
+      },
+      {
+        "keyword": "Lagerhalle",
+        "count": 84
+      }
+    ],
+    "Unfall": [
+      {
+        "keyword": "Unfall",
+        "count": 3783
+      },
+      {
+        "keyword": "News",
+        "count": 1906
+      },
+      {
+        "keyword": "Auto",
+        "count": 882
+      },
+      {
+        "keyword": "Polizei",
+        "count": 807
+      },
+      {
+        "keyword": "Fahrzeug",
+        "count": 125
+      },
+      {
+        "keyword": "Zusammenstoß",
+        "count": 104
+      },
+      {
+        "keyword": "Frontalzusammenstoß",
+        "count": 68
+      },
+      {
+        "keyword": "Feuerwehr",
+        "count": 62
+      },
+      {
+        "keyword": "Verkehrsunfall",
+        "count": 57
+      },
+      {
+        "keyword": "Gegenverkehr",
+        "count": 49
+      }
+    ],
+    "Notfälle": [
+      {
+        "keyword": "News",
+        "count": 1685
+      },
+      {
+        "keyword": "Notfälle",
+        "count": 1674
+      },
+      {
+        "keyword": "Notfall",
+        "count": 1615
+      },
+      {
+        "keyword": "Polizei",
+        "count": 595
+      },
+      {
+        "keyword": "Feuerwehr",
+        "count": 249
+      },
+      {
+        "keyword": "Auto",
+        "count": 126
+      },
+      {
+        "keyword": "Unfall",
+        "count": 85
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 47
+      },
+      {
+        "keyword": "Großeinsatz",
+        "count": 37
+      },
+      {
+        "keyword": "Explosion",
+        "count": 37
+      }
+    ],
+    "Bundesliga": [
+      {
+        "keyword": "Bundesliga",
+        "count": 2189
+      },
+      {
+        "keyword": "News",
+        "count": 1033
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 246
+      },
+      {
+        "keyword": "FC Bayern München",
+        "count": 225
+      },
+      {
+        "keyword": "Sport",
+        "count": 186
+      },
+      {
+        "keyword": "Fußball",
+        "count": 167
+      },
+      {
+        "keyword": "Eintracht Frankfurt",
+        "count": 144
+      },
+      {
+        "keyword": "Bayer 04 Leverkusen",
+        "count": 129
+      },
+      {
+        "keyword": "RB Leipzig",
+        "count": 104
+      },
+      {
+        "keyword": "Leverkusen",
+        "count": 101
+      }
+    ],
+    "Z+ (abopflichtiger Inhalt);\n        \n    \nFußball": [
+      {
+        "keyword": "Fußball",
+        "count": 2178
+      },
+      {
+        "keyword": "News",
+        "count": 1108
+      },
+      {
+        "keyword": "Bundesliga",
+        "count": 145
+      },
+      {
+        "keyword": "BVB",
+        "count": 88
+      },
+      {
+        "keyword": "FC Bayern München",
+        "count": 87
+      },
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 79
+      },
+      {
+        "keyword": "Dortmund",
+        "count": 60
+      },
+      {
+        "keyword": "DFB",
+        "count": 59
+      },
+      {
+        "keyword": "München",
+        "count": 58
+      },
+      {
+        "keyword": "Fußball-EM",
+        "count": 56
+      }
+    ],
+    "Z+ (abopflichtiger Inhalt);\n        \n    \nVerkehr": [
+      {
+        "keyword": "Verkehr",
+        "count": 2098
+      },
+      {
+        "keyword": "News",
+        "count": 1065
+      },
+      {
+        "keyword": "Polizei",
+        "count": 383
+      },
+      {
+        "keyword": "Auto",
+        "count": 289
+      },
+      {
+        "keyword": "Unfall",
+        "count": 275
+      },
+      {
+        "keyword": "Fahrzeug",
+        "count": 97
+      },
+      {
+        "keyword": "Blaulicht",
+        "count": 62
+      },
+      {
+        "keyword": "Autobahn",
+        "count": 60
+      },
+      {
+        "keyword": "Hamburg",
+        "count": 54
+      },
+      {
+        "keyword": "Sperrung",
+        "count": 45
+      }
+    ],
+    "Z+ (abopflichtiger Inhalt);\n        \n    \nFußball-Bundesliga": [
+      {
+        "keyword": "Fußball-Bundesliga",
+        "count": 1760
+      },
+      {
+        "keyword": "News",
+        "count": 883
+      },
+      {
+        "keyword": "Bundesliga",
+        "count": 322
+      },
+      {
+        "keyword": "FC Bayern München",
+        "count": 124
+      },
+      {
+        "keyword": "RB Leipzig",
+        "count": 101
+      },
+      {
+        "keyword": "VfB Stuttgart",
+        "count": 100
+      },
+      {
+        "keyword": "1. FC Union Berlin",
+        "count": 91
+      },
+      {
+        "keyword": "BVB",
+        "count": 91
+      },
+      {
+        "keyword": "Bayer 04 Leverkusen",
+        "count": 78
+      },
+      {
+        "keyword": "Leipzig",
+        "count": 72
+      }
+    ]
+  }
+}
