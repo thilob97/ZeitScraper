@@ -1,0 +1,2815 @@
+{
+  "coauthor_edges": [
+    {
+      "from": "Jakob Bauer",
+      "to": "Julius Tröger",
+      "weight": 1117
+    },
+    {
+      "from": "Anne Jeschke",
+      "to": "David Gutensohn",
+      "weight": 1107
+    },
+    {
+      "from": "David Gutensohn",
+      "to": "Julius Tröger",
+      "weight": 1106
+    },
+    {
+      "from": "Anne Jeschke",
+      "to": "Jakob Bauer",
+      "weight": 1104
+    },
+    {
+      "from": "Anne Jeschke",
+      "to": "Julius Tröger",
+      "weight": 1104
+    },
+    {
+      "from": "David Gutensohn",
+      "to": "Jakob Bauer",
+      "weight": 1104
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "Julius Tröger",
+      "weight": 715
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "Christina Felschen",
+      "weight": 553
+    },
+    {
+      "from": "Christina Felschen",
+      "to": "Julius Tröger",
+      "weight": 553
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "Pauline Pieper",
+      "weight": 485
+    },
+    {
+      "from": "Julius Tröger",
+      "to": "Pauline Pieper",
+      "weight": 485
+    },
+    {
+      "from": "Christina Felschen",
+      "to": "Pauline Pieper",
+      "weight": 471
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "Timo Stukenberg",
+      "weight": 469
+    },
+    {
+      "from": "Julius Tröger",
+      "to": "Timo Stukenberg",
+      "weight": 469
+    },
+    {
+      "from": "Julian Stahnke",
+      "to": "Julius Tröger",
+      "weight": 443
+    },
+    {
+      "from": "Jakob Bauer",
+      "to": "Julian Stahnke",
+      "weight": 436
+    },
+    {
+      "from": "Julius Tröger",
+      "to": "Mia Janzen",
+      "weight": 435
+    },
+    {
+      "from": "Anne Jeschke",
+      "to": "Julian Stahnke",
+      "weight": 433
+    },
+    {
+      "from": "David Gutensohn",
+      "to": "Julian Stahnke",
+      "weight": 433
+    },
+    {
+      "from": "Charlotte Eckstein",
+      "to": "Julius Tröger",
+      "weight": 432
+    },
+    {
+      "from": "Jakob Bauer",
+      "to": "Mia Janzen",
+      "weight": 432
+    },
+    {
+      "from": "Anne Jeschke",
+      "to": "Charlotte Eckstein",
+      "weight": 431
+    },
+    {
+      "from": "Anne Jeschke",
+      "to": "Mia Janzen",
+      "weight": 431
+    },
+    {
+      "from": "Charlotte Eckstein",
+      "to": "David Gutensohn",
+      "weight": 431
+    },
+    {
+      "from": "Charlotte Eckstein",
+      "to": "Jakob Bauer",
+      "weight": 431
+    },
+    {
+      "from": "Charlotte Eckstein",
+      "to": "Julian Stahnke",
+      "weight": 431
+    },
+    {
+      "from": "Charlotte Eckstein",
+      "to": "Mia Janzen",
+      "weight": 431
+    },
+    {
+      "from": "David Gutensohn",
+      "to": "Mia Janzen",
+      "weight": 431
+    },
+    {
+      "from": "Julian Stahnke",
+      "to": "Mia Janzen",
+      "weight": 431
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "Elizabeth Rushton",
+      "weight": 416
+    },
+    {
+      "from": "Christina Felschen",
+      "to": "Elizabeth Rushton",
+      "weight": 416
+    },
+    {
+      "from": "Elizabeth Rushton",
+      "to": "Julius Tröger",
+      "weight": 416
+    },
+    {
+      "from": "Christina Felschen",
+      "to": "Timo Stukenberg",
+      "weight": 415
+    },
+    {
+      "from": "Elizabeth Rushton",
+      "to": "Timo Stukenberg",
+      "weight": 415
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "Justus Wilke",
+      "weight": 409
+    },
+    {
+      "from": "Christina Felschen",
+      "to": "Justus Wilke",
+      "weight": 409
+    },
+    {
+      "from": "Elizabeth Rushton",
+      "to": "Justus Wilke",
+      "weight": 409
+    },
+    {
+      "from": "Julius Tröger",
+      "to": "Justus Wilke",
+      "weight": 409
+    },
+    {
+      "from": "Justus Wilke",
+      "to": "Timo Stukenberg",
+      "weight": 409
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "Dominik Lenze",
+      "weight": 391
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 391
+    },
+    {
+      "from": "Dominik Lenze",
+      "to": "Julius Tröger",
+      "weight": 391
+    },
+    {
+      "from": "Dominik Lenze",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 391
+    },
+    {
+      "from": "Julius Tröger",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 391
+    },
+    {
+      "from": "Elizabeth Rushton",
+      "to": "Pauline Pieper",
+      "weight": 334
+    },
+    {
+      "from": "Pauline Pieper",
+      "to": "Timo Stukenberg",
+      "weight": 333
+    },
+    {
+      "from": "Justus Wilke",
+      "to": "Pauline Pieper",
+      "weight": 327
+    },
+    {
+      "from": "Dominik Lenze",
+      "to": "Pauline Pieper",
+      "weight": 254
+    },
+    {
+      "from": "Pauline Pieper",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 254
+    },
+    {
+      "from": "Christina Felschen",
+      "to": "Dominik Lenze",
+      "weight": 240
+    },
+    {
+      "from": "Christina Felschen",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 240
+    },
+    {
+      "from": "Dominik Lenze",
+      "to": "Timo Stukenberg",
+      "weight": 156
+    },
+    {
+      "from": "Timo Stukenberg",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 156
+    },
+    {
+      "from": "Christian Endt",
+      "to": "Julius Tröger",
+      "weight": 124
+    },
+    {
+      "from": "David Schach",
+      "to": "Julius Tröger",
+      "weight": 124
+    },
+    {
+      "from": "Christian Endt",
+      "to": "David Schach",
+      "weight": 123
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "David Schach",
+      "weight": 120
+    },
+    {
+      "from": "Annick Ehmann",
+      "to": "Julius Tröger",
+      "weight": 119
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "Christian Endt",
+      "weight": 119
+    },
+    {
+      "from": "Annick Ehmann",
+      "to": "Benja Zehr",
+      "weight": 116
+    },
+    {
+      "from": "Annick Ehmann",
+      "to": "Christian Endt",
+      "weight": 116
+    },
+    {
+      "from": "Annick Ehmann",
+      "to": "David Schach",
+      "weight": 115
+    },
+    {
+      "from": "Annick Ehmann",
+      "to": "Dominik Lenze",
+      "weight": 115
+    },
+    {
+      "from": "Annick Ehmann",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 115
+    },
+    {
+      "from": "David Schach",
+      "to": "Dominik Lenze",
+      "weight": 115
+    },
+    {
+      "from": "David Schach",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 115
+    },
+    {
+      "from": "Christian Endt",
+      "to": "Dominik Lenze",
+      "weight": 114
+    },
+    {
+      "from": "Christian Endt",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 114
+    },
+    {
+      "from": "Annick Ehmann",
+      "to": "Sascha Venohr",
+      "weight": 113
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "Sascha Venohr",
+      "weight": 113
+    },
+    {
+      "from": "Christian Endt",
+      "to": "Sascha Venohr",
+      "weight": 113
+    },
+    {
+      "from": "David Schach",
+      "to": "Sascha Venohr",
+      "weight": 113
+    },
+    {
+      "from": "Dominik Lenze",
+      "to": "Sascha Venohr",
+      "weight": 113
+    },
+    {
+      "from": "Julius Tröger",
+      "to": "Sascha Venohr",
+      "weight": 113
+    },
+    {
+      "from": "Sascha Venohr",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 113
+    },
+    {
+      "from": "Dominik Lenze",
+      "to": "Elizabeth Rushton",
+      "weight": 103
+    },
+    {
+      "from": "Elizabeth Rushton",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 103
+    },
+    {
+      "from": "Dominik Lenze",
+      "to": "Justus Wilke",
+      "weight": 96
+    },
+    {
+      "from": "Justus Wilke",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 96
+    },
+    {
+      "from": "Dilan Gropengiesser",
+      "to": "Matthias Giordano",
+      "weight": 67
+    },
+    {
+      "from": "Christina Felschen",
+      "to": "Maline Hofmann",
+      "weight": 63
+    },
+    {
+      "from": "Lucie Liu",
+      "to": "Matthias Giordano",
+      "weight": 59
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "Maline Hofmann",
+      "weight": 59
+    },
+    {
+      "from": "Elizabeth Rushton",
+      "to": "Maline Hofmann",
+      "weight": 59
+    },
+    {
+      "from": "Julius Tröger",
+      "to": "Maline Hofmann",
+      "weight": 59
+    },
+    {
+      "from": "Justus Wilke",
+      "to": "Maline Hofmann",
+      "weight": 59
+    },
+    {
+      "from": "Maline Hofmann",
+      "to": "Timo Stukenberg",
+      "weight": 59
+    },
+    {
+      "from": "Annick Ehmann",
+      "to": "Timo Stukenberg",
+      "weight": 54
+    },
+    {
+      "from": "Christian Endt",
+      "to": "Timo Stukenberg",
+      "weight": 54
+    },
+    {
+      "from": "David Schach",
+      "to": "Timo Stukenberg",
+      "weight": 54
+    },
+    {
+      "from": "Sascha Venohr",
+      "to": "Timo Stukenberg",
+      "weight": 54
+    },
+    {
+      "from": "Christian Parth",
+      "to": "Tilman Steffen",
+      "weight": 53
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "Katharina Heflik",
+      "weight": 52
+    },
+    {
+      "from": "Dominik Lenze",
+      "to": "Katharina Heflik",
+      "weight": 52
+    },
+    {
+      "from": "Julius Tröger",
+      "to": "Katharina Heflik",
+      "weight": 52
+    },
+    {
+      "from": "Katharina Heflik",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 52
+    },
+    {
+      "from": "Dilan Gropengiesser",
+      "to": "Lucie Liu",
+      "weight": 48
+    },
+    {
+      "from": "Christoph Heinemann",
+      "to": "Tom Kroll",
+      "weight": 41
+    },
+    {
+      "from": "Ina Rotter",
+      "to": "Matthias Giordano",
+      "weight": 38
+    },
+    {
+      "from": "Dilan Gropengiesser",
+      "to": "Ina Rotter",
+      "weight": 35
+    },
+    {
+      "from": "Fabian Scheler",
+      "to": "Laura Sophia Jung",
+      "weight": 32
+    },
+    {
+      "from": "Fabian Scheler",
+      "to": "Oliver Fritsch",
+      "weight": 30
+    },
+    {
+      "from": "Julian Claudi",
+      "to": "Lucie Liu",
+      "weight": 30
+    },
+    {
+      "from": "Julian Claudi",
+      "to": "Matthias Giordano",
+      "weight": 30
+    },
+    {
+      "from": "Christian Spiller",
+      "to": "Oliver Fritsch",
+      "weight": 29
+    },
+    {
+      "from": "Ina Rotter",
+      "to": "Lucie Liu",
+      "weight": 29
+    },
+    {
+      "from": "Christian Spiller",
+      "to": "Fabian Scheler",
+      "weight": 29
+    },
+    {
+      "from": "Isabelle Daniel",
+      "to": "Katharina James",
+      "weight": 28
+    },
+    {
+      "from": "Katharina Heflik",
+      "to": "Pauline Pieper",
+      "weight": 28
+    },
+    {
+      "from": "Laura Sophia Jung",
+      "to": "Oliver Fritsch",
+      "weight": 27
+    },
+    {
+      "from": "Ferdinand Otto",
+      "to": "Michael Schlieben",
+      "weight": 26
+    },
+    {
+      "from": "Johannes Ehrmann",
+      "to": "Lisa Seelig",
+      "weight": 26
+    },
+    {
+      "from": "Laura Sophia Jung",
+      "to": "Nico Horn",
+      "weight": 25
+    },
+    {
+      "from": "Dilan Gropengiesser",
+      "to": "Julian Claudi",
+      "weight": 25
+    },
+    {
+      "from": "Carolin Ströbele",
+      "to": "Daniel Gerhardt",
+      "weight": 23
+    },
+    {
+      "from": "Nico Horn",
+      "to": "Oliver Fritsch",
+      "weight": 23
+    },
+    {
+      "from": "Christian Spiller",
+      "to": "Laura Sophia Jung",
+      "weight": 23
+    },
+    {
+      "from": "Laura Städtler",
+      "to": "Thomas Kehl",
+      "weight": 23
+    },
+    {
+      "from": "Dr. Stefan Schmitt",
+      "to": "Petra Pinzler",
+      "weight": 23
+    },
+    {
+      "from": "Dr. Hauke Friederichs",
+      "to": "Maxim Kireev",
+      "weight": 22
+    },
+    {
+      "from": "Lisa Seelig",
+      "to": "Wenke Husmann",
+      "weight": 22
+    },
+    {
+      "from": "Christian Spiller",
+      "to": "Nico Horn",
+      "weight": 21
+    },
+    {
+      "from": "Alexander Eydlin",
+      "to": "Maline Hofmann",
+      "weight": 21
+    },
+    {
+      "from": "Matthias Daum",
+      "to": "Sarah Jäggi",
+      "weight": 21
+    },
+    {
+      "from": "Fabian Scheler",
+      "to": "Nico Horn",
+      "weight": 21
+    },
+    {
+      "from": "Eric Voigt",
+      "to": "Isabelle Daniel",
+      "weight": 19
+    },
+    {
+      "from": "Mark Schieritz",
+      "to": "Stefan Schirmer",
+      "weight": 19
+    },
+    {
+      "from": "Christoph Amend",
+      "to": "Christoph Niemann",
+      "weight": 19
+    },
+    {
+      "from": "Anne Kunze",
+      "to": "Daniel Müller",
+      "weight": 19
+    },
+    {
+      "from": "Fabian Reinbold",
+      "to": "Ferdinand Otto",
+      "weight": 18
+    },
+    {
+      "from": "Alexander Eydlin",
+      "to": "Iven Yorick Fenker",
+      "weight": 17
+    },
+    {
+      "from": "Katharina James",
+      "to": "Sophia Boddenberg",
+      "weight": 17
+    },
+    {
+      "from": "Eva Casper",
+      "to": "Katharina James",
+      "weight": 17
+    },
+    {
+      "from": "Alexander Eydlin",
+      "to": "Katharina James",
+      "weight": 17
+    },
+    {
+      "from": "Christian Fuchs",
+      "to": "Martín Steinhagen",
+      "weight": 17
+    },
+    {
+      "from": "Lisa Caspari",
+      "to": "Tilman Steffen",
+      "weight": 16
+    },
+    {
+      "from": "Alexander Eydlin",
+      "to": "Mathis Gann",
+      "weight": 16
+    },
+    {
+      "from": "Isabelle Daniel",
+      "to": "Mathis Gann",
+      "weight": 16
+    },
+    {
+      "from": "Astrid Geisler",
+      "to": "Christian Fuchs",
+      "weight": 16
+    },
+    {
+      "from": "August Modersohn",
+      "to": "Martin Nejezchleba",
+      "weight": 16
+    },
+    {
+      "from": "Eric Voigt",
+      "to": "Sarah Vojta",
+      "weight": 16
+    },
+    {
+      "from": "Julius Tröger",
+      "to": "Paul Blickle",
+      "weight": 16
+    },
+    {
+      "from": "Christian Bartlau",
+      "to": "Florian Gasser",
+      "weight": 16
+    },
+    {
+      "from": "Alexander Eydlin",
+      "to": "Anna-Lena Schlitt",
+      "weight": 16
+    },
+    {
+      "from": "Mathias Peer",
+      "to": "Simon Sales Prado",
+      "weight": 16
+    },
+    {
+      "from": "Carla Neuhaus",
+      "to": "Tina Groll",
+      "weight": 16
+    },
+    {
+      "from": "Katharina James",
+      "to": "Sarah Vojta",
+      "weight": 15
+    },
+    {
+      "from": "Isabelle Daniel",
+      "to": "Maline Hofmann",
+      "weight": 15
+    },
+    {
+      "from": "Maxim Kireev",
+      "to": "Steffen Richter",
+      "weight": 15
+    },
+    {
+      "from": "Marc Widmann",
+      "to": "Max Hägler",
+      "weight": 15
+    },
+    {
+      "from": "Katharina James",
+      "to": "Sarah Kohler",
+      "weight": 15
+    },
+    {
+      "from": "Mona Linke",
+      "to": "Thomas Kehl",
+      "weight": 15
+    },
+    {
+      "from": "Hannah Grünewald",
+      "to": "Matthias Giordano",
+      "weight": 15
+    },
+    {
+      "from": "Isabelle Daniel",
+      "to": "Julica Jungehülsing",
+      "weight": 14
+    },
+    {
+      "from": "Alexander Eydlin",
+      "to": "Lennart Jerke",
+      "weight": 14
+    },
+    {
+      "from": "Astrid Geisler",
+      "to": "Martín Steinhagen",
+      "weight": 14
+    },
+    {
+      "from": "Alisa Schellenberg",
+      "to": "Jannis Carmesin",
+      "weight": 14
+    },
+    {
+      "from": "Heike Buchter",
+      "to": "Thomas Fischermann",
+      "weight": 14
+    },
+    {
+      "from": "Julica Jungehülsing",
+      "to": "Simon Sales Prado",
+      "weight": 14
+    },
+    {
+      "from": "Christina Felschen",
+      "to": "Katharina Heflik",
+      "weight": 14
+    },
+    {
+      "from": "Ina Rotter",
+      "to": "Julian Claudi",
+      "weight": 14
+    },
+    {
+      "from": "Andreas Sentker",
+      "to": "Sabine Rückert",
+      "weight": 13
+    },
+    {
+      "from": "Alexander Eydlin",
+      "to": "Eric Voigt",
+      "weight": 13
+    },
+    {
+      "from": "Alexander Eydlin",
+      "to": "Julica Jungehülsing",
+      "weight": 13
+    },
+    {
+      "from": "Isabelle Daniel",
+      "to": "Sarah Vojta",
+      "weight": 13
+    },
+    {
+      "from": "Christian Fuchs",
+      "to": "Sascha Venohr",
+      "weight": 13
+    },
+    {
+      "from": "Salome Müller",
+      "to": "Sarah Jäggi",
+      "weight": 13
+    },
+    {
+      "from": "Michael Thumann",
+      "to": "Olivia Kortas",
+      "weight": 13
+    },
+    {
+      "from": "Simon Sales Prado",
+      "to": "Ulrike Tschirner",
+      "weight": 13
+    },
+    {
+      "from": "Alexander Eydlin",
+      "to": "Sarah Kohler",
+      "weight": 13
+    },
+    {
+      "from": "Mariam Lau",
+      "to": "Tina Hildebrandt",
+      "weight": 13
+    },
+    {
+      "from": "Dr. Anna Sauerbrey",
+      "to": "Jörg Lau",
+      "weight": 13
+    },
+    {
+      "from": "Annick Ehmann",
+      "to": "Johann Stephanowitz",
+      "weight": 12
+    },
+    {
+      "from": "Benja Zehr",
+      "to": "Johann Stephanowitz",
+      "weight": 12
+    },
+    {
+      "from": "Christian Endt",
+      "to": "Johann Stephanowitz",
+      "weight": 12
+    },
+    {
+      "from": "David Schach",
+      "to": "Johann Stephanowitz",
+      "weight": 12
+    },
+    {
+      "from": "Dominik Lenze",
+      "to": "Johann Stephanowitz",
+      "weight": 12
+    },
+    {
+      "from": "Johann Stephanowitz",
+      "to": "Julius Tröger",
+      "weight": 12
+    },
+    {
+      "from": "Johann Stephanowitz",
+      "to": "Sascha Venohr",
+      "weight": 12
+    },
+    {
+      "from": "Johann Stephanowitz",
+      "to": "Timo Stukenberg",
+      "weight": 12
+    },
+    {
+      "from": "Johann Stephanowitz",
+      "to": "Yevgeniya Shcherbakova",
+      "weight": 12
+    },
+    {
+      "from": "Katharina James",
+      "to": "Maline Hofmann",
+      "weight": 12
+    },
+    {
+      "from": "Christian Endt",
+      "to": "Paul Blickle",
+      "weight": 12
+    },
+    {
+      "from": "Christian Spiller",
+      "to": "Tammo Blomberg",
+      "weight": 12
+    },
+    {
+      "from": "Alena Kammer",
+      "to": "David Rech",
+      "weight": 12
+    },
+    {
+      "from": "Christian Fuchs",
+      "to": "Holger Stark",
+      "weight": 12
+    },
+    {
+      "from": "Jeannette Otto",
+      "to": "Martin Spiewak",
+      "weight": 12
+    },
+    {
+      "from": "Alexander Eydlin",
+      "to": "David Rech",
+      "weight": 12
+    },
+    {
+      "from": "Anna-Lena Schlitt",
+      "to": "Isabelle Daniel",
+      "weight": 12
+    },
+    {
+      "from": "Dr. Hauke Friederichs",
+      "to": "Steffen Richter",
+      "weight": 12
+    },
+    {
+      "from": "Eva Casper",
+      "to": "Leonardo Pape",
+      "weight": 12
+    },
+    {
+      "from": "Johannes Ehrmann",
+      "to": "Wenke Husmann",
+      "weight": 12
+    },
+    {
+      "from": "Christian Spiller",
+      "to": "Matthias Kirsch",
+      "weight": 12
+    },
+    {
+      "from": "Fabian Scheler",
+      "to": "Matthias Kirsch",
+      "weight": 12
+    },
+    {
+      "from": "Dieter Hoß",
+      "to": "Eric Voigt",
+      "weight": 12
+    },
+    {
+      "from": "Alexander Eydlin",
+      "to": "Simon Sales Prado",
+      "weight": 12
+    },
+    {
+      "from": "Marcus Gatzke",
+      "to": "Marlies Uken",
+      "weight": 12
+    },
+    {
+      "from": "Ferdinand Otto",
+      "to": "Lisa Caspari",
+      "weight": 12
+    },
+    {
+      "from": "Mark Schieritz",
+      "to": "Petra Pinzler",
+      "weight": 12
+    },
+    {
+      "from": "Annika Lasarzik",
+      "to": "Christoph Heinemann",
+      "weight": 12
+    }
+  ],
+  "author_clusters": [
+    {
+      "authors": [
+        "Adam Soboczynski",
+        "Alara Yılmaz",
+        "Alena Kammer",
+        "Alexander Cammann",
+        "Alexander Eydlin",
+        "Alexander Kauschanski",
+        "Alexandra Engert",
+        "Alice Bota",
+        "Alicia Kleer",
+        "Alisa Schellenberg",
+        "Amit Elkayam",
+        "Amrai Coen",
+        "Anant Agarwala",
+        "Anastasia Tikhomirova",
+        "Anaïs Kaluza",
+        "Andrea Böhm",
+        "Andrea Böhnke",
+        "Andrea Röpke",
+        "Andreas Englisch",
+        "Andreas Lebert",
+        "Angelika Finkenwirth",
+        "Anja Keinath",
+        "Anja Stehle",
+        "Anke Leweke",
+        "Ann-Kristin Tlusty",
+        "Anna Sauerbrey",
+        "Anna-Elisa Jakob",
+        "Anna-Lena Schlitt",
+        "Anna-Lena Scholz",
+        "Anne Jeschke",
+        "Anne-Katrin Schade",
+        "Anne-Sophie Lang",
+        "Annick Ehmann",
+        "Annika Benzing",
+        "Annika Joeres",
+        "Annika Lasarzik",
+        "Arnfrid Schenk",
+        "Astrid Geisler",
+        "August Modersohn",
+        "Bastian Berbner",
+        "Bastian Hartig",
+        "Benja Zehr",
+        "Benjamin Emonts",
+        "Berit Dießelkämper",
+        "Bernard Darko",
+        "Bernd Ulrich",
+        "Carl Friedrichs",
+        "Carla Baum",
+        "Carla Neuhaus",
+        "Carlotta Wald",
+        "Carolin Ströbele",
+        "Carsten Luther",
+        "Caspar Leder",
+        "Celine Fink",
+        "Charlotte Eckstein",
+        "Charlotte Greipl",
+        "Christian Bartlau",
+        "Christian Endt",
+        "Christian Fuchs",
+        "Christian Parth",
+        "Christian Spiller",
+        "Christian Staas",
+        "Christian Vooren",
+        "Christiane Grefe",
+        "Christina Felschen",
+        "Christina Pausackl",
+        "Christina Schmidt",
+        "Christine Lemke-Matwey",
+        "Christof Siemes",
+        "Christoph Amend",
+        "Christoph Heinemann",
+        "Christoph Niemann",
+        "Christoph Twickel",
+        "Christopher Trinks",
+        "Clara Suchy",
+        "Claudia Thaler",
+        "Claudia Wüstenhagen",
+        "Claudius Dobs",
+        "Constanze Kainz",
+        "Cornelius Pollmer",
+        "Dagny Lüdemann",
+        "Dana Hajek",
+        "Daniel Gerhardt",
+        "David Gutensohn",
+        "David Hugendick",
+        "David Rech",
+        "David Schach",
+        "Denis Trubetskoy",
+        "Dieter Hoß",
+        "Dilan Gropengiesser",
+        "Dirk Peitz",
+        "Dominik Lenze",
+        "Doreen Reinhard",
+        "Dr. Anna Carthaus",
+        "Dr. Anna Sauerbrey",
+        "Dr. Claudia Vallentin",
+        "Dr. Eva Ricarda Lautsch",
+        "Dr. Florian Schumann",
+        "Dr. Hauke Friederichs",
+        "Dr. Jakob Simmank",
+        "Dr. Kolja Rudzio",
+        "Dr. Maria Mast",
+        "Dr. Peter Neumann",
+        "Dr. Rita Lauter",
+        "Dr. Sibylle Anderl",
+        "Dr. Stefan Schmitt",
+        "Elena Erdmann",
+        "Elisabeth von Thadden",
+        "Elizabeth Rushton",
+        "Emilia Smechowski",
+        "Emma Seifert",
+        "Eric Voigt",
+        "Eser Aktay",
+        "Eva Casper",
+        "Eva Ricarda Lautsch",
+        "Eva Wolfangel",
+        "Evelyn Finger",
+        "Fabian Albrecht",
+        "Fabian Franke",
+        "Fabian Friedrich",
+        "Fabian Reinbold",
+        "Fabian Scheler",
+        "Fatih Yücel",
+        "Felicitas Wilke",
+        "Ferdinand Otto",
+        "Fiona Weber-Steinhaus",
+        "Florentin Schumacher",
+        "Florian Eichel",
+        "Florian Gasser",
+        "Florian Illies",
+        "Florian Zinnecker",
+        "Francesco Giammarco",
+        "Frank Drieschner",
+        "Frank Werner",
+        "Franz Thies",
+        "Friederike Schiller",
+        "Fritz Habekuß",
+        "Fritz Zimmermann",
+        "Georg Löwisch",
+        "Gregor Aisch",
+        "Götz Hamann",
+        "Hanna Grabbe",
+        "Hannah Grünewald",
+        "Hannah Prasuhn",
+        "Hannah Scherkamp",
+        "Hanno Rauterberg",
+        "Hanns-Bruno Kammertöns",
+        "Heike Buchter",
+        "Heinrich Wefing",
+        "Helene Fröhmcke",
+        "Hella Kemper",
+        "Henrik Oerding",
+        "Henrik Rampe",
+        "Holger Stark",
+        "Ijoma Mangold",
+        "Ileana Grabitz",
+        "Ina Rotter",
+        "Ingo Arzt",
+        "Ingo Malcher",
+        "Isabel Fisch",
+        "Isabelle Daniel",
+        "Ivana Sokola",
+        "Iven Yorick Fenker",
+        "Jacobia Dahm",
+        "Jakob Bauer",
+        "Jakob Pontius",
+        "Jakob Weber",
+        "Jakob von Lindern",
+        "Jan Guldner",
+        "Jan Roß",
+        "Jan Schweitzer",
+        "Jan Schwenkenbecher",
+        "Jan-Frederik Wendt",
+        "Jana Gioia Baurmann",
+        "Jana Hensel",
+        "Jannik Wilk",
+        "Jannis Carmesin",
+        "Jeannette Otto",
+        "Jens Balzer",
+        "Jens Jessen",
+        "Jens Mühling",
+        "Jens Tönnesmann",
+        "Jochen Bittner",
+        "Jochen Wegner",
+        "Johann Stephanowitz",
+        "Johanna Jürgens",
+        "Johanna Roth",
+        "Johanna Schoener",
+        "Johanna Sethe",
+        "Johannes Ehrmann",
+        "Johannes Frese",
+        "Johannes Schneider",
+        "Johannes Süßmann",
+        "John F. Jungclaussen",
+        "Jolinde Hüchtker",
+        "Jona Spreter",
+        "Jonas E. Koch",
+        "Jonas Schulze Pals",
+        "Josefa Raschendorfer",
+        "Judith Liere",
+        "Judith Scholter",
+        "Julia Lorenz",
+        "Julian Claudi",
+        "Julian Sadeghi",
+        "Julian Stahnke",
+        "Juliane Liebert",
+        "Juliane Schäuble",
+        "Julica Jungehülsing",
+        "Julius Tröger",
+        "Jurik Caspar Iser",
+        "Justus Wilke",
+        "Jörg Lau",
+        "Kai Biermann",
+        "Kaja Klapsa",
+        "Karin Ceballos Betancur",
+        "Karsten Polke-Majewski",
+        "Katharina Benninghoff",
+        "Katharina Heflik",
+        "Katharina James",
+        "Katharina Mittelstaedt",
+        "Katharina Osterhammer",
+        "Katharina Schuler",
+        "Katja Nicodemus",
+        "Katrin Hörnlein",
+        "Katrin Scheib",
+        "Kerstin Kohlenberg",
+        "Konstantin Zimmermann",
+        "Kristina Läsker",
+        "Lara Huck",
+        "Larissa Kögl",
+        "Lars Spannagel",
+        "Lars Weisbrod",
+        "Laura Hertreiter",
+        "Laura Sophia Jung",
+        "Lea Frehse",
+        "Lea-Katharina Krause",
+        "Lennart Jerke",
+        "Lenz Jacobsen",
+        "Leon Ginzel",
+        "Leonardo Pape",
+        "Linda Fischer",
+        "Linda Tutmann",
+        "Lisa Caspari",
+        "Lisa Hegemann",
+        "Lisa Pausch",
+        "Lisa Seelig",
+        "Livia Sarai Lergenmüller",
+        "Lucia Baumann",
+        "Lucie Liu",
+        "Luis Kumpfmüller",
+        "Luisa Hommerich",
+        "Luisa Jacobs",
+        "Luise Land",
+        "Magdalena Inou",
+        "Maja Beckers",
+        "Majd El-Safadi",
+        "Maline Hofmann",
+        "Marc Widmann",
+        "Marcus Gatzke",
+        "Marcus Glahn",
+        "Marcus Rohwetter",
+        "Margit Stoffels",
+        "Maria Rossbauer",
+        "Mariam Lau",
+        "Marie Antoinette N'gouan",
+        "Marie Rövekamp",
+        "Marilena Piesker",
+        "Mark Heywinkel",
+        "Mark Schieritz",
+        "Markus Flohr",
+        "Marla Noss",
+        "Marlena Wessollek",
+        "Marlene Knobloch",
+        "Marlies Uken",
+        "Marlon Rusch",
+        "Marlon Saadi",
+        "Martin Klingst",
+        "Martin Nejezchleba",
+        "Martin Spiewak",
+        "Martin Steger",
+        "Martín Steinhagen",
+        "Mathias Peer",
+        "Mathis Gann",
+        "Matthias Daum",
+        "Matthias Giordano",
+        "Matthias Kalle",
+        "Matthias Kirsch",
+        "Matthias Kreienbrink",
+        "Matthias Krupa",
+        "Max Boenke",
+        "Max Hägler",
+        "Maxim Kireev",
+        "Maxim Nägele",
+        "Maximilian Probst",
+        "Mayank Sharma",
+        "Meike Laaff",
+        "Merlind Theile",
+        "Mia Janzen",
+        "Michael Allmaier",
+        "Michael Schlieben",
+        "Michael Thumann",
+        "Miriam Amro",
+        "Monika Pilath",
+        "Moritz Hackl",
+        "Mounia Meiborg",
+        "Nadine Torneri",
+        "Nathanael Häfner",
+        "Nele Sophie Karsten",
+        "Nico Horn",
+        "Nicolas Killian",
+        "Nicolás Pablo Grone",
+        "Niklas Krüger",
+        "Niko Kappel",
+        "Nils Markwardt",
+        "Nina Monecke",
+        "Nora Burgard-Arp",
+        "Nora Coenenberg",
+        "Ofir Berman",
+        "Oliver Fritsch",
+        "Oliver Maria Schmitt",
+        "Olivia Kortas",
+        "Omid Rezaee",
+        "Oskar Piegsa",
+        "Parvin Sadigh",
+        "Paul Blickle",
+        "Paul Middelhoff",
+        "Paul Weinheimer",
+        "Pauline Pieper",
+        "Pauline Schinkels",
+        "Peter Dausend",
+        "Petra Pinzler",
+        "Petrina Engelke",
+        "Philip-Johann Moser",
+        "Philipp Daum",
+        "Pia Schreiber",
+        "Ragnhild Schweitzer",
+        "Raoul Löbbert",
+        "Ricarda Richter",
+        "Rieke Havertz",
+        "Rita Lauter",
+        "Robert Gast",
+        "Robert Pausch",
+        "Roman Pletter",
+        "Rose Tremlett",
+        "Rudi Novotny",
+        "Ruth Fend",
+        "Salome Müller",
+        "Samiha Shafy",
+        "Sandra Winkler",
+        "Sarah Jäggi",
+        "Sarah Kohler",
+        "Sarah Vojta",
+        "Sasan Abdi-Herrle",
+        "Sascha Venohr",
+        "Sebastian Wells",
+        "Sebi Berens",
+        "Selina Rudolph",
+        "Simon Gerlinger",
+        "Simon Langemann",
+        "Simon Sales Prado",
+        "Simone Brunner",
+        "Simone Gaul",
+        "Sina Metz",
+        "Sina Osterholt",
+        "Sophia Boddenberg",
+        "Sophia Reddig",
+        "Stefan Schirmer",
+        "Stefan Schmitt",
+        "Stefan Willeke",
+        "Stefanie Kara",
+        "Steffen Richter",
+        "Steffi Hentschke",
+        "Stella Männer",
+        "Stella Schalamon",
+        "Suha Ma‘ayeh",
+        "Susanne Ködel",
+        "Sven Crefeld",
+        "Sven Wolters",
+        "Sybille Klormann",
+        "Sören Götz",
+        "Tamara Flemisch",
+        "Tammo Blomberg",
+        "Thilo Adam",
+        "Thomas Fischermann",
+        "Thomas Victor",
+        "Tillmann Prüfer",
+        "Tilman Leicht",
+        "Tilman Steffen",
+        "Tim-Antonio Lieberknecht",
+        "Timo Lenzen",
+        "Timo Posselt",
+        "Timo Stukenberg",
+        "Tina Groll",
+        "Tina Hildebrandt",
+        "Titus Blome",
+        "Tobi Müller",
+        "Tobias Timm",
+        "Tom Kattwinkel",
+        "Tom Kroll",
+        "Tom-Luca Freund",
+        "Ulrich Ladurner",
+        "Ulrich Schnabel",
+        "Ulrike Tschirner",
+        "Uwe Jean Heuser",
+        "Valentin Peter",
+        "Valerie Schönian",
+        "Vera Sprothen",
+        "Verena Harzer",
+        "Verena Hölzl",
+        "Veronica Rossa",
+        "Veronika Völlinger",
+        "Victor Gojdka",
+        "Viktoria Reich",
+        "Viola Diem",
+        "Viola Kiel",
+        "Vivien Serve",
+        "Volker Weidermann",
+        "Wenke Husmann",
+        "Wlada Kolosowa",
+        "Wolfram Goertz",
+        "Xifan Yang",
+        "Yannick Ramsel",
+        "Yannick von Eisenhart Rothe",
+        "Yassin Musharbash",
+        "Yevgeniya Shcherbakova",
+        "Zacharias Zacharakis"
+      ],
+      "size": 426,
+      "common_category": "Ukrainekarte aktuell",
+      "total_edge_weight": 44199
+    },
+    {
+      "authors": [
+        "Laura Städtler",
+        "Mona Linke",
+        "Thomas Kehl"
+      ],
+      "size": 3,
+      "common_category": "Geldanlage",
+      "total_edge_weight": 38
+    },
+    {
+      "authors": [
+        "Carla Behringer",
+        "Eva Behringer",
+        "Mamadou Oury Balde"
+      ],
+      "size": 3,
+      "common_category": "Riesengarnelen mit gegrillter Ananas",
+      "total_edge_weight": 24
+    },
+    {
+      "authors": [
+        "Andreas Sentker",
+        "Prof. Johanna Haberer",
+        "Sabine Rückert"
+      ],
+      "size": 3,
+      "common_category": "Podcast: Verbrechen / Patrice Lumumba",
+      "total_edge_weight": 16
+    },
+    {
+      "authors": [
+        "Philip Faigle",
+        "Sara Cooper",
+        "Sebastian Horn"
+      ],
+      "size": 3,
+      "common_category": "\"Deutschland spricht\"",
+      "total_edge_weight": 15
+    },
+    {
+      "authors": [
+        "Celia Parbey",
+        "Janis Dietz",
+        "Jarnail Sekhon",
+        "Katja Diepenbruck"
+      ],
+      "size": 4,
+      "common_category": "Ampel-Aus",
+      "total_edge_weight": 13
+    },
+    {
+      "authors": [
+        "Anna-Theresa Bachmann",
+        "Laila Sieber",
+        "Quynh Trần"
+      ],
+      "size": 3,
+      "common_category": "Gazastreifen",
+      "total_edge_weight": 9
+    },
+    {
+      "authors": [
+        "Charlotte Köhler",
+        "Christoph Farkas",
+        "Julian Schmelmer"
+      ],
+      "size": 3,
+      "common_category": "Geld sparen beim Reisen",
+      "total_edge_weight": 8
+    }
+  ],
+  "author_specialization": {
+    "Julius Tröger": [
+      "Ukrainekarte aktuell",
+      "Gehaltsvergleich nach Berufen",
+      "Gehalt"
+    ],
+    "David Gutensohn": [
+      "Gehaltsvergleich nach Berufen",
+      "Gehalt",
+      "Bevölkerungsentwicklung in Großstädten"
+    ],
+    "Anne Jeschke": [
+      "Gehaltsvergleich nach Berufen",
+      "Gehalt",
+      "Bevölkerungsentwicklung in Großstädten"
+    ],
+    "Jakob Bauer": [
+      "Gehaltsvergleich nach Berufen",
+      "Gehalt",
+      "Bevölkerungsentwicklung in Großstädten"
+    ],
+    "voi": [
+      "USA",
+      "Nahost",
+      "WM 2026"
+    ],
+    "spr": [
+      "Der US-Überblick am Morgen",
+      "USA",
+      "US-Regierung"
+    ],
+    "ale": [
+      "Ukrainekrieg",
+      "USA",
+      "Nahostkrieg"
+    ],
+    "Benja Zehr": [
+      "Ukrainekarte aktuell",
+      "Ukraine-Karte aktuell",
+      "Aufstellung für die EM"
+    ],
+    "iyf": [
+      "Ukrainekrieg",
+      "Gazakrieg",
+      "Olympische Spiele"
+    ],
+    "lk": [
+      "USA",
+      "Krieg in Nahost",
+      "Statistisches Bundesamt"
+    ],
+    "als": [
+      "USA",
+      "Ukrainekrieg",
+      "Frankreich"
+    ],
+    "sko": [
+      "Krieg in der Ukraine",
+      "Krieg in Nahost",
+      "Frankreich"
+    ],
+    "Christina Felschen": [
+      "Ukrainekarte aktuell",
+      "Krieg gegen die Ukraine",
+      "Ukrainekrieg"
+    ],
+    "edd": [
+      "USA",
+      "Großbritannien",
+      "Krieg gegen die Ukraine"
+    ],
+    "dar": [
+      "USA",
+      "Deutsche Bahn",
+      "Krieg in der Ukraine"
+    ],
+    "mga": [
+      "USA",
+      "Türkei",
+      "Krieg im Nahen Osten"
+    ],
+    "akm": [
+      "Bundeswehr",
+      "Statistisches Bundesamt",
+      "USA"
+    ],
+    "svj": [
+      "USA",
+      "Krieg in der Ukraine",
+      "Ukrainekrieg"
+    ],
+    "Timo Stukenberg": [
+      "Ukrainekarte aktuell",
+      "Ukraine-Karte aktuell",
+      "Krieg gegen die Ukraine"
+    ],
+    "skö": [
+      "USA",
+      "Statistisches Bundesamt",
+      "Syrien"
+    ],
+    "kj": [
+      "US-Wahlkampf",
+      "Der US-Überblick am Morgen",
+      "USA"
+    ],
+    "Pauline Pieper": [
+      "Ukrainekarte aktuell",
+      "Ukrainekrieg",
+      "Krieg gegen die Ukraine"
+    ],
+    "jsp": [
+      "USA",
+      "Migration",
+      "Österreich"
+    ],
+    "Mia Janzen": [
+      "Gehaltsvergleich nach Berufen",
+      "Digitalisierung der Verwaltung",
+      "Zufriedenheit von Bürgermeistern"
+    ],
+    "mp": [
+      "USA",
+      "US-Wahl",
+      "Der US-Überblick am Morgen"
+    ],
+    "Julian Stahnke": [
+      "Gehaltsvergleich nach Berufen",
+      "Aufstellung für die EM",
+      "Umfragen zur US-Wahl"
+    ],
+    "lgi": [
+      "USA",
+      "Deutsche Bahn",
+      "Ukrainekrieg"
+    ],
+    "Charlotte Eckstein": [
+      "Gehaltsvergleich nach Berufen",
+      "Ukraine-Krieg",
+      "Frühling"
+    ],
+    "yer": [
+      "USA",
+      "Irankrieg",
+      "Deutsche Bahn"
+    ],
+    "kzi": [
+      "Gazastreifen",
+      "Klimawandel",
+      "Donald Trump"
+    ]
+  },
+  "author_productivity": {
+    "Julius Tröger": {
+      "2024-03": 20,
+      "2024-04": 26,
+      "2024-05": 464,
+      "2024-06": 36,
+      "2024-07": 23,
+      "2024-08": 699,
+      "2024-09": 41,
+      "2024-10": 28,
+      "2024-11": 28,
+      "2024-12": 30,
+      "2025-01": 29,
+      "2025-02": 32,
+      "2025-03": 29,
+      "2025-04": 24,
+      "2025-05": 31,
+      "2025-06": 25,
+      "2025-07": 30,
+      "2025-08": 29,
+      "2025-09": 30,
+      "2025-10": 33,
+      "2025-11": 28,
+      "2025-12": 28,
+      "2026-01": 29,
+      "2026-02": 26,
+      "2026-03": 26,
+      "2026-04": 20,
+      "2026-05": 15,
+      "2026-06": 18,
+      "2026-07": 10
+    },
+    "David Gutensohn": {
+      "2024-03": 3,
+      "2024-04": 3,
+      "2024-05": 435,
+      "2024-06": 2,
+      "2024-07": 5,
+      "2024-08": 673,
+      "2024-09": 2,
+      "2024-10": 5,
+      "2024-11": 2,
+      "2024-12": 2,
+      "2025-01": 7,
+      "2025-02": 4,
+      "2025-03": 4,
+      "2025-04": 5,
+      "2025-05": 3,
+      "2025-06": 3,
+      "2025-07": 3,
+      "2025-09": 3,
+      "2025-10": 1,
+      "2025-11": 3,
+      "2025-12": 2,
+      "2026-02": 2,
+      "2026-03": 2,
+      "2026-05": 2,
+      "2026-06": 7,
+      "2026-07": 2
+    },
+    "Anne Jeschke": {
+      "2024-03": 2,
+      "2024-04": 8,
+      "2024-05": 438,
+      "2024-06": 1,
+      "2024-07": 5,
+      "2024-08": 676,
+      "2024-09": 3,
+      "2024-10": 2,
+      "2024-11": 3,
+      "2024-12": 1,
+      "2025-01": 6,
+      "2025-02": 2,
+      "2025-03": 5,
+      "2025-04": 4,
+      "2025-05": 2,
+      "2025-06": 1,
+      "2025-07": 1,
+      "2025-08": 2,
+      "2025-10": 2,
+      "2025-12": 1,
+      "2026-01": 2,
+      "2026-02": 4,
+      "2026-03": 2,
+      "2026-04": 3,
+      "2026-05": 3,
+      "2026-06": 2,
+      "2026-07": 4
+    },
+    "Jakob Bauer": {
+      "2024-03": 1,
+      "2024-04": 1,
+      "2024-05": 433,
+      "2024-06": 4,
+      "2024-07": 1,
+      "2024-08": 673,
+      "2024-10": 1,
+      "2024-11": 4,
+      "2024-12": 1,
+      "2025-02": 3,
+      "2026-01": 1,
+      "2026-03": 1,
+      "2026-05": 1
+    },
+    "voi": {
+      "2024-07": 44,
+      "2024-08": 33,
+      "2024-09": 53,
+      "2024-10": 35,
+      "2024-11": 23,
+      "2024-12": 20,
+      "2025-01": 55,
+      "2025-02": 40,
+      "2025-03": 18,
+      "2025-04": 39,
+      "2025-05": 20,
+      "2025-06": 16,
+      "2025-07": 40,
+      "2025-08": 46,
+      "2025-09": 26,
+      "2025-10": 52,
+      "2025-11": 38,
+      "2025-12": 27,
+      "2026-01": 44,
+      "2026-02": 24,
+      "2026-03": 30,
+      "2026-04": 44,
+      "2026-05": 52,
+      "2026-06": 23,
+      "2026-07": 22
+    },
+    "spr": {
+      "2024-07": 14,
+      "2024-08": 22,
+      "2024-09": 29,
+      "2024-10": 20,
+      "2024-11": 25,
+      "2024-12": 49,
+      "2025-01": 31,
+      "2025-02": 33,
+      "2025-03": 40,
+      "2025-04": 24,
+      "2025-05": 17,
+      "2025-06": 10,
+      "2025-07": 39,
+      "2025-08": 33,
+      "2025-09": 43,
+      "2025-10": 33,
+      "2025-11": 32,
+      "2025-12": 56,
+      "2026-01": 34,
+      "2026-02": 21,
+      "2026-03": 42,
+      "2026-04": 33,
+      "2026-05": 35,
+      "2026-06": 41,
+      "2026-07": 30
+    },
+    "ale": {
+      "2024-07": 44,
+      "2024-08": 36,
+      "2024-09": 15,
+      "2024-10": 45,
+      "2024-11": 30,
+      "2024-12": 17,
+      "2025-01": 39,
+      "2025-02": 31,
+      "2025-03": 25,
+      "2025-04": 33,
+      "2025-05": 23,
+      "2025-06": 20,
+      "2025-07": 11,
+      "2025-08": 20,
+      "2025-09": 22,
+      "2025-10": 2,
+      "2025-11": 5,
+      "2025-12": 58,
+      "2026-01": 40,
+      "2026-02": 58,
+      "2026-03": 23,
+      "2026-04": 35,
+      "2026-05": 40,
+      "2026-06": 36,
+      "2026-07": 33
+    },
+    "Benja Zehr": {
+      "2024-03": 18,
+      "2024-04": 28,
+      "2024-05": 33,
+      "2024-06": 29,
+      "2024-07": 20,
+      "2024-08": 27,
+      "2024-09": 29,
+      "2024-10": 28,
+      "2024-11": 23,
+      "2024-12": 27,
+      "2025-01": 26,
+      "2025-02": 26,
+      "2025-03": 29,
+      "2025-04": 24,
+      "2025-05": 30,
+      "2025-06": 25,
+      "2025-07": 28,
+      "2025-08": 29,
+      "2025-09": 30,
+      "2025-10": 30,
+      "2025-11": 28,
+      "2025-12": 28,
+      "2026-01": 28,
+      "2026-02": 26,
+      "2026-03": 26,
+      "2026-04": 21,
+      "2026-05": 14,
+      "2026-06": 17,
+      "2026-07": 10
+    },
+    "iyf": {
+      "2024-07": 31,
+      "2024-08": 35,
+      "2024-09": 31,
+      "2024-10": 22,
+      "2024-11": 29,
+      "2024-12": 24,
+      "2025-01": 25,
+      "2025-02": 22,
+      "2025-03": 42,
+      "2025-04": 23,
+      "2025-05": 37,
+      "2025-06": 18,
+      "2025-07": 37,
+      "2025-08": 29,
+      "2025-09": 10,
+      "2025-10": 17,
+      "2025-11": 22,
+      "2025-12": 29,
+      "2026-01": 29,
+      "2026-02": 33,
+      "2026-03": 45,
+      "2026-04": 27,
+      "2026-05": 26,
+      "2026-06": 32,
+      "2026-07": 18
+    },
+    "lk": {
+      "2024-07": 38,
+      "2024-08": 25,
+      "2024-09": 25,
+      "2024-10": 24,
+      "2024-11": 38,
+      "2024-12": 29,
+      "2025-01": 21,
+      "2025-02": 21,
+      "2025-03": 19,
+      "2025-04": 19,
+      "2025-05": 28,
+      "2025-06": 20,
+      "2025-07": 23,
+      "2025-08": 16,
+      "2025-09": 42,
+      "2025-10": 28,
+      "2025-11": 35,
+      "2025-12": 32,
+      "2026-01": 53,
+      "2026-02": 25,
+      "2026-03": 30,
+      "2026-04": 27,
+      "2026-05": 34,
+      "2026-06": 15,
+      "2026-07": 18
+    }
+  },
+  "source_author": [
+    {
+      "source": "voi",
+      "author": "voi",
+      "count": 864
+    },
+    {
+      "source": "spr",
+      "author": "spr",
+      "count": 786
+    },
+    {
+      "source": "ale",
+      "author": "ale",
+      "count": 741
+    },
+    {
+      "source": "iyf",
+      "author": "iyf",
+      "count": 693
+    },
+    {
+      "source": "lk",
+      "author": "lk",
+      "count": 685
+    },
+    {
+      "source": "dpa",
+      "author": "voi",
+      "count": 632
+    },
+    {
+      "source": "als",
+      "author": "als",
+      "count": 627
+    },
+    {
+      "source": "sko",
+      "author": "sko",
+      "count": 626
+    },
+    {
+      "source": "edd",
+      "author": "edd",
+      "count": 577
+    },
+    {
+      "source": "dpa",
+      "author": "spr",
+      "count": 568
+    },
+    {
+      "source": "dar",
+      "author": "dar",
+      "count": 528
+    },
+    {
+      "source": "mga",
+      "author": "mga",
+      "count": 516
+    },
+    {
+      "source": "akm",
+      "author": "akm",
+      "count": 508
+    },
+    {
+      "source": "svj",
+      "author": "svj",
+      "count": 505
+    },
+    {
+      "source": "skö",
+      "author": "skö",
+      "count": 490
+    },
+    {
+      "source": "kj",
+      "author": "kj",
+      "count": 489
+    },
+    {
+      "source": "dpa",
+      "author": "ale",
+      "count": 487
+    },
+    {
+      "source": "ZEIT ONLINE",
+      "author": "kj",
+      "count": 480
+    },
+    {
+      "source": "jsp",
+      "author": "jsp",
+      "count": 474
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "spr",
+      "count": 472
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "voi",
+      "count": 468
+    },
+    {
+      "source": "mp",
+      "author": "mp",
+      "count": 464
+    },
+    {
+      "source": "lgi",
+      "author": "lgi",
+      "count": 458
+    },
+    {
+      "source": "dpa",
+      "author": "lk",
+      "count": 456
+    },
+    {
+      "source": "dpa",
+      "author": "als",
+      "count": 438
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "yer",
+      "count": 437
+    },
+    {
+      "source": "yer",
+      "author": "yer",
+      "count": 437
+    },
+    {
+      "source": "kzi",
+      "author": "kzi",
+      "count": 436
+    },
+    {
+      "source": "dpa",
+      "author": "edd",
+      "count": 436
+    },
+    {
+      "source": "mmh",
+      "author": "mmh",
+      "count": 431
+    },
+    {
+      "source": "ak",
+      "author": "ak",
+      "count": 430
+    },
+    {
+      "source": "jj",
+      "author": "jj",
+      "count": 429
+    },
+    {
+      "source": "ljk",
+      "author": "ljk",
+      "count": 427
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "edd",
+      "count": 422
+    },
+    {
+      "source": "dpa",
+      "author": "akm",
+      "count": 417
+    },
+    {
+      "source": "mns",
+      "author": "mns",
+      "count": 414
+    },
+    {
+      "source": "dpa",
+      "author": "iyf",
+      "count": 409
+    },
+    {
+      "source": "ZEIT ONLINE",
+      "author": "voi",
+      "count": 396
+    },
+    {
+      "source": "dpa",
+      "author": "sko",
+      "count": 393
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "ale",
+      "count": 383
+    },
+    {
+      "source": "isd",
+      "author": "isd",
+      "count": 380
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "lk",
+      "count": 378
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "lgi",
+      "count": 377
+    },
+    {
+      "source": "AFP",
+      "author": "spr",
+      "count": 375
+    },
+    {
+      "source": "maw",
+      "author": "maw",
+      "count": 369
+    },
+    {
+      "source": "eca",
+      "author": "eca",
+      "count": 367
+    },
+    {
+      "source": "sbo",
+      "author": "sbo",
+      "count": 364
+    },
+    {
+      "source": "dpa",
+      "author": "mga",
+      "count": 363
+    },
+    {
+      "source": "ZEIT ONLINE",
+      "author": "isd",
+      "count": 362
+    },
+    {
+      "source": "dpa",
+      "author": "svj",
+      "count": 362
+    },
+    {
+      "source": "dpa",
+      "author": "skö",
+      "count": 359
+    },
+    {
+      "source": "ZEIT ONLINE",
+      "author": "ale",
+      "count": 358
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "iyf",
+      "count": 355
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "sko",
+      "count": 355
+    },
+    {
+      "source": "AFP",
+      "author": "ale",
+      "count": 348
+    },
+    {
+      "source": "bam",
+      "author": "bam",
+      "count": 342
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "mns",
+      "count": 342
+    },
+    {
+      "source": "AFP",
+      "author": "voi",
+      "count": 338
+    },
+    {
+      "source": "ZEIT ONLINE",
+      "author": "iyf",
+      "count": 338
+    },
+    {
+      "source": "dpa",
+      "author": "mmh",
+      "count": 328
+    },
+    {
+      "source": "AFP",
+      "author": "sko",
+      "count": 325
+    },
+    {
+      "source": "hap",
+      "author": "hap",
+      "count": 324
+    },
+    {
+      "source": "vsp",
+      "author": "vsp",
+      "count": 321
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "als",
+      "count": 321
+    },
+    {
+      "source": "dpa",
+      "author": "ljk",
+      "count": 319
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "skö",
+      "count": 316
+    },
+    {
+      "source": "ZEIT ONLINE",
+      "author": "spr",
+      "count": 314
+    },
+    {
+      "source": "dpa",
+      "author": "dar",
+      "count": 310
+    },
+    {
+      "source": "ZEIT ONLINE",
+      "author": "lk",
+      "count": 307
+    },
+    {
+      "source": "ZEIT ONLINE",
+      "author": "als",
+      "count": 306
+    },
+    {
+      "source": "dpa",
+      "author": "lgi",
+      "count": 305
+    },
+    {
+      "source": "dpa",
+      "author": "kj",
+      "count": 300
+    },
+    {
+      "source": "dpa",
+      "author": "mp",
+      "count": 300
+    },
+    {
+      "source": "dpa",
+      "author": "yer",
+      "count": 291
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "dar",
+      "count": 290
+    },
+    {
+      "source": "dpa",
+      "author": "kzi",
+      "count": 286
+    },
+    {
+      "source": "dpa",
+      "author": "jj",
+      "count": 286
+    },
+    {
+      "source": "jse",
+      "author": "jse",
+      "count": 286
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "akm",
+      "count": 285
+    },
+    {
+      "source": "dpa",
+      "author": "jsp",
+      "count": 283
+    },
+    {
+      "source": "AFP",
+      "author": "edd",
+      "count": 281
+    },
+    {
+      "source": "AFP",
+      "author": "als",
+      "count": 279
+    },
+    {
+      "source": "dpa",
+      "author": "mns",
+      "count": 279
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "mga",
+      "count": 279
+    },
+    {
+      "source": "ZEIT ONLINE",
+      "author": "ak",
+      "count": 276
+    },
+    {
+      "source": "hoe",
+      "author": "hoe",
+      "count": 273
+    },
+    {
+      "source": "ZEIT ONLINE",
+      "author": "lak",
+      "count": 273
+    },
+    {
+      "source": "lak",
+      "author": "lak",
+      "count": 273
+    },
+    {
+      "source": "ZEIT ONLINE",
+      "author": "mmh",
+      "count": 271
+    },
+    {
+      "source": "ZEIT ONLINE",
+      "author": "sko",
+      "count": 271
+    },
+    {
+      "source": "dpa",
+      "author": "maw",
+      "count": 268
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "jse",
+      "count": 263
+    },
+    {
+      "source": "DIE ZEIT",
+      "author": "svj",
+      "count": 262
+    },
+    {
+      "source": "dpa",
+      "author": "eca",
+      "count": 256
+    },
+    {
+      "source": "AFP",
+      "author": "mga",
+      "count": 255
+    },
+    {
+      "source": "dpa",
+      "author": "ak",
+      "count": 251
+    },
+    {
+      "source": "Reuters",
+      "author": "ale",
+      "count": 251
+    },
+    {
+      "source": "Reuters",
+      "author": "spr",
+      "count": 250
+    },
+    {
+      "source": "htg",
+      "author": "htg",
+      "count": 249
+    },
+    {
+      "source": "ZEIT ONLINE",
+      "author": "jsp",
+      "count": 248
+    }
+  ],
+  "source_cooccurrence": [
+    {
+      "from": "ZEIT ONLINE",
+      "to": "dpa",
+      "weight": 10342
+    },
+    {
+      "from": "DIE ZEIT",
+      "to": "dpa",
+      "weight": 9284
+    },
+    {
+      "from": "AFP",
+      "to": "dpa",
+      "weight": 7152
+    },
+    {
+      "from": "AFP",
+      "to": "ZEIT ONLINE",
+      "weight": 6382
+    },
+    {
+      "from": "AFP",
+      "to": "DIE ZEIT",
+      "weight": 5881
+    },
+    {
+      "from": "Reuters",
+      "to": "dpa",
+      "weight": 4360
+    },
+    {
+      "from": "DIE ZEIT",
+      "to": "Reuters",
+      "weight": 3956
+    },
+    {
+      "from": "AFP",
+      "to": "Reuters",
+      "weight": 3567
+    },
+    {
+      "from": "Reuters",
+      "to": "ZEIT ONLINE",
+      "weight": 3352
+    },
+    {
+      "from": "AP",
+      "to": "ZEIT ONLINE",
+      "weight": 1238
+    },
+    {
+      "from": "AP",
+      "to": "dpa",
+      "weight": 1216
+    },
+    {
+      "from": "AFP",
+      "to": "AP",
+      "weight": 1068
+    },
+    {
+      "from": "AP",
+      "to": "DIE ZEIT",
+      "weight": 1061
+    },
+    {
+      "from": "dpa",
+      "to": "voi",
+      "weight": 976
+    },
+    {
+      "from": "ZEIT ONLINE",
+      "to": "kj",
+      "weight": 880
+    },
+    {
+      "from": "AP",
+      "to": "Reuters",
+      "weight": 862
+    },
+    {
+      "from": "DIE ZEIT",
+      "to": "epd",
+      "weight": 809
+    },
+    {
+      "from": "SID",
+      "to": "dpa",
+      "weight": 746
+    },
+    {
+      "from": "dpa",
+      "to": "spr",
+      "weight": 733
+    },
+    {
+      "from": "ZEIT ONLINE",
+      "to": "isd",
+      "weight": 728
+    },
+    {
+      "from": "ZEIT ONLINE",
+      "to": "voi",
+      "weight": 723
+    },
+    {
+      "from": "DIE ZEIT",
+      "to": "SID",
+      "weight": 709
+    },
+    {
+      "from": "DIE ZEIT",
+      "to": "KNA",
+      "weight": 695
+    },
+    {
+      "from": "ale",
+      "to": "dpa",
+      "weight": 678
+    },
+    {
+      "from": "KNA",
+      "to": "dpa",
+      "weight": 675
+    },
+    {
+      "from": "als",
+      "to": "dpa",
+      "weight": 655
+    },
+    {
+      "from": "dpa",
+      "to": "iyf",
+      "weight": 608
+    },
+    {
+      "from": "dpa",
+      "to": "kj",
+      "weight": 605
+    },
+    {
+      "from": "KNA",
+      "to": "ZEIT ONLINE",
+      "weight": 593
+    },
+    {
+      "from": "akm",
+      "to": "dpa",
+      "weight": 582
+    },
+    {
+      "from": "dpa",
+      "to": "sko",
+      "weight": 577
+    },
+    {
+      "from": "dpa",
+      "to": "lk",
+      "weight": 566
+    },
+    {
+      "from": "DIE ZEIT",
+      "to": "voi",
+      "weight": 564
+    },
+    {
+      "from": "DIE ZEIT",
+      "to": "spr",
+      "weight": 564
+    },
+    {
+      "from": "dpa",
+      "to": "edd",
+      "weight": 562
+    },
+    {
+      "from": "dpa",
+      "to": "svj",
+      "weight": 557
+    },
+    {
+      "from": "ZEIT ONLINE",
+      "to": "ale",
+      "weight": 556
+    },
+    {
+      "from": "ZEIT ONLINE",
+      "to": "iyf",
+      "weight": 537
+    },
+    {
+      "from": "AFP",
+      "to": "voi",
+      "weight": 531
+    },
+    {
+      "from": "dpa",
+      "to": "epd",
+      "weight": 521
+    },
+    {
+      "from": "DIE ZEIT",
+      "to": "yer",
+      "weight": 518
+    },
+    {
+      "from": "dpa",
+      "to": "mga",
+      "weight": 511
+    },
+    {
+      "from": "AFP",
+      "to": "spr",
+      "weight": 494
+    },
+    {
+      "from": "dpa",
+      "to": "mmh",
+      "weight": 493
+    },
+    {
+      "from": "dar",
+      "to": "dpa",
+      "weight": 493
+    },
+    {
+      "from": "DIE ZEIT",
+      "to": "edd",
+      "weight": 489
+    },
+    {
+      "from": "ZEIT ONLINE",
+      "to": "als",
+      "weight": 488
+    },
+    {
+      "from": "AFP",
+      "to": "ale",
+      "weight": 488
+    },
+    {
+      "from": "AFP",
+      "to": "KNA",
+      "weight": 473
+    },
+    {
+      "from": "dpa",
+      "to": "ljk",
+      "weight": 472
+    }
+  ],
+  "_meta": {
+    "total_articles": 323490,
+    "multi_author_articles": 8137,
+    "distinct_authors": 4143,
+    "distinct_sources": 463,
+    "top30_authors": [
+      {
+        "name": "Julius Tröger",
+        "count": 1887
+      },
+      {
+        "name": "David Gutensohn",
+        "count": 1185
+      },
+      {
+        "name": "Anne Jeschke",
+        "count": 1185
+      },
+      {
+        "name": "Jakob Bauer",
+        "count": 1125
+      },
+      {
+        "name": "voi",
+        "count": 864
+      },
+      {
+        "name": "spr",
+        "count": 786
+      },
+      {
+        "name": "ale",
+        "count": 741
+      },
+      {
+        "name": "Benja Zehr",
+        "count": 737
+      },
+      {
+        "name": "iyf",
+        "count": 693
+      },
+      {
+        "name": "lk",
+        "count": 685
+      },
+      {
+        "name": "als",
+        "count": 627
+      },
+      {
+        "name": "sko",
+        "count": 626
+      },
+      {
+        "name": "Christina Felschen",
+        "count": 616
+      },
+      {
+        "name": "edd",
+        "count": 577
+      },
+      {
+        "name": "dar",
+        "count": 528
+      },
+      {
+        "name": "mga",
+        "count": 516
+      },
+      {
+        "name": "akm",
+        "count": 508
+      },
+      {
+        "name": "svj",
+        "count": 505
+      },
+      {
+        "name": "Timo Stukenberg",
+        "count": 500
+      },
+      {
+        "name": "skö",
+        "count": 490
+      },
+      {
+        "name": "kj",
+        "count": 489
+      },
+      {
+        "name": "Pauline Pieper",
+        "count": 488
+      },
+      {
+        "name": "jsp",
+        "count": 474
+      },
+      {
+        "name": "Mia Janzen",
+        "count": 465
+      },
+      {
+        "name": "mp",
+        "count": 464
+      },
+      {
+        "name": "Julian Stahnke",
+        "count": 458
+      },
+      {
+        "name": "lgi",
+        "count": 458
+      },
+      {
+        "name": "Charlotte Eckstein",
+        "count": 440
+      },
+      {
+        "name": "yer",
+        "count": 437
+      },
+      {
+        "name": "kzi",
+        "count": 436
+      }
+    ]
+  }
+}

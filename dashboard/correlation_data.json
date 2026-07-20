@@ -1,0 +1,1884 @@
+{
+  "category_cooccurrence": [
+    {
+      "from": "Kriminalität",
+      "to": "News",
+      "weight": 10980
+    },
+    {
+      "from": "Fußball-Bundesliga",
+      "to": "News",
+      "weight": 6144
+    },
+    {
+      "from": "News",
+      "to": "Verkehr",
+      "weight": 4513
+    },
+    {
+      "from": "News",
+      "to": "Unfälle",
+      "weight": 4383
+    },
+    {
+      "from": "News",
+      "to": "Wetter",
+      "weight": 4244
+    },
+    {
+      "from": "2. Fußball-Bundesliga",
+      "to": "News",
+      "weight": 2869
+    },
+    {
+      "from": "News",
+      "to": "Unfall",
+      "weight": 2681
+    },
+    {
+      "from": "Fußball",
+      "to": "News",
+      "weight": 2605
+    },
+    {
+      "from": "Brände",
+      "to": "News",
+      "weight": 2496
+    },
+    {
+      "from": "News",
+      "to": "Notfälle",
+      "weight": 2146
+    },
+    {
+      "from": "Bundesliga",
+      "to": "News",
+      "weight": 1695
+    },
+    {
+      "from": "News",
+      "to": "Tiere",
+      "weight": 1413
+    },
+    {
+      "from": "Gesundheit",
+      "to": "News",
+      "weight": 1297
+    },
+    {
+      "from": "Leute",
+      "to": "News",
+      "weight": 1067
+    },
+    {
+      "from": "Justiz",
+      "to": "News",
+      "weight": 1054
+    },
+    {
+      "from": "Champions League",
+      "to": "News",
+      "weight": 974
+    },
+    {
+      "from": "News",
+      "to": "Parteien",
+      "weight": 948
+    },
+    {
+      "from": "Landtag",
+      "to": "News",
+      "weight": 947
+    },
+    {
+      "from": "2. Bundesliga",
+      "to": "News",
+      "weight": 911
+    },
+    {
+      "from": "News",
+      "to": "Polizei",
+      "weight": 900
+    },
+    {
+      "from": "Handball-Bundesliga",
+      "to": "News",
+      "weight": 862
+    },
+    {
+      "from": "Migration",
+      "to": "News",
+      "weight": 849
+    },
+    {
+      "from": "Feuerwehreinsatz",
+      "to": "News",
+      "weight": 833
+    },
+    {
+      "from": "Extremismus",
+      "to": "News",
+      "weight": 832
+    },
+    {
+      "from": "News",
+      "to": "Prozesse",
+      "weight": 826
+    },
+    {
+      "from": "News",
+      "to": "Verkehrsunfall",
+      "weight": 818
+    },
+    {
+      "from": "3. Fußball-Liga",
+      "to": "News",
+      "weight": 808
+    },
+    {
+      "from": "Bildung",
+      "to": "News",
+      "weight": 749
+    },
+    {
+      "from": "News",
+      "to": "Polizeieinsatz",
+      "weight": 738
+    },
+    {
+      "from": "Basketball",
+      "to": "News",
+      "weight": 736
+    },
+    {
+      "from": "Ermittlungen",
+      "to": "News",
+      "weight": 734
+    },
+    {
+      "from": "Arbeitsmarkt",
+      "to": "News",
+      "weight": 713
+    },
+    {
+      "from": "News",
+      "to": "Prozess",
+      "weight": 694
+    },
+    {
+      "from": "Musik",
+      "to": "News",
+      "weight": 674
+    },
+    {
+      "from": "News",
+      "to": "Statistik",
+      "weight": 661
+    },
+    {
+      "from": "News",
+      "to": "Wettervorhersage",
+      "weight": 657
+    },
+    {
+      "from": "Handball",
+      "to": "News",
+      "weight": 649
+    },
+    {
+      "from": "Basketball-Bundesliga",
+      "to": "News",
+      "weight": 637
+    },
+    {
+      "from": "Feuer",
+      "to": "News",
+      "weight": 622
+    },
+    {
+      "from": "News",
+      "to": "Wahlen",
+      "weight": 618
+    },
+    {
+      "from": "News",
+      "to": "Unwetter",
+      "weight": 618
+    },
+    {
+      "from": "Bundestagswahl",
+      "to": "News",
+      "weight": 618
+    },
+    {
+      "from": "Politik",
+      "to": "Ukrainekarte aktuell",
+      "weight": 607
+    },
+    {
+      "from": "Gesellschaft",
+      "to": "News",
+      "weight": 599
+    },
+    {
+      "from": "Fußball-Nationalmannschaft",
+      "to": "News",
+      "weight": 580
+    },
+    {
+      "from": "Energie",
+      "to": "News",
+      "weight": 568
+    },
+    {
+      "from": "Finanzen",
+      "to": "News",
+      "weight": 561
+    },
+    {
+      "from": "DFB-Pokal",
+      "to": "News",
+      "weight": 556
+    },
+    {
+      "from": "Fernsehen",
+      "to": "News",
+      "weight": 552
+    },
+    {
+      "from": "Politik",
+      "to": "USA",
+      "weight": 540
+    },
+    {
+      "from": "3. Liga",
+      "to": "News",
+      "weight": 527
+    },
+    {
+      "from": "Deutsche Eishockey Liga",
+      "to": "News",
+      "weight": 511
+    },
+    {
+      "from": "Konjunktur",
+      "to": "News",
+      "weight": 507
+    },
+    {
+      "from": "News",
+      "to": "Tourismus",
+      "weight": 492
+    },
+    {
+      "from": "Freizeit",
+      "to": "News",
+      "weight": 483
+    },
+    {
+      "from": "News",
+      "to": "Tennis",
+      "weight": 474
+    },
+    {
+      "from": "Brand",
+      "to": "News",
+      "weight": 462
+    },
+    {
+      "from": "Lage im Überblick",
+      "to": "News",
+      "weight": 461
+    },
+    {
+      "from": "Kommunen",
+      "to": "News",
+      "weight": 460
+    },
+    {
+      "from": "News",
+      "to": "Ukraine-Krieg",
+      "weight": 449
+    },
+    {
+      "from": "Krieg in der Ukraine",
+      "to": "News",
+      "weight": 448
+    },
+    {
+      "from": "Bahn",
+      "to": "News",
+      "weight": 445
+    },
+    {
+      "from": "Nahost",
+      "to": "News",
+      "weight": 436
+    },
+    {
+      "from": "Gehaltsunterschied",
+      "to": "Gehaltsvergleich nach Berufen",
+      "weight": 431
+    },
+    {
+      "from": "News",
+      "to": "Notfall",
+      "weight": 422
+    },
+    {
+      "from": "Landtagswahl",
+      "to": "News",
+      "weight": 421
+    },
+    {
+      "from": "News",
+      "to": "Umwelt",
+      "weight": 419
+    },
+    {
+      "from": "Eishockey",
+      "to": "News",
+      "weight": 419
+    },
+    {
+      "from": "Luftverkehr",
+      "to": "News",
+      "weight": 419
+    },
+    {
+      "from": "Kultur",
+      "to": "News",
+      "weight": 407
+    },
+    {
+      "from": "News",
+      "to": "Soziales",
+      "weight": 400
+    },
+    {
+      "from": "News",
+      "to": "Regierungsbildung",
+      "weight": 400
+    },
+    {
+      "from": "Bahnverkehr",
+      "to": "News",
+      "weight": 385
+    },
+    {
+      "from": "News",
+      "to": "Schulen",
+      "weight": 381
+    },
+    {
+      "from": "News",
+      "to": "Tödlicher Unfall",
+      "weight": 375
+    },
+    {
+      "from": "Kalenderblatt",
+      "to": "News",
+      "weight": 365
+    },
+    {
+      "from": "Gehalt",
+      "to": "Gehaltsunterschied",
+      "weight": 361
+    },
+    {
+      "from": "Demonstrationen",
+      "to": "News",
+      "weight": 356
+    },
+    {
+      "from": "News",
+      "to": "Volleyball-Bundesliga",
+      "weight": 356
+    },
+    {
+      "from": "News",
+      "to": "Schifffahrt",
+      "weight": 354
+    },
+    {
+      "from": "Landwirtschaft",
+      "to": "News",
+      "weight": 345
+    },
+    {
+      "from": "Konflikte",
+      "to": "News",
+      "weight": 340
+    },
+    {
+      "from": "Elbvertiefung: Der tägliche Newsletter aus Hamburg",
+      "to": "Hamburg",
+      "weight": 320
+    },
+    {
+      "from": "News",
+      "to": "Winterwetter",
+      "weight": 317
+    },
+    {
+      "from": "Krieg in Nahost",
+      "to": "News",
+      "weight": 316
+    },
+    {
+      "from": "News",
+      "to": "Regierung",
+      "weight": 310
+    },
+    {
+      "from": "Bevölkerungsentwicklung in Großstädten",
+      "to": "Gehaltsunterschied",
+      "weight": 310
+    },
+    {
+      "from": "Kirche",
+      "to": "News",
+      "weight": 301
+    },
+    {
+      "from": "Künstliche Intelligenz",
+      "to": "News",
+      "weight": 300
+    },
+    {
+      "from": "Auszeichnung",
+      "to": "News",
+      "weight": 300
+    },
+    {
+      "from": "News",
+      "to": "Urteil",
+      "weight": 297
+    },
+    {
+      "from": "News",
+      "to": "Tarifkonflikt",
+      "weight": 296
+    },
+    {
+      "from": "Die Lage im Überblick",
+      "to": "News",
+      "weight": 290
+    },
+    {
+      "from": "Geschichte",
+      "to": "News",
+      "weight": 287
+    },
+    {
+      "from": "Liveblog: Krieg gegen die Ukraine",
+      "to": "Politik",
+      "weight": 286
+    },
+    {
+      "from": "News",
+      "to": "Tierseuche",
+      "weight": 279
+    },
+    {
+      "from": "Naturschutz",
+      "to": "News",
+      "weight": 276
+    },
+    {
+      "from": "Auszeichnungen",
+      "to": "News",
+      "weight": 275
+    },
+    {
+      "from": "Nationalmannschaft",
+      "to": "News",
+      "weight": 273
+    },
+    {
+      "from": "Fußball-EM",
+      "to": "News",
+      "weight": 268
+    }
+  ],
+  "keyword_category": {
+    "Kriminalität": [
+      "News",
+      "Polizei",
+      "Staatsanwaltschaft",
+      "Mann",
+      "Auto",
+      "Berlin",
+      "Messerangriff",
+      "Angriff",
+      "Geld",
+      "Hamburg"
+    ],
+    "Fußball-Bundesliga": [
+      "News",
+      "Bundesliga",
+      "FC Bayern München",
+      "1. FC Union Berlin",
+      "RB Leipzig",
+      "VfB Stuttgart",
+      "Bayer 04 Leverkusen",
+      "Leipzig",
+      "SV Werder Bremen",
+      "Leverkusen"
+    ],
+    "Verkehr": [
+      "News",
+      "Polizei",
+      "Unfall",
+      "Auto",
+      "Fahrzeug",
+      "Hamburg",
+      "Autobahn",
+      "Berlin",
+      "Sperrung",
+      "ADAC"
+    ],
+    "Unfälle": [
+      "News",
+      "Unfall",
+      "Polizei",
+      "Auto",
+      "Fahrzeug",
+      "Zusammenstoß",
+      "Verkehrsunfall",
+      "Feuerwehr",
+      "Frontalzusammenstoß",
+      "Auffahrunfall"
+    ],
+    "Wetter": [
+      "News",
+      "DWD",
+      "Gewitter",
+      "Berlin",
+      "Brandenburg",
+      "Hessen",
+      "Starkregen",
+      "Bergland",
+      "Rheinland-Pfalz",
+      "Saarland"
+    ],
+    "2. Fußball-Bundesliga": [
+      "News",
+      "Fußball-Bundesliga",
+      "Bundesliga",
+      "Hertha BSC",
+      "Hertha BSC Berlin",
+      "1. FC Nürnberg",
+      "Karlsruher SC",
+      "Schalke",
+      "SpVgg Greuther Fürth",
+      "Hannover 96"
+    ],
+    "Fußball": [
+      "News",
+      "Bundesliga",
+      "FC Bayern München",
+      "Fußball-Bundesliga",
+      "Deutscher Fußball-Bund",
+      "BVB",
+      "Dortmund",
+      "Eintracht Frankfurt",
+      "Leverkusen",
+      "Sport"
+    ],
+    "Unfall": [
+      "News",
+      "Auto",
+      "Polizei",
+      "Fahrzeug",
+      "Zusammenstoß",
+      "Rettungswagen",
+      "Frontalzusammenstoß",
+      "Feuerwehr",
+      "Verkehrsunfall",
+      "Blaulicht"
+    ],
+    "Brände": [
+      "News",
+      "Brand",
+      "Polizei",
+      "Feuerwehr",
+      "Wohnungsbrand",
+      "Auto",
+      "Großbrand",
+      "Einsatzfahrzeug",
+      "Sachschaden",
+      "Lagerhalle"
+    ],
+    "Notfälle": [
+      "News",
+      "Notfall",
+      "Polizei",
+      "Feuerwehr",
+      "Auto",
+      "Unfall",
+      "Blaulicht",
+      "Einsatzkraft",
+      "Hamburg",
+      "Einsatzfahrzeug"
+    ],
+    "Bundesliga": [
+      "News",
+      "FC Bayern München",
+      "Leverkusen",
+      "Fußball-Bundesliga",
+      "Eintracht Frankfurt",
+      "München",
+      "Bayer 04 Leverkusen",
+      "1. FSV Mainz 05",
+      "1. FC Union Berlin",
+      "Leipzig"
+    ],
+    "Tiere": [
+      "News",
+      "Polizei",
+      "Naturschutzbund Deutschland",
+      "Feuerwehr",
+      "Wölfe",
+      "Katze",
+      "Berlin",
+      "Baden-Württemberg",
+      "Deutsche Presse-Agentur",
+      "Hessen"
+    ],
+    "Gesundheit": [
+      "News",
+      "Sachsen-Anhalt",
+      "SPD",
+      "Deutsche Presse-Agentur",
+      "Niedersachsen",
+      "Bayern",
+      "Rheinland-Pfalz",
+      "CDU",
+      "Berlin",
+      "Hessen"
+    ],
+    "Justiz": [
+      "News",
+      "Staatsanwaltschaft",
+      "Justizministerium",
+      "Deutsche Presse-Agentur",
+      "Polizei",
+      "Amtsgericht",
+      "Verwaltungsgericht",
+      "CDU",
+      "Berlin",
+      "Hamburg"
+    ],
+    "Leute": [
+      "News",
+      "Instagram",
+      "Deutsche Presse-Agentur",
+      "Berlin",
+      "Sängerin",
+      "Familie",
+      "Kino",
+      "Hollywood",
+      "München",
+      "Hamburg"
+    ],
+    "Migration": [
+      "News",
+      "CDU",
+      "Geflüchtete",
+      "Politik",
+      "SPD",
+      "Abschiebung",
+      "Asyl",
+      "Flüchtlinge",
+      "Deutsche Presse-Agentur",
+      "Innenministerium"
+    ],
+    "Champions League": [
+      "News",
+      "FC Bayern München",
+      "Bayern",
+      "München",
+      "Dortmund",
+      "Vincent Kompany",
+      "Real Madrid",
+      "BVB",
+      "Bayer 04 Leverkusen",
+      "Harry Kane"
+    ],
+    "Parteien": [
+      "News",
+      "Alternative für Deutschland",
+      "CDU",
+      "SPD",
+      "Parteitag",
+      "Landtagswahl",
+      "Bündnis Sahra Wagenknecht",
+      "Berlin",
+      "Deutsche Presse-Agentur",
+      "Thüringen"
+    ],
+    "Landtag": [
+      "News",
+      "CDU",
+      "SPD",
+      "Alternative für Deutschland",
+      "Thüringen",
+      "FDP",
+      "Untersuchungsausschuss",
+      "Hessen",
+      "Bündnis Sahra Wagenknecht",
+      "Sachsen"
+    ],
+    "2. Bundesliga": [
+      "News",
+      "Bundesliga",
+      "Fußball-Bundesliga",
+      "Schalke",
+      "Hertha BSC",
+      "FC Schalke 04",
+      "Hertha BSC Berlin",
+      "1. FC Kaiserslautern",
+      "HSV",
+      "Hamburger SV"
+    ]
+  },
+  "topic_correlation": {
+    "Kriminalität": {
+      "Kriminalität": 12056,
+      "Fußball-Bundesliga": 0,
+      "Verkehr": 48,
+      "Unfälle": 9,
+      "Wetter": 9,
+      "2. Fußball-Bundesliga": 0,
+      "Fußball": 40,
+      "Unfall": 82,
+      "Brände": 19,
+      "Notfälle": 1,
+      "Bundesliga": 1,
+      "Tiere": 7,
+      "Gesundheit": 8,
+      "Justiz": 35,
+      "Leute": 4
+    },
+    "Fußball-Bundesliga": {
+      "Kriminalität": 0,
+      "Fußball-Bundesliga": 9186,
+      "Verkehr": 2,
+      "Unfälle": 0,
+      "Wetter": 9,
+      "2. Fußball-Bundesliga": 2871,
+      "Fußball": 9186,
+      "Unfall": 2,
+      "Brände": 0,
+      "Notfälle": 1,
+      "Bundesliga": 9186,
+      "Tiere": 13,
+      "Gesundheit": 1,
+      "Justiz": 0,
+      "Leute": 1
+    },
+    "Verkehr": {
+      "Kriminalität": 48,
+      "Fußball-Bundesliga": 2,
+      "Verkehr": 11670,
+      "Unfälle": 688,
+      "Wetter": 211,
+      "2. Fußball-Bundesliga": 1,
+      "Fußball": 20,
+      "Unfall": 2817,
+      "Brände": 13,
+      "Notfälle": 18,
+      "Bundesliga": 2,
+      "Tiere": 26,
+      "Gesundheit": 8,
+      "Justiz": 4,
+      "Leute": 6
+    },
+    "Unfälle": {
+      "Kriminalität": 9,
+      "Fußball-Bundesliga": 0,
+      "Verkehr": 688,
+      "Unfälle": 5613,
+      "Wetter": 145,
+      "2. Fußball-Bundesliga": 0,
+      "Fußball": 1,
+      "Unfall": 1382,
+      "Brände": 1,
+      "Notfälle": 16,
+      "Bundesliga": 0,
+      "Tiere": 15,
+      "Gesundheit": 3,
+      "Justiz": 0,
+      "Leute": 3
+    },
+    "Wetter": {
+      "Kriminalität": 9,
+      "Fußball-Bundesliga": 9,
+      "Verkehr": 211,
+      "Unfälle": 145,
+      "Wetter": 9735,
+      "2. Fußball-Bundesliga": 1,
+      "Fußball": 28,
+      "Unfall": 26,
+      "Brände": 24,
+      "Notfälle": 16,
+      "Bundesliga": 14,
+      "Tiere": 21,
+      "Gesundheit": 23,
+      "Justiz": 2,
+      "Leute": 6
+    },
+    "2. Fußball-Bundesliga": {
+      "Kriminalität": 0,
+      "Fußball-Bundesliga": 2871,
+      "Verkehr": 1,
+      "Unfälle": 0,
+      "Wetter": 1,
+      "2. Fußball-Bundesliga": 2871,
+      "Fußball": 2871,
+      "Unfall": 0,
+      "Brände": 0,
+      "Notfälle": 0,
+      "Bundesliga": 2871,
+      "Tiere": 4,
+      "Gesundheit": 0,
+      "Justiz": 0,
+      "Leute": 0
+    },
+    "Fußball": {
+      "Kriminalität": 40,
+      "Fußball-Bundesliga": 9186,
+      "Verkehr": 20,
+      "Unfälle": 1,
+      "Wetter": 28,
+      "2. Fußball-Bundesliga": 2871,
+      "Fußball": 16512,
+      "Unfall": 20,
+      "Brände": 7,
+      "Notfälle": 4,
+      "Bundesliga": 9517,
+      "Tiere": 36,
+      "Gesundheit": 5,
+      "Justiz": 3,
+      "Leute": 15
+    },
+    "Unfall": {
+      "Kriminalität": 82,
+      "Fußball-Bundesliga": 2,
+      "Verkehr": 2817,
+      "Unfälle": 1382,
+      "Wetter": 26,
+      "2. Fußball-Bundesliga": 0,
+      "Fußball": 20,
+      "Unfall": 12899,
+      "Brände": 8,
+      "Notfälle": 125,
+      "Bundesliga": 3,
+      "Tiere": 32,
+      "Gesundheit": 9,
+      "Justiz": 11,
+      "Leute": 7
+    },
+    "Brände": {
+      "Kriminalität": 19,
+      "Fußball-Bundesliga": 0,
+      "Verkehr": 13,
+      "Unfälle": 1,
+      "Wetter": 24,
+      "2. Fußball-Bundesliga": 0,
+      "Fußball": 7,
+      "Unfall": 8,
+      "Brände": 3148,
+      "Notfälle": 7,
+      "Bundesliga": 0,
+      "Tiere": 10,
+      "Gesundheit": 1,
+      "Justiz": 3,
+      "Leute": 37
+    },
+    "Notfälle": {
+      "Kriminalität": 1,
+      "Fußball-Bundesliga": 1,
+      "Verkehr": 18,
+      "Unfälle": 16,
+      "Wetter": 16,
+      "2. Fußball-Bundesliga": 0,
+      "Fußball": 4,
+      "Unfall": 125,
+      "Brände": 7,
+      "Notfälle": 2213,
+      "Bundesliga": 1,
+      "Tiere": 5,
+      "Gesundheit": 8,
+      "Justiz": 1,
+      "Leute": 6
+    },
+    "Bundesliga": {
+      "Kriminalität": 1,
+      "Fußball-Bundesliga": 9186,
+      "Verkehr": 2,
+      "Unfälle": 0,
+      "Wetter": 14,
+      "2. Fußball-Bundesliga": 2871,
+      "Fußball": 9517,
+      "Unfall": 3,
+      "Brände": 0,
+      "Notfälle": 1,
+      "Bundesliga": 14731,
+      "Tiere": 21,
+      "Gesundheit": 1,
+      "Justiz": 0,
+      "Leute": 3
+    },
+    "Tiere": {
+      "Kriminalität": 7,
+      "Fußball-Bundesliga": 13,
+      "Verkehr": 26,
+      "Unfälle": 15,
+      "Wetter": 21,
+      "2. Fußball-Bundesliga": 4,
+      "Fußball": 36,
+      "Unfall": 32,
+      "Brände": 10,
+      "Notfälle": 5,
+      "Bundesliga": 21,
+      "Tiere": 3947,
+      "Gesundheit": 16,
+      "Justiz": 11,
+      "Leute": 10
+    },
+    "Gesundheit": {
+      "Kriminalität": 8,
+      "Fußball-Bundesliga": 1,
+      "Verkehr": 8,
+      "Unfälle": 3,
+      "Wetter": 23,
+      "2. Fußball-Bundesliga": 0,
+      "Fußball": 5,
+      "Unfall": 9,
+      "Brände": 1,
+      "Notfälle": 8,
+      "Bundesliga": 1,
+      "Tiere": 16,
+      "Gesundheit": 2882,
+      "Justiz": 4,
+      "Leute": 11
+    },
+    "Justiz": {
+      "Kriminalität": 35,
+      "Fußball-Bundesliga": 0,
+      "Verkehr": 4,
+      "Unfälle": 0,
+      "Wetter": 2,
+      "2. Fußball-Bundesliga": 0,
+      "Fußball": 3,
+      "Unfall": 11,
+      "Brände": 3,
+      "Notfälle": 1,
+      "Bundesliga": 0,
+      "Tiere": 11,
+      "Gesundheit": 4,
+      "Justiz": 2203,
+      "Leute": 5
+    },
+    "Leute": {
+      "Kriminalität": 4,
+      "Fußball-Bundesliga": 1,
+      "Verkehr": 6,
+      "Unfälle": 3,
+      "Wetter": 6,
+      "2. Fußball-Bundesliga": 0,
+      "Fußball": 15,
+      "Unfall": 7,
+      "Brände": 37,
+      "Notfälle": 6,
+      "Bundesliga": 3,
+      "Tiere": 10,
+      "Gesundheit": 11,
+      "Justiz": 5,
+      "Leute": 1747
+    }
+  },
+  "keyword_clusters": [
+    {
+      "from": "News",
+      "to": "Polizei",
+      "weight": 43343
+    },
+    {
+      "from": "Berlin",
+      "to": "News",
+      "weight": 15099
+    },
+    {
+      "from": "News",
+      "to": "Unfall",
+      "weight": 14339
+    },
+    {
+      "from": "Auto",
+      "to": "News",
+      "weight": 14333
+    },
+    {
+      "from": "News",
+      "to": "SPD",
+      "weight": 14119
+    },
+    {
+      "from": "CDU",
+      "to": "News",
+      "weight": 13720
+    },
+    {
+      "from": "Kriminalität",
+      "to": "News",
+      "weight": 11422
+    },
+    {
+      "from": "Deutsche Presse-Agentur",
+      "to": "News",
+      "weight": 10538
+    },
+    {
+      "from": "Fußball-Bundesliga",
+      "to": "News",
+      "weight": 10096
+    },
+    {
+      "from": "Bundesliga",
+      "to": "News",
+      "weight": 8912
+    },
+    {
+      "from": "Hamburg",
+      "to": "News",
+      "weight": 8683
+    },
+    {
+      "from": "News",
+      "to": "Staatsanwaltschaft",
+      "weight": 7390
+    },
+    {
+      "from": "News",
+      "to": "Wetter",
+      "weight": 7195
+    },
+    {
+      "from": "Kriminalität",
+      "to": "Polizei",
+      "weight": 6923
+    },
+    {
+      "from": "Auto",
+      "to": "Polizei",
+      "weight": 6754
+    },
+    {
+      "from": "Feuerwehr",
+      "to": "News",
+      "weight": 6474
+    },
+    {
+      "from": "Brandenburg",
+      "to": "News",
+      "weight": 6400
+    },
+    {
+      "from": "Bayern",
+      "to": "News",
+      "weight": 6396
+    },
+    {
+      "from": "München",
+      "to": "News",
+      "weight": 6371
+    },
+    {
+      "from": "Polizei",
+      "to": "Unfall",
+      "weight": 6328
+    },
+    {
+      "from": "Donald Trump",
+      "to": "USA",
+      "weight": 6067
+    },
+    {
+      "from": "Alternative für Deutschland",
+      "to": "News",
+      "weight": 5983
+    },
+    {
+      "from": "News",
+      "to": "Thüringen",
+      "weight": 5936
+    },
+    {
+      "from": "Auto",
+      "to": "Unfall",
+      "weight": 5924
+    },
+    {
+      "from": "News",
+      "to": "USA",
+      "weight": 5589
+    },
+    {
+      "from": "Hessen",
+      "to": "News",
+      "weight": 5312
+    },
+    {
+      "from": "News",
+      "to": "Sachsen-Anhalt",
+      "weight": 5295
+    },
+    {
+      "from": "CDU",
+      "to": "SPD",
+      "weight": 5247
+    },
+    {
+      "from": "Politik",
+      "to": "USA",
+      "weight": 5219
+    },
+    {
+      "from": "News",
+      "to": "Niedersachsen",
+      "weight": 5184
+    },
+    {
+      "from": "News",
+      "to": "Verkehr",
+      "weight": 5143
+    },
+    {
+      "from": "News",
+      "to": "Sachsen",
+      "weight": 4827
+    },
+    {
+      "from": "News",
+      "to": "Tiere",
+      "weight": 4762
+    },
+    {
+      "from": "News",
+      "to": "Rheinland-Pfalz",
+      "weight": 4637
+    },
+    {
+      "from": "Donald Trump",
+      "to": "Politik",
+      "weight": 4400
+    },
+    {
+      "from": "News",
+      "to": "Unfälle",
+      "weight": 4383
+    },
+    {
+      "from": "Unfall",
+      "to": "Unfälle",
+      "weight": 4331
+    },
+    {
+      "from": "Frankfurt",
+      "to": "News",
+      "weight": 4256
+    },
+    {
+      "from": "Mecklenburg-Vorpommern",
+      "to": "News",
+      "weight": 4203
+    },
+    {
+      "from": "Mann",
+      "to": "News",
+      "weight": 4182
+    },
+    {
+      "from": "News",
+      "to": "Nordrhein-Westfalen",
+      "weight": 4153
+    },
+    {
+      "from": "Donald Trump",
+      "to": "News",
+      "weight": 4000
+    },
+    {
+      "from": "Krieg in der Ukraine",
+      "to": "Russland",
+      "weight": 3996
+    },
+    {
+      "from": "News",
+      "to": "Stuttgart",
+      "weight": 3965
+    },
+    {
+      "from": "Geld",
+      "to": "News",
+      "weight": 3951
+    },
+    {
+      "from": "Baden-Württemberg",
+      "to": "News",
+      "weight": 3921
+    },
+    {
+      "from": "Bundesliga",
+      "to": "Fußball-Bundesliga",
+      "weight": 3815
+    },
+    {
+      "from": "Politik",
+      "to": "Russland",
+      "weight": 3793
+    },
+    {
+      "from": "Militär",
+      "to": "Politik",
+      "weight": 3686
+    },
+    {
+      "from": "Fahrzeug",
+      "to": "News",
+      "weight": 3685
+    },
+    {
+      "from": "Europa",
+      "to": "News",
+      "weight": 3649
+    },
+    {
+      "from": "NRW",
+      "to": "News",
+      "weight": 3528
+    },
+    {
+      "from": "Krieg in der Ukraine",
+      "to": "Politik",
+      "weight": 3467
+    },
+    {
+      "from": "Leipzig",
+      "to": "News",
+      "weight": 3433
+    },
+    {
+      "from": "News",
+      "to": "Schleswig-Holstein",
+      "weight": 3415
+    },
+    {
+      "from": "FC Bayern München",
+      "to": "News",
+      "weight": 3411
+    },
+    {
+      "from": "Brand",
+      "to": "News",
+      "weight": 3351
+    },
+    {
+      "from": "Bundesregierung",
+      "to": "News",
+      "weight": 3282
+    },
+    {
+      "from": "Köln",
+      "to": "News",
+      "weight": 3186
+    },
+    {
+      "from": "CSU",
+      "to": "News",
+      "weight": 3061
+    },
+    {
+      "from": "Hannover",
+      "to": "News",
+      "weight": 3052
+    },
+    {
+      "from": "News",
+      "to": "Sommer",
+      "weight": 3038
+    },
+    {
+      "from": "News",
+      "to": "Notfall",
+      "weight": 3025
+    },
+    {
+      "from": "Fußball",
+      "to": "News",
+      "weight": 3006
+    },
+    {
+      "from": "Dresden",
+      "to": "News",
+      "weight": 2981
+    },
+    {
+      "from": "Bremen",
+      "to": "News",
+      "weight": 2899
+    },
+    {
+      "from": "2. Fußball-Bundesliga",
+      "to": "News",
+      "weight": 2869
+    },
+    {
+      "from": "News",
+      "to": "Russland",
+      "weight": 2839
+    },
+    {
+      "from": "2. Fußball-Bundesliga",
+      "to": "Fußball-Bundesliga",
+      "weight": 2808
+    },
+    {
+      "from": "Mainz",
+      "to": "News",
+      "weight": 2784
+    },
+    {
+      "from": "Krieg in der Ukraine",
+      "to": "News",
+      "weight": 2759
+    },
+    {
+      "from": "DWD",
+      "to": "News",
+      "weight": 2705
+    },
+    {
+      "from": "Alternative für Deutschland",
+      "to": "CDU",
+      "weight": 2666
+    },
+    {
+      "from": "Israel",
+      "to": "Politik",
+      "weight": 2650
+    },
+    {
+      "from": "CDU",
+      "to": "Friedrich Merz",
+      "weight": 2591
+    },
+    {
+      "from": "Magdeburg",
+      "to": "News",
+      "weight": 2583
+    },
+    {
+      "from": "Düsseldorf",
+      "to": "News",
+      "weight": 2569
+    },
+    {
+      "from": "Brände",
+      "to": "News",
+      "weight": 2496
+    },
+    {
+      "from": "Landtag",
+      "to": "News",
+      "weight": 2476
+    },
+    {
+      "from": "Kritik",
+      "to": "News",
+      "weight": 2452
+    },
+    {
+      "from": "Brand",
+      "to": "Brände",
+      "weight": 2440
+    },
+    {
+      "from": "Familie",
+      "to": "News",
+      "weight": 2425
+    },
+    {
+      "from": "Friedrich Merz",
+      "to": "News",
+      "weight": 2423
+    },
+    {
+      "from": "News",
+      "to": "Sicherheit",
+      "weight": 2386
+    },
+    {
+      "from": "CDU",
+      "to": "Politik",
+      "weight": 2382
+    },
+    {
+      "from": "Erfurt",
+      "to": "News",
+      "weight": 2363
+    },
+    {
+      "from": "Gazastreifen",
+      "to": "Israel",
+      "weight": 2315
+    },
+    {
+      "from": "Ermittlung",
+      "to": "News",
+      "weight": 2300
+    },
+    {
+      "from": "Politik",
+      "to": "SPD",
+      "weight": 2272
+    },
+    {
+      "from": "EU",
+      "to": "News",
+      "weight": 2252
+    },
+    {
+      "from": "News",
+      "to": "Saarland",
+      "weight": 2239
+    },
+    {
+      "from": "Deutscher Bundestag",
+      "to": "News",
+      "weight": 2230
+    },
+    {
+      "from": "Alternative für Deutschland",
+      "to": "SPD",
+      "weight": 2204
+    },
+    {
+      "from": "FDP",
+      "to": "News",
+      "weight": 2193
+    },
+    {
+      "from": "Polizei",
+      "to": "Staatsanwaltschaft",
+      "weight": 2174
+    },
+    {
+      "from": "News",
+      "to": "Notfälle",
+      "weight": 2146
+    },
+    {
+      "from": "Notfall",
+      "to": "Notfälle",
+      "weight": 2072
+    },
+    {
+      "from": "NRW",
+      "to": "Nordrhein-Westfalen",
+      "weight": 2070
+    },
+    {
+      "from": "Fußball",
+      "to": "Sport",
+      "weight": 1999
+    },
+    {
+      "from": "Berlin",
+      "to": "CDU",
+      "weight": 1991
+    }
+  ],
+  "temporal_correlation": {
+    "Kriminalität": {
+      "Kriminalität": 1.0,
+      "Fußball-Bundesliga": 0.6144,
+      "Verkehr": -0.0773,
+      "Unfälle": 0.4479,
+      "Wetter": -0.0761,
+      "2. Fußball-Bundesliga": 0.5625,
+      "Fußball": -0.4917,
+      "Unfall": -0.0782,
+      "Brände": 0.419,
+      "Notfälle": 0.0345
+    },
+    "Fußball-Bundesliga": {
+      "Kriminalität": 0.6144,
+      "Fußball-Bundesliga": 1.0,
+      "Verkehr": -0.484,
+      "Unfälle": 0.4494,
+      "Wetter": -0.21,
+      "2. Fußball-Bundesliga": 0.8988,
+      "Fußball": -0.7413,
+      "Unfall": -0.4677,
+      "Brände": 0.3266,
+      "Notfälle": -0.3575
+    },
+    "Verkehr": {
+      "Kriminalität": -0.0773,
+      "Fußball-Bundesliga": -0.484,
+      "Verkehr": 1.0,
+      "Unfälle": 0.0282,
+      "Wetter": 0.7345,
+      "2. Fußball-Bundesliga": -0.59,
+      "Fußball": 0.7024,
+      "Unfall": 0.6292,
+      "Brände": 0.171,
+      "Notfälle": 0.6163
+    },
+    "Unfälle": {
+      "Kriminalität": 0.4479,
+      "Fußball-Bundesliga": 0.4494,
+      "Verkehr": 0.0282,
+      "Unfälle": 1.0,
+      "Wetter": 0.2024,
+      "2. Fußball-Bundesliga": 0.3576,
+      "Fußball": -0.2933,
+      "Unfall": -0.369,
+      "Brände": 0.823,
+      "Notfälle": 0.1397
+    },
+    "Wetter": {
+      "Kriminalität": -0.0761,
+      "Fußball-Bundesliga": -0.21,
+      "Verkehr": 0.7345,
+      "Unfälle": 0.2024,
+      "Wetter": 1.0,
+      "2. Fußball-Bundesliga": -0.3685,
+      "Fußball": 0.4472,
+      "Unfall": 0.2648,
+      "Brände": 0.4012,
+      "Notfälle": 0.6071
+    },
+    "2. Fußball-Bundesliga": {
+      "Kriminalität": 0.5625,
+      "Fußball-Bundesliga": 0.8988,
+      "Verkehr": -0.59,
+      "Unfälle": 0.3576,
+      "Wetter": -0.3685,
+      "2. Fußball-Bundesliga": 1.0,
+      "Fußball": -0.757,
+      "Unfall": -0.5217,
+      "Brände": 0.2398,
+      "Notfälle": -0.3428
+    },
+    "Fußball": {
+      "Kriminalität": -0.4917,
+      "Fußball-Bundesliga": -0.7413,
+      "Verkehr": 0.7024,
+      "Unfälle": -0.2933,
+      "Wetter": 0.4472,
+      "2. Fußball-Bundesliga": -0.757,
+      "Fußball": 1.0,
+      "Unfall": 0.6199,
+      "Brände": -0.1954,
+      "Notfälle": 0.5105
+    },
+    "Unfall": {
+      "Kriminalität": -0.0782,
+      "Fußball-Bundesliga": -0.4677,
+      "Verkehr": 0.6292,
+      "Unfälle": -0.369,
+      "Wetter": 0.2648,
+      "2. Fußball-Bundesliga": -0.5217,
+      "Fußball": 0.6199,
+      "Unfall": 1.0,
+      "Brände": -0.3655,
+      "Notfälle": 0.1693
+    },
+    "Brände": {
+      "Kriminalität": 0.419,
+      "Fußball-Bundesliga": 0.3266,
+      "Verkehr": 0.171,
+      "Unfälle": 0.823,
+      "Wetter": 0.4012,
+      "2. Fußball-Bundesliga": 0.2398,
+      "Fußball": -0.1954,
+      "Unfall": -0.3655,
+      "Brände": 1.0,
+      "Notfälle": 0.2785
+    },
+    "Notfälle": {
+      "Kriminalität": 0.0345,
+      "Fußball-Bundesliga": -0.3575,
+      "Verkehr": 0.6163,
+      "Unfälle": 0.1397,
+      "Wetter": 0.6071,
+      "2. Fußball-Bundesliga": -0.3428,
+      "Fußball": 0.5105,
+      "Unfall": 0.1693,
+      "Brände": 0.2785,
+      "Notfälle": 1.0
+    }
+  },
+  "source_topic": {
+    "dpa": {
+      "Kriminalität": 896,
+      "Leute": 536,
+      "Lage im Überblick": 461,
+      "Krieg in der Ukraine": 434,
+      "Ukraine-Krieg": 418,
+      "Nahost": 399,
+      "Kalenderblatt": 365,
+      "Notfälle": 327,
+      "Fernsehen": 306,
+      "Krieg in Nahost": 297,
+      "Die Lage im Überblick": 290,
+      "Wetter": 288,
+      "Konflikte": 282,
+      "Konjunktur": 267,
+      "Gesundheit": 247
+    },
+    "dpa Berlin/Brandenburg": {
+      "Kriminalität": 1637,
+      "Wetter": 590,
+      "Fußball-Bundesliga": 533,
+      "2. Fußball-Bundesliga": 408,
+      "Verkehr": 379,
+      "Unfälle": 307,
+      "Fußball": 276,
+      "Deutsche Eishockey Liga": 228,
+      "Brände": 226,
+      "Berlin": 210,
+      "Basketball": 196,
+      "Handball-Bundesliga": 194,
+      "Volleyball-Bundesliga": 185,
+      "Handball": 174,
+      "Leute": 169
+    },
+    "dpa Bayern": {
+      "Kriminalität": 1332,
+      "Fußball-Bundesliga": 1083,
+      "2. Fußball-Bundesliga": 603,
+      "Verkehr": 552,
+      "Unfälle": 533,
+      "Fußball": 426,
+      "Wetter": 396,
+      "Unfall": 391,
+      "Champions League": 356,
+      "Notfälle": 274,
+      "Bundesliga": 247,
+      "München": 244,
+      "Brände": 215,
+      "3. Fußball-Liga": 196,
+      "Deutsche Eishockey Liga": 151
+    },
+    "dpa Baden-Württemberg": {
+      "Fußball-Bundesliga": 1453,
+      "Kriminalität": 1311,
+      "Verkehr": 586,
+      "Unfall": 490,
+      "Unfälle": 468,
+      "Wetter": 435,
+      "2. Fußball-Bundesliga": 359,
+      "Bundesliga": 313,
+      "Brände": 308,
+      "Fußball": 306,
+      "Polizei": 279,
+      "Notfälle": 245,
+      "Tiere": 199,
+      "Feuerwehreinsatz": 147,
+      "3. Fußball-Liga": 124
+    },
+    "dpa Sachsen": {
+      "Kriminalität": 1014,
+      "Wetter": 526,
+      "Unfälle": 477,
+      "Verkehr": 471,
+      "Fußball-Bundesliga": 346,
+      "Brände": 336,
+      "Fußball": 249,
+      "Unfall": 241,
+      "Handball": 227,
+      "Sachsen-Anhalt": 223,
+      "Gesundheit": 221,
+      "Handball-Bundesliga": 219,
+      "Notfälle": 207,
+      "Tiere": 180,
+      "Landtag": 168
+    },
+    "dpa Nordrhein-Westfalen": {
+      "Kriminalität": 965,
+      "Fußball-Bundesliga": 871,
+      "2. Fußball-Bundesliga": 533,
+      "Verkehr": 407,
+      "Fußball": 404,
+      "Wetter": 314,
+      "Unfälle": 272,
+      "Unfall": 253,
+      "Bundesliga": 233,
+      "2. Bundesliga": 186,
+      "Champions League": 178,
+      "Brände": 168,
+      "Notfälle": 143,
+      "Verkehrsunfall": 128,
+      "Prozesse": 119
+    },
+    "dpa Hamburg/Schleswig-Holstein": {
+      "Kriminalität": 853,
+      "Fußball-Bundesliga": 662,
+      "Verkehr": 448,
+      "Unfälle": 404,
+      "Wetter": 313,
+      "2. Fußball-Bundesliga": 275,
+      "Handball-Bundesliga": 247,
+      "Notfälle": 233,
+      "Brände": 222,
+      "Schifffahrt": 193,
+      "Fußball": 149,
+      "Hamburg": 145,
+      "2. Bundesliga": 144,
+      "Tiere": 120,
+      "Statistik": 119
+    },
+    "dpa Niedersachsen": {
+      "Kriminalität": 777,
+      "Fußball-Bundesliga": 537,
+      "Unfälle": 520,
+      "Verkehr": 358,
+      "2. Fußball-Bundesliga": 314,
+      "Brände": 280,
+      "Wetter": 265,
+      "Unfall": 237,
+      "Notfälle": 151,
+      "Fußball": 133,
+      "Gesundheit": 120,
+      "Bundesliga": 111,
+      "Polizei": 107,
+      "2. Bundesliga": 93,
+      "Tiere": 78
+    },
+    "dpa Hessen": {
+      "Kriminalität": 924,
+      "Verkehr": 401,
+      "Wetter": 398,
+      "Unfälle": 341,
+      "Fußball-Bundesliga": 281,
+      "Unfall": 229,
+      "Fußball": 203,
+      "Bundesliga": 185,
+      "Brände": 185,
+      "Notfälle": 137,
+      "Justiz": 131,
+      "Gesundheit": 118,
+      "Tiere": 117,
+      "Landtag": 108,
+      "Wettervorhersage": 104
+    },
+    "ZEIT ONLINE": {
+      "USA": 341,
+      "Ukrainekrieg": 146,
+      "Migration": 119,
+      "Krieg in der Ukraine": 97,
+      "US-Wahlkampf": 94,
+      "Frankreich": 86,
+      "Syrien": 86,
+      "Nahost": 77,
+      "Statistisches Bundesamt": 70,
+      "Russland": 69,
+      "Großbritannien": 69,
+      "Türkei": 66,
+      "Krieg in Nahost": 66,
+      "Fußball": 65,
+      "Der US-Überblick am Morgen": 64
+    },
+    "dpa Rheinland-Pfalz/Saarland": {
+      "Kriminalität": 537,
+      "Wetter": 419,
+      "Verkehr": 348,
+      "Unfälle": 307,
+      "Unfall": 247,
+      "Landtag": 191,
+      "Brände": 157,
+      "Fußball-Bundesliga": 123,
+      "2. Fußball-Bundesliga": 121,
+      "Notfälle": 118,
+      "Gesundheit": 112,
+      "Fußball": 87,
+      "Bundesliga": 86,
+      "Feuerwehreinsatz": 83,
+      "Tiere": 81
+    },
+    "DIE": {
+      "USA": 312,
+      "Irankrieg": 113,
+      "Deutsche Bahn": 95,
+      "Migration": 84,
+      "Ukrainekrieg": 82,
+      "Frankreich": 81,
+      "Venezuela": 74,
+      "Großbritannien": 69,
+      "Krieg in der Ukraine": 67,
+      "Iran": 63,
+      "Syrien": 62,
+      "Künstliche Intelligenz": 58,
+      "Der US-Überblick am Morgen": 56,
+      "Statistisches Bundesamt": 53,
+      "Türkei": 50
+    },
+    "dpa Thüringen": {
+      "Kriminalität": 356,
+      "Unfälle": 264,
+      "Landtag": 182,
+      "Wetter": 178,
+      "Verkehr": 138,
+      "Brände": 127,
+      "Unfall": 114,
+      "Bildung": 107,
+      "Parteien": 106,
+      "Statistik": 89,
+      "Regierungsbildung": 70,
+      "Tiere": 63,
+      "Ermittlungen": 63,
+      "Migration": 62,
+      "Landtagswahl": 62
+    },
+    "dpa Mecklenburg-Vorpommern": {
+      "Kriminalität": 377,
+      "Unfälle": 330,
+      "Brände": 187,
+      "Verkehr": 187,
+      "Unfall": 141,
+      "Wetter": 121,
+      "3. Fußball-Liga": 108,
+      "Notfälle": 89,
+      "Verkehrsunfall": 72,
+      "Tiere": 69,
+      "Tourismus": 68,
+      "Basketball-Bundesliga": 66,
+      "Volleyball-Bundesliga": 59,
+      "Gesundheit": 58,
+      "Landtag": 48
+    },
+    "dpa Sport": {
+      "Tennis": 313,
+      "Fußball-Nationalmannschaft": 244,
+      "Formel 1": 213,
+      "Fußball": 194,
+      "Basketball": 152,
+      "Champions League": 148,
+      "Bundesliga": 136,
+      "Radsport": 131,
+      "Nationalmannschaft": 107,
+      "Fußball-EM": 102,
+      "Eishockey": 94,
+      "Fußball-Bundesliga": 77,
+      "Tour de France": 76,
+      "Olympische Winterspiele": 66,
+      "Fußball-WM": 66
+    }
+  }
+}

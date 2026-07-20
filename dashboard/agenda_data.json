@@ -1,0 +1,694 @@
+{
+  "lead_lag": {
+    "News": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": null,
+      "lag_days": null
+    },
+    "Polizei": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-10",
+      "lag_days": -2
+    },
+    "Politik": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-08",
+      "lag_days": 0
+    },
+    "Kriminalität": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-24",
+      "lag_days": -16
+    },
+    "Berlin": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-09",
+      "lag_days": -1
+    },
+    "Unfall": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-10",
+      "lag_days": -2
+    },
+    "SPD": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-10",
+      "lag_days": -2
+    },
+    "CDU": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-09",
+      "lag_days": -1
+    },
+    "Fußball-Bundesliga": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-31",
+      "lag_days": -23
+    },
+    "Auto": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-21",
+      "lag_days": -13
+    },
+    "USA": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-08",
+      "lag_days": 0
+    },
+    "Hamburg": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-26",
+      "lag_days": -18
+    },
+    "Wetter": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-11",
+      "lag_days": -3
+    },
+    "Bundesliga": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-31",
+      "lag_days": -23
+    },
+    "Deutsche Presse-Agentur": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-25",
+      "lag_days": -17
+    },
+    "Verkehr": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-10",
+      "lag_days": -2
+    },
+    "Donald Trump": {
+      "dpa_first": "2024-03-08",
+      "zeit_first": "2024-03-11",
+      "lag_days": -3
+    },
+    "Alternative für Deutschland": {
+      "dpa_first": "2024-03-09",
+      "zeit_first": "2024-03-29",
+      "lag_days": -20
+    },
+    "Fußball": {
+      "dpa_first": "2024-03-09",
+      "zeit_first": "2024-03-14",
+      "lag_days": -5
+    },
+    "Staatsanwaltschaft": {
+      "dpa_first": "2024-03-09",
+      "zeit_first": "2024-03-12",
+      "lag_days": -3
+    }
+  },
+  "morning_afternoon": {
+    "News": {
+      "morning": 33816,
+      "afternoon": 66612,
+      "evening": 15320
+    },
+    "Polizei": {
+      "morning": 6765,
+      "afternoon": 13054,
+      "evening": 2207
+    },
+    "Politik": {
+      "morning": 4685,
+      "afternoon": 4016,
+      "evening": 2545
+    },
+    "Kriminalität": {
+      "morning": 1604,
+      "afternoon": 3739,
+      "evening": 366
+    },
+    "Berlin": {
+      "morning": 2084,
+      "afternoon": 4305,
+      "evening": 1140
+    },
+    "Unfall": {
+      "morning": 3008,
+      "afternoon": 2920,
+      "evening": 900
+    },
+    "SPD": {
+      "morning": 1545,
+      "afternoon": 4657,
+      "evening": 1050
+    },
+    "CDU": {
+      "morning": 1554,
+      "afternoon": 4514,
+      "evening": 1104
+    },
+    "Fußball-Bundesliga": {
+      "morning": 783,
+      "afternoon": 3353,
+      "evening": 1192
+    },
+    "Auto": {
+      "morning": 2586,
+      "afternoon": 3342,
+      "evening": 739
+    },
+    "USA": {
+      "morning": 1894,
+      "afternoon": 1953,
+      "evening": 1536
+    },
+    "Hamburg": {
+      "morning": 1245,
+      "afternoon": 2667,
+      "evening": 741
+    },
+    "Wetter": {
+      "morning": 2183,
+      "afternoon": 1089,
+      "evening": 146
+    },
+    "Bundesliga": {
+      "morning": 846,
+      "afternoon": 2414,
+      "evening": 1244
+    },
+    "Deutsche Presse-Agentur": {
+      "morning": 1173,
+      "afternoon": 1791,
+      "evening": 225
+    },
+    "Verkehr": {
+      "morning": 1029,
+      "afternoon": 1235,
+      "evening": 199
+    },
+    "Donald Trump": {
+      "morning": 1325,
+      "afternoon": 1232,
+      "evening": 1245
+    },
+    "Alternative für Deutschland": {
+      "morning": 826,
+      "afternoon": 2091,
+      "evening": 667
+    },
+    "Fußball": {
+      "morning": 581,
+      "afternoon": 1135,
+      "evening": 709
+    },
+    "Staatsanwaltschaft": {
+      "morning": 601,
+      "afternoon": 2473,
+      "evening": 177
+    }
+  },
+  "topic_lifespan": {
+    "News": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2024-04-16"
+    },
+    "Polizei": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2024-05-24"
+    },
+    "Politik": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2024-11-06"
+    },
+    "Kriminalität": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2025-03-03"
+    },
+    "Berlin": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2026-01-07"
+    },
+    "Unfall": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2024-06-25"
+    },
+    "SPD": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-18",
+      "days_active": 862,
+      "peak_date": "2025-02-24"
+    },
+    "CDU": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2025-02-24"
+    },
+    "Fußball-Bundesliga": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2024-09-14"
+    },
+    "Auto": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2026-07-05"
+    },
+    "USA": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2024-11-06"
+    },
+    "Hamburg": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2026-01-08"
+    },
+    "Wetter": {
+      "first_seen": "2024-03-09",
+      "last_seen": "2026-07-20",
+      "days_active": 863,
+      "peak_date": "2024-06-03"
+    },
+    "Bundesliga": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-19",
+      "days_active": 863,
+      "peak_date": "2024-03-10"
+    },
+    "Deutsche Presse-Agentur": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2026-06-26"
+    },
+    "Verkehr": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2024-04-19"
+    },
+    "Donald Trump": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2024-11-06"
+    },
+    "Alternative für Deutschland": {
+      "first_seen": "2024-03-11",
+      "last_seen": "2026-07-20",
+      "days_active": 861,
+      "peak_date": "2025-02-24"
+    },
+    "Fußball": {
+      "first_seen": "2024-03-09",
+      "last_seen": "2026-07-20",
+      "days_active": 863,
+      "peak_date": "2024-06-13"
+    },
+    "Staatsanwaltschaft": {
+      "first_seen": "2024-03-11",
+      "last_seen": "2026-07-20",
+      "days_active": 861,
+      "peak_date": "2024-04-18"
+    },
+    "Russland": {
+      "first_seen": "2024-03-10",
+      "last_seen": "2026-07-20",
+      "days_active": 862,
+      "peak_date": "2024-08-02"
+    },
+    "Krieg in der Ukraine": {
+      "first_seen": "2024-03-09",
+      "last_seen": "2026-07-19",
+      "days_active": 862,
+      "peak_date": "2025-03-01"
+    },
+    "München": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2025-02-13"
+    },
+    "Bayern": {
+      "first_seen": "2024-03-09",
+      "last_seen": "2026-07-20",
+      "days_active": 863,
+      "peak_date": "2024-08-22"
+    },
+    "Brandenburg": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2024-09-22"
+    },
+    "Feuerwehr": {
+      "first_seen": "2024-03-09",
+      "last_seen": "2026-07-20",
+      "days_active": 863,
+      "peak_date": "2024-04-16"
+    },
+    "Gesellschaft": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2024-03-26"
+    },
+    "Tiere": {
+      "first_seen": "2024-03-10",
+      "last_seen": "2026-07-19",
+      "days_active": 861,
+      "peak_date": "2026-03-31"
+    },
+    "Thüringen": {
+      "first_seen": "2024-03-08",
+      "last_seen": "2026-07-20",
+      "days_active": 864,
+      "peak_date": "2024-09-02"
+    },
+    "Bundesregierung": {
+      "first_seen": "2024-03-09",
+      "last_seen": "2026-07-19",
+      "days_active": 862,
+      "peak_date": "2025-05-06"
+    }
+  },
+  "second_peaks": [
+    {
+      "keyword": "Ostdeutschland",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-20",
+      "gap_days": 868
+    },
+    {
+      "keyword": "Raumfahrt",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "Ulm",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "Alltag",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "Handball-Bundesliga",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "DEL",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "1. FSV Mainz 05",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "Holstein Kiel",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "Nahost",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "Saudi-Arabien",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "Hollywood",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "1. FC Union Berlin",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "Thomas Tuchel",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "Einsatzkraft",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "Istanbul",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "US-Wahl",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "Regensburg",
+      "first_peak": "2024-03-11",
+      "second_peak": "2026-07-20",
+      "gap_days": 861
+    },
+    {
+      "keyword": "Leichtathletik",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "Brandanschlag",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    },
+    {
+      "keyword": "DDR",
+      "first_peak": "2024-03-04",
+      "second_peak": "2026-07-13",
+      "gap_days": 861
+    }
+  ],
+  "dead_topics": [
+    {
+      "keyword": "Kultur",
+      "peak_month": "2024-03",
+      "last_month": "2026-07",
+      "months_active": 23
+    },
+    {
+      "keyword": "Olaf Scholz",
+      "peak_month": "2024-09",
+      "last_month": "2026-07",
+      "months_active": 6
+    },
+    {
+      "keyword": "Blaulicht",
+      "peak_month": "2024-03",
+      "last_month": "2026-07",
+      "months_active": 4
+    },
+    {
+      "keyword": "Einsatzfahrzeug",
+      "peak_month": "2024-03",
+      "last_month": "2026-03",
+      "months_active": 4
+    },
+    {
+      "keyword": "Bundestagswahl",
+      "peak_month": "2024-11",
+      "last_month": "2026-07",
+      "months_active": 4
+    }
+  ],
+  "early_indicators": [
+    {
+      "keyword": "Leverkusen",
+      "spike_date": "2024-04-12",
+      "event_date": "2024-04-13",
+      "days_before": 1,
+      "event": "Israel-Iran escalation (Apr 2024)"
+    },
+    {
+      "keyword": "Bayer 04 Leverkusen",
+      "spike_date": "2024-04-12",
+      "event_date": "2024-04-13",
+      "days_before": 1,
+      "event": "Israel-Iran escalation (Apr 2024)"
+    },
+    {
+      "keyword": "Gazastreifen",
+      "spike_date": "2025-01-19",
+      "event_date": "2025-01-20",
+      "days_before": 1,
+      "event": "Trump inauguration 2025"
+    },
+    {
+      "keyword": "Ver.di",
+      "spike_date": "2025-02-13",
+      "event_date": "2025-02-14",
+      "days_before": 1,
+      "event": "Munich Security Conference 2025"
+    },
+    {
+      "keyword": "Warnstreik",
+      "spike_date": "2025-02-21",
+      "event_date": "2025-02-23",
+      "days_before": 2,
+      "event": "Bundestagswahl 2025"
+    },
+    {
+      "keyword": "Donald Trump",
+      "spike_date": "2024-11-03",
+      "event_date": "2024-11-05",
+      "days_before": 2,
+      "event": "US Presidential Election (Trump)"
+    },
+    {
+      "keyword": "US-Wahl",
+      "spike_date": "2024-11-03",
+      "event_date": "2024-11-05",
+      "days_before": 2,
+      "event": "US Presidential Election (Trump)"
+    },
+    {
+      "keyword": "Champions League",
+      "spike_date": "2024-04-10",
+      "event_date": "2024-04-13",
+      "days_before": 3,
+      "event": "Israel-Iran escalation (Apr 2024)"
+    },
+    {
+      "keyword": "Bayern",
+      "spike_date": "2024-06-04",
+      "event_date": "2024-06-09",
+      "days_before": 5,
+      "event": "EU Parliament Election 2024"
+    },
+    {
+      "keyword": "Hochwasser",
+      "spike_date": "2024-06-03",
+      "event_date": "2024-06-09",
+      "days_before": 6,
+      "event": "EU Parliament Election 2024"
+    },
+    {
+      "keyword": "Unwetter",
+      "spike_date": "2024-06-03",
+      "event_date": "2024-06-09",
+      "days_before": 6,
+      "event": "EU Parliament Election 2024"
+    },
+    {
+      "keyword": "Brand",
+      "spike_date": "2025-01-13",
+      "event_date": "2025-01-19",
+      "days_before": 6,
+      "event": "Israel-Hamas ceasefire Jan 2025"
+    },
+    {
+      "keyword": "Brand",
+      "spike_date": "2025-01-13",
+      "event_date": "2025-01-20",
+      "days_before": 7,
+      "event": "Trump inauguration 2025"
+    },
+    {
+      "keyword": "Warnstreik",
+      "spike_date": "2025-02-06",
+      "event_date": "2025-02-14",
+      "days_before": 8,
+      "event": "Munich Security Conference 2025"
+    },
+    {
+      "keyword": "Brandenburg",
+      "spike_date": "2024-09-22",
+      "event_date": "2024-10-01",
+      "days_before": 9,
+      "event": "Israel-Iran direct attack (Oct 2024)"
+    },
+    {
+      "keyword": "Los Angeles",
+      "spike_date": "2025-01-10",
+      "event_date": "2025-01-19",
+      "days_before": 9,
+      "event": "Israel-Hamas ceasefire Jan 2025"
+    },
+    {
+      "keyword": "München",
+      "spike_date": "2025-02-13",
+      "event_date": "2025-02-23",
+      "days_before": 10,
+      "event": "Bundestagswahl 2025"
+    },
+    {
+      "keyword": "Ver.di",
+      "spike_date": "2025-02-13",
+      "event_date": "2025-02-23",
+      "days_before": 10,
+      "event": "Bundestagswahl 2025"
+    },
+    {
+      "keyword": "Los Angeles",
+      "spike_date": "2025-01-10",
+      "event_date": "2025-01-20",
+      "days_before": 10,
+      "event": "Trump inauguration 2025"
+    },
+    {
+      "keyword": "Leipzig",
+      "spike_date": "2024-10-25",
+      "event_date": "2024-11-05",
+      "days_before": 11,
+      "event": "US Presidential Election (Trump)"
+    }
+  ],
+  "meta": {
+    "total_articles": 323490,
+    "date_range": [
+      "2024-03-08",
+      "2026-07-20"
+    ],
+    "dpa_articles": 280884,
+    "zeit_articles": 18410,
+    "avg_lag_days": -8.105263157894736
+  }
+}
