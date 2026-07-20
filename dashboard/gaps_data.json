@@ -1,0 +1,961 @@
+{
+  "disappeared_topics": [
+    {
+      "keyword": "US Wahlkampf",
+      "last_month": "2024-09",
+      "peak_count": 72,
+      "months_active": 5
+    },
+    {
+      "keyword": "Leuchtschrift",
+      "last_month": "2024-06",
+      "peak_count": 69,
+      "months_active": 4
+    },
+    {
+      "keyword": "Bündnis 90 / Die Grünen",
+      "last_month": "2024-05",
+      "peak_count": 49,
+      "months_active": 3
+    },
+    {
+      "keyword": "75 Jahre Grundgesetz",
+      "last_month": "2024-09",
+      "peak_count": 39,
+      "months_active": 4
+    },
+    {
+      "keyword": "Börse in Frankfurt",
+      "last_month": "2024-08",
+      "peak_count": 34,
+      "months_active": 5
+    },
+    {
+      "keyword": "K-Frage",
+      "last_month": "2024-11",
+      "peak_count": 33,
+      "months_active": 4
+    },
+    {
+      "keyword": "Krieg in Israel und Gaza",
+      "last_month": "2024-09",
+      "peak_count": 32,
+      "months_active": 7
+    },
+    {
+      "keyword": "Rishi Sunak",
+      "last_month": "2024-11",
+      "peak_count": 32,
+      "months_active": 8
+    },
+    {
+      "keyword": "Sommerspiele in Paris",
+      "last_month": "2024-08",
+      "peak_count": 30,
+      "months_active": 5
+    },
+    {
+      "keyword": "Ukraine-Karte aktuell",
+      "last_month": "2024-07",
+      "peak_count": 29,
+      "months_active": 5
+    },
+    {
+      "keyword": "Julian Assange",
+      "last_month": "2024-10",
+      "peak_count": 27,
+      "months_active": 7
+    },
+    {
+      "keyword": "König Charles",
+      "last_month": "2024-10",
+      "peak_count": 22,
+      "months_active": 8
+    },
+    {
+      "keyword": "Warndreieck",
+      "last_month": "2024-06",
+      "peak_count": 21,
+      "months_active": 4
+    },
+    {
+      "keyword": "Fototermin",
+      "last_month": "2024-06",
+      "peak_count": 20,
+      "months_active": 4
+    },
+    {
+      "keyword": "DFB-Auswahl",
+      "last_month": "2024-10",
+      "peak_count": 19,
+      "months_active": 6
+    },
+    {
+      "keyword": "Michael Stübgen",
+      "last_month": "2024-12",
+      "peak_count": 17,
+      "months_active": 10
+    },
+    {
+      "keyword": "Joav Galant",
+      "last_month": "2024-12",
+      "peak_count": 14,
+      "months_active": 10
+    },
+    {
+      "keyword": "Männer",
+      "last_month": "2024-10",
+      "peak_count": 11,
+      "months_active": 8
+    }
+  ],
+  "keyword_diversity": {
+    "2024-03": 14975,
+    "2024-04": 19504,
+    "2024-05": 17881,
+    "2024-06": 18263,
+    "2024-07": 18663,
+    "2024-08": 19555,
+    "2024-09": 18747,
+    "2024-10": 19040,
+    "2024-11": 19346,
+    "2024-12": 18080,
+    "2025-01": 19400,
+    "2025-02": 17859,
+    "2025-03": 19333,
+    "2025-04": 18528,
+    "2025-05": 19391,
+    "2025-06": 18571,
+    "2025-07": 19057,
+    "2025-08": 18551,
+    "2025-09": 19208,
+    "2025-10": 19166,
+    "2025-11": 19550,
+    "2025-12": 18461,
+    "2026-01": 19275,
+    "2026-02": 18601,
+    "2026-03": 20271,
+    "2026-04": 19028,
+    "2026-05": 20946,
+    "2026-06": 22263,
+    "2026-07": 15853
+  },
+  "paywall_by_category": {
+    "EURO 2024": {
+      "total": 64,
+      "paywalled": 64,
+      "ratio": 1.0
+    },
+    "Gehaltsvergleich nach Berufen": {
+      "total": 431,
+      "paywalled": 431,
+      "ratio": 1.0
+    },
+    "Bevölkerungsentwicklung in Großstädten": {
+      "total": 310,
+      "paywalled": 310,
+      "ratio": 1.0
+    },
+    "Schöne Momente": {
+      "total": 59,
+      "paywalled": 59,
+      "ratio": 1.0
+    },
+    "Gehalt": {
+      "total": 366,
+      "paywalled": 362,
+      "ratio": 0.9891
+    },
+    "Unser Personal Trainer": {
+      "total": 66,
+      "paywalled": 64,
+      "ratio": 0.9697
+    },
+    "Europawahl": {
+      "total": 148,
+      "paywalled": 141,
+      "ratio": 0.9527
+    },
+    "Sommerspiele in Paris": {
+      "total": 50,
+      "paywalled": 47,
+      "ratio": 0.94
+    },
+    "EM": {
+      "total": 96,
+      "paywalled": 90,
+      "ratio": 0.9375
+    },
+    "US-Wahl": {
+      "total": 161,
+      "paywalled": 147,
+      "ratio": 0.913
+    },
+    "Fußball-EM": {
+      "total": 392,
+      "paywalled": 336,
+      "ratio": 0.8571
+    },
+    "US-Wahlkampf": {
+      "total": 322,
+      "paywalled": 273,
+      "ratio": 0.8478
+    },
+    "Metall- und Elektroindustrie": {
+      "total": 61,
+      "paywalled": 51,
+      "ratio": 0.8361
+    },
+    "Liveblog:Krieg in Israel und Gaza": {
+      "total": 117,
+      "paywalled": 93,
+      "ratio": 0.7949
+    },
+    "Liveblog:Ukraine-Krieg": {
+      "total": 89,
+      "paywalled": 65,
+      "ratio": 0.7303
+    },
+    "DWD": {
+      "total": 53,
+      "paywalled": 38,
+      "ratio": 0.717
+    },
+    "Landtagswahlen": {
+      "total": 114,
+      "paywalled": 81,
+      "ratio": 0.7105
+    },
+    "EU": {
+      "total": 133,
+      "paywalled": 94,
+      "ratio": 0.7068
+    },
+    "Olympische Spiele": {
+      "total": 156,
+      "paywalled": 110,
+      "ratio": 0.7051
+    },
+    "2. Liga": {
+      "total": 178,
+      "paywalled": 118,
+      "ratio": 0.6629
+    }
+  },
+  "paywall_trend": {
+    "2024-03": 0.0546,
+    "2024-04": 0.3611,
+    "2024-05": 0.9977,
+    "2024-06": 0.9973,
+    "2024-07": 0.996,
+    "2024-08": 0.9951,
+    "2024-09": 0.3636,
+    "2024-10": 0.9913,
+    "2024-11": 0.6545,
+    "2024-12": 0.0656,
+    "2025-01": 0.057,
+    "2025-02": 0.0628,
+    "2025-03": 0.0652,
+    "2025-04": 0.057,
+    "2025-05": 0.065,
+    "2025-06": 0.0654,
+    "2025-07": 0.0661,
+    "2025-08": 0.0644,
+    "2025-09": 0.0587,
+    "2025-10": 0.0646,
+    "2025-11": 0.065,
+    "2025-12": 0.0649,
+    "2026-01": 0.0586,
+    "2026-02": 0.0674,
+    "2026-03": 0.0725,
+    "2026-04": 0.0714,
+    "2026-05": 0.0704,
+    "2026-06": 0.0695,
+    "2026-07": 0.0772
+  },
+  "copy_paste_stats": {
+    "total_groups": 13868,
+    "duplicate_articles": 4178,
+    "duplicate_ratio": 0.0149,
+    "by_source": {
+      "DIE ZEIT,        AFP,        Reuters,        dpa,        \t\t\t\t\t\t\tals": 1,
+      "DIE ZEIT,        AFP,        Reuters,        dpa,        \t\t\t\t\t\t\tkzi\t\t\t\t\t,        \t\t\t\t\t\t\tsvj": 1,
+      "DIE ZEIT,        AFP,        dpa,        \t\t\t\t\t\t\tale\t\t\t\t\t,        \t\t\t\t\t\t\tkai": 1,
+      "DIE ZEIT,        AFP,        dpa,        \t\t\t\t\t\t\tjj": 1,
+      "DIE ZEIT,        AFP,        dpa,        \t\t\t\t\t\t\trr": 1,
+      "DIE ZEIT,        AFP,        dpa,        \t\t\t\t\t\t\tskö": 1,
+      "DIE ZEIT,        AFP,        dpa,        \t\t\t\t\t\t\ttle": 1,
+      "DIE ZEIT,        AFP,        dpa,        Reuters,        \t\t\t\t\t\t\thtg\t\t\t\t\t,        \t\t\t\t\t\t\tmns": 1,
+      "DIE ZEIT,        AP,        dpa,        Reuters,        \t\t\t\t\t\t\tale\t\t\t\t\t,        \t\t\t\t\t\t\tspr\t\t\t\t\t,        \t\t\t\t\t\t\tkmi": 1,
+      "DIE ZEIT,        KNA,        dpa,        \t\t\t\t\t\t\tlrö": 1,
+      "DIE ZEIT,        KNA,        epd,        dpa,        \t\t\t\t\t\t\tmga": 1,
+      "DIE ZEIT,        Reuters,        AP,        dpa,        \t\t\t\t\t\t\tyer": 1,
+      "DIE ZEIT,        Reuters,        dpa,        \t\t\t\t\t\t\tmaw": 1,
+      "DIE ZEIT,        SID,        dpa,        \t\t\t\t\t\t\tman": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tak": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\takm": 2,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tbda": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tcf": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tedd": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\thap": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\thell": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\thoe": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tiyf": 2,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tlgi": 3,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tlip": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tmin\t\t\t\t\t,        \t\t\t\t\t\t\tlk": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tmm": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tmmh": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tps": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tskö": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tsls": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\ttlf": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tvra": 1,
+      "DIE ZEIT,        dpa,        \t\t\t\t\t\t\tvsp": 1,
+      "DIE ZEIT,        dpa,        AFP,        \t\t\t\t\t\t\takm": 1,
+      "DIE ZEIT,        dpa,        AFP,        \t\t\t\t\t\t\tedd": 1,
+      "DIE ZEIT,        dpa,        AFP,        \t\t\t\t\t\t\tkzi": 2,
+      "DIE ZEIT,        dpa,        AFP,        \t\t\t\t\t\t\tlk": 2,
+      "DIE ZEIT,        dpa,        AFP,        \t\t\t\t\t\t\tlp": 1,
+      "DIE ZEIT,        dpa,        AFP,        \t\t\t\t\t\t\tmaw": 1,
+      "DIE ZEIT,        dpa,        AFP,        \t\t\t\t\t\t\tmga": 1,
+      "DIE ZEIT,        dpa,        AFP,        \t\t\t\t\t\t\tngo": 1,
+      "DIE ZEIT,        dpa,        AFP,        \t\t\t\t\t\t\tvoi": 1,
+      "DIE ZEIT,        dpa,        Reuters,        \t\t\t\t\t\t\thra": 1,
+      "DIE ZEIT,        dpa,        Reuters,        \t\t\t\t\t\t\thtg": 1,
+      "DIE ZEIT,        dpa,        Reuters,        \t\t\t\t\t\t\tjsp": 1,
+      "DIE ZEIT,        dpa,        Reuters,        \t\t\t\t\t\t\tman": 1,
+      "DIE ZEIT,        dpa,        Reuters,        \t\t\t\t\t\t\tmga": 1,
+      "ZEIT ONLINE,        AFP,        ctri,        dpa": 1,
+      "ZEIT ONLINE,        AFP,        dpa": 1,
+      "ZEIT ONLINE,        AFP,        dpa,        \t\t\t\t\t\t\thap\t\t\t\t\t,        \t\t\t\t\t\t\tmga": 1,
+      "ZEIT ONLINE,        AFP,        dpa,        \t\t\t\t\t\t\tlak": 2,
+      "ZEIT ONLINE,        AFP,        dpa,        \t\t\t\t\t\t\tljk": 1,
+      "ZEIT ONLINE,        AFP,        dpa,        \t\t\t\t\t\t\tspr": 1,
+      "ZEIT ONLINE,        AFP,        dpa,        \t\t\t\t\t\t\tsvj\t\t\t\t\t,        \t\t\t\t\t\t\tlip": 1,
+      "ZEIT ONLINE,        AFP,        epd,        dpa,        \t\t\t\t\t\t\tbam": 1,
+      "ZEIT ONLINE,        Reuters,        AFP,        dpa,        \t\t\t\t\t\t\talx": 1,
+      "ZEIT ONLINE,        Reuters,        AP,        AFP,        dpa,        \t\t\t\t\t\t\tmmh": 1,
+      "ZEIT ONLINE,        Reuters,        dpa,        \t\t\t\t\t\t\tmaw": 1,
+      "ZEIT ONLINE,        Reuters,        dpa,        \t\t\t\t\t\t\trl": 1,
+      "ZEIT ONLINE,        Reuters,        dpa,        AFP,        \t\t\t\t\t\t\tskö": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\takm": 3,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tals": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tcth": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tedd": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tiyf": 2,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tjsa": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tjsp": 2,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tkhe": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tkzi": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tlip": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tmga": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tmmh": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\trl": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tsih": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tskö": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tsue": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\tvha": 1,
+      "ZEIT ONLINE,        dpa,        \t\t\t\t\t\t\twh": 1,
+      "ZEIT ONLINE,        dpa,        AFP,        \t\t\t\t\t\t\tak": 1,
+      "ZEIT ONLINE,        dpa,        AFP,        \t\t\t\t\t\t\takl": 1,
+      "ZEIT ONLINE,        dpa,        AFP,        \t\t\t\t\t\t\takm": 1,
+      "ZEIT ONLINE,        dpa,        AFP,        \t\t\t\t\t\t\tctri": 1,
+      "ZEIT ONLINE,        dpa,        AFP,        \t\t\t\t\t\t\teca": 1,
+      "ZEIT ONLINE,        dpa,        AFP,        \t\t\t\t\t\t\tfin": 1,
+      "ZEIT ONLINE,        dpa,        AFP,        Reuters,        \t\t\t\t\t\t\tkj": 1,
+      "ZEIT ONLINE,        dpa,        AFP,        Reuters,        AP,        sko": 1,
+      "ZEIT ONLINE,        dpa,        AFP,        iyf": 1,
+      "ZEIT ONLINE,        dpa,        AFP,        lak": 1,
+      "ZEIT ONLINE,        dpa,        AFP,        voi": 2,
+      "ZEIT ONLINE,        dpa,        AP,        AFP,        Reuters,        maw,        isd": 1,
+      "ZEIT ONLINE,        dpa,        KNA,        \t\t\t\t\t\t\tsbo": 1,
+      "ZEIT ONLINE,        dpa,        Reuters,        \t\t\t\t\t\t\tjko": 1,
+      "ZEIT ONLINE,        dpa,        Reuters,        \t\t\t\t\t\t\tkmi\t\t\t\t\t,        \t\t\t\t\t\t\tjj\t\t\t\t\t,        \t\t\t\t\t\t\tsbo\t\t\t\t\t,        \t\t\t\t\t\t\trl\t\t\t\t\t,        \t\t\t\t\t\t\tjsp": 1,
+      "ZEIT ONLINE,        dpa,        Reuters,        \t\t\t\t\t\t\tvoi": 1,
+      "ZEIT ONLINE,        dpa,        Reuters,        \t\t\t\t\t\t\tvu": 1,
+      "ZEIT ONLINE,        dpa,        Reuters,        AFP,        \t\t\t\t\t\t\tals\t\t\t\t\t,        \t\t\t\t\t\t\tedd": 1,
+      "ZEIT ONLINE,        dpa,        Reuters,        ctri": 1,
+      "ZEIT ONLINE,        dpa,        SID,        \t\t\t\t\t\t\tspr\t\t\t\t\t,        \t\t\t\t\t\t\tlk": 1,
+      "ZEIT ONLINE,        dpa,        ak": 1,
+      "ZEIT ONLINE,        dpa,        ale": 1,
+      "ZEIT ONLINE,        dpa,        jsp": 1,
+      "ZEIT ONLINE,        dpa,        lak": 1,
+      "ZEIT ONLINE,        dpa,        ljk": 1,
+      "ZEIT ONLINE,        dpa,        sko": 1,
+      "ZEIT ONLINE,        dpa,        svj": 2,
+      "ZEIT ONLINE,        dpa,        sög": 1,
+      "ZEIT ONLINE,        dpa,        ut": 1,
+      "ZEIT ONLINE,        dpa,        voi": 1,
+      "ZEIT ONLINE,        epd,        KNA,        AFP,        dpa,        \t\t\t\t\t\t\tmga": 1,
+      "dpa": 1163,
+      "dpa Baden-Württemberg": 351,
+      "dpa Bayern": 324,
+      "dpa Berlin/Brandenburg": 421,
+      "dpa Hamburg/Schleswig-Holstein": 309,
+      "dpa Hessen": 207,
+      "dpa Mecklenburg-Vorpommern": 103,
+      "dpa Niedersachsen": 220,
+      "dpa Nordrhein-Westfalen": 280,
+      "dpa Rheinland-Pfalz/Saarland": 215,
+      "dpa Sachsen": 357,
+      "dpa Sport": 30,
+      "dpa Thüringen": 75
+    }
+  },
+  "ghost_authors": {
+    "voi": {
+      "count": 1287,
+      "possible_names": []
+    },
+    "epd": {
+      "count": 1043,
+      "possible_names": [
+        "Gerhard Schröder",
+        "Schröders Fall"
+      ]
+    },
+    "ale": {
+      "count": 988,
+      "possible_names": []
+    },
+    "spr": {
+      "count": 972,
+      "possible_names": [
+        "Getty Images",
+        "Jim Watson"
+      ]
+    },
+    "iyf": {
+      "count": 968,
+      "possible_names": [
+        "Andrea Lindholz",
+        "Bodo Ramelow",
+        "Gerold Otten",
+        "Josephine Ortleb",
+        "Omid Nouripour"
+      ]
+    },
+    "sko": {
+      "count": 868,
+      "possible_names": []
+    },
+    "dar": {
+      "count": 789,
+      "possible_names": []
+    },
+    "isd": {
+      "count": 768,
+      "possible_names": []
+    },
+    "svj": {
+      "count": 737,
+      "possible_names": []
+    },
+    "edd": {
+      "count": 729,
+      "possible_names": []
+    },
+    "akm": {
+      "count": 722,
+      "possible_names": [
+        "Laura Dahlmeier",
+        "Produkte Chinesische Waren",
+        "Reziproke Zölle"
+      ]
+    },
+    "mga": {
+      "count": 704,
+      "possible_names": []
+    },
+    "jsp": {
+      "count": 683,
+      "possible_names": []
+    },
+    "mmh": {
+      "count": 629,
+      "possible_names": [
+        "Brian Thompson",
+        "Olaf Scholz Dienstag",
+        "United Healthcare"
+      ]
+    },
+    "ljk": {
+      "count": 617,
+      "possible_names": []
+    },
+    "kzi": {
+      "count": 584,
+      "possible_names": [
+        "Brian Thompson",
+        "Gerhard Schröder",
+        "Max Schrems",
+        "Schröders Fall",
+        "United Healthcare"
+      ]
+    },
+    "eca": {
+      "count": 557,
+      "possible_names": []
+    },
+    "lgi": {
+      "count": 546,
+      "possible_names": [
+        "Andrej Babi",
+        "Neue Doppelspitze",
+        "Parteivorstand Rätsel",
+        "Weißen Haus"
+      ]
+    },
+    "maw": {
+      "count": 536,
+      "possible_names": []
+    },
+    "yer": {
+      "count": 518,
+      "possible_names": []
+    },
+    "mns": {
+      "count": 497,
+      "possible_names": [
+        "Sicherheit Deutschlands"
+      ]
+    },
+    "vsp": {
+      "count": 475,
+      "possible_names": []
+    },
+    "sbo": {
+      "count": 465,
+      "possible_names": []
+    },
+    "bam": {
+      "count": 441,
+      "possible_names": []
+    },
+    "hoe": {
+      "count": 398,
+      "possible_names": []
+    },
+    "hap": {
+      "count": 378,
+      "possible_names": []
+    },
+    "lak": {
+      "count": 377,
+      "possible_names": []
+    },
+    "caf": {
+      "count": 365,
+      "possible_names": []
+    },
+    "jse": {
+      "count": 335,
+      "possible_names": []
+    },
+    "htg": {
+      "count": 299,
+      "possible_names": []
+    },
+    "lip": {
+      "count": 263,
+      "possible_names": []
+    },
+    "iso": {
+      "count": 217,
+      "possible_names": []
+    },
+    "sue": {
+      "count": 202,
+      "possible_names": [
+        "Getty Images",
+        "Kevin Dietsch"
+      ]
+    },
+    "lkk": {
+      "count": 201,
+      "possible_names": []
+    },
+    "man": {
+      "count": 192,
+      "possible_names": []
+    },
+    "ces": {
+      "count": 178,
+      "possible_names": []
+    },
+    "vha": {
+      "count": 167,
+      "possible_names": []
+    },
+    "tlf": {
+      "count": 164,
+      "possible_names": []
+    },
+    "mcr": {
+      "count": 144,
+      "possible_names": []
+    },
+    "yil": {
+      "count": 138,
+      "possible_names": []
+    },
+    "jsa": {
+      "count": 136,
+      "possible_names": [
+        "Donald Trump",
+        "Wladimir Putin"
+      ]
+    },
+    "ore": {
+      "count": 131,
+      "possible_names": []
+    },
+    "jfw": {
+      "count": 126,
+      "possible_names": []
+    },
+    "akl": {
+      "count": 103,
+      "possible_names": []
+    },
+    "ngo": {
+      "count": 102,
+      "possible_names": []
+    },
+    "vra": {
+      "count": 100,
+      "possible_names": []
+    },
+    "wil": {
+      "count": 98,
+      "possible_names": [
+        "Oberste Führer",
+        "Obersten Führers"
+      ]
+    },
+    "pip": {
+      "count": 96,
+      "possible_names": []
+    },
+    "wlk": {
+      "count": 85,
+      "possible_names": []
+    },
+    "sih": {
+      "count": 81,
+      "possible_names": []
+    },
+    "min": {
+      "count": 81,
+      "possible_names": []
+    },
+    "dho": {
+      "count": 78,
+      "possible_names": []
+    },
+    "tim": {
+      "count": 78,
+      "possible_names": []
+    },
+    "alx": {
+      "count": 73,
+      "possible_names": []
+    },
+    "cga": {
+      "count": 72,
+      "possible_names": []
+    },
+    "kmi": {
+      "count": 71,
+      "possible_names": []
+    },
+    "pjm": {
+      "count": 70,
+      "possible_names": []
+    },
+    "tle": {
+      "count": 70,
+      "possible_names": []
+    },
+    "jko": {
+      "count": 67,
+      "possible_names": []
+    },
+    "mon": {
+      "count": 66,
+      "possible_names": []
+    },
+    "tgr": {
+      "count": 65,
+      "possible_names": []
+    },
+    "nmo": {
+      "count": 65,
+      "possible_names": []
+    },
+    "mks": {
+      "count": 65,
+      "possible_names": []
+    },
+    "ata": {
+      "count": 62,
+      "possible_names": [
+        "Chefposten Pentagon",
+        "Kampfjets Trump"
+      ]
+    },
+    "stm": {
+      "count": 60,
+      "possible_names": []
+    },
+    "tst": {
+      "count": 59,
+      "possible_names": []
+    },
+    "cth": {
+      "count": 53,
+      "possible_names": []
+    },
+    "lba": {
+      "count": 52,
+      "possible_names": []
+    },
+    "chd": {
+      "count": 50,
+      "possible_names": []
+    },
+    "jtr": {
+      "count": 48,
+      "possible_names": []
+    },
+    "ast": {
+      "count": 47,
+      "possible_names": []
+    },
+    "jap": {
+      "count": 47,
+      "possible_names": []
+    },
+    "gti": {
+      "count": 46,
+      "possible_names": []
+    },
+    "mpi": {
+      "count": 44,
+      "possible_names": []
+    },
+    "fin": {
+      "count": 39,
+      "possible_names": []
+    },
+    "bda": {
+      "count": 39,
+      "possible_names": []
+    },
+    "jci": {
+      "count": 36,
+      "possible_names": []
+    },
+    "khe": {
+      "count": 35,
+      "possible_names": []
+    },
+    "kas": {
+      "count": 32,
+      "possible_names": []
+    },
+    "faf": {
+      "count": 28,
+      "possible_names": []
+    },
+    "psc": {
+      "count": 28,
+      "possible_names": []
+    },
+    "tos": {
+      "count": 28,
+      "possible_names": []
+    },
+    "rfe": {
+      "count": 26,
+      "possible_names": []
+    },
+    "sls": {
+      "count": 26,
+      "possible_names": []
+    },
+    "ccp": {
+      "count": 25,
+      "possible_names": []
+    },
+    "jhs": {
+      "count": 21,
+      "possible_names": []
+    },
+    "heo": {
+      "count": 20,
+      "possible_names": []
+    },
+    "alu": {
+      "count": 18,
+      "possible_names": []
+    },
+    "eak": {
+      "count": 17,
+      "possible_names": []
+    },
+    "hra": {
+      "count": 17,
+      "possible_names": []
+    },
+    "mab": {
+      "count": 16,
+      "possible_names": []
+    },
+    "cls": {
+      "count": 15,
+      "possible_names": []
+    },
+    "cba": {
+      "count": 14,
+      "possible_names": []
+    },
+    "cab": {
+      "count": 12,
+      "possible_names": []
+    },
+    "lif": {
+      "count": 11,
+      "possible_names": []
+    },
+    "jfl": {
+      "count": 11,
+      "possible_names": []
+    },
+    "aka": {
+      "count": 11,
+      "possible_names": []
+    },
+    "voo": {
+      "count": 10,
+      "possible_names": []
+    }
+  },
+  "seo_patterns": {
+    "Kriminalität": {
+      "optimized_count": 9136,
+      "total": 11000,
+      "ratio": 0.8305,
+      "stuffing_count": 234
+    },
+    "Fußball-Bundesliga": {
+      "optimized_count": 4723,
+      "total": 6157,
+      "ratio": 0.7671,
+      "stuffing_count": 75
+    },
+    "Verkehr": {
+      "optimized_count": 4063,
+      "total": 4527,
+      "ratio": 0.8975,
+      "stuffing_count": 273
+    },
+    "Unfälle": {
+      "optimized_count": 3909,
+      "total": 4384,
+      "ratio": 0.8917,
+      "stuffing_count": 105
+    },
+    "Wetter": {
+      "optimized_count": 3767,
+      "total": 4280,
+      "ratio": 0.8801,
+      "stuffing_count": 476
+    },
+    "2. Fußball-Bundesliga": {
+      "optimized_count": 2379,
+      "total": 2869,
+      "ratio": 0.8292,
+      "stuffing_count": 33
+    },
+    "Fußball": {
+      "optimized_count": 2167,
+      "total": 2727,
+      "ratio": 0.7946,
+      "stuffing_count": 82
+    },
+    "Unfall": {
+      "optimized_count": 2316,
+      "total": 2684,
+      "ratio": 0.8629,
+      "stuffing_count": 183
+    },
+    "Brände": {
+      "optimized_count": 2316,
+      "total": 2496,
+      "ratio": 0.9279,
+      "stuffing_count": 254
+    },
+    "Notfälle": {
+      "optimized_count": 1838,
+      "total": 2146,
+      "ratio": 0.8565,
+      "stuffing_count": 50
+    },
+    "Bundesliga": {
+      "optimized_count": 1372,
+      "total": 1726,
+      "ratio": 0.7949,
+      "stuffing_count": 30
+    },
+    "Tiere": {
+      "optimized_count": 1207,
+      "total": 1418,
+      "ratio": 0.8512,
+      "stuffing_count": 38
+    },
+    "Gesundheit": {
+      "optimized_count": 1145,
+      "total": 1312,
+      "ratio": 0.8727,
+      "stuffing_count": 44
+    },
+    "Justiz": {
+      "optimized_count": 867,
+      "total": 1069,
+      "ratio": 0.811,
+      "stuffing_count": 15
+    },
+    "Leute": {
+      "optimized_count": 945,
+      "total": 1067,
+      "ratio": 0.8857,
+      "stuffing_count": 16
+    }
+  },
+  "empty_descriptions": {
+    "by_source": {
+      "(unknown)": 6,
+      "Aus der        ZEIT Nr. 13/2025": 2,
+      "Aus der        ZEIT Nr. 16/2024": 1,
+      "Aus der        ZEIT Nr. 34/2024": 1,
+      "Aus der        ZEIT Nr. 44/2024": 1,
+      "Aus der        ZEIT Nr. 23/2025": 1
+    },
+    "by_category": {
+      "Stimmt's? / Geistige Arbeit": 1,
+      "Gehalt": 1,
+      "Liveblog:Europawahl": 1,
+      "Europawahl": 1,
+      "Stimmt's? / Windkraftanlagen": 1,
+      "Literatur": 1,
+      "Wahl in Deutschland": 1,
+      "Lothar Wieler": 1,
+      "Gespräche zwischen Geschwistern": 1,
+      "Kurzgeschichte zur Weltlage": 1,
+      "Satelliten": 1,
+      "US-Wahlkampf": 1
+    }
+  }
+}

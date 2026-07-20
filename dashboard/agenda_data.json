@@ -387,124 +387,124 @@
   },
   "second_peaks": [
     {
-      "keyword": "CHE",
-      "first_peak": "2024-03-18",
-      "second_peak": "2026-07-13",
-      "gap_days": 847
-    },
-    {
-      "keyword": "Fahrzeug",
+      "keyword": "Michelin",
       "first_peak": "2024-03-25",
+      "second_peak": "2026-06-22",
+      "gap_days": 812
+    },
+    {
+      "keyword": "Pfingsten",
+      "first_peak": "2024-05-13",
+      "second_peak": "2026-05-18",
+      "gap_days": 728
+    },
+    {
+      "keyword": "Nato-Gipfel",
+      "first_peak": "2024-07-08",
       "second_peak": "2026-07-06",
-      "gap_days": 833
+      "gap_days": 721
     },
     {
-      "keyword": "Karlsruhe",
-      "first_peak": "2024-03-18",
-      "second_peak": "2026-06-29",
-      "gap_days": 833
+      "keyword": "Katholikentag",
+      "first_peak": "2024-05-27",
+      "second_peak": "2026-05-11",
+      "gap_days": 707
     },
     {
-      "keyword": "Julian Nagelsmann",
-      "first_peak": "2024-03-18",
-      "second_peak": "2026-06-29",
-      "gap_days": 833
+      "keyword": "Einbürgerung",
+      "first_peak": "2024-06-24",
+      "second_peak": "2026-06-01",
+      "gap_days": 700
     },
     {
-      "keyword": "Fußball",
-      "first_peak": "2024-03-18",
-      "second_peak": "2026-06-22",
-      "gap_days": 826
+      "keyword": "Labourpartei",
+      "first_peak": "2024-07-01",
+      "second_peak": "2026-05-11",
+      "gap_days": 672
     },
     {
-      "keyword": "Frankfurt",
-      "first_peak": "2024-03-18",
-      "second_peak": "2026-06-22",
-      "gap_days": 826
+      "keyword": "Sommerspiel",
+      "first_peak": "2024-07-29",
+      "second_peak": "2026-06-15",
+      "gap_days": 672
+    },
+    {
+      "keyword": "Tarife",
+      "first_peak": "2024-03-11",
+      "second_peak": "2026-02-16",
+      "gap_days": 644
     },
     {
       "keyword": "Thomas Tuchel",
       "first_peak": "2024-04-15",
       "second_peak": "2026-07-13",
-      "gap_days": 819
+      "gap_days": 630
     },
     {
-      "keyword": "Guide Michelin",
-      "first_peak": "2024-03-25",
-      "second_peak": "2026-06-22",
-      "gap_days": 819
+      "keyword": "Kylian Mbappé",
+      "first_peak": "2024-06-17",
+      "second_peak": "2026-07-13",
+      "gap_days": 630
     },
     {
-      "keyword": "Michelin",
-      "first_peak": "2024-03-25",
-      "second_peak": "2026-06-22",
-      "gap_days": 819
+      "keyword": "Aston Villa",
+      "first_peak": "2024-09-30",
+      "second_peak": "2026-05-18",
+      "gap_days": 588
+    },
+    {
+      "keyword": "FC Arsenal",
+      "first_peak": "2024-04-08",
+      "second_peak": "2025-11-24",
+      "gap_days": 581
+    },
+    {
+      "keyword": "Ungarn",
+      "first_peak": "2024-06-17",
+      "second_peak": "2026-04-13",
+      "gap_days": 581
+    },
+    {
+      "keyword": "Alexander Schweitzer",
+      "first_peak": "2024-07-08",
+      "second_peak": "2026-03-16",
+      "gap_days": 567
+    },
+    {
+      "keyword": "Wien",
+      "first_peak": "2024-08-05",
+      "second_peak": "2026-05-11",
+      "gap_days": 553
     },
     {
       "keyword": "Notaufnahme",
       "first_peak": "2024-03-25",
       "second_peak": "2026-06-22",
-      "gap_days": 819
+      "gap_days": 546
     },
     {
-      "keyword": "Fußballnationalmannschaft",
-      "first_peak": "2024-03-18",
-      "second_peak": "2026-06-08",
-      "gap_days": 812
+      "keyword": "Olympia",
+      "first_peak": "2024-07-29",
+      "second_peak": "2026-02-09",
+      "gap_days": 539
     },
     {
-      "keyword": "Frankfurt am Main",
-      "first_peak": "2024-04-01",
-      "second_peak": "2026-06-22",
-      "gap_days": 812
+      "keyword": "Paralympics",
+      "first_peak": "2024-09-02",
+      "second_peak": "2026-03-09",
+      "gap_days": 532
     },
     {
-      "keyword": "Klimawandel",
-      "first_peak": "2024-04-08",
-      "second_peak": "2026-06-29",
-      "gap_days": 812
+      "keyword": "Real Madrid",
+      "first_peak": "2024-04-29",
+      "second_peak": "2026-04-06",
+      "gap_days": 525
     },
     {
-      "keyword": "Björn Höcke",
-      "first_peak": "2024-04-08",
-      "second_peak": "2026-06-29",
-      "gap_days": 812
-    },
-    {
-      "keyword": "Tennis",
-      "first_peak": "2024-04-15",
-      "second_peak": "2026-07-06",
-      "gap_days": 812
-    },
-    {
-      "keyword": "Erdbeben",
-      "first_peak": "2024-04-01",
-      "second_peak": "2026-06-22",
-      "gap_days": 812
-    },
-    {
-      "keyword": "Wissenschaft",
-      "first_peak": "2024-04-15",
-      "second_peak": "2026-07-06",
-      "gap_days": 812
-    },
-    {
-      "keyword": "Kommune",
-      "first_peak": "2024-04-08",
-      "second_peak": "2026-06-22",
-      "gap_days": 805
-    },
-    {
-      "keyword": "Daniela Klette",
-      "first_peak": "2024-03-11",
-      "second_peak": "2026-05-25",
-      "gap_days": 805
-    },
-    {
-      "keyword": "RAF",
-      "first_peak": "2024-03-11",
-      "second_peak": "2026-05-25",
-      "gap_days": 805
+      "keyword": "Gelsenkirchen",
+      "first_peak": "2024-07-15",
+      "second_peak": "2025-12-29",
+      "gap_days": 525
     }
   ],
   "dead_topics": [

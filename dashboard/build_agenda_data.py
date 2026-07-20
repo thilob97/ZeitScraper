@@ -310,8 +310,9 @@ for kw, ranks in kw_month_rank.items():
         # Last month the keyword appeared at all
         months_sorted = sorted(ranks.keys())
         last_month = months_sorted[-1]
-        # Dropped: in the 3 most recent calendar months, rank > 500 or absent
-        recent = all_months[-3:]
+        # Dropped: in the 2 most recent COMPLETE calendar months, rank > 500 or absent.
+        # (The very last month may be partial, so use the 2 months before it for the check.)
+        recent = all_months[-3:-1] if len(all_months) >= 3 else all_months[-2:]
         dropped = all(ranks.get(m, 99999) > 500 for m in recent)
         if dropped:
             dead_topics.append({

@@ -1,0 +1,879 @@
+{
+  "half_lives": {
+    "Polizei": {
+      "peak_count": 106,
+      "peak_date": "2024-05-24",
+      "half_life_days": 2,
+      "total_days_active": 865
+    },
+    "Kriminalität": {
+      "peak_count": 74,
+      "peak_date": "2025-03-03",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Berlin": {
+      "peak_count": 54,
+      "peak_date": "2026-01-07",
+      "half_life_days": 3,
+      "total_days_active": 865
+    },
+    "Unfall": {
+      "peak_count": 47,
+      "peak_date": "2024-06-25",
+      "half_life_days": 2,
+      "total_days_active": 865
+    },
+    "SPD": {
+      "peak_count": 104,
+      "peak_date": "2025-02-24",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "CDU": {
+      "peak_count": 117,
+      "peak_date": "2025-02-24",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Fußball-Bundesliga": {
+      "peak_count": 66,
+      "peak_date": "2024-09-14",
+      "half_life_days": 2,
+      "total_days_active": 865
+    },
+    "USA": {
+      "peak_count": 58,
+      "peak_date": "2024-11-06",
+      "half_life_days": 2,
+      "total_days_active": 865
+    },
+    "Hamburg": {
+      "peak_count": 45,
+      "peak_date": "2026-01-08",
+      "half_life_days": 2,
+      "total_days_active": 865
+    },
+    "Wetter": {
+      "peak_count": 70,
+      "peak_date": "2024-06-03",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Bundesliga": {
+      "peak_count": 80,
+      "peak_date": "2024-03-10",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Verkehr": {
+      "peak_count": 56,
+      "peak_date": "2024-04-19",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Donald Trump": {
+      "peak_count": 97,
+      "peak_date": "2024-11-06",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Alternative für Deutschland": {
+      "peak_count": 94,
+      "peak_date": "2025-02-24",
+      "half_life_days": 1,
+      "total_days_active": 864
+    },
+    "Fußball": {
+      "peak_count": 55,
+      "peak_date": "2024-06-13",
+      "half_life_days": 2,
+      "total_days_active": 865
+    },
+    "Staatsanwaltschaft": {
+      "peak_count": 34,
+      "peak_date": "2024-04-18",
+      "half_life_days": 1,
+      "total_days_active": 864
+    },
+    "Russland": {
+      "peak_count": 26,
+      "peak_date": "2024-08-02",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Krieg in der Ukraine": {
+      "peak_count": 26,
+      "peak_date": "2025-03-01",
+      "half_life_days": 7,
+      "total_days_active": 865
+    },
+    "München": {
+      "peak_count": 51,
+      "peak_date": "2025-02-13",
+      "half_life_days": 2,
+      "total_days_active": 865
+    },
+    "Bayern": {
+      "peak_count": 116,
+      "peak_date": "2024-08-22",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Brandenburg": {
+      "peak_count": 68,
+      "peak_date": "2024-09-22",
+      "half_life_days": 2,
+      "total_days_active": 865
+    },
+    "Feuerwehr": {
+      "peak_count": 36,
+      "peak_date": "2024-04-16",
+      "half_life_days": 3,
+      "total_days_active": 865
+    },
+    "Tiere": {
+      "peak_count": 52,
+      "peak_date": "2026-03-31",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Thüringen": {
+      "peak_count": 82,
+      "peak_date": "2024-09-02",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Bundesregierung": {
+      "peak_count": 42,
+      "peak_date": "2025-05-06",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Sachsen-Anhalt": {
+      "peak_count": 28,
+      "peak_date": "2026-01-28",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Europa": {
+      "peak_count": 40,
+      "peak_date": "2024-06-10",
+      "half_life_days": 1,
+      "total_days_active": 864
+    },
+    "Niedersachsen": {
+      "peak_count": 45,
+      "peak_date": "2024-08-22",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Hessen": {
+      "peak_count": 51,
+      "peak_date": "2024-08-22",
+      "half_life_days": 1,
+      "total_days_active": 864
+    },
+    "Sachsen": {
+      "peak_count": 71,
+      "peak_date": "2024-09-02",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Familie": {
+      "peak_count": 19,
+      "peak_date": "2026-05-18",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Rheinland-Pfalz": {
+      "peak_count": 44,
+      "peak_date": "2026-03-22",
+      "half_life_days": 2,
+      "total_days_active": 865
+    },
+    "Militär": {
+      "peak_count": 16,
+      "peak_date": "2026-02-27",
+      "half_life_days": 4,
+      "total_days_active": 865
+    },
+    "Mann": {
+      "peak_count": 21,
+      "peak_date": "2024-11-25",
+      "half_life_days": 1,
+      "total_days_active": 630
+    },
+    "Geld": {
+      "peak_count": 18,
+      "peak_date": "2025-12-17",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Friedrich Merz": {
+      "peak_count": 71,
+      "peak_date": "2025-05-06",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Israel": {
+      "peak_count": 33,
+      "peak_date": "2024-10-07",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Nordrhein-Westfalen": {
+      "peak_count": 36,
+      "peak_date": "2024-08-21",
+      "half_life_days": 2,
+      "total_days_active": 864
+    },
+    "Mecklenburg-Vorpommern": {
+      "peak_count": 16,
+      "peak_date": "2024-06-10",
+      "half_life_days": 3,
+      "total_days_active": 865
+    },
+    "Baden-Württemberg": {
+      "peak_count": 52,
+      "peak_date": "2026-03-08",
+      "half_life_days": 2,
+      "total_days_active": 864
+    },
+    "Unfälle": {
+      "peak_count": 19,
+      "peak_date": "2025-06-14",
+      "half_life_days": 2,
+      "total_days_active": 865
+    },
+    "Frankfurt": {
+      "peak_count": 19,
+      "peak_date": "2024-05-03",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "Stuttgart": {
+      "peak_count": 24,
+      "peak_date": "2026-02-20",
+      "half_life_days": 2,
+      "total_days_active": 865
+    },
+    "FC Bayern München": {
+      "peak_count": 19,
+      "peak_date": "2024-05-09",
+      "half_life_days": 2,
+      "total_days_active": 864
+    },
+    "Iran": {
+      "peak_count": 60,
+      "peak_date": "2026-03-01",
+      "half_life_days": 5,
+      "total_days_active": 865
+    },
+    "Fahrzeug": {
+      "peak_count": 16,
+      "peak_date": "2024-04-28",
+      "half_life_days": 1,
+      "total_days_active": 865
+    },
+    "CSU": {
+      "peak_count": 25,
+      "peak_date": "2026-03-22",
+      "half_life_days": 1,
+      "total_days_active": 864
+    },
+    "Gazastreifen": {
+      "peak_count": 25,
+      "peak_date": "2025-10-13",
+      "half_life_days": 4,
+      "total_days_active": 864
+    },
+    "Brand": {
+      "peak_count": 25,
+      "peak_date": "2026-01-01",
+      "half_life_days": 2,
+      "total_days_active": 865
+    },
+    "Europäische Union": {
+      "peak_count": 31,
+      "peak_date": "2025-12-18",
+      "half_life_days": 1,
+      "total_days_active": 865
+    }
+  },
+  "lifecycle_types": {
+    "Polizei": {
+      "type": "cyclical",
+      "peak_date": "2024-05-24",
+      "days_active": 865
+    },
+    "Kriminalität": {
+      "type": "cyclical",
+      "peak_date": "2025-03-03",
+      "days_active": 865
+    },
+    "Berlin": {
+      "type": "cyclical",
+      "peak_date": "2026-01-07",
+      "days_active": 865
+    },
+    "Unfall": {
+      "type": "cyclical",
+      "peak_date": "2024-06-25",
+      "days_active": 865
+    },
+    "SPD": {
+      "type": "cyclical",
+      "peak_date": "2025-02-24",
+      "days_active": 865
+    },
+    "CDU": {
+      "type": "cyclical",
+      "peak_date": "2025-02-24",
+      "days_active": 865
+    },
+    "Fußball-Bundesliga": {
+      "type": "cyclical",
+      "peak_date": "2024-09-14",
+      "days_active": 865
+    },
+    "USA": {
+      "type": "cyclical",
+      "peak_date": "2024-11-06",
+      "days_active": 865
+    },
+    "Hamburg": {
+      "type": "cyclical",
+      "peak_date": "2026-01-08",
+      "days_active": 865
+    },
+    "Wetter": {
+      "type": "cyclical",
+      "peak_date": "2024-06-03",
+      "days_active": 865
+    },
+    "Bundesliga": {
+      "type": "flash",
+      "peak_date": "2024-03-10",
+      "days_active": 865
+    },
+    "Verkehr": {
+      "type": "cyclical",
+      "peak_date": "2024-04-19",
+      "days_active": 865
+    },
+    "Donald Trump": {
+      "type": "cyclical",
+      "peak_date": "2024-11-06",
+      "days_active": 865
+    },
+    "Alternative für Deutschland": {
+      "type": "cyclical",
+      "peak_date": "2025-02-24",
+      "days_active": 864
+    },
+    "Fußball": {
+      "type": "flash",
+      "peak_date": "2024-06-13",
+      "days_active": 865
+    },
+    "Staatsanwaltschaft": {
+      "type": "cyclical",
+      "peak_date": "2024-04-18",
+      "days_active": 864
+    },
+    "Russland": {
+      "type": "cyclical",
+      "peak_date": "2024-08-02",
+      "days_active": 865
+    },
+    "Krieg in der Ukraine": {
+      "type": "cyclical",
+      "peak_date": "2025-03-01",
+      "days_active": 865
+    },
+    "München": {
+      "type": "cyclical",
+      "peak_date": "2025-02-13",
+      "days_active": 865
+    },
+    "Bayern": {
+      "type": "flash",
+      "peak_date": "2024-08-22",
+      "days_active": 865
+    },
+    "Brandenburg": {
+      "type": "cyclical",
+      "peak_date": "2024-09-22",
+      "days_active": 865
+    },
+    "Feuerwehr": {
+      "type": "cyclical",
+      "peak_date": "2024-04-16",
+      "days_active": 865
+    },
+    "Tiere": {
+      "type": "cyclical",
+      "peak_date": "2026-03-31",
+      "days_active": 865
+    },
+    "Thüringen": {
+      "type": "flash",
+      "peak_date": "2024-09-02",
+      "days_active": 865
+    },
+    "Bundesregierung": {
+      "type": "cyclical",
+      "peak_date": "2025-05-06",
+      "days_active": 865
+    },
+    "Sachsen-Anhalt": {
+      "type": "cyclical",
+      "peak_date": "2026-01-28",
+      "days_active": 865
+    },
+    "Europa": {
+      "type": "cyclical",
+      "peak_date": "2024-06-10",
+      "days_active": 864
+    },
+    "Niedersachsen": {
+      "type": "cyclical",
+      "peak_date": "2024-08-22",
+      "days_active": 865
+    },
+    "Hessen": {
+      "type": "flash",
+      "peak_date": "2024-08-22",
+      "days_active": 864
+    },
+    "Sachsen": {
+      "type": "flash",
+      "peak_date": "2024-09-02",
+      "days_active": 865
+    },
+    "Familie": {
+      "type": "cyclical",
+      "peak_date": "2026-05-18",
+      "days_active": 865
+    },
+    "Rheinland-Pfalz": {
+      "type": "cyclical",
+      "peak_date": "2026-03-22",
+      "days_active": 865
+    },
+    "Militär": {
+      "type": "cyclical",
+      "peak_date": "2026-02-27",
+      "days_active": 865
+    },
+    "Mann": {
+      "type": "cyclical",
+      "peak_date": "2024-11-25",
+      "days_active": 630
+    },
+    "Geld": {
+      "type": "cyclical",
+      "peak_date": "2025-12-17",
+      "days_active": 865
+    },
+    "Friedrich Merz": {
+      "type": "cyclical",
+      "peak_date": "2025-05-06",
+      "days_active": 865
+    },
+    "Israel": {
+      "type": "cyclical",
+      "peak_date": "2024-10-07",
+      "days_active": 865
+    },
+    "Nordrhein-Westfalen": {
+      "type": "cyclical",
+      "peak_date": "2024-08-21",
+      "days_active": 864
+    },
+    "Mecklenburg-Vorpommern": {
+      "type": "cyclical",
+      "peak_date": "2024-06-10",
+      "days_active": 865
+    },
+    "Baden-Württemberg": {
+      "type": "cyclical",
+      "peak_date": "2026-03-08",
+      "days_active": 864
+    },
+    "Unfälle": {
+      "type": "cyclical",
+      "peak_date": "2025-06-14",
+      "days_active": 865
+    },
+    "Frankfurt": {
+      "type": "cyclical",
+      "peak_date": "2024-05-03",
+      "days_active": 865
+    },
+    "Stuttgart": {
+      "type": "cyclical",
+      "peak_date": "2026-02-20",
+      "days_active": 865
+    },
+    "FC Bayern München": {
+      "type": "cyclical",
+      "peak_date": "2024-05-09",
+      "days_active": 864
+    },
+    "Iran": {
+      "type": "cyclical",
+      "peak_date": "2026-03-01",
+      "days_active": 865
+    },
+    "Fahrzeug": {
+      "type": "cyclical",
+      "peak_date": "2024-04-28",
+      "days_active": 865
+    },
+    "CSU": {
+      "type": "cyclical",
+      "peak_date": "2026-03-22",
+      "days_active": 864
+    },
+    "Gazastreifen": {
+      "type": "cyclical",
+      "peak_date": "2025-10-13",
+      "days_active": 864
+    },
+    "Brand": {
+      "type": "cyclical",
+      "peak_date": "2026-01-01",
+      "days_active": 865
+    },
+    "Europäische Union": {
+      "type": "cyclical",
+      "peak_date": "2025-12-18",
+      "days_active": 865
+    }
+  },
+  "longest_lived": [
+    {
+      "keyword": "CDU",
+      "days_active": 865,
+      "peak_count": 117
+    },
+    {
+      "keyword": "Bayern",
+      "days_active": 865,
+      "peak_count": 116
+    },
+    {
+      "keyword": "EU",
+      "days_active": 865,
+      "peak_count": 111
+    },
+    {
+      "keyword": "Polizei",
+      "days_active": 865,
+      "peak_count": 106
+    },
+    {
+      "keyword": "SPD",
+      "days_active": 865,
+      "peak_count": 104
+    },
+    {
+      "keyword": "Donald Trump",
+      "days_active": 865,
+      "peak_count": 97
+    },
+    {
+      "keyword": "Thüringen",
+      "days_active": 865,
+      "peak_count": 82
+    },
+    {
+      "keyword": "Bundesliga",
+      "days_active": 865,
+      "peak_count": 80
+    },
+    {
+      "keyword": "Kriminalität",
+      "days_active": 865,
+      "peak_count": 74
+    },
+    {
+      "keyword": "Sachsen",
+      "days_active": 865,
+      "peak_count": 71
+    },
+    {
+      "keyword": "Friedrich Merz",
+      "days_active": 865,
+      "peak_count": 71
+    },
+    {
+      "keyword": "Wetter",
+      "days_active": 865,
+      "peak_count": 70
+    },
+    {
+      "keyword": "Brandenburg",
+      "days_active": 865,
+      "peak_count": 68
+    },
+    {
+      "keyword": "Fußball-Bundesliga",
+      "days_active": 865,
+      "peak_count": 66
+    },
+    {
+      "keyword": "Iran",
+      "days_active": 865,
+      "peak_count": 60
+    },
+    {
+      "keyword": "USA",
+      "days_active": 865,
+      "peak_count": 58
+    },
+    {
+      "keyword": "Verkehr",
+      "days_active": 865,
+      "peak_count": 56
+    },
+    {
+      "keyword": "Fußball",
+      "days_active": 865,
+      "peak_count": 55
+    },
+    {
+      "keyword": "Berlin",
+      "days_active": 865,
+      "peak_count": 54
+    },
+    {
+      "keyword": "Tiere",
+      "days_active": 865,
+      "peak_count": 52
+    }
+  ],
+  "shortest_lived": [],
+  "comebacks": [],
+  "monthly_churn": {
+    "2024-03": {
+      "new_topics": 100,
+      "lost_topics": 0,
+      "total": 100
+    },
+    "2024-04": {
+      "new_topics": 17,
+      "lost_topics": 17,
+      "total": 100
+    },
+    "2024-05": {
+      "new_topics": 17,
+      "lost_topics": 17,
+      "total": 100
+    },
+    "2024-06": {
+      "new_topics": 24,
+      "lost_topics": 24,
+      "total": 100
+    },
+    "2024-07": {
+      "new_topics": 32,
+      "lost_topics": 32,
+      "total": 100
+    },
+    "2024-08": {
+      "new_topics": 22,
+      "lost_topics": 22,
+      "total": 100
+    },
+    "2024-09": {
+      "new_topics": 24,
+      "lost_topics": 24,
+      "total": 100
+    },
+    "2024-10": {
+      "new_topics": 20,
+      "lost_topics": 20,
+      "total": 100
+    },
+    "2024-11": {
+      "new_topics": 21,
+      "lost_topics": 21,
+      "total": 100
+    },
+    "2024-12": {
+      "new_topics": 19,
+      "lost_topics": 19,
+      "total": 100
+    },
+    "2025-01": {
+      "new_topics": 21,
+      "lost_topics": 21,
+      "total": 100
+    },
+    "2025-02": {
+      "new_topics": 17,
+      "lost_topics": 17,
+      "total": 100
+    },
+    "2025-03": {
+      "new_topics": 19,
+      "lost_topics": 19,
+      "total": 100
+    },
+    "2025-04": {
+      "new_topics": 21,
+      "lost_topics": 21,
+      "total": 100
+    },
+    "2025-05": {
+      "new_topics": 20,
+      "lost_topics": 20,
+      "total": 100
+    },
+    "2025-06": {
+      "new_topics": 21,
+      "lost_topics": 21,
+      "total": 100
+    },
+    "2025-07": {
+      "new_topics": 19,
+      "lost_topics": 19,
+      "total": 100
+    },
+    "2025-08": {
+      "new_topics": 18,
+      "lost_topics": 18,
+      "total": 100
+    },
+    "2025-09": {
+      "new_topics": 17,
+      "lost_topics": 17,
+      "total": 100
+    },
+    "2025-10": {
+      "new_topics": 13,
+      "lost_topics": 13,
+      "total": 100
+    },
+    "2025-11": {
+      "new_topics": 15,
+      "lost_topics": 15,
+      "total": 100
+    },
+    "2025-12": {
+      "new_topics": 13,
+      "lost_topics": 13,
+      "total": 100
+    },
+    "2026-01": {
+      "new_topics": 25,
+      "lost_topics": 25,
+      "total": 100
+    },
+    "2026-02": {
+      "new_topics": 25,
+      "lost_topics": 25,
+      "total": 100
+    },
+    "2026-03": {
+      "new_topics": 23,
+      "lost_topics": 23,
+      "total": 100
+    },
+    "2026-04": {
+      "new_topics": 22,
+      "lost_topics": 22,
+      "total": 100
+    },
+    "2026-05": {
+      "new_topics": 18,
+      "lost_topics": 18,
+      "total": 100
+    },
+    "2026-06": {
+      "new_topics": 17,
+      "lost_topics": 17,
+      "total": 100
+    },
+    "2026-07": {
+      "new_topics": 20,
+      "lost_topics": 20,
+      "total": 100
+    }
+  },
+  "category_lifespan": {
+    "Klima/Umwelt": {
+      "avg_lifespan": 523.1,
+      "median_lifespan": 570.0,
+      "n_keywords": 1471
+    },
+    "Sport": {
+      "avg_lifespan": 516.7,
+      "median_lifespan": 562.0,
+      "n_keywords": 5175
+    },
+    "Unfälle/Wetter/Verkehr": {
+      "avg_lifespan": 513.7,
+      "median_lifespan": 569.0,
+      "n_keywords": 4761
+    },
+    "Kriminalität/Justiz": {
+      "avg_lifespan": 512.1,
+      "median_lifespan": 562.0,
+      "n_keywords": 3842
+    },
+    "Other/Regional": {
+      "avg_lifespan": 509.3,
+      "median_lifespan": 561.0,
+      "n_keywords": 39300
+    },
+    "Medien/Digital": {
+      "avg_lifespan": 506.6,
+      "median_lifespan": 552.0,
+      "n_keywords": 757
+    },
+    "Bildung": {
+      "avg_lifespan": 504.8,
+      "median_lifespan": 548.0,
+      "n_keywords": 1271
+    },
+    "Wissenschaft/Gesundheit": {
+      "avg_lifespan": 504.3,
+      "median_lifespan": 541.0,
+      "n_keywords": 1376
+    },
+    "Wirtschaft": {
+      "avg_lifespan": 502.1,
+      "median_lifespan": 555.0,
+      "n_keywords": 1149
+    },
+    "Tiere": {
+      "avg_lifespan": 499.9,
+      "median_lifespan": 538.0,
+      "n_keywords": 1185
+    },
+    "Kultur": {
+      "avg_lifespan": 496.9,
+      "median_lifespan": 532.0,
+      "n_keywords": 2005
+    },
+    "Migration": {
+      "avg_lifespan": 478.6,
+      "median_lifespan": 502.5,
+      "n_keywords": 572
+    },
+    "Ausland/Konflikt": {
+      "avg_lifespan": 467.7,
+      "median_lifespan": 499.0,
+      "n_keywords": 1992
+    },
+    "Politik": {
+      "avg_lifespan": 442.5,
+      "median_lifespan": 471.0,
+      "n_keywords": 3911
+    }
+  }
+}

@@ -1,0 +1,1029 @@
+{
+  "early_indicators": [
+    {
+      "event": "Bundestagswahl 2025",
+      "event_date": "2025-02-23",
+      "keyword": "Bundesrat",
+      "spike_date": "2025-02-14",
+      "days_before": 9,
+      "count": 29,
+      "baseline_count": 8,
+      "ratio": 3.62
+    },
+    {
+      "event": "DeepSeek release 2025",
+      "event_date": "2025-01-23",
+      "keyword": "Waffenruhe",
+      "spike_date": "2025-01-19",
+      "days_before": 4,
+      "count": 59,
+      "baseline_count": 5,
+      "ratio": 11.8
+    },
+    {
+      "event": "DeepSeek release 2025",
+      "event_date": "2025-01-23",
+      "keyword": "Los Angeles",
+      "spike_date": "2025-01-10",
+      "days_before": 13,
+      "count": 97,
+      "baseline_count": 18,
+      "ratio": 5.39
+    },
+    {
+      "event": "DeepSeek release 2025",
+      "event_date": "2025-01-23",
+      "keyword": "Tennis",
+      "spike_date": "2025-01-15",
+      "days_before": 8,
+      "count": 19,
+      "baseline_count": 4,
+      "ratio": 4.75
+    },
+    {
+      "event": "DeepSeek release 2025",
+      "event_date": "2025-01-23",
+      "keyword": "Tarifkonflikt",
+      "spike_date": "2025-01-13",
+      "days_before": 10,
+      "count": 31,
+      "baseline_count": 7,
+      "ratio": 4.43
+    },
+    {
+      "event": "Israel-Iran war 2025",
+      "event_date": "2025-06-13",
+      "keyword": "Hitze",
+      "spike_date": "2025-06-12",
+      "days_before": 1,
+      "count": 49,
+      "baseline_count": 9,
+      "ratio": 5.44
+    },
+    {
+      "event": "Israel-Iran war 2025",
+      "event_date": "2025-06-13",
+      "keyword": "Fußball-Nationalmannschaft",
+      "spike_date": "2025-06-03",
+      "days_before": 10,
+      "count": 27,
+      "baseline_count": 7,
+      "ratio": 3.86
+    },
+    {
+      "event": "Israel-Iran war 2025",
+      "event_date": "2025-06-13",
+      "keyword": "Los Angeles",
+      "spike_date": "2025-06-10",
+      "days_before": 3,
+      "count": 48,
+      "baseline_count": 13,
+      "ratio": 3.69
+    },
+    {
+      "event": "Israel-Iran war 2025",
+      "event_date": "2025-06-13",
+      "keyword": "Fußball-EM",
+      "spike_date": "2025-06-05",
+      "days_before": 8,
+      "count": 6,
+      "baseline_count": 2,
+      "ratio": 3.0
+    },
+    {
+      "event": "Magdeburg attack 2024",
+      "event_date": "2024-12-20",
+      "keyword": "Arbeit",
+      "spike_date": "2024-12-18",
+      "days_before": 2,
+      "count": 34,
+      "baseline_count": 6,
+      "ratio": 5.67
+    },
+    {
+      "event": "Magdeburg attack 2024",
+      "event_date": "2024-12-20",
+      "keyword": "Fußball-WM",
+      "spike_date": "2024-12-10",
+      "days_before": 10,
+      "count": 17,
+      "baseline_count": 3,
+      "ratio": 5.67
+    },
+    {
+      "event": "Magdeburg attack 2024",
+      "event_date": "2024-12-20",
+      "keyword": "Syrien",
+      "spike_date": "2024-12-08",
+      "days_before": 12,
+      "count": 249,
+      "baseline_count": 80,
+      "ratio": 3.11
+    },
+    {
+      "event": "Trump election 2024",
+      "event_date": "2024-11-05",
+      "keyword": "DFB-Pokal",
+      "spike_date": "2024-10-29",
+      "days_before": 7,
+      "count": 84,
+      "baseline_count": 5,
+      "ratio": 16.8
+    },
+    {
+      "event": "Trump election 2024",
+      "event_date": "2024-11-05",
+      "keyword": "Coronavirus",
+      "spike_date": "2024-10-30",
+      "days_before": 6,
+      "count": 22,
+      "baseline_count": 4,
+      "ratio": 5.5
+    },
+    {
+      "event": "Trump election 2024",
+      "event_date": "2024-11-05",
+      "keyword": "Deutscher Fußball-Bund",
+      "spike_date": "2024-10-30",
+      "days_before": 6,
+      "count": 88,
+      "baseline_count": 24,
+      "ratio": 3.67
+    },
+    {
+      "event": "Trump election 2024",
+      "event_date": "2024-11-05",
+      "keyword": "Christian Lindner",
+      "spike_date": "2024-11-04",
+      "days_before": 1,
+      "count": 76,
+      "baseline_count": 22,
+      "ratio": 3.45
+    }
+  ],
+  "seasonal_templates": {
+    "01": [
+      "Polizei",
+      "Politik",
+      "Fußball-Bundesliga",
+      "Kriminalität",
+      "Berlin",
+      "USA",
+      "CDU",
+      "Unfall",
+      "Wetter",
+      "SPD"
+    ],
+    "02": [
+      "Polizei",
+      "Politik",
+      "Kriminalität",
+      "Fußball-Bundesliga",
+      "CDU",
+      "Bundestagswahl",
+      "SPD",
+      "USA",
+      "Berlin",
+      "Unfall"
+    ],
+    "03": [
+      "Polizei",
+      "Politik",
+      "Kriminalität",
+      "SPD",
+      "CDU",
+      "Berlin",
+      "Unfall",
+      "USA",
+      "Auto",
+      "Fußball-Bundesliga"
+    ],
+    "04": [
+      "Polizei",
+      "Politik",
+      "Kriminalität",
+      "Berlin",
+      "Unfall",
+      "Bundesliga",
+      "SPD",
+      "Fußball-Bundesliga",
+      "Auto",
+      "CDU"
+    ],
+    "05": [
+      "Polizei",
+      "Politik",
+      "Berlin",
+      "Unfall",
+      "SPD",
+      "Fußball-Bundesliga",
+      "Bundesliga",
+      "Kriminalität",
+      "CDU",
+      "Auto"
+    ],
+    "06": [
+      "Polizei",
+      "Politik",
+      "Berlin",
+      "CDU",
+      "SPD",
+      "Unfall",
+      "Kriminalität",
+      "Wetter",
+      "USA",
+      "Auto"
+    ],
+    "07": [
+      "Polizei",
+      "Politik",
+      "Kriminalität",
+      "Unfall",
+      "Berlin",
+      "SPD",
+      "CDU",
+      "USA",
+      "Auto",
+      "Deutsche Presse-Agentur"
+    ],
+    "08": [
+      "Polizei",
+      "Politik",
+      "Kriminalität",
+      "Fußball-Bundesliga",
+      "Unfall",
+      "Auto",
+      "Berlin",
+      "SPD",
+      "CDU",
+      "Deutsche Presse-Agentur"
+    ],
+    "09": [
+      "Polizei",
+      "Politik",
+      "Kriminalität",
+      "CDU",
+      "SPD",
+      "Fußball-Bundesliga",
+      "Unfall",
+      "Berlin",
+      "Auto",
+      "USA"
+    ],
+    "10": [
+      "Polizei",
+      "Politik",
+      "Kriminalität",
+      "Fußball-Bundesliga",
+      "Berlin",
+      "Unfall",
+      "SPD",
+      "CDU",
+      "Auto",
+      "USA"
+    ],
+    "11": [
+      "Polizei",
+      "Politik",
+      "Kriminalität",
+      "SPD",
+      "Fußball-Bundesliga",
+      "Berlin",
+      "Unfall",
+      "CDU",
+      "USA",
+      "Auto"
+    ],
+    "12": [
+      "Polizei",
+      "Kriminalität",
+      "Politik",
+      "Unfall",
+      "Fußball-Bundesliga",
+      "SPD",
+      "CDU",
+      "Berlin",
+      "Auto",
+      "Deutsche Presse-Agentur"
+    ]
+  },
+  "precursors": [
+    {
+      "keyword_a": "Mann",
+      "keyword_b": "Kriminalität",
+      "avg_lag_days": 7.0,
+      "correlation": 0.541
+    },
+    {
+      "keyword_a": "Mann",
+      "keyword_b": "Fußball-Bundesliga",
+      "avg_lag_days": 3.0,
+      "correlation": 0.482
+    },
+    {
+      "keyword_a": "Mann",
+      "keyword_b": "Unfälle",
+      "avg_lag_days": 5.0,
+      "correlation": 0.447
+    },
+    {
+      "keyword_a": "Mann",
+      "keyword_b": "2. Fußball-Bundesliga",
+      "avg_lag_days": 3.0,
+      "correlation": 0.433
+    },
+    {
+      "keyword_a": "Fußball-Bundesliga",
+      "keyword_b": "Fußball-Bundesliga",
+      "avg_lag_days": 7.0,
+      "correlation": 0.426
+    },
+    {
+      "keyword_a": "Donald Trump",
+      "keyword_b": "Fußball-Bundesliga",
+      "avg_lag_days": 3.0,
+      "correlation": 0.419
+    },
+    {
+      "keyword_a": "Mann",
+      "keyword_b": "Brände",
+      "avg_lag_days": 5.0,
+      "correlation": 0.396
+    },
+    {
+      "keyword_a": "Fußball-Bundesliga",
+      "keyword_b": "2. Fußball-Bundesliga",
+      "avg_lag_days": 7.0,
+      "correlation": 0.393
+    },
+    {
+      "keyword_a": "Europäische Union",
+      "keyword_b": "Unfälle",
+      "avg_lag_days": 4.0,
+      "correlation": 0.382
+    },
+    {
+      "keyword_a": "Fußball",
+      "keyword_b": "Kriminalität",
+      "avg_lag_days": 7.0,
+      "correlation": -0.375
+    },
+    {
+      "keyword_a": "Friedrich Merz",
+      "keyword_b": "Kriminalität",
+      "avg_lag_days": 7.0,
+      "correlation": 0.374
+    },
+    {
+      "keyword_a": "Donald Trump",
+      "keyword_b": "Kriminalität",
+      "avg_lag_days": 7.0,
+      "correlation": 0.371
+    },
+    {
+      "keyword_a": "Bundesliga",
+      "keyword_b": "Bundesliga",
+      "avg_lag_days": 7.0,
+      "correlation": 0.367
+    },
+    {
+      "keyword_a": "Donald Trump",
+      "keyword_b": "2. Fußball-Bundesliga",
+      "avg_lag_days": 3.0,
+      "correlation": 0.367
+    },
+    {
+      "keyword_a": "Fußball",
+      "keyword_b": "Fußball-Bundesliga",
+      "avg_lag_days": 7.0,
+      "correlation": -0.354
+    },
+    {
+      "keyword_a": "Friedrich Merz",
+      "keyword_b": "Fußball-Bundesliga",
+      "avg_lag_days": 3.0,
+      "correlation": 0.345
+    },
+    {
+      "keyword_a": "Fußball-Bundesliga",
+      "keyword_b": "Champions League",
+      "avg_lag_days": 4.0,
+      "correlation": 0.338
+    },
+    {
+      "keyword_a": "USA",
+      "keyword_b": "Fußball-Bundesliga",
+      "avg_lag_days": 3.0,
+      "correlation": 0.334
+    },
+    {
+      "keyword_a": "Verkehr",
+      "keyword_b": "Bundesliga",
+      "avg_lag_days": 3.0,
+      "correlation": 0.33
+    },
+    {
+      "keyword_a": "USA",
+      "keyword_b": "Kriminalität",
+      "avg_lag_days": 7.0,
+      "correlation": 0.328
+    },
+    {
+      "keyword_a": "Friedrich Merz",
+      "keyword_b": "2. Fußball-Bundesliga",
+      "avg_lag_days": 4.0,
+      "correlation": 0.328
+    },
+    {
+      "keyword_a": "Fußball",
+      "keyword_b": "2. Fußball-Bundesliga",
+      "avg_lag_days": 5.0,
+      "correlation": -0.321
+    },
+    {
+      "keyword_a": "Deutscher Bundestag",
+      "keyword_b": "Kriminalität",
+      "avg_lag_days": 7.0,
+      "correlation": 0.321
+    },
+    {
+      "keyword_a": "Deutscher Bundestag",
+      "keyword_b": "Notfälle",
+      "avg_lag_days": 7.0,
+      "correlation": 0.307
+    },
+    {
+      "keyword_a": "Fußball-Bundesliga",
+      "keyword_b": "Kriminalität",
+      "avg_lag_days": 4.0,
+      "correlation": 0.306
+    },
+    {
+      "keyword_a": "USA",
+      "keyword_b": "2. Fußball-Bundesliga",
+      "avg_lag_days": 3.0,
+      "correlation": 0.302
+    },
+    {
+      "keyword_a": "Mann",
+      "keyword_b": "Notfälle",
+      "avg_lag_days": 6.0,
+      "correlation": 0.301
+    },
+    {
+      "keyword_a": "Fußball",
+      "keyword_b": "Unfälle",
+      "avg_lag_days": 5.0,
+      "correlation": -0.299
+    },
+    {
+      "keyword_a": "Kriminalität",
+      "keyword_b": "Kriminalität",
+      "avg_lag_days": 7.0,
+      "correlation": 0.295
+    },
+    {
+      "keyword_a": "Mann",
+      "keyword_b": "Wetter",
+      "avg_lag_days": 6.0,
+      "correlation": 0.288
+    }
+  ],
+  "growth_velocity": [
+    {
+      "keyword": "Gehalt",
+      "week": "2024-05-06",
+      "count": 434,
+      "prev_count": 7,
+      "growth_factor": 62.0
+    },
+    {
+      "keyword": "Arbeitsmarkt",
+      "week": "2024-08-19",
+      "count": 681,
+      "prev_count": 12,
+      "growth_factor": 56.75
+    },
+    {
+      "keyword": "DFB-Pokal",
+      "week": "2024-08-12",
+      "count": 160,
+      "prev_count": 5,
+      "growth_factor": 32.0
+    },
+    {
+      "keyword": "Koalitionsvertrag",
+      "week": "2025-04-07",
+      "count": 137,
+      "prev_count": 5,
+      "growth_factor": 27.4
+    },
+    {
+      "keyword": "Unwetter",
+      "week": "2026-07-13",
+      "count": 82,
+      "prev_count": 3,
+      "growth_factor": 27.33
+    },
+    {
+      "keyword": "DFB-Pokal",
+      "week": "2024-10-28",
+      "count": 81,
+      "prev_count": 4,
+      "growth_factor": 20.25
+    },
+    {
+      "keyword": "Attacke",
+      "week": "2024-12-16",
+      "count": 79,
+      "prev_count": 4,
+      "growth_factor": 19.75
+    },
+    {
+      "keyword": "US-Zölle",
+      "week": "2025-03-31",
+      "count": 58,
+      "prev_count": 3,
+      "growth_factor": 19.33
+    },
+    {
+      "keyword": "Arbeitsmarkt",
+      "week": "2024-05-06",
+      "count": 443,
+      "prev_count": 27,
+      "growth_factor": 16.41
+    },
+    {
+      "keyword": "Hochwasser",
+      "week": "2024-09-09",
+      "count": 65,
+      "prev_count": 4,
+      "growth_factor": 16.25
+    },
+    {
+      "keyword": "Starkregen",
+      "week": "2026-07-13",
+      "count": 48,
+      "prev_count": 3,
+      "growth_factor": 16.0
+    },
+    {
+      "keyword": "Elbe",
+      "week": "2024-09-09",
+      "count": 47,
+      "prev_count": 3,
+      "growth_factor": 15.67
+    },
+    {
+      "keyword": "Weihnachtsmarkt",
+      "week": "2024-12-16",
+      "count": 145,
+      "prev_count": 10,
+      "growth_factor": 14.5
+    },
+    {
+      "keyword": "Unwetter",
+      "week": "2026-06-15",
+      "count": 43,
+      "prev_count": 3,
+      "growth_factor": 14.33
+    },
+    {
+      "keyword": "Volkswagen",
+      "week": "2024-10-28",
+      "count": 55,
+      "prev_count": 4,
+      "growth_factor": 13.75
+    },
+    {
+      "keyword": "Iran",
+      "week": "2025-06-09",
+      "count": 96,
+      "prev_count": 7,
+      "growth_factor": 13.71
+    },
+    {
+      "keyword": "Alternative für Deutschland",
+      "week": "2024-03-11",
+      "count": 41,
+      "prev_count": 3,
+      "growth_factor": 13.67
+    },
+    {
+      "keyword": "Champions League",
+      "week": "2024-12-09",
+      "count": 76,
+      "prev_count": 6,
+      "growth_factor": 12.67
+    },
+    {
+      "keyword": "Hisbollah",
+      "week": "2024-09-16",
+      "count": 47,
+      "prev_count": 4,
+      "growth_factor": 11.75
+    },
+    {
+      "keyword": "2. Fußball-Bundesliga",
+      "week": "2024-08-19",
+      "count": 35,
+      "prev_count": 3,
+      "growth_factor": 11.67
+    },
+    {
+      "keyword": "DFB-Pokal",
+      "week": "2024-12-02",
+      "count": 35,
+      "prev_count": 3,
+      "growth_factor": 11.67
+    },
+    {
+      "keyword": "Regensburg",
+      "week": "2024-06-03",
+      "count": 35,
+      "prev_count": 3,
+      "growth_factor": 11.67
+    },
+    {
+      "keyword": "Staatsanwaltschaft",
+      "week": "2024-03-11",
+      "count": 34,
+      "prev_count": 3,
+      "growth_factor": 11.33
+    },
+    {
+      "keyword": "Emmanuel Macron",
+      "week": "2024-12-02",
+      "count": 34,
+      "prev_count": 3,
+      "growth_factor": 11.33
+    },
+    {
+      "keyword": "Regierungsbildung",
+      "week": "2025-02-24",
+      "count": 34,
+      "prev_count": 3,
+      "growth_factor": 11.33
+    },
+    {
+      "keyword": "Bundesrat",
+      "week": "2024-11-18",
+      "count": 45,
+      "prev_count": 4,
+      "growth_factor": 11.25
+    },
+    {
+      "keyword": "Bundesrat",
+      "week": "2026-05-04",
+      "count": 45,
+      "prev_count": 4,
+      "growth_factor": 11.25
+    },
+    {
+      "keyword": "Volkswagen",
+      "week": "2024-09-02",
+      "count": 54,
+      "prev_count": 5,
+      "growth_factor": 10.8
+    },
+    {
+      "keyword": "DFB-Pokal",
+      "week": "2024-04-01",
+      "count": 43,
+      "prev_count": 4,
+      "growth_factor": 10.75
+    },
+    {
+      "keyword": "Überschwemmung",
+      "week": "2024-09-09",
+      "count": 32,
+      "prev_count": 3,
+      "growth_factor": 10.67
+    }
+  ],
+  "predictive_pairs": [
+    {
+      "from": "Landtagswahl",
+      "to": "Nordrhein-Westfalen",
+      "lag_days": 4.5,
+      "confidence": 0.88,
+      "hits": 81,
+      "total": 92
+    },
+    {
+      "from": "Iran",
+      "to": "Wirtschaft",
+      "lag_days": 4.5,
+      "confidence": 0.867,
+      "hits": 85,
+      "total": 98
+    },
+    {
+      "from": "Bundestagswahl",
+      "to": "FDP",
+      "lag_days": 4.2,
+      "confidence": 0.859,
+      "hits": 61,
+      "total": 71
+    },
+    {
+      "from": "Landtagswahl",
+      "to": "Niedersachsen",
+      "lag_days": 4.6,
+      "confidence": 0.859,
+      "hits": 79,
+      "total": 92
+    },
+    {
+      "from": "Iran",
+      "to": "Kritik",
+      "lag_days": 4.3,
+      "confidence": 0.857,
+      "hits": 84,
+      "total": 98
+    },
+    {
+      "from": "Bundestagswahl",
+      "to": "Niedersachsen",
+      "lag_days": 4.4,
+      "confidence": 0.831,
+      "hits": 59,
+      "total": 71
+    },
+    {
+      "from": "Bundestagswahl",
+      "to": "Kriminalität",
+      "lag_days": 4.4,
+      "confidence": 0.831,
+      "hits": 59,
+      "total": 71
+    },
+    {
+      "from": "Friedrich Merz",
+      "to": "Magdeburg",
+      "lag_days": 4.5,
+      "confidence": 0.829,
+      "hits": 97,
+      "total": 117
+    },
+    {
+      "from": "Olaf Scholz",
+      "to": "FDP",
+      "lag_days": 4.1,
+      "confidence": 0.824,
+      "hits": 75,
+      "total": 91
+    },
+    {
+      "from": "Europäische Union",
+      "to": "Kritik",
+      "lag_days": 4.6,
+      "confidence": 0.822,
+      "hits": 88,
+      "total": 107
+    },
+    {
+      "from": "Bundestagswahl",
+      "to": "Deutscher Bundestag",
+      "lag_days": 4.2,
+      "confidence": 0.817,
+      "hits": 58,
+      "total": 71
+    },
+    {
+      "from": "Fußball-Bundesliga",
+      "to": "Niedersachsen",
+      "lag_days": 4.0,
+      "confidence": 0.811,
+      "hits": 103,
+      "total": 127
+    },
+    {
+      "from": "SPD",
+      "to": "Niedersachsen",
+      "lag_days": 5.1,
+      "confidence": 0.808,
+      "hits": 105,
+      "total": 130
+    },
+    {
+      "from": "Iran",
+      "to": "Unfälle",
+      "lag_days": 4.1,
+      "confidence": 0.806,
+      "hits": 79,
+      "total": 98
+    },
+    {
+      "from": "Bundestagswahl",
+      "to": "Kultur",
+      "lag_days": 4.8,
+      "confidence": 0.803,
+      "hits": 57,
+      "total": 71
+    },
+    {
+      "from": "Bundestagswahl",
+      "to": "Rheinland-Pfalz",
+      "lag_days": 4.3,
+      "confidence": 0.803,
+      "hits": 57,
+      "total": 71
+    },
+    {
+      "from": "Bundestagswahl",
+      "to": "Hannover",
+      "lag_days": 4.3,
+      "confidence": 0.803,
+      "hits": 57,
+      "total": 71
+    },
+    {
+      "from": "Bundestagswahl",
+      "to": "Bremen",
+      "lag_days": 4.6,
+      "confidence": 0.803,
+      "hits": 57,
+      "total": 71
+    },
+    {
+      "from": "Olaf Scholz",
+      "to": "Kultur",
+      "lag_days": 5.1,
+      "confidence": 0.802,
+      "hits": 73,
+      "total": 91
+    },
+    {
+      "from": "Fußball",
+      "to": "Polizei",
+      "lag_days": 3.8,
+      "confidence": 0.794,
+      "hits": 100,
+      "total": 126
+    },
+    {
+      "from": "Bundestagswahl",
+      "to": "Bayern",
+      "lag_days": 4.7,
+      "confidence": 0.789,
+      "hits": 56,
+      "total": 71
+    },
+    {
+      "from": "Donald Trump",
+      "to": "Rheinland-Pfalz",
+      "lag_days": 4.8,
+      "confidence": 0.789,
+      "hits": 105,
+      "total": 133
+    },
+    {
+      "from": "Krieg in der Ukraine",
+      "to": "Niedersachsen",
+      "lag_days": 4.6,
+      "confidence": 0.789,
+      "hits": 105,
+      "total": 133
+    },
+    {
+      "from": "USA",
+      "to": "Kritik",
+      "lag_days": 4.6,
+      "confidence": 0.788,
+      "hits": 119,
+      "total": 151
+    },
+    {
+      "from": "Alternative für Deutschland",
+      "to": "Niedersachsen",
+      "lag_days": 4.7,
+      "confidence": 0.786,
+      "hits": 114,
+      "total": 145
+    },
+    {
+      "from": "Iran",
+      "to": "Europa",
+      "lag_days": 4.5,
+      "confidence": 0.786,
+      "hits": 77,
+      "total": 98
+    },
+    {
+      "from": "Polizei",
+      "to": "Gesundheit",
+      "lag_days": 4.0,
+      "confidence": 0.785,
+      "hits": 102,
+      "total": 130
+    },
+    {
+      "from": "Stuttgart",
+      "to": "Gesundheit",
+      "lag_days": 4.4,
+      "confidence": 0.784,
+      "hits": 105,
+      "total": 134
+    },
+    {
+      "from": "Landtagswahl",
+      "to": "Alternative für Deutschland",
+      "lag_days": 4.2,
+      "confidence": 0.783,
+      "hits": 72,
+      "total": 92
+    },
+    {
+      "from": "FDP",
+      "to": "Niedersachsen",
+      "lag_days": 4.6,
+      "confidence": 0.783,
+      "hits": 101,
+      "total": 129
+    }
+  ],
+  "category_momentum": {
+    "Kriminalität": {
+      "current_avg": 245.7,
+      "trend": "falling",
+      "momentum": -0.418
+    },
+    "Fußball-Bundesliga": {
+      "current_avg": 141.3,
+      "trend": "falling",
+      "momentum": -0.512
+    },
+    "Unfälle": {
+      "current_avg": 146.0,
+      "trend": "falling",
+      "momentum": -0.225
+    },
+    "Verkehr": {
+      "current_avg": 94.0,
+      "trend": "falling",
+      "momentum": -0.449
+    },
+    "Wetter": {
+      "current_avg": 133.7,
+      "trend": "falling",
+      "momentum": -0.126
+    },
+    "2. Fußball-Bundesliga": {
+      "current_avg": 85.0,
+      "trend": "falling",
+      "momentum": -0.294
+    },
+    "Z+ (abopflichtiger Inhalt);\n        \n    \nKriminalität": {
+      "current_avg": 0.0,
+      "trend": "stable",
+      "momentum": 0.0
+    },
+    "Brände": {
+      "current_avg": 86.7,
+      "trend": "falling",
+      "momentum": -0.242
+    },
+    "Unfall": {
+      "current_avg": 58.0,
+      "trend": "falling",
+      "momentum": -0.266
+    },
+    "Notfälle": {
+      "current_avg": 74.0,
+      "trend": "rising",
+      "momentum": 0.138
+    },
+    "Fußball": {
+      "current_avg": 77.3,
+      "trend": "rising",
+      "momentum": 0.178
+    },
+    "Z+ (abopflichtiger Inhalt);\n        \n    \nFußball": {
+      "current_avg": 0.0,
+      "trend": "stable",
+      "momentum": 0.0
+    },
+    "Z+ (abopflichtiger Inhalt);\n        \n    \nVerkehr": {
+      "current_avg": 0.0,
+      "trend": "stable",
+      "momentum": 0.0
+    },
+    "Bundesliga": {
+      "current_avg": 22.7,
+      "trend": "falling",
+      "momentum": -0.244
+    },
+    "Tiere": {
+      "current_avg": 33.3,
+      "trend": "falling",
+      "momentum": -0.571
+    }
+  },
+  "_metadata": {
+    "total_articles": 323476,
+    "date_range": "2024-03-08 to 2026-07-20",
+    "total_unique_keywords": 209267,
+    "analysis_date": "2026-07-20"
+  }
+}

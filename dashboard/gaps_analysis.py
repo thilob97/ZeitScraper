@@ -69,36 +69,61 @@ def main():
     for kws in df_2024["kw_list"]:
         kw_counter_2024.update(kws)
 
-    top_50_2024 = [k for k, _ in kw_counter_2024.most_common(50)]
+    # Use a larger pool: top-500 keywords from 2024 to find disappeared ones
+    # (the strict top-50 are all generic and persist; broaden to find topics that actually vanished)
+    top_pool_2024 = [k for k, _ in kw_counter_2024.most_common(500)]
 
-    # For each top-50 keyword, track monthly counts
+    # Pre-compute keyword sets per article for 2025/26 for efficiency
+    print("  Building keyword index for 2025/26...")
+    kw_25_26 = Counter()
+    for kws in df_2025_26["kw_list"]:
+        kw_25_26.update(set(kws))
+
     disappeared = []
-    for kw in top_50_2024:
-        # months active in 2024
-        months_with_kw = set()
-        peak_count = 0
-        for _, row in df_2024.iterrows():
-            if kw in row["kw_list"]:
-                months_with_kw.add(row["month"])
-                # we'll count via groupby below
-        # Use vectorized approach
-        mask_2024 = df_2024["kw_list"].apply(lambda x: kw in x)
-        monthly = df_2024[mask_2024].groupby("month").size()
-        peak_count = int(monthly.max()) if len(monthly) > 0 else 0
-        months_active = len(monthly)
+    for kw in top_pool_2024:
+        count_25_26 = kw_25_26.get(kw, 0)
+        if count_25_26 > 0:
+            continue  # still appears in 2025/26
 
-        # last month it appeared (across all data)
+        # This keyword completely disappeared
         mask_all = df["kw_list"].apply(lambda x: kw in x)
         all_months = df[mask_all]["month"].dropna().sort_values()
         if len(all_months) == 0:
             continue
         last_month = str(all_months.iloc[-1])
 
-        # count in 2025/2026
-        mask_25_26 = df_2025_26["kw_list"].apply(lambda x: kw in x)
-        count_25_26 = int(mask_25_26.sum())
+        mask_2024 = df_2024["kw_list"].apply(lambda x: kw in x)
+        monthly = df_2024[mask_2024].groupby("month").size()
+        peak_count = int(monthly.max()) if len(monthly) > 0 else 0
+        months_active = len(monthly)
 
-        if count_25_26 == 0:
+        disappeared.append(
+            {
+                "keyword": kw,
+                "last_month": last_month,
+                "peak_count": peak_count,
+                "months_active": months_active,
+            }
+        )
+
+    # If top-500 doesn't yield 30, broaden to keywords with >=50 mentions in 2024
+    if len(disappeared) < 30:
+        print(f"  Only {len(disappeared)} from top-500; broadening to >=50 mentions pool...")
+        broader_pool = [k for k, c in kw_counter_2024.most_common() if c >= 50]
+        for kw in broader_pool:
+            if any(d["keyword"] == kw for d in disappeared):
+                continue
+            if kw_25_26.get(kw, 0) > 0:
+                continue
+            mask_all = df["kw_list"].apply(lambda x: kw in x)
+            all_months = df[mask_all]["month"].dropna().sort_values()
+            if len(all_months) == 0:
+                continue
+            last_month = str(all_months.iloc[-1])
+            mask_2024 = df_2024["kw_list"].apply(lambda x: kw in x)
+            monthly = df_2024[mask_2024].groupby("month").size()
+            peak_count = int(monthly.max()) if len(monthly) > 0 else 0
+            months_active = len(monthly)
             disappeared.append(
                 {
                     "keyword": kw,
@@ -233,14 +258,49 @@ def main():
     # ========================================================
     print("5. Ghost author detection...")
     # 3-letter codes appear in Source field (lowercase, possibly with tabs/whitespace around them)
-    # Extract all 3-letter lowercase codes from Source
+    # These are anonymous editorial codes — "ghost authors"
     code_pattern = re.compile(r"\b([a-z]{3})\b")
+
+    # German words and common tokens to exclude from codes
+    non_codes = {
+        "dpa", "der", "die", "das", "und", "aft", "als", "bei", "dem", "den",
+        "von", "mit", "vor", "auf", "aus", "durch", "ist", "war", "hat",
+        "wie", "was", "wer", "wann", "wo", "wohin", "woher", "ohne",
+        "mit", "nur", "nun", "aber", "oder", "sondern", "weder",
+        "tok", "mit", "uri", "via",
+    }
 
     # For each article, extract codes from Source
     code_counts = defaultdict(int)
     code_names = defaultdict(set)  # code -> set of full names seen alongside
 
-    # Also check Author column for codes
+    # Helper: parse concatenated names from Author field
+    # Author field has names like "Maline HofmannEric Voigt" (no separator between names)
+    def parse_names(author):
+        if not author or not isinstance(author, str):
+            return []
+        # First try to split on boundaries where a lowercase letter is followed by uppercase
+        # e.g. "HofmannEric" -> "Hofmann", "Eric"
+        split_text = re.sub(r"([a-zäöüß])([A-ZÄÖÜ])", r"\1 \2", author)
+        # Also handle "Dr." and "Prof." prefixes
+        split_text = re.sub(r"(Dr|Prof)\.\s*", "", split_text)
+        # Now extract name-like patterns: First Last (2 capitalized words)
+        names = re.findall(r"[A-ZÄÖÜ][a-zäöüß]+(?:\s+[A-ZÄÖÜ][a-zäöüß]+)+", split_text)
+        # Filter out title-like phrases (questions, common non-name patterns)
+        bad_start_patterns = ("Welche", "Welcher", "Welches", "Wie ", "Was ", "Wo ", "Warum",
+                              "Sind ", "Haben ", "Küste", "Israels", "Deutschland",
+                              "Designierte", "Neuer", "Großer", "Autoteile", "Importe",
+                              "Handelspartnern", "Aluminium", "Bundeskanzleramt", "Kardinal")
+        filtered = []
+        for name in names:
+            if name.startswith(bad_start_patterns):
+                continue
+            # Must have exactly 2-4 words, each at least 2 chars
+            parts = name.split()
+            if 2 <= len(parts) <= 4 and all(len(p) >= 2 for p in parts):
+                filtered.append(name)
+        return filtered
+
     for _, row in df.iterrows():
         source = row.get("Source", "")
         author = row.get("Author", "")
@@ -249,26 +309,16 @@ def main():
         if not isinstance(author, str):
             author = ""
 
-        # Find 3-letter codes in Source (excluding common words that are part of dpa)
+        # Find 3-letter codes in Source
         src_codes = set()
         for m in code_pattern.finditer(source):
             code = m.group(1)
-            # Filter out common non-codes
-            if code in ("dpa", "der", "die", "das", "und", "aft", "als"):
+            if code in non_codes:
                 continue
             src_codes.add(code)
 
-        # Find full names in Author and Source
-        # Full names: sequences of Capitalized words
-        full_names = set()
-        if author:
-            # Names like "Eric Voigt" or "Maline Hofmann"
-            name_matches = re.findall(r"[A-ZÄÖÜ][a-zäöüß]+(?:\s+[A-ZÄÖÜ][a-zäöüß]+)+", author)
-            full_names.update(name_matches)
-        # Also extract names from Source (sometimes full names appear there)
-        if source:
-            name_matches = re.findall(r"[A-ZÄÖÜ][a-zäöüß]+(?:\s+[A-ZÄÖÜ][a-zäöüß]+)+", source)
-            full_names.update(name_matches)
+        # Extract full names from Author column (primary source of names)
+        full_names = parse_names(author)
 
         for code in src_codes:
             code_counts[code] += 1
@@ -346,10 +396,12 @@ def main():
         if not isinstance(desc, str):
             desc = ""
         if len(desc) < 20:
-            source = row.get("Source", "") or "(unknown)"
-            # Simplify source to main dpa variant
-            source_simple = source.strip()
-            empty_desc_by_source[source_simple] += 1
+            source = row.get("Source", "") or ""
+            if not isinstance(source, str):
+                source = "(unknown)"
+            else:
+                source = source.strip() or "(unknown)"
+            empty_desc_by_source[source] += 1
             cat = row["cat_clean"] or "(uncategorized)"
             empty_desc_by_cat[cat] += 1
 

@@ -1,0 +1,609 @@
+{
+  "duplicate_groups": [
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-12-03",
+      "group_size": 3,
+      "sample_title": "Hausdurchsuchung in Esslingen - Keine Sprengmittel gefunden"
+    },
+    {
+      "source": "dpa Bayern",
+      "date": "2024-12-29",
+      "group_size": 3,
+      "sample_title": "Brand in Krankenhaus - Patienten verlegt"
+    },
+    {
+      "source": "dpa Hamburg/Schleswig-Holstein",
+      "date": "2025-10-18",
+      "group_size": 3,
+      "sample_title": "Ferienstart im Norden: Staus und Sperrungen auf der A7"
+    },
+    {
+      "source": "dpa Hamburg/Schleswig-Holstein",
+      "date": "2026-06-22",
+      "group_size": 3,
+      "sample_title": "Medien: THW Kiel trennt sich von Trainer Jicha"
+    },
+    {
+      "source": "dpa Hessen",
+      "date": "2025-03-11",
+      "group_size": 3,
+      "sample_title": "Mehrtägige Warnstreiks im Nahverkehr gestartet"
+    },
+    {
+      "source": "dpa Nordrhein-Westfalen",
+      "date": "2025-12-04",
+      "group_size": 3,
+      "sample_title": "Höhere Grundsteuer für Gewerbe – Gericht prüft NRW-Regelung"
+    },
+    {
+      "source": "dpa Sachsen",
+      "date": "2024-06-10",
+      "group_size": 3,
+      "sample_title": "AfD bei Europawahl in Sachsen vorn - BSW holt 3. Platz"
+    },
+    {
+      "source": "dpa",
+      "date": "2024-03-20",
+      "group_size": 3,
+      "sample_title": "EU: Wieder Zölle für bestimmte Agrarprodukte aus der Ukraine"
+    },
+    {
+      "source": "dpa",
+      "date": "2024-05-06",
+      "group_size": 3,
+      "sample_title": "Angriff auf Politiker: Weitere Tatverdächtige ermittelt"
+    },
+    {
+      "source": "dpa",
+      "date": "2025-03-29",
+      "group_size": 3,
+      "sample_title": "Mehr als 1.000 Tote nach Erdbeben in Myanmar bestätigt"
+    },
+    {
+      "source": "dpa",
+      "date": "2025-05-25",
+      "group_size": 3,
+      "sample_title": "Mindestens drei Tote bei Unfall nahe Koblenz"
+    },
+    {
+      "source": "dpa",
+      "date": "2026-06-26",
+      "group_size": 3,
+      "sample_title": "Höchststrafe für Todesfahrer vom Magdeburger Weihnachtsmarkt"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-03-18",
+      "group_size": 2,
+      "sample_title": "Ärger um die 110 - Warum Notrufe nicht geortet werden können"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-03-19",
+      "group_size": 2,
+      "sample_title": "Zu gewaltsamen Biberach-Protesten: \"Unglaublicher Vorgang\""
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-03-25",
+      "group_size": 2,
+      "sample_title": "Industriehalle in Balingen brennt komplett aus"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-03-29",
+      "group_size": 2,
+      "sample_title": "Warnung wegen Allergiegefahr durch Ei in Teigtaschen"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-04-09",
+      "group_size": 2,
+      "sample_title": "Mehr Menschen, mehr Ältere - was auf Land bis 2040 zukommt"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-04-11",
+      "group_size": 2,
+      "sample_title": "Acht Wohnwagen auf Campingplatz abgebrannt"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-04-23",
+      "group_size": 2,
+      "sample_title": "Gewalt an Schulen steigt: Lehrer fordern mehr Sozialarbeiter"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-04-30",
+      "group_size": 2,
+      "sample_title": "Mann wird von Lastwagen überrollt und stirbt: A8 gesperrt"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-05-10",
+      "group_size": 2,
+      "sample_title": "Tausende Teilnehmende zu \"Blutritt\" in Weingarten erwartet"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-05-16",
+      "group_size": 2,
+      "sample_title": "Unwetterwarnung: Gewitter mit Starkregen im Südwesten"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-05-21",
+      "group_size": 2,
+      "sample_title": "Brand in Klinik: Pfleger greifen zum Feuerlöscher"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-05-22",
+      "group_size": 2,
+      "sample_title": "Überholmanöver missglückt: Autos stoßen frontal zusammen"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-05-23",
+      "group_size": 2,
+      "sample_title": "\"Eins der schwersten Spiele\": Bayern steuert Richtung BBL-Finale"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-06-06",
+      "group_size": 2,
+      "sample_title": "Scholz will Schwerstkriminelle nach Afghanistan abschieben"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-06-12",
+      "group_size": 2,
+      "sample_title": "Hochwasserlage am Bodensee: Leichte Entspannung erwartet"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-06-11",
+      "group_size": 2,
+      "sample_title": "Kommunalwahlen: Grüne stärkste Kraft in Ulm"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-07-08",
+      "group_size": 2,
+      "sample_title": "Früheres Marine-U-Boot muss Brücke in Heidelberg passieren"
+    },
+    {
+      "source": "dpa Baden-Württemberg",
+      "date": "2024-07-09",
+      "group_size": 2,
+      "sample_title": "Einfamilienhaus mit Unrat in Ravensburg in Brand"
+    }
+  ],
+  "verbatim_ratio": {
+    "dpa Baden-Württemberg": {
+      "total": 24790,
+      "duplicates": 295,
+      "ratio": 0.0119
+    },
+    "dpa Bayern": {
+      "total": 27803,
+      "duplicates": 263,
+      "ratio": 0.0095
+    },
+    "dpa Berlin/Brandenburg": {
+      "total": 28188,
+      "duplicates": 342,
+      "ratio": 0.0121
+    },
+    "dpa Hamburg/Schleswig-Holstein": {
+      "total": 19757,
+      "duplicates": 244,
+      "ratio": 0.0124
+    },
+    "dpa Hessen": {
+      "total": 16174,
+      "duplicates": 159,
+      "ratio": 0.0098
+    },
+    "dpa Mecklenburg-Vorpommern": {
+      "total": 9257,
+      "duplicates": 86,
+      "ratio": 0.0093
+    },
+    "dpa Niedersachsen": {
+      "total": 16472,
+      "duplicates": 166,
+      "ratio": 0.0101
+    },
+    "dpa Nordrhein-Westfalen": {
+      "total": 20109,
+      "duplicates": 259,
+      "ratio": 0.0129
+    },
+    "dpa Rheinland-Pfalz/Saarland": {
+      "total": 14179,
+      "duplicates": 160,
+      "ratio": 0.0113
+    },
+    "dpa Sachsen": {
+      "total": 23574,
+      "duplicates": 325,
+      "ratio": 0.0138
+    },
+    "dpa Sport": {
+      "total": 5223,
+      "duplicates": 28,
+      "ratio": 0.0054
+    },
+    "dpa Thüringen": {
+      "total": 9795,
+      "duplicates": 48,
+      "ratio": 0.0049
+    },
+    "dpa": {
+      "total": 45932,
+      "duplicates": 939,
+      "ratio": 0.0204
+    }
+  },
+  "cross_source_overlap": [
+    {
+      "title1": "VfB Stuttgart auf Kurs Königsklasse: \"toller Fußballabend\"",
+      "title2": "VfB Stuttgart auf Kurs Königsklasse - \"toller Fußballabend\"",
+      "source1": "dpa Baden-Württemberg",
+      "source2": "dpa Sport",
+      "date": "2024-03-16",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Vicky Leandros fällt von Bühne: Trotzdem Montag in Berlin",
+      "title2": "Vicky Leandros fällt von Bühne - trotzdem Montag in Berlin",
+      "source1": "dpa Berlin/Brandenburg",
+      "source2": "dpa",
+      "date": "2024-03-16",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Bayern in Torlaune: Aber Sorgen um Kane",
+      "title2": "Bayern in Torlaune - Aber Sorgen um Kane",
+      "source1": "dpa Bayern",
+      "source2": "dpa Sport",
+      "date": "2024-03-16",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Zweitliga-Quartett souverän: Auch der HSV wieder dabei",
+      "title2": "Zweitliga-Quartett souverän - auch der HSV wieder dabei",
+      "source1": "dpa Hamburg/Schleswig-Holstein",
+      "source2": "dpa Sport",
+      "date": "2024-03-17",
+      "similarity": 1.0
+    },
+    {
+      "title1": "U21-Coach Di Salvo kritisiert mutlose erste Halbzeit",
+      "title2": "U21-Coach Di Salvo kritisiert: Mutlose erste Halbzeit",
+      "source1": "dpa Sport",
+      "source2": "dpa Sachsen",
+      "date": "2024-03-23",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Bayern mit Kane, aber ohne Neuer: BVB ohne Malen",
+      "title2": "Bayern mit Kane, aber ohne Neuer : BVB ohne Malen",
+      "source1": "dpa Bayern",
+      "source2": "dpa Nordrhein-Westfalen",
+      "date": "2024-03-30",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Kritik an Söders China-Reise: \"Krachend gescheitert\"",
+      "title2": "Kritik an Söders China-Reise - \"Krachend gescheitert\"",
+      "source1": "dpa",
+      "source2": "dpa Bayern",
+      "date": "2024-04-01",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Bremerhaven mit Traumstart im DEL-Halbfinale: Berlin siegt",
+      "title2": "Bremerhaven mit Traumstart im DEL-Halbfinale - Berlin siegt",
+      "source1": "dpa Bayern",
+      "source2": "dpa Sport",
+      "date": "2024-04-01",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Terminstress beim FCK durch Pokalendspiel möglich",
+      "title2": "Terminstress beim FCK möglich durch Pokalendspiel",
+      "source1": "dpa Sport",
+      "source2": "dpa Rheinland-Pfalz/Saarland",
+      "date": "2024-04-03",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Berlin vor Einzug ins DEL-Finale: Meister München verkürzt",
+      "title2": "Berlin vor Einzug ins DEL-Finale - Meister München verkürzt",
+      "source1": "dpa Bayern",
+      "source2": "dpa Sport",
+      "date": "2024-04-05",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Neuer kämpft um Comeback: Zukunftsfragen im Bayern-Tor",
+      "title2": "Neuer kämpft um Comeback - Zukunftsfragen im Bayern-Tor",
+      "source1": "dpa Baden-Württemberg",
+      "source2": "dpa Sport",
+      "date": "2024-04-06",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Sprengsatz in Halle - Haftbefehl gegen Tatverdächtigen",
+      "title2": "Sprengsatz in Halle: Haftbefehl gegen Tatverdächtigen",
+      "source1": "dpa",
+      "source2": "dpa Sachsen",
+      "date": "2024-04-07",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Nach Großbrand in Metallwerk: Feuerwehr gibt Entwarnung",
+      "title2": "Nach Großbrand in Metallwerk - Feuerwehr gibt Entwarnung",
+      "source1": "dpa Berlin/Brandenburg",
+      "source2": "dpa",
+      "date": "2024-05-04",
+      "similarity": 1.0
+    },
+    {
+      "title1": "\"Der Kommissar geht um\": Razzia in der Türsteher-Szene",
+      "title2": "\"Der Kommissar geht um\" – Razzia in der Türsteher-Szene",
+      "source1": "dpa Nordrhein-Westfalen",
+      "source2": "dpa",
+      "date": "2024-05-05",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Marine-Chef: Für \"Entscheidung bleiben nur wenige Sekunden\"",
+      "title2": "Marine-Chef: für \"Entscheidung bleiben nur wenige Sekunden\"",
+      "source1": "dpa Hamburg/Schleswig-Holstein",
+      "source2": "dpa",
+      "date": "2024-05-05",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Ärzte warnen vor Ruhestandswelle - Mehr Steuerung im Blick",
+      "title2": "Ärzte warnen vor Ruhestandswelle: Mehr Steuerung im Blick",
+      "source1": "dpa",
+      "source2": "dpa Rheinland-Pfalz/Saarland",
+      "date": "2024-05-05",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Dausers kleiner Abschied mit Titel - Jung-Star Kevric glänzt",
+      "title2": "Dausers kleiner Abschied mit Titel: Jung-Star Kevric glänzt",
+      "source1": "dpa Sport",
+      "source2": "dpa Baden-Württemberg",
+      "date": "2024-06-09",
+      "similarity": 1.0
+    },
+    {
+      "title1": "EM-Neuling Georgien holt ersten Punkt - 1:1 gegen Tschechien",
+      "title2": "EM-Neuling Georgien holt ersten Punkt: 1:1 gegen Tschechien",
+      "source1": "dpa",
+      "source2": "dpa Hamburg/Schleswig-Holstein",
+      "date": "2024-06-22",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Hotelgruppe Arcona beendet Insolvenz - Gläubiger stimmen zu",
+      "title2": "Hotelgruppe Arcona beendet Insolvenz: Gläubiger stimmen zu",
+      "source1": "dpa Hamburg/Schleswig-Holstein",
+      "source2": "dpa Mecklenburg-Vorpommern",
+      "date": "2024-06-27",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Winter Game: Dresden gegen Eisbären unter freiem Himmel",
+      "title2": "Winter Game: Eisbären gegen Dresden unter freiem Himmel",
+      "source1": "dpa Sachsen",
+      "source2": "dpa Berlin/Brandenburg",
+      "date": "2025-06-30",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Tiefe Einschnitte bei ZF - droht weiterer Milliardenverlust?",
+      "title2": "Tiefe Einschnitte bei ZF – droht weiterer Milliardenverlust?",
+      "source1": "dpa Baden-Württemberg",
+      "source2": "dpa Rheinland-Pfalz/Saarland",
+      "date": "2025-07-31",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Söder warnt vor Übernahme Deutschlands durch die AfD",
+      "title2": "Söder warnt vor \"Übernahme Deutschlands\" durch die AfD",
+      "source1": "dpa Bayern",
+      "source2": "DIE ZEIT,        \t\t\t\t\t\t\tjsp",
+      "date": "2025-09-08",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Alte Brücken und Frost sorgen für Baustellen auf Autobahnen",
+      "title2": "Frost und alte Brücken sorgen für Baustellen auf Autobahnen",
+      "source1": "dpa Berlin/Brandenburg",
+      "source2": "dpa Mecklenburg-Vorpommern",
+      "date": "2026-02-23",
+      "similarity": 1.0
+    },
+    {
+      "title1": "Irvine rettet FC St. Pauli beim 1:0: Aufstieg ist nah",
+      "title2": "Irvine rettet FC St. Pauli beim 1:0: Aufstieg nah",
+      "source1": "dpa Mecklenburg-Vorpommern",
+      "source2": "dpa Hamburg/Schleswig-Holstein",
+      "date": "2024-04-26",
+      "similarity": 0.9091
+    },
+    {
+      "title1": "Wo ist der kleine Arian? - 1200 Helfer waren auf der Suche",
+      "title2": "Wo ist der kleine Arian? - 1200 Helfer auf der Suche",
+      "source1": "dpa",
+      "source2": "dpa Niedersachsen",
+      "date": "2024-04-28",
+      "similarity": 0.9
+    },
+    {
+      "title1": "BVB-Coach wirbt für Schlotterbeck-Comeback in DFB-Elf",
+      "title2": "BVB-Coach Terzic wirbt für Schlotterbeck-Comeback in DFB-Elf",
+      "source1": "dpa Sport",
+      "source2": "dpa Nordrhein-Westfalen",
+      "date": "2024-05-03",
+      "similarity": 0.9
+    },
+    {
+      "title1": "Marco Goecke bekommt nach Kot-Attacke neue Chance in Basel",
+      "title2": "Goecke bekommt nach Kot-Attacke neue Chance in Basel",
+      "source1": "dpa Baden-Württemberg",
+      "source2": "dpa Niedersachsen",
+      "date": "2024-05-22",
+      "similarity": 0.9
+    },
+    {
+      "title1": "Medien: Calhanoglu für Bayern nur mit XXL-Ablöse zu haben",
+      "title2": "Calhanoglu für Bayern nur mit XXL-Ablöse zu haben",
+      "source1": "dpa Sport",
+      "source2": "dpa Bayern",
+      "date": "2024-06-23",
+      "similarity": 0.9
+    },
+    {
+      "title1": "5,8 Prozent mehr Geld für Beschäftigte der Länder",
+      "title2": "Einigung: 5,8 Prozent mehr Geld für Beschäftigte der Länder",
+      "source1": "dpa Hamburg/Schleswig-Holstein",
+      "source2": "dpa Baden-Württemberg",
+      "date": "2026-02-14",
+      "similarity": 0.9
+    },
+    {
+      "title1": "Deutsche prallt in Tirol mit Gleitschirm gegen Seilbahn",
+      "title2": "Deutsche prallt in Tirol mit Gleitschirm gegen Seilbahn: tot",
+      "source1": "dpa",
+      "source2": "dpa Bayern",
+      "date": "2024-03-17",
+      "similarity": 0.8889
+    }
+  ],
+  "length_comparison": {
+    "dpa": {
+      "avg": 132.05,
+      "median": 132.0,
+      "n": 261253
+    },
+    "zeit": {
+      "avg": 156.27,
+      "median": 164.0,
+      "n": 18410
+    }
+  },
+  "keyword_overlap": {
+    "dpa Baden-Württemberg": {
+      "same_kw_count": 1210,
+      "total": 24790,
+      "ratio": 0.0488
+    },
+    "dpa Bayern": {
+      "same_kw_count": 1163,
+      "total": 27803,
+      "ratio": 0.0418
+    },
+    "dpa Berlin/Brandenburg": {
+      "same_kw_count": 1177,
+      "total": 28188,
+      "ratio": 0.0418
+    },
+    "dpa Hamburg/Schleswig-Holstein": {
+      "same_kw_count": 640,
+      "total": 19757,
+      "ratio": 0.0324
+    },
+    "dpa Hessen": {
+      "same_kw_count": 604,
+      "total": 16174,
+      "ratio": 0.0373
+    },
+    "dpa Mecklenburg-Vorpommern": {
+      "same_kw_count": 302,
+      "total": 9257,
+      "ratio": 0.0326
+    },
+    "dpa Niedersachsen": {
+      "same_kw_count": 604,
+      "total": 16472,
+      "ratio": 0.0367
+    },
+    "dpa Nordrhein-Westfalen": {
+      "same_kw_count": 886,
+      "total": 20109,
+      "ratio": 0.0441
+    },
+    "dpa Rheinland-Pfalz/Saarland": {
+      "same_kw_count": 500,
+      "total": 14179,
+      "ratio": 0.0353
+    },
+    "dpa Sachsen": {
+      "same_kw_count": 598,
+      "total": 23574,
+      "ratio": 0.0254
+    },
+    "dpa Sport": {
+      "same_kw_count": 356,
+      "total": 5223,
+      "ratio": 0.0682
+    },
+    "dpa Thüringen": {
+      "same_kw_count": 228,
+      "total": 9795,
+      "ratio": 0.0233
+    },
+    "dpa": {
+      "same_kw_count": 3982,
+      "total": 45932,
+      "ratio": 0.0867
+    }
+  },
+  "unique_ratio": {
+    "dpa Baden-Württemberg": 98.81,
+    "dpa Bayern": 99.05,
+    "dpa Berlin/Brandenburg": 98.79,
+    "dpa Hamburg/Schleswig-Holstein": 98.76,
+    "dpa Hessen": 99.02,
+    "dpa Mecklenburg-Vorpommern": 99.07,
+    "dpa Niedersachsen": 98.99,
+    "dpa Nordrhein-Westfalen": 98.71,
+    "dpa Rheinland-Pfalz/Saarland": 98.87,
+    "dpa Sachsen": 98.62,
+    "dpa Sport": 99.46,
+    "dpa Thüringen": 99.51,
+    "dpa": 97.96
+  },
+  "meta": {
+    "total_articles": 323490,
+    "dpa_articles": 261253,
+    "zeit_articles": 18410,
+    "dpa_sources_analyzed": [
+      "dpa Baden-Württemberg",
+      "dpa Bayern",
+      "dpa Berlin/Brandenburg",
+      "dpa Hamburg/Schleswig-Holstein",
+      "dpa Hessen",
+      "dpa Mecklenburg-Vorpommern",
+      "dpa Niedersachsen",
+      "dpa Nordrhein-Westfalen",
+      "dpa Rheinland-Pfalz/Saarland",
+      "dpa Sachsen",
+      "dpa Sport",
+      "dpa Thüringen",
+      "dpa"
+    ],
+    "total_duplicate_groups": 1651,
+    "total_cross_source_overlaps": 298
+  }
+}

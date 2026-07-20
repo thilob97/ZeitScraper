@@ -72,6 +72,9 @@ tr:hover { background: rgba(88,166,255,0.05); }
   <button class="tab" data-panel="framing">Framing</button>
   <button class="tab" data-panel="agenda">Agenda</button>
   <button class="tab" data-panel="gaps">Dark Patterns</button>
+  <button class="tab" data-panel="copypaste">Copy-Paste</button>
+  <button class="tab" data-panel="lifecycle">Lifecycle</button>
+  <button class="tab" data-panel="prediction">Prediction</button>
   <button class="tab" data-panel="sports">Sport</button>
   <button class="tab" data-panel="graph">Graph-Netzwerk</button>
 </div>
@@ -263,6 +266,52 @@ tr:hover { background: rgba(88,166,255,0.05); }
       <div class="card"><h3>📭 Leere Beschreibungen nach Quelle</h3><div id="empty-desc"></div></div>
     </div>
   </div>
+  <!-- COPY-PASTE -->
+  <div class="panel" id="panel-copypaste">
+    <div class="grid grid-2">
+      <div class="card"><h3>📋 dpa Copy-Paste — wie viel wird 1:1 übernommen?</h3><div id="verbatim-ratio"></div></div>
+      <div class="card"><h3>📏 Beschreibungs-Länge: dpa vs ZEIT</h3><div id="length-comparison"></div></div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="card"><h3>🔁 Duplikat-Gruppen — gleiche Description, gleicher Tag</h3><div id="duplicate-groups"></div></div>
+    <div style="height:16px"></div>
+    <div class="grid grid-2">
+      <div class="card"><h3>🦄 Unique Content Ratio pro Quelle</h3><div id="unique-ratio"></div></div>
+      <div class="card"><h3>🔀 Cross-Source Overlap — gleiche Story, andere Quelle</h3><div id="cross-source"></div></div>
+    </div>
+  </div>
+  <!-- LIFECYCLE -->
+  <div class="panel" id="panel-lifecycle">
+    <div class="grid grid-2">
+      <div class="card"><h3>⏳ Longest-Lived Topics — Themen mit Stamina</h3><div id="longest-lived"></div></div>
+      <div class="card"><h3>⚡ Flash Topics — kurzfristige Hypes</h3><div id="shortest-lived"></div></div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="card"><h3>⚛️ Half-Life der Themen — wie schnell verblassen sie?</h3><div id="half-lives"></div></div>
+    <div style="height:16px"></div>
+    <div class="grid grid-2">
+      <div class="card"><h3>🔁 Comeback Kings — verschwunden und zurück</h3><div id="comebacks"></div></div>
+      <div class="card"><h3>🔄 Monthly Churn — wie schnell rotiert die Agenda?</h3><div class="chart-container"><canvas id="chart-churn"></canvas></div></div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="card"><h3>📊 Category Lifespan — wie lange leben Kategorien?</h3><div id="category-lifespan"></div></div>
+  </div>
+  <!-- PREDICTION -->
+  <div class="panel" id="panel-prediction">
+    <div class="card"><h3>🚨 Early Warning Indicators — Keywords VOR großen Events</h3><div id="predict-early"></div></div>
+    <div style="height:16px"></div>
+    <div class="grid grid-2">
+      <div class="card"><h3>🔮 Predictive Pairs — A predicit B</h3><div id="predict-pairs"></div></div>
+      <div class="card"><h3>📈 Growth Velocity — am schnellsten wachsende Themen</h3><div id="growth-velocity"></div></div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="card"><h3>🔄 Seasonal Templates — wiederkehrende Themen pro Monat</h3><div id="seasonal-templates"></div></div>
+    <div style="height:16px"></div>
+    <div class="grid grid-2">
+      <div class="card"><h3>⚡ Precursor Patterns — Keywords die Themen vorauseilen</h3><div id="precursors"></div></div>
+      <div class="card"><h3>📊 Category Momentum — wer gewinnt, wer verliert?</h3><div id="category-momentum"></div></div>
+    </div>
+  </div>
   <!-- SPORTS -->
   <div class="panel" id="panel-sports">
     <div class="grid grid-2">
@@ -353,6 +402,9 @@ function renderPanel(name) {
     case 'framing': renderFraming(); break;
     case 'agenda': renderAgenda(); break;
     case 'gaps': renderGaps(); break;
+    case 'copypaste': renderCopyPaste(); break;
+    case 'lifecycle': renderLifecycle(); break;
+    case 'prediction': renderPrediction(); break;
     case 'sports': renderSports(); break;
     case 'graph': setTimeout(buildGraph, 100); break;
   }
@@ -811,6 +863,163 @@ function renderGaps() {
     edHtml+='</table>';
     document.getElementById('empty-desc').innerHTML=edHtml;
   }).catch(e=>{document.getElementById('disappeared-topics').innerHTML='<p style="color:#f85149">gaps_data.json nicht gefunden — Subagent noch am Arbeiten.</p>';});
+}
+
+function renderCopyPaste() {
+  fetch('copy_paste_data.json').then(r=>r.json()).then(C=>{
+    // Verbatim ratio
+    let vrHtml='<table><tr><th>Quelle</th><th>Gesamt</th><th>Duplikate</th><th>Ratio</th></tr>';
+    if (C.verbatim_ratio) Object.entries(C.verbatim_ratio).sort((a,b)=>b[1].ratio-a[1].ratio).slice(0,15).forEach(([src,d])=>{
+      const pct=(d.ratio*100).toFixed(1);
+      const color=d.ratio>0.3?'#f85149':d.ratio>0.1?'#d29922':'#3fb950';
+      vrHtml+=`<tr><td style="font-weight:600">${src}</td><td>${d.total}</td><td>${d.duplicates}</td><td style="color:${color};font-weight:600">${pct}%</td></tr>`;
+    });
+    vrHtml+='</table>';
+    document.getElementById('verbatim-ratio').innerHTML=vrHtml;
+
+    // Length comparison
+    let lcHtml='<table>';
+    if (C.length_comparison) Object.entries(C.length_comparison).forEach(([src,d])=>{
+      lcHtml+=`<tr><td style="font-weight:600">${src}</td><td>Ø ${d.avg?.toFixed(0)||d.avg} · Median ${d.median?.toFixed(0)||d.median}</td></tr>`;
+    });
+    lcHtml+='</table>';
+    document.getElementById('length-comparison').innerHTML=lcHtml;
+
+    // Duplicate groups
+    let dgHtml='<table><tr><th>Quelle</th><th>Datum</th><th>Gruppengröße</th><th>Beispiel-Titel</th></tr>';
+    if (C.duplicate_groups) C.duplicate_groups.slice(0,20).forEach(g=>{
+      dgHtml+=`<tr><td style="font-size:11px">${g.source}</td><td style="font-size:11px">${g.date}</td><td style="font-weight:600">${g.group_size}</td><td style="font-size:11px;color:#8b949e">${(g.sample_title||'').substring(0,70)}</td></tr>`;
+    });
+    dgHtml+='</table>';
+    document.getElementById('duplicate-groups').innerHTML=dgHtml;
+
+    // Unique ratio
+    let urHtml='<table><tr><th>Quelle</th><th>Unique %</th></tr>';
+    if (C.unique_ratio) Object.entries(C.unique_ratio).sort((a,b)=>b[1]-a[1]).slice(0,15).forEach(([src,pct])=>{
+      urHtml+=`<tr><td style="font-weight:600">${src}</td><td style="color:#3fb950">${(pct*100||pct).toFixed(1)}%</td></tr>`;
+    });
+    urHtml+='</table>';
+    document.getElementById('unique-ratio').innerHTML=urHtml;
+
+    // Cross-source
+    let csHtml='<table><tr><th>Titel 1</th><th>Titel 2</th><th>Quellen</th><th>Similarity</th></tr>';
+    if (C.cross_source_overlap) C.cross_source_overlap.slice(0,15).forEach(c=>{
+      csHtml+=`<tr><td style="font-size:11px">${(c.title1||'').substring(0,40)}</td><td style="font-size:11px">${(c.title2||'').substring(0,40)}</td><td style="font-size:10px">${(c.source1||'')} → ${c.source2||''}</td><td style="font-weight:600">${(c.similarity*100||0).toFixed(0)}%</td></tr>`;
+    });
+    csHtml+='</table>';
+    document.getElementById('cross-source').innerHTML=csHtml;
+  }).catch(e=>{document.getElementById('verbatim-ratio').innerHTML='<p style="color:#f85149">copy_paste_data.json nicht gefunden.</p>';});
+}
+
+function renderLifecycle() {
+  fetch('lifecycle_data.json').then(r=>r.json()).then(L=>{
+    // Longest lived
+    let llHtml='<table><tr><th>Thema</th><th>Tage aktiv</th><th>Peak</th></tr>';
+    if (L.longest_lived) L.longest_lived.slice(0,20).forEach(t=>{
+      llHtml+=`<tr><td style="font-weight:600;color:#3fb950">${t.keyword}</td><td>${t.days_active}</td><td>${t.peak_count}</td></tr>`;
+    });
+    llHtml+='</table>';
+    document.getElementById('longest-lived').innerHTML=llHtml;
+
+    // Shortest lived
+    let slHtml='<table><tr><th>Thema</th><th>Peak</th><th>Tage aktiv</th></tr>';
+    if (L.shortest_lived) L.shortest_lived.slice(0,20).forEach(t=>{
+      slHtml+=`<tr><td style="font-weight:600;color:#f85149">${t.keyword}</td><td>${t.peak_count}</td><td>${t.days_active}</td></tr>`;
+    });
+    slHtml+='</table>';
+    document.getElementById('shortest-lived').innerHTML=slHtml;
+
+    // Half-lives
+    let hlHtml='<table><tr><th>Thema</th><th>Peak</th><th>Peak-Datum</th><th>Half-Life (Tage)</th><th>Tage aktiv</th></tr>';
+    if (L.half_lives) Object.entries(L.half_lives).slice(0,25).forEach(([kw,d])=>{
+      const hl=d.half_life_days!==null?d.half_life_days:'∞';
+      hlHtml+=`<tr><td style="font-weight:600">${kw}</td><td>${d.peak_count}</td><td style="font-size:11px">${d.peak_date}</td><td style="color:#d29922;font-weight:600">${hl}</td><td>${d.total_days_active}</td></tr>`;
+    });
+    hlHtml+='</table>';
+    document.getElementById('half-lives').innerHTML=hlHtml;
+
+    // Comebacks
+    let cbHtml='<table><tr><th>Thema</th><th>Erster Peak</th><th>Gap (Tage)</th><th>Zweiter Peak</th><th>Recovery %</th></tr>';
+    if (L.comebacks) L.comebacks.slice(0,20).forEach(c=>{
+      cbHtml+=`<tr><td style="font-weight:600;color:#bc8cff">${c.keyword}</td><td style="font-size:11px">${c.first_peak}</td><td>${c.gap_days}</td><td style="font-size:11px">${c.second_peak}</td><td>${c.recovery_pct||0}%</td></tr>`;
+    });
+    cbHtml+='</table>';
+    document.getElementById('comebacks').innerHTML=cbHtml;
+
+    // Monthly churn
+    if (L.monthly_churn) {
+      const months=Object.keys(L.monthly_churn).sort();
+      new Chart(document.getElementById('chart-churn'),{type:'bar',data:{
+        labels:months,
+        datasets:[
+          {label:'Neue Themen',data:months.map(m=>L.monthly_churn[m].new_topics||0),backgroundColor:'#3fb950'},
+          {label:'Verschwundene Themen',data:months.map(m=>L.monthly_churn[m].lost_topics||0),backgroundColor:'#f85149'}
+        ]
+      },options:chartOpts});
+    }
+
+    // Category lifespan
+    let clHtml='<table><tr><th>Kategorie</th><th>Ø Lifespan</th><th>Median</th></tr>';
+    if (L.category_lifespan) Object.entries(L.category_lifespan).slice(0,15).forEach(([cat,d])=>{
+      clHtml+=`<tr><td style="font-weight:600">${cat}</td><td>${d.avg_lifespan?.toFixed(0)||d.avg_lifespan} Tage</td><td>${d.median_lifespan?.toFixed(0)||d.median_lifespan} Tage</td></tr>`;
+    });
+    clHtml+='</table>';
+    document.getElementById('category-lifespan').innerHTML=clHtml;
+  }).catch(e=>{document.getElementById('longest-lived').innerHTML='<p style="color:#f85149">lifecycle_data.json nicht gefunden.</p>';});
+}
+
+function renderPrediction() {
+  fetch('prediction_data.json').then(r=>r.json()).then(P=>{
+    // Early indicators
+    let eiHtml='<table><tr><th>Event</th><th>Keyword</th><th>Spike-Datum</th><th>Tage vor Event</th><th>Count</th></tr>';
+    if (P.early_indicators) P.early_indicators.slice(0,25).forEach(ei=>{
+      eiHtml+=`<tr><td style="font-size:11px;color:#58a6ff">${ei.event}</td><td style="font-weight:600">${ei.keyword}</td><td style="font-size:11px">${ei.spike_date}</td><td style="color:#d29922;font-weight:600">${ei.days_before}</td><td>${ei.count}</td></tr>`;
+    });
+    eiHtml+='</table>';
+    document.getElementById('predict-early').innerHTML=eiHtml;
+
+    // Predictive pairs
+    let ppHtml='<table><tr><th>Wenn Keyword A spikt...</th><th>...dann spikt B</th><th>Lag (Tage)</th><th>Konfidenz</th></tr>';
+    if (P.predictive_pairs) P.predictive_pairs.slice(0,25).forEach(p=>{
+      ppHtml+=`<tr><td style="font-weight:600;color:#58a6ff">${p.from}</td><td style="font-weight:600;color:#3fb950">${p.to}</td><td style="color:#d29922">${p.lag_days}</td><td>${(p.confidence*100||0).toFixed(0)}%</td></tr>`;
+    });
+    ppHtml+='</table>';
+    document.getElementById('predict-pairs').innerHTML=ppHtml;
+
+    // Growth velocity
+    let gvHtml='<table><tr><th>Keyword</th><th>Woche</th><th>Count</th><th>Vorher</th><th>Wachstum</th></tr>';
+    if (P.growth_velocity) P.growth_velocity.slice(0,25).forEach(g=>{
+      gvHtml+=`<tr><td style="font-weight:600">${g.keyword}</td><td style="font-size:11px">${g.week}</td><td>${g.count}</td><td>${g.prev_count||0}</td><td style="color:#3fb950;font-weight:600">${g.growth_factor?.toFixed(1)||g.growth_factor}x</td></tr>`;
+    });
+    gvHtml+='</table>';
+    document.getElementById('growth-velocity').innerHTML=gvHtml;
+
+    // Seasonal templates
+    let stHtml='<table><tr><th>Monat</th><th>Wiederkehrende Keywords (jedes Jahr)</th></tr>';
+    if (P.seasonal_templates) Object.entries(P.seasonal_templates).forEach(([month,kws])=>{
+      stHtml+=`<tr><td style="font-weight:600;width:60px">${month}</td><td style="font-size:11px">${Array.isArray(kws)?kws.join(' · '):kws}</td></tr>`;
+    });
+    stHtml+='</table>';
+    document.getElementById('seasonal-templates').innerHTML=stHtml;
+
+    // Precursors
+    let pcHtml='<table><tr><th>Precursor Keyword</th><th> Folgt Thema</th><th>Ø Lag (Tage)</th><th>Korrelation</th></tr>';
+    if (P.precursors) P.precursors.slice(0,25).forEach(p=>{
+      pcHtml+=`<tr><td style="font-weight:600;color:#bc8cff">${p.keyword_a}</td><td style="font-weight:600;color:#58a6ff">${p.keyword_b}</td><td>${p.avg_lag_days}</td><td>${(p.correlation*100||0).toFixed(0)}%</td></tr>`;
+    });
+    pcHtml+='</table>';
+    document.getElementById('precursors').innerHTML=pcHtml;
+
+    // Category momentum
+    let cmHtml='<table><tr><th>Kategorie</th><th>Current Ø</th><th>Trend</th><th>Momentum</th></tr>';
+    if (P.category_momentum) Object.entries(P.category_momentum).forEach(([cat,d])=>{
+      const trendColor=d.trend==='up'?'#3fb950':d.trend==='down'?'#f85149':'#8b949e';
+      const arrow=d.trend==='up'?'📈':d.trend==='down'?'📉':'➡️';
+      cmHtml+=`<tr><td style="font-weight:600">${cat}</td><td>${d.current_avg?.toFixed(0)||d.current_avg}</td><td style="color:${trendColor}">${arrow} ${d.trend}</td><td style="color:${trendColor};font-weight:600">${d.momentum?.toFixed(2)||d.momentum}</td></tr>`;
+    });
+    cmHtml+='</table>';
+    document.getElementById('category-momentum').innerHTML=cmHtml;
+  }).catch(e=>{document.getElementById('predict-early').innerHTML='<p style="color:#f85149">prediction_data.json nicht gefunden.</p>';});
 }
 
 // === GRAPH NETWORK ===
