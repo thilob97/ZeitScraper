@@ -68,6 +68,7 @@ tr:hover { background: rgba(88,166,255,0.05); }
   <button class="tab" data-panel="political">Politik</button>
   <button class="tab" data-panel="geo">Regional</button>
   <button class="tab" data-panel="timeline">Timeline</button>
+  <button class="tab" data-panel="social">Social Eng.</button>
   <button class="tab" data-panel="sports">Sport</button>
   <button class="tab" data-panel="graph">Graph-Netzwerk</button>
 </div>
@@ -152,6 +153,62 @@ tr:hover { background: rgba(88,166,255,0.05); }
     <div class="card">
       <h3>Peak-Analyse — größte Coverage-Spikes pro Thema</h3>
       <div id="peak-list"></div>
+    </div>
+  </div>
+  <!-- SOCIAL ENGINEERING -->
+  <div class="panel" id="panel-social">
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>🔗 Co-Autor Netzwerk — wer arbeitet mit wem?</h3>
+        <div id="coauthor-network" style="height:500px;border:1px solid var(--border);border-radius:8px;background:var(--card)"></div>
+      </div>
+      <div class="card">
+        <h3>👥 Autor-Teams — Cluster die zusammenarbeiten</h3>
+        <div id="author-clusters"></div>
+      </div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>🎯 Autor-Spezialisierung — worüber schreiben sie?</h3>
+        <div id="author-specialization"></div>
+      </div>
+      <div class="card">
+        <h3>📈 Produktivität Top-10 Autoren über Zeit</h3>
+        <div class="chart-container tall"><canvas id="chart-author-prod"></canvas></div>
+      </div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>📡 Quelle ↔ Autor Korrelation</h3>
+        <div id="source-author"></div>
+      </div>
+      <div class="card">
+        <h3>📰 Quellen-Co-Occurrence — welche Agenturen zusammen?</h3>
+        <div id="source-cooccurrence" style="height:400px;border:1px solid var(--border);border-radius:8px;background:var(--card)"></div>
+      </div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="card">
+      <h3>🔀 Thema-Korrelation — welche Themen hängen zusammen?</h3>
+      <div id="topic-correlation"></div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>🏷️ Keyword-Cluster — Begriffe die zusammen auftreten</h3>
+        <div id="keyword-cluster-network" style="height:500px;border:1px solid var(--border);border-radius:8px;background:var(--card)"></div>
+      </div>
+      <div class="card">
+        <h3>⏱️ Temporale Korrelation — Themen die gemeinsam steigen/fallen</h3>
+        <div id="temporal-correlation"></div>
+      </div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="card">
+      <h3>📡 Quelle → Thema Affinität — wer deckt was ab?</h3>
+      <div id="source-topic"></div>
     </div>
   </div>
   <!-- SPORTS -->
@@ -240,6 +297,7 @@ function renderPanel(name) {
     case 'political': renderPolitical(); break;
     case 'geo': renderGeo(); break;
     case 'timeline': renderTimeline(); break;
+    case 'social': renderSocial(); break;
     case 'sports': renderSports(); break;
     case 'graph': setTimeout(buildGraph, 100); break;
   }
@@ -393,6 +451,152 @@ function renderTimeline() {
     document.getElementById('event-list').innerHTML = '<p style="color:#f85149">timeline_data.json nicht gefunden. Führe scripts/generate_timeline_data.py aus.</p>';
   });
   }); // end requestAnimationFrame
+}
+
+function renderSocial() {
+  // Load social data + correlation data in parallel
+  let socialData = null, corrData = null;
+  function tryRender() {
+    if (!socialData) return;
+    renderSocialData(socialData);
+    if (corrData) renderCorrelationData(corrData);
+  }
+  fetch('social_data.json').then(r=>r.json()).then(d=>{socialData=d;tryRender();}).catch(e=>{
+    document.getElementById('author-clusters').innerHTML='<p style="color:#f85149">social_data.json nicht gefunden — Subagent noch am Arbeiten.</p>';
+  });
+  fetch('correlation_data.json').then(r=>r.json()).then(d=>{corrData=d;tryRender();}).catch(e=>{
+    document.getElementById('topic-correlation').innerHTML='<p style="color:#f85149">correlation_data.json nicht gefunden — Subagent noch am Arbeiten.</p>';
+  });
+}
+
+function renderSocialData(S) {
+  // 1. Co-author network (vis.js)
+  if (S.coauthor_edges && S.coauthor_edges.length) {
+    const edges = S.coauthor_edges.slice(0,150);
+    const nodeSet = new Set();
+    edges.forEach(e=>{nodeSet.add(e.from);nodeSet.add(e.to);});
+    const nodes = Array.from(nodeSet).map((id,i)=>({
+      id, label:id.length>20?id.substring(0,20)+'…':id,
+      color:COLORS[i%COLORS.length], shape:'dot', size:10+Math.min(edges.filter(e=>e.from===id||e.to===id).length*2,20),
+      font:{color:'#e6edf3',size:10}
+    }));
+    const visEdges = edges.map(e=>({from:e.from,to:e.to,width:Math.max(1,Math.min(e.weight,8)),color:{color:'rgba(88,166,255,0.4)',highlight:'#58a6ff'}}));
+    new vis.Network(document.getElementById('coauthor-network'),{nodes,edges:visEdges},{
+      physics:{stabilization:{iterations:100},barnesHut:{gravitationalConstant:-3000}},
+      interaction:{hover:true}
+    });
+  } else {
+    document.getElementById('coauthor-network').innerHTML='<p style="padding:20px;color:#8b949e">Keine Co-Autor-Daten.</p>';
+  }
+
+  // 2. Author clusters
+  let clHtml='<table><tr><th>Team</th><th>Mitglieder</th><th>Größe</th><th>Haupt-Thema</th></tr>';
+  if (S.author_clusters) S.author_clusters.slice(0,15).forEach((cl,i)=>{
+    const members = cl.authors.join(', ').substring(0,100);
+    clHtml+=`<tr><td style="color:${COLORS[i%COLORS.length]};font-weight:600">Team ${i+1}</td><td style="font-size:12px">${members}</td><td>${cl.size||cl.authors.length}</td><td style="font-size:11px;color:#8b949e">${cl.common_category||'—'}</td></tr>`;
+  });
+  clHtml+='</table>';
+  document.getElementById('author-clusters').innerHTML=clHtml;
+
+  // 3. Author specialization
+  let spHtml='<table><tr><th>Autor</th><th>Top 3 Kategorien</th></tr>';
+  if (S.author_specialization) Object.entries(S.author_specialization).slice(0,20).forEach(([author,cats])=>{
+    spHtml+=`<tr><td style="font-weight:600">${author.substring(0,30)}</td><td style="font-size:12px">${Array.isArray(cats)?cats.join(' · '):cats}</td></tr>`;
+  });
+  spHtml+='</table>';
+  document.getElementById('author-specialization').innerHTML=spHtml;
+
+  // 4. Author productivity chart
+  if (S.author_productivity) {
+    const authors = Object.keys(S.author_productivity).slice(0,10);
+    const allMonths = new Set();
+    authors.forEach(a=>Object.keys(S.author_productivity[a]).forEach(m=>allMonths.add(m)));
+    const sortedMonths = Array.from(allMonths).sort();
+    const datasets = authors.map((a,i)=>({
+      label:a, data:sortedMonths.map(m=>S.author_productivity[a][m]||0),
+      borderColor:COLORS[i%COLORS.length], tension:0.3, fill:false, borderWidth:2
+    }));
+    const ctx=document.getElementById('chart-author-prod');
+    if (ctx) new Chart(ctx,{type:'line',data:{labels:sortedMonths,datasets},options:{...chartOpts,plugins:{...chartOpts.plugins,legend:{...chartOpts.plugins.legend,position:'right',labels:{...chartOpts.plugins.legend.labels,boxWidth:10}}}}});
+  }
+
+  // 5. Source-author correlation
+  let saHtml='<table><tr><th>Quelle</th><th>Autor</th><th>Artikel</th></tr>';
+  if (S.source_author) S.source_author.slice(0,30).forEach(sa=>{
+    saHtml+=`<tr><td style="font-size:12px">${sa.source}</td><td style="font-size:12px">${sa.author}</td><td>${sa.count}</td></tr>`;
+  });
+  saHtml+='</table>';
+  document.getElementById('source-author').innerHTML=saHtml;
+
+  // 6. Source co-occurrence network
+  if (S.source_cooccurrence && S.source_cooccurrence.length) {
+    const edges=S.source_cooccurrence.slice(0,50);
+    const nodeSet=new Set();
+    edges.forEach(e=>{nodeSet.add(e.from);nodeSet.add(e.to);});
+    const nodes=Array.from(nodeSet).map((id,i)=>({id,label:id,color:COLORS[i%COLORS.length],shape:'dot',size:12,font:{color:'#e6edf3',size:10}}));
+    const visEdges=edges.map(e=>({from:e.from,to:e.to,width:Math.max(1,Math.min(e.weight/5,6)),color:{color:'rgba(63,185,80,0.4)',highlight:'#3fb950'}}));
+    new vis.Network(document.getElementById('source-cooccurrence'),{nodes,edges:visEdges},{physics:{stabilization:{iterations:80}},interaction:{hover:true}});
+  }
+}
+
+function renderCorrelationData(C) {
+  // 7. Topic correlation matrix
+  let tcHtml='<table><tr><th></th>';
+  if (C.topic_correlation) {
+    const cats=Object.keys(C.topic_correlation).slice(0,12);
+    cats.forEach(c=>tcHtml+=`<th style="font-size:10px;writing-mode:vertical-rl;text-orientation:mixed;max-width:40px">${c.substring(0,15)}</th>`);
+    tcHtml+='</tr>';
+    cats.forEach(r=>{
+      tcHtml+=`<tr><td style="font-size:10px;font-weight:600;max-width:80px;overflow:hidden">${r.substring(0,15)}</td>`;
+      cats.forEach(c2=>{
+        const v=C.topic_correlation[r]?.[c2]||0;
+        const intensity=Math.min(v/100,1);
+        const bg=intensity>0?`rgba(88,166,255,${intensity*0.8})`:'transparent';
+        tcHtml+=`<td style="text-align:center;font-size:10px;background:${bg}">${v>0?v:''}</td>`;
+      });
+      tcHtml+='</tr>';
+    });
+  }
+  tcHtml+='</table>';
+  document.getElementById('topic-correlation').innerHTML=tcHtml;
+
+  // 8. Keyword cluster network
+  if (C.keyword_clusters && C.keyword_clusters.length) {
+    const edges=C.keyword_clusters.slice(0,80);
+    const nodeSet=new Set();
+    edges.forEach(e=>{nodeSet.add(e.from);nodeSet.add(e.to);});
+    const nodes=Array.from(nodeSet).map((id,i)=>({id,label:id.length>20?id.substring(0,20)+'…':id,color:COLORS[i%COLORS.length],shape:'dot',size:8,font:{color:'#e6edf3',size:9}}));
+    const visEdges=edges.map(e=>({from:e.from,to:e.to,width:Math.max(1,Math.min(e.weight/20,5)),color:{color:'rgba(188,140,255,0.3)',highlight:'#bc8cff'}}));
+    new vis.Network(document.getElementById('keyword-cluster-network'),{nodes,edges:visEdges},{physics:{stabilization:{iterations:100},barnesHut:{gravitationalConstant:-3000}},interaction:{hover:true}});
+  }
+
+  // 9. Temporal correlation
+  let tmpHtml='<table><tr><th>Thema 1</th><th>Thema 2</th><th>Korrelation</th><th>Trend</th></tr>';
+  if (C.temporal_correlation) {
+    const pairs=[];
+    Object.entries(C.temporal_correlation).forEach(([t1,corr])=>{
+      Object.entries(corr).forEach(([t2,v])=>{
+        if (t1<t2 && Math.abs(v)>0.3) pairs.push({t1,t2,v});
+      });
+    });
+    pairs.sort((a,b)=>Math.abs(b.v)-Math.abs(a.v));
+    pairs.slice(0,25).forEach(p=>{
+      const arrow=p.v>0?'📈':'📉';
+      const color=p.v>0?'#3fb950':'#f85149';
+      tmpHtml+=`<tr><td style="font-size:12px">${p.t1}</td><td style="font-size:12px">${p.t2}</td><td style="color:${color};font-weight:600">${p.v.toFixed(2)}</td><td>${arrow}</td></tr>`;
+    });
+  }
+  tmpHtml+='</table>';
+  document.getElementById('temporal-correlation').innerHTML=tmpHtml;
+
+  // 10. Source-topic affinity
+  let stHtml='<table><tr><th>Quelle</th><th>Top 3 Themen</th></tr>';
+  if (C.source_topic) Object.entries(C.source_topic).slice(0,15).forEach(([src,cats])=>{
+    const sorted=Object.entries(cats).sort((a,b)=>b[1]-a[1]).slice(0,3).map(([k,v])=>`${k} (${v})`).join(' · ');
+    stHtml+=`<tr><td style="font-weight:600;font-size:12px">${src}</td><td style="font-size:11px">${sorted}</td></tr>`;
+  });
+  stHtml+='</table>';
+  document.getElementById('source-topic').innerHTML=stHtml;
 }
 
 // === GRAPH NETWORK ===
